@@ -1,0 +1,1689 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count
+-------------  -------
+Alignment           34
+all                  1
+cluster_FASTA       34
+phylogeny           34
+total              103
+
+Select jobs to execute...
+Execute 20 jobs...
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26517.1.tsv, data/single_clusters/WNK26517.1.tsv, data/FASTA/WNK26517.1.fas
+    jobid: 22
+    reason: Missing output files: data/single_clusters/WNK26517.1.tsv, data/tmp/WNK26517.1.tsv, data/FASTA/WNK26517.1.fas
+    wildcards: cluster_IDs=WNK26517.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    jobid: 10
+    reason: Missing output files: data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_16515_21209_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKA13590.1.tsv, data/single_clusters/WKA13590.1.tsv, data/FASTA/WKA13590.1.fas
+    jobid: 16
+    reason: Missing output files: data/single_clusters/WKA13590.1.tsv, data/tmp/WKA13590.1.tsv, data/FASTA/WKA13590.1.fas
+    wildcards: cluster_IDs=WKA13590.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    jobid: 7
+    reason: Missing output files: data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/FASTA/k141_361753_1543_1875_Fi_085.fas, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv
+    wildcards: cluster_IDs=k141_361753_1543_1875_Fi_085
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26496.1.tsv, data/single_clusters/WNK26496.1.tsv, data/FASTA/WNK26496.1.fas
+    jobid: 19
+    reason: Missing output files: data/single_clusters/WNK26496.1.tsv, data/FASTA/WNK26496.1.fas, data/tmp/WNK26496.1.tsv
+    wildcards: cluster_IDs=WNK26496.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_001686949.1.tsv, data/single_clusters/YP_001686949.1.tsv, data/FASTA/YP_001686949.1.fas
+    jobid: 25
+    reason: Missing output files: data/FASTA/YP_001686949.1.fas, data/tmp/YP_001686949.1.tsv, data/single_clusters/YP_001686949.1.tsv
+    wildcards: cluster_IDs=YP_001686949.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009116770.1.tsv, data/single_clusters/YP_009116770.1.tsv, data/FASTA/YP_009116770.1.fas
+    jobid: 28
+    reason: Missing output files: data/tmp/YP_009116770.1.tsv, data/single_clusters/YP_009116770.1.tsv, data/FASTA/YP_009116770.1.fas
+    wildcards: cluster_IDs=YP_009116770.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345664.1.tsv, data/single_clusters/YP_009345664.1.tsv, data/FASTA/YP_009345664.1.fas
+    jobid: 31
+    reason: Missing output files: data/tmp/YP_009345664.1.tsv, data/FASTA/YP_009345664.1.fas, data/single_clusters/YP_009345664.1.tsv
+    wildcards: cluster_IDs=YP_009345664.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009666641.1.tsv, data/single_clusters/YP_009666641.1.tsv, data/FASTA/YP_009666641.1.fas
+    jobid: 34
+    reason: Missing output files: data/tmp/YP_009666641.1.tsv, data/single_clusters/YP_009666641.1.tsv, data/FASTA/YP_009666641.1.fas
+    wildcards: cluster_IDs=YP_009666641.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009173562.1.tsv, data/single_clusters/YP_009173562.1.tsv, data/FASTA/YP_009173562.1.fas
+    jobid: 29
+    reason: Missing output files: data/single_clusters/YP_009173562.1.tsv, data/FASTA/YP_009173562.1.fas, data/tmp/YP_009173562.1.tsv
+    wildcards: cluster_IDs=YP_009173562.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    jobid: 8
+    reason: Missing output files: data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26465.1.tsv, data/single_clusters/WNK26465.1.tsv, data/FASTA/WNK26465.1.fas
+    jobid: 18
+    reason: Missing output files: data/single_clusters/WNK26465.1.tsv, data/FASTA/WNK26465.1.fas, data/tmp/WNK26465.1.tsv
+    wildcards: cluster_IDs=WNK26465.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_833869_1988_2446_Fi_051.tsv, data/single_clusters/k141_833869_1988_2446_Fi_051.tsv, data/FASTA/k141_833869_1988_2446_Fi_051.fas
+    jobid: 12
+    reason: Missing output files: data/FASTA/k141_833869_1988_2446_Fi_051.fas, data/single_clusters/k141_833869_1988_2446_Fi_051.tsv, data/tmp/k141_833869_1988_2446_Fi_051.tsv
+    wildcards: cluster_IDs=k141_833869_1988_2446_Fi_051
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_41129_1195_4071_Fi_077.tsv, data/single_clusters/k141_41129_1195_4071_Fi_077.tsv, data/FASTA/k141_41129_1195_4071_Fi_077.fas
+    jobid: 9
+    reason: Missing output files: data/single_clusters/k141_41129_1195_4071_Fi_077.tsv, data/tmp/k141_41129_1195_4071_Fi_077.tsv, data/FASTA/k141_41129_1195_4071_Fi_077.fas
+    wildcards: cluster_IDs=k141_41129_1195_4071_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    jobid: 3
+    reason: Missing output files: data/FASTA/k141_15738_22635_23612_Fi_077.fas, data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv
+    wildcards: cluster_IDs=k141_15738_22635_23612_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKA13572.1.tsv, data/single_clusters/WKA13572.1.tsv, data/FASTA/WKA13572.1.fas
+    jobid: 15
+    reason: Missing output files: data/single_clusters/WKA13572.1.tsv, data/FASTA/WKA13572.1.fas, data/tmp/WKA13572.1.tsv
+    wildcards: cluster_IDs=WKA13572.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26513.1.tsv, data/single_clusters/WNK26513.1.tsv, data/FASTA/WNK26513.1.fas
+    jobid: 21
+    reason: Missing output files: data/tmp/WNK26513.1.tsv, data/FASTA/WNK26513.1.fas, data/single_clusters/WNK26513.1.tsv
+    wildcards: cluster_IDs=WNK26513.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_008003641.1.tsv, data/single_clusters/YP_008003641.1.tsv, data/FASTA/YP_008003641.1.fas
+    jobid: 27
+    reason: Missing output files: data/tmp/YP_008003641.1.tsv, data/single_clusters/YP_008003641.1.tsv, data/FASTA/YP_008003641.1.fas
+    wildcards: cluster_IDs=YP_008003641.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345698.1.tsv, data/single_clusters/YP_009345698.1.tsv, data/FASTA/YP_009345698.1.fas
+    jobid: 33
+    reason: Missing output files: data/tmp/YP_009345698.1.tsv, data/FASTA/YP_009345698.1.fas, data/single_clusters/YP_009345698.1.tsv
+    wildcards: cluster_IDs=YP_009345698.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:36 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_21072_2346_2486_Fi_035.tsv, data/single_clusters/k141_21072_2346_2486_Fi_035.tsv, data/FASTA/k141_21072_2346_2486_Fi_035.fas
+    jobid: 6
+    reason: Missing output files: data/tmp/k141_21072_2346_2486_Fi_035.tsv, data/FASTA/k141_21072_2346_2486_Fi_035.fas, data/single_clusters/k141_21072_2346_2486_Fi_035.tsv
+    wildcards: cluster_IDs=k141_21072_2346_2486_Fi_035
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+[INFO][0m 19 patterns loaded from file
+[INFO][0m 17 patterns loaded from file
+[INFO][0m 5 patterns loaded from file
+[INFO][0m 7 patterns loaded from file
+[INFO][0m 4 patterns loaded from file
+[INFO][0m 14 patterns loaded from file
+[INFO][0m 30 patterns loaded from file
+[INFO][0m 116 patterns loaded from file
+[INFO][0m 17 patterns loaded from file
+[INFO][0m 58 patterns loaded from file
+[INFO][0m 60 patterns loaded from file
+[INFO][0m 6 patterns loaded from file
+[INFO][0m 3 patterns loaded from file
+[INFO][0m 16 patterns loaded from file
+[INFO][0m 7 patterns loaded from file
+[INFO][0m 5 patterns loaded from file
+[INFO][0m 49 patterns loaded from file
+[INFO][0m 5 patterns loaded from file
+[INFO][0m 16 patterns loaded from file
+[INFO][0m 12 patterns loaded from file
+[Mon Feb  2 15:55:36 2026]
+Finished job 22.
+1 of 103 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 15:55:37 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKT15146.1.tsv, data/single_clusters/WKT15146.1.tsv, data/FASTA/WKT15146.1.fas
+    jobid: 17
+    reason: Missing output files: data/tmp/WKT15146.1.tsv, data/single_clusters/WKT15146.1.tsv, data/FASTA/WKT15146.1.fas
+    wildcards: cluster_IDs=WKT15146.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+[Mon Feb  2 15:55:37 2026]
+Finished job 16.
+2 of 103 steps (2%) done
+[INFO][0m 17 patterns loaded from file
+[Mon Feb  2 15:55:37 2026]
+Finished job 10.
+3 of 103 steps (3%) done
+[Mon Feb  2 15:55:37 2026]
+Finished job 19.
+4 of 103 steps (4%) done
+[Mon Feb  2 15:55:37 2026]
+Finished job 31.
+5 of 103 steps (5%) done
+[Mon Feb  2 15:55:38 2026]
+Finished job 25.
+6 of 103 steps (6%) done
+[Mon Feb  2 15:55:38 2026]
+Finished job 34.
+7 of 103 steps (7%) done
+[Mon Feb  2 15:55:38 2026]
+Finished job 7.
+8 of 103 steps (8%) done
+[Mon Feb  2 15:55:38 2026]
+Finished job 28.
+9 of 103 steps (9%) done
+[Mon Feb  2 15:55:38 2026]
+Finished job 29.
+10 of 103 steps (10%) done
+[Mon Feb  2 15:55:39 2026]
+Finished job 3.
+11 of 103 steps (11%) done
+[Mon Feb  2 15:55:39 2026]
+Finished job 8.
+12 of 103 steps (12%) done
+[Mon Feb  2 15:55:39 2026]
+Finished job 9.
+13 of 103 steps (13%) done
+[Mon Feb  2 15:55:39 2026]
+Finished job 18.
+14 of 103 steps (14%) done
+[Mon Feb  2 15:55:40 2026]
+Finished job 12.
+15 of 103 steps (15%) done
+[Mon Feb  2 15:55:40 2026]
+Finished job 15.
+16 of 103 steps (16%) done
+[Mon Feb  2 15:55:40 2026]
+Finished job 27.
+17 of 103 steps (17%) done
+[Mon Feb  2 15:55:40 2026]
+Finished job 6.
+18 of 103 steps (17%) done
+[Mon Feb  2 15:55:41 2026]
+Finished job 21.
+19 of 103 steps (18%) done
+[Mon Feb  2 15:55:41 2026]
+Finished job 33.
+20 of 103 steps (19%) done
+Select jobs to execute...
+Execute 19 jobs...
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009116770.1.fas
+    output: output/alignment/YP_009116770.1.fas
+    jobid: 62
+    reason: Missing output files: output/alignment/YP_009116770.1.fas; Input files updated by another job: data/FASTA/YP_009116770.1.fas
+    wildcards: cluster_IDs=YP_009116770.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_99135_1926_2732_Fi_005.tsv, data/single_clusters/k141_99135_1926_2732_Fi_005.tsv, data/FASTA/k141_99135_1926_2732_Fi_005.fas
+    jobid: 13
+    reason: Missing output files: data/FASTA/k141_99135_1926_2732_Fi_005.fas, data/single_clusters/k141_99135_1926_2732_Fi_005.tsv, data/tmp/k141_99135_1926_2732_Fi_005.tsv
+    wildcards: cluster_IDs=k141_99135_1926_2732_Fi_005
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/k141_833869_1988_2446_Fi_051.fas
+    output: output/alignment/k141_833869_1988_2446_Fi_051.fas
+    jobid: 46
+    reason: Missing output files: output/alignment/k141_833869_1988_2446_Fi_051.fas; Input files updated by another job: data/FASTA/k141_833869_1988_2446_Fi_051.fas
+    wildcards: cluster_IDs=k141_833869_1988_2446_Fi_051
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    output: output/alignment/k141_71921_16515_21209_Fi_077.fas
+    jobid: 44
+    reason: Missing output files: output/alignment/k141_71921_16515_21209_Fi_077.fas; Input files updated by another job: data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_16515_21209_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/YP_001686949.1.fas
+    output: output/alignment/YP_001686949.1.fas
+    jobid: 59
+    reason: Missing output files: output/alignment/YP_001686949.1.fas; Input files updated by another job: data/FASTA/YP_001686949.1.fas
+    wildcards: cluster_IDs=YP_001686949.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/k141_41129_1195_4071_Fi_077.fas
+    output: output/alignment/k141_41129_1195_4071_Fi_077.fas
+    jobid: 43
+    reason: Missing output files: output/alignment/k141_41129_1195_4071_Fi_077.fas; Input files updated by another job: data/FASTA/k141_41129_1195_4071_Fi_077.fas
+    wildcards: cluster_IDs=k141_41129_1195_4071_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    output: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    jobid: 42
+    reason: Missing output files: output/alignment/k141_402023_4616_5203_Fi_035.fas; Input files updated by another job: data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_010780875.1.tsv, data/single_clusters/YP_010780875.1.tsv, data/FASTA/YP_010780875.1.fas
+    jobid: 35
+    reason: Missing output files: data/FASTA/YP_010780875.1.fas, data/single_clusters/YP_010780875.1.tsv, data/tmp/YP_010780875.1.tsv
+    wildcards: cluster_IDs=YP_010780875.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26496.1.fas
+    output: output/alignment/WNK26496.1.fas
+    jobid: 53
+    reason: Missing output files: output/alignment/WNK26496.1.fas; Input files updated by another job: data/FASTA/WNK26496.1.fas
+    wildcards: cluster_IDs=WNK26496.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009666641.1.fas
+    output: output/alignment/YP_009666641.1.fas
+    jobid: 68
+    reason: Missing output files: output/alignment/YP_009666641.1.fas; Input files updated by another job: data/FASTA/YP_009666641.1.fas
+    wildcards: cluster_IDs=YP_009666641.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26465.1.fas
+    output: output/alignment/WNK26465.1.fas
+    jobid: 52
+    reason: Missing output files: output/alignment/WNK26465.1.fas; Input files updated by another job: data/FASTA/WNK26465.1.fas
+    wildcards: cluster_IDs=WNK26465.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009345698.1.fas
+    output: output/alignment/YP_009345698.1.fas
+    jobid: 67
+    reason: Missing output files: output/alignment/YP_009345698.1.fas; Input files updated by another job: data/FASTA/YP_009345698.1.fas
+    wildcards: cluster_IDs=YP_009345698.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    output: output/alignment/k141_15738_22635_23612_Fi_077.fas
+    jobid: 37
+    reason: Missing output files: output/alignment/k141_15738_22635_23612_Fi_077.fas; Input files updated by another job: data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_22635_23612_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345656.1.tsv, data/single_clusters/YP_009345656.1.tsv, data/FASTA/YP_009345656.1.fas
+    jobid: 30
+    reason: Missing output files: data/single_clusters/YP_009345656.1.tsv, data/tmp/YP_009345656.1.tsv, data/FASTA/YP_009345656.1.fas
+    wildcards: cluster_IDs=YP_009345656.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26545.1.tsv, data/single_clusters/WNK26545.1.tsv, data/FASTA/WNK26545.1.fas
+    jobid: 24
+    reason: Missing output files: data/FASTA/WNK26545.1.fas, data/tmp/WNK26545.1.tsv, data/single_clusters/WNK26545.1.tsv
+    wildcards: cluster_IDs=WNK26545.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/WKA13590.1.fas
+    output: output/alignment/WKA13590.1.fas
+    jobid: 50
+    reason: Missing output files: output/alignment/WKA13590.1.fas; Input files updated by another job: data/FASTA/WKA13590.1.fas
+    wildcards: cluster_IDs=WKA13590.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009345664.1.fas
+    output: output/alignment/YP_009345664.1.fas
+    jobid: 65
+    reason: Missing output files: output/alignment/YP_009345664.1.fas; Input files updated by another job: data/FASTA/YP_009345664.1.fas
+    wildcards: cluster_IDs=YP_009345664.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/WKA13572.1.fas
+    output: output/alignment/WKA13572.1.fas
+    jobid: 49
+    reason: Missing output files: output/alignment/WKA13572.1.fas; Input files updated by another job: data/FASTA/WKA13572.1.fas
+    wildcards: cluster_IDs=WKA13572.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:41 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009173562.1.fas
+    output: output/alignment/YP_009173562.1.fas
+    jobid: 63
+    reason: Missing output files: output/alignment/YP_009173562.1.fas; Input files updated by another job: data/FASTA/YP_009173562.1.fas
+    wildcards: cluster_IDs=YP_009173562.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+[INFO][0m 14 patterns loaded from file
+[INFO][0m 240 patterns loaded from file
+[Mon Feb  2 15:55:41 2026]
+Finished job 17.
+21 of 103 steps (20%) done
+Select jobs to execute...
+[INFO][0m 123 patterns loaded from file
+Execute 1 jobs...
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    jobid: 5
+    reason: Missing output files: data/FASTA/k141_187430_1476_2150_Fi_096.fas, data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv
+    wildcards: cluster_IDs=k141_187430_1476_2150_Fi_096
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+[INFO][0m 21 patterns loaded from file
+[Mon Feb  2 15:55:41 2026]
+Finished job 42.
+22 of 103 steps (21%) done
+[Mon Feb  2 15:55:41 2026]
+Finished job 52.
+23 of 103 steps (22%) done
+[Mon Feb  2 15:55:41 2026]
+Finished job 67.
+24 of 103 steps (23%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26503.1.tsv, data/single_clusters/WNK26503.1.tsv, data/FASTA/WNK26503.1.fas
+    jobid: 20
+    reason: Missing output files: data/tmp/WNK26503.1.tsv, data/single_clusters/WNK26503.1.tsv, data/FASTA/WNK26503.1.fas
+    wildcards: cluster_IDs=WNK26503.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    jobid: 11
+    reason: Missing output files: data/FASTA/k141_71921_8125_9366_Fi_077.fas, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/tmp/k141_71921_8125_9366_Fi_077.tsv
+    wildcards: cluster_IDs=k141_71921_8125_9366_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:41 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_134513_304_888_Fi_035.tsv, data/single_clusters/k141_134513_304_888_Fi_035.tsv, data/FASTA/k141_134513_304_888_Fi_035.fas
+    jobid: 2
+    reason: Missing output files: data/tmp/k141_134513_304_888_Fi_035.tsv, data/FASTA/k141_134513_304_888_Fi_035.fas, data/single_clusters/k141_134513_304_888_Fi_035.tsv
+    wildcards: cluster_IDs=k141_134513_304_888_Fi_035
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+[Mon Feb  2 15:55:41 2026]
+Finished job 50.
+25 of 103 steps (24%) done
+[Mon Feb  2 15:55:41 2026]
+Finished job 49.
+26 of 103 steps (25%) done
+[Mon Feb  2 15:55:41 2026]
+Finished job 35.
+27 of 103 steps (26%) done
+[INFO][0m 16 patterns loaded from file
+[INFO][0m 481 patterns loaded from file
+[INFO][0m 14 patterns loaded from file
+[INFO][0m 13 patterns loaded from file
+[Mon Feb  2 15:55:42 2026]
+Finished job 13.
+28 of 103 steps (27%) done
+[Mon Feb  2 15:55:42 2026]
+Finished job 30.
+29 of 103 steps (28%) done
+[Mon Feb  2 15:55:42 2026]
+Finished job 37.
+30 of 103 steps (29%) done
+Select jobs to execute...
+Execute 6 jobs...
+
+[Mon Feb  2 15:55:42 2026]
+localrule Alignment:
+    input: data/FASTA/YP_008003641.1.fas
+    output: output/alignment/YP_008003641.1.fas
+    jobid: 61
+    reason: Missing output files: output/alignment/YP_008003641.1.fas; Input files updated by another job: data/FASTA/YP_008003641.1.fas
+    wildcards: cluster_IDs=YP_008003641.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:42 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    jobid: 4
+    reason: Missing output files: data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_26993_27403_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:42 2026]
+localrule Alignment:
+    input: data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    output: output/alignment/k141_361753_1543_1875_Fi_085.fas
+    jobid: 41
+    reason: Missing output files: output/alignment/k141_361753_1543_1875_Fi_085.fas; Input files updated by another job: data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    wildcards: cluster_IDs=k141_361753_1543_1875_Fi_085
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:42 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26517.1.fas
+    output: output/alignment/WNK26517.1.fas
+    jobid: 56
+    reason: Missing output files: output/alignment/WNK26517.1.fas; Input files updated by another job: data/FASTA/WNK26517.1.fas
+    wildcards: cluster_IDs=WNK26517.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:42 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKA13552.1.tsv, data/single_clusters/WKA13552.1.tsv, data/FASTA/WKA13552.1.fas
+    jobid: 14
+    reason: Missing output files: data/single_clusters/WKA13552.1.tsv, data/tmp/WKA13552.1.tsv, data/FASTA/WKA13552.1.fas
+    wildcards: cluster_IDs=WKA13552.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:42 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345676.1.tsv, data/single_clusters/YP_009345676.1.tsv, data/FASTA/YP_009345676.1.fas
+    jobid: 32
+    reason: Missing output files: data/single_clusters/YP_009345676.1.tsv, data/tmp/YP_009345676.1.tsv, data/FASTA/YP_009345676.1.fas
+    wildcards: cluster_IDs=YP_009345676.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+[Mon Feb  2 15:55:42 2026]
+Finished job 24.
+31 of 103 steps (30%) done
+[Mon Feb  2 15:55:42 2026]
+Finished job 62.
+32 of 103 steps (31%) done
+[INFO][0m 8 patterns loaded from file
+[INFO][0m 6 patterns loaded from file
+[INFO][0m 4 patterns loaded from file
+[Mon Feb  2 15:55:42 2026]
+Finished job 5.
+33 of 103 steps (32%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 20.
+34 of 103 steps (33%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 11.
+35 of 103 steps (34%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 2.
+36 of 103 steps (35%) done
+Select jobs to execute...
+Execute 6 jobs...
+
+[Mon Feb  2 15:55:43 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26513.1.fas
+    output: output/alignment/WNK26513.1.fas
+    jobid: 55
+    reason: Missing output files: output/alignment/WNK26513.1.fas; Input files updated by another job: data/FASTA/WNK26513.1.fas
+    wildcards: cluster_IDs=WNK26513.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:43 2026]
+localrule Alignment:
+    input: data/FASTA/YP_010780875.1.fas
+    output: output/alignment/YP_010780875.1.fas
+    jobid: 69
+    reason: Missing output files: output/alignment/YP_010780875.1.fas; Input files updated by another job: data/FASTA/YP_010780875.1.fas
+    wildcards: cluster_IDs=YP_010780875.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:43 2026]
+localrule Alignment:
+    input: data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    output: output/alignment/k141_187430_1476_2150_Fi_096.fas
+    jobid: 39
+    reason: Missing output files: output/alignment/k141_187430_1476_2150_Fi_096.fas; Input files updated by another job: data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    wildcards: cluster_IDs=k141_187430_1476_2150_Fi_096
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:43 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26503.1.fas
+    output: output/alignment/WNK26503.1.fas
+    jobid: 54
+    reason: Missing output files: output/alignment/WNK26503.1.fas; Input files updated by another job: data/FASTA/WNK26503.1.fas
+    wildcards: cluster_IDs=WNK26503.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:43 2026]
+localrule Alignment:
+    input: data/FASTA/k141_134513_304_888_Fi_035.fas
+    output: output/alignment/k141_134513_304_888_Fi_035.fas
+    jobid: 36
+    reason: Missing output files: output/alignment/k141_134513_304_888_Fi_035.fas; Input files updated by another job: data/FASTA/k141_134513_304_888_Fi_035.fas
+    wildcards: cluster_IDs=k141_134513_304_888_Fi_035
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:43 2026]
+localrule Alignment:
+    input: data/FASTA/k141_21072_2346_2486_Fi_035.fas
+    output: output/alignment/k141_21072_2346_2486_Fi_035.fas
+    jobid: 40
+    reason: Missing output files: output/alignment/k141_21072_2346_2486_Fi_035.fas; Input files updated by another job: data/FASTA/k141_21072_2346_2486_Fi_035.fas
+    wildcards: cluster_IDs=k141_21072_2346_2486_Fi_035
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+[Mon Feb  2 15:55:43 2026]
+Finished job 65.
+37 of 103 steps (36%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 59.
+38 of 103 steps (37%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 41.
+39 of 103 steps (38%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 4.
+40 of 103 steps (39%) done
+[Mon Feb  2 15:55:43 2026]
+Finished job 14.
+41 of 103 steps (40%) done
+[Mon Feb  2 15:55:44 2026]
+Finished job 32.
+42 of 103 steps (41%) done
+[Mon Feb  2 15:55:44 2026]
+Finished job 63.
+43 of 103 steps (42%) done
+Select jobs to execute...
+Execute 7 jobs...
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/WKT15146.1.fas
+    output: output/alignment/WKT15146.1.fas
+    jobid: 51
+    reason: Missing output files: output/alignment/WKT15146.1.fas; Input files updated by another job: data/FASTA/WKT15146.1.fas
+    wildcards: cluster_IDs=WKT15146.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009345676.1.fas
+    output: output/alignment/YP_009345676.1.fas
+    jobid: 66
+    reason: Missing output files: output/alignment/YP_009345676.1.fas; Input files updated by another job: data/FASTA/YP_009345676.1.fas
+    wildcards: cluster_IDs=YP_009345676.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/k141_99135_1926_2732_Fi_005.fas
+    output: output/alignment/k141_99135_1926_2732_Fi_005.fas
+    jobid: 47
+    reason: Missing output files: output/alignment/k141_99135_1926_2732_Fi_005.fas; Input files updated by another job: data/FASTA/k141_99135_1926_2732_Fi_005.fas
+    wildcards: cluster_IDs=k141_99135_1926_2732_Fi_005
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26545.1.fas
+    output: output/alignment/WNK26545.1.fas
+    jobid: 58
+    reason: Missing output files: output/alignment/WNK26545.1.fas; Input files updated by another job: data/FASTA/WNK26545.1.fas
+    wildcards: cluster_IDs=WNK26545.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    output: output/alignment/k141_15738_26993_27403_Fi_077.fas
+    jobid: 38
+    reason: Missing output files: output/alignment/k141_15738_26993_27403_Fi_077.fas; Input files updated by another job: data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_26993_27403_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:44 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26526.1.tsv, data/single_clusters/WNK26526.1.tsv, data/FASTA/WNK26526.1.fas
+    jobid: 23
+    reason: Missing output files: data/tmp/WNK26526.1.tsv, data/FASTA/WNK26526.1.fas, data/single_clusters/WNK26526.1.tsv
+    wildcards: cluster_IDs=WNK26526.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+
+[Mon Feb  2 15:55:44 2026]
+localrule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_001687088.1.tsv, data/single_clusters/YP_001687088.1.tsv, data/FASTA/YP_001687088.1.fas
+    jobid: 26
+    reason: Missing output files: data/single_clusters/YP_001687088.1.tsv, data/FASTA/YP_001687088.1.fas, data/tmp/YP_001687088.1.tsv
+    wildcards: cluster_IDs=YP_001687088.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/22a6963c48b1868ae3478c117a3bff4d_
+[Mon Feb  2 15:55:44 2026]
+Finished job 40.
+44 of 103 steps (43%) done
+[Mon Feb  2 15:55:44 2026]
+Finished job 36.
+45 of 103 steps (44%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/YP_009345656.1.fas
+    output: output/alignment/YP_009345656.1.fas
+    jobid: 64
+    reason: Missing output files: output/alignment/YP_009345656.1.fas; Input files updated by another job: data/FASTA/YP_009345656.1.fas
+    wildcards: cluster_IDs=YP_009345656.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/WKA13552.1.fas
+    output: output/alignment/WKA13552.1.fas
+    jobid: 48
+    reason: Missing output files: output/alignment/WKA13552.1.fas; Input files updated by another job: data/FASTA/WKA13552.1.fas
+    wildcards: cluster_IDs=WKA13552.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+[Mon Feb  2 15:55:44 2026]
+Finished job 66.
+46 of 103 steps (45%) done
+Select jobs to execute...
+[INFO][0m 15 patterns loaded from file
+[INFO][0m 6 patterns loaded from file
+Execute 1 jobs...
+
+[Mon Feb  2 15:55:44 2026]
+localrule Alignment:
+    input: data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    output: output/alignment/k141_71921_8125_9366_Fi_077.fas
+    jobid: 45
+    reason: Missing output files: output/alignment/k141_71921_8125_9366_Fi_077.fas; Input files updated by another job: data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_8125_9366_Fi_077
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+Select jobs to execute...
+[Mon Feb  2 15:55:44 2026]
+Finished job 38.
+47 of 103 steps (46%) done
+[Mon Feb  2 15:55:44 2026]
+Finished job 23.
+48 of 103 steps (47%) done
+[Mon Feb  2 15:55:45 2026]
+Finished job 26.
+49 of 103 steps (48%) done
+Execute 2 jobs...
+
+[Mon Feb  2 15:55:45 2026]
+localrule Alignment:
+    input: data/FASTA/YP_001687088.1.fas
+    output: output/alignment/YP_001687088.1.fas
+    jobid: 60
+    reason: Missing output files: output/alignment/YP_001687088.1.fas; Input files updated by another job: data/FASTA/YP_001687088.1.fas
+    wildcards: cluster_IDs=YP_001687088.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+
+[Mon Feb  2 15:55:45 2026]
+localrule Alignment:
+    input: data/FASTA/WNK26526.1.fas
+    output: output/alignment/WNK26526.1.fas
+    jobid: 57
+    reason: Missing output files: output/alignment/WNK26526.1.fas; Input files updated by another job: data/FASTA/WNK26526.1.fas
+    wildcards: cluster_IDs=WNK26526.1
+    threads: 2
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/3e9cce1b8830b848acbac7d35ef846f0_
+[Mon Feb  2 15:55:45 2026]
+Finished job 48.
+50 of 103 steps (49%) done
+[Mon Feb  2 15:55:45 2026]
+Finished job 55.
+51 of 103 steps (50%) done
+Select jobs to execute...
+[Mon Feb  2 15:55:45 2026]
+Finished job 56.
+52 of 103 steps (50%) done
+[Mon Feb  2 15:55:45 2026]
+Finished job 45.
+53 of 103 steps (51%) done
+[Mon Feb  2 15:55:45 2026]
+Finished job 57.
+54 of 103 steps (52%) done
+[Mon Feb  2 15:55:45 2026]
+Finished job 39.
+55 of 103 steps (53%) done
+[Mon Feb  2 15:55:46 2026]
+Finished job 47.
+56 of 103 steps (54%) done
+[Mon Feb  2 15:55:47 2026]
+Finished job 60.
+57 of 103 steps (55%) done
+[Mon Feb  2 15:55:47 2026]
+Finished job 43.
+58 of 103 steps (56%) done
+Execute 1 jobs...
+
+[Mon Feb  2 15:55:47 2026]
+localrule phylogeny:
+    input: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    output: output/phylogeny/k141_402023_4616_5203_Fi_035.logs
+    jobid: 76
+    reason: Missing output files: output/phylogeny/k141_402023_4616_5203_Fi_035.logs; Input files updated by another job: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 15:55:47 2026]
+Finished job 51.
+59 of 103 steps (57%) done
+Select jobs to execute...
+[Mon Feb  2 15:55:47 2026]
+Finished job 58.
+60 of 103 steps (58%) done
+[Mon Feb  2 15:55:48 2026]
+Finished job 46.
+61 of 103 steps (59%) done
+[Mon Feb  2 15:55:49 2026]
+Finished job 53.
+62 of 103 steps (60%) done
+[Mon Feb  2 15:55:49 2026]
+Finished job 61.
+63 of 103 steps (61%) done
+[Mon Feb  2 15:55:51 2026]
+Finished job 64.
+64 of 103 steps (62%) done
+[Mon Feb  2 15:55:52 2026]
+Finished job 76.
+65 of 103 steps (63%) done
+Execute 1 jobs...
+
+[Mon Feb  2 15:55:52 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26545.1.fas
+    output: output/phylogeny/WNK26545.1.logs
+    jobid: 92
+    reason: Missing output files: output/phylogeny/WNK26545.1.logs; Input files updated by another job: output/alignment/WNK26545.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26545.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 15:55:54 2026]
+Finished job 44.
+66 of 103 steps (64%) done
+Select jobs to execute...
+[Mon Feb  2 15:56:04 2026]
+Finished job 68.
+67 of 103 steps (65%) done
+[Mon Feb  2 15:56:30 2026]
+Finished job 54.
+68 of 103 steps (66%) done
+[Mon Feb  2 15:56:45 2026]
+Finished job 69.
+69 of 103 steps (67%) done
+Execute 1 jobs...
+
+[Mon Feb  2 15:56:45 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26526.1.fas
+    output: output/phylogeny/WNK26526.1.logs
+    jobid: 91
+    reason: Missing output files: output/phylogeny/WNK26526.1.logs; Input files updated by another job: output/alignment/WNK26526.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26526.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 15:57:09 2026]
+Finished job 91.
+70 of 103 steps (68%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 15:57:09 2026]
+localrule phylogeny:
+    input: output/alignment/k141_361753_1543_1875_Fi_085.fas
+    output: output/phylogeny/k141_361753_1543_1875_Fi_085.logs
+    jobid: 75
+    reason: Missing output files: output/phylogeny/k141_361753_1543_1875_Fi_085.logs; Input files updated by another job: output/alignment/k141_361753_1543_1875_Fi_085.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_361753_1543_1875_Fi_085
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 15:57:16 2026]
+Finished job 75.
+71 of 103 steps (69%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 15:57:16 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26517.1.fas
+    output: output/phylogeny/WNK26517.1.logs
+    jobid: 90
+    reason: Missing output files: output/phylogeny/WNK26517.1.logs; Input files updated by another job: output/alignment/WNK26517.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26517.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 16:00:37 2026]
+Finished job 92.
+72 of 103 steps (70%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 16:00:37 2026]
+localrule phylogeny:
+    input: output/alignment/k141_21072_2346_2486_Fi_035.fas
+    output: output/phylogeny/k141_21072_2346_2486_Fi_035.logs
+    jobid: 74
+    reason: Missing output files: output/phylogeny/k141_21072_2346_2486_Fi_035.logs; Input files updated by another job: output/alignment/k141_21072_2346_2486_Fi_035.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_21072_2346_2486_Fi_035
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 16:00:40 2026]
+Finished job 74.
+73 of 103 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 16:00:40 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26513.1.fas
+    output: output/phylogeny/WNK26513.1.logs
+    jobid: 89
+    reason: Missing output files: output/phylogeny/WNK26513.1.logs; Input files updated by another job: output/alignment/WNK26513.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26513.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 16:03:00 2026]
+Finished job 90.
+74 of 103 steps (72%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 16:03:00 2026]
+localrule phylogeny:
+    input: output/alignment/YP_010780875.1.fas
+    output: output/phylogeny/YP_010780875.1.logs
+    jobid: 103
+    reason: Missing output files: output/phylogeny/YP_010780875.1.logs; Input files updated by another job: output/alignment/YP_010780875.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_010780875.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 16:03:13 2026]
+Finished job 89.
+75 of 103 steps (73%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 16:03:13 2026]
+localrule phylogeny:
+    input: output/alignment/k141_187430_1476_2150_Fi_096.fas
+    output: output/phylogeny/k141_187430_1476_2150_Fi_096.logs
+    jobid: 73
+    reason: Missing output files: output/phylogeny/k141_187430_1476_2150_Fi_096.logs; Input files updated by another job: output/alignment/k141_187430_1476_2150_Fi_096.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_187430_1476_2150_Fi_096
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Mon Feb  2 16:06:58 2026]
+Finished job 73.
+76 of 103 steps (74%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Feb  2 16:06:58 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26503.1.fas
+    output: output/phylogeny/WNK26503.1.logs
+    jobid: 88
+    reason: Missing output files: output/phylogeny/WNK26503.1.logs; Input files updated by another job: output/alignment/WNK26503.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26503.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 02:26:42 2026]
+Finished job 103.
+77 of 103 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 02:26:43 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26496.1.fas
+    output: output/phylogeny/WNK26496.1.logs
+    jobid: 87
+    reason: Missing output files: output/phylogeny/WNK26496.1.logs; Input files updated by another job: output/alignment/WNK26496.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26496.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 02:30:29 2026]
+Finished job 87.
+78 of 103 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 02:30:29 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009666641.1.fas
+    output: output/phylogeny/YP_009666641.1.logs
+    jobid: 102
+    reason: Missing output files: output/phylogeny/YP_009666641.1.logs; Input files updated by another job: output/alignment/YP_009666641.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009666641.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:00:13 2026]
+Finished job 102.
+79 of 103 steps (77%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:00:17 2026]
+localrule phylogeny:
+    input: output/alignment/k141_15738_26993_27403_Fi_077.fas
+    output: output/phylogeny/k141_15738_26993_27403_Fi_077.logs
+    jobid: 72
+    reason: Missing output files: output/phylogeny/k141_15738_26993_27403_Fi_077.logs; Input files updated by another job: output/alignment/k141_15738_26993_27403_Fi_077.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_15738_26993_27403_Fi_077
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:00:41 2026]
+Finished job 72.
+80 of 103 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:00:41 2026]
+localrule phylogeny:
+    input: output/alignment/WNK26465.1.fas
+    output: output/phylogeny/WNK26465.1.logs
+    jobid: 86
+    reason: Missing output files: output/phylogeny/WNK26465.1.logs; Input files updated by another job: output/alignment/WNK26465.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WNK26465.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:00:54 2026]
+Finished job 86.
+81 of 103 steps (79%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:00:54 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009345698.1.fas
+    output: output/phylogeny/YP_009345698.1.logs
+    jobid: 101
+    reason: Missing output files: output/phylogeny/YP_009345698.1.logs; Input files updated by another job: output/alignment/YP_009345698.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009345698.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:01:34 2026]
+Finished job 101.
+82 of 103 steps (80%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:01:34 2026]
+localrule phylogeny:
+    input: output/alignment/k141_15738_22635_23612_Fi_077.fas
+    output: output/phylogeny/k141_15738_22635_23612_Fi_077.logs
+    jobid: 71
+    reason: Missing output files: output/phylogeny/k141_15738_22635_23612_Fi_077.logs; Input files updated by another job: output/alignment/k141_15738_22635_23612_Fi_077.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_15738_22635_23612_Fi_077
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:01:50 2026]
+Finished job 71.
+83 of 103 steps (81%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:01:50 2026]
+localrule phylogeny:
+    input: output/alignment/k141_99135_1926_2732_Fi_005.fas
+    output: output/phylogeny/k141_99135_1926_2732_Fi_005.logs
+    jobid: 81
+    reason: Missing output files: output/phylogeny/k141_99135_1926_2732_Fi_005.logs; Input files updated by another job: output/alignment/k141_99135_1926_2732_Fi_005.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_99135_1926_2732_Fi_005
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:04:51 2026]
+Finished job 81.
+84 of 103 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:04:51 2026]
+localrule phylogeny:
+    input: output/alignment/k141_71921_16515_21209_Fi_077.fas
+    output: output/phylogeny/k141_71921_16515_21209_Fi_077.logs
+    jobid: 78
+    reason: Missing output files: output/phylogeny/k141_71921_16515_21209_Fi_077.logs; Input files updated by another job: output/alignment/k141_71921_16515_21209_Fi_077.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_71921_16515_21209_Fi_077
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:24:26 2026]
+Finished job 78.
+85 of 103 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:24:26 2026]
+localrule phylogeny:
+    input: output/alignment/YP_001687088.1.fas
+    output: output/phylogeny/YP_001687088.1.logs
+    jobid: 94
+    reason: Missing output files: output/phylogeny/YP_001687088.1.logs; Input files updated by another job: output/alignment/YP_001687088.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_001687088.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:26:09 2026]
+Finished job 94.
+86 of 103 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:26:09 2026]
+localrule phylogeny:
+    input: output/alignment/YP_001686949.1.fas
+    output: output/phylogeny/YP_001686949.1.logs
+    jobid: 93
+    reason: Missing output files: output/phylogeny/YP_001686949.1.logs; Input files updated by another job: output/alignment/YP_001686949.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_001686949.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:26:47 2026]
+Finished job 93.
+87 of 103 steps (84%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:26:47 2026]
+localrule phylogeny:
+    input: output/alignment/WKA13552.1.fas
+    output: output/phylogeny/WKA13552.1.logs
+    jobid: 82
+    reason: Missing output files: output/phylogeny/WKA13552.1.logs; Input files updated by another job: output/alignment/WKA13552.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WKA13552.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:26:52 2026]
+Finished job 82.
+88 of 103 steps (85%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:26:52 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009173562.1.fas
+    output: output/phylogeny/YP_009173562.1.logs
+    jobid: 97
+    reason: Missing output files: output/phylogeny/YP_009173562.1.logs; Input files updated by another job: output/alignment/YP_009173562.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009173562.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:40:55 2026]
+Finished job 97.
+89 of 103 steps (86%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:40:55 2026]
+localrule phylogeny:
+    input: output/alignment/k141_134513_304_888_Fi_035.fas
+    output: output/phylogeny/k141_134513_304_888_Fi_035.logs
+    jobid: 70
+    reason: Missing output files: output/phylogeny/k141_134513_304_888_Fi_035.logs; Input files updated by another job: output/alignment/k141_134513_304_888_Fi_035.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_134513_304_888_Fi_035
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:41:31 2026]
+Finished job 70.
+90 of 103 steps (87%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:41:31 2026]
+localrule phylogeny:
+    input: output/alignment/WKT15146.1.fas
+    output: output/phylogeny/WKT15146.1.logs
+    jobid: 85
+    reason: Missing output files: output/phylogeny/WKT15146.1.logs; Input files updated by another job: output/alignment/WKT15146.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WKT15146.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:47:03 2026]
+Finished job 85.
+91 of 103 steps (88%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:47:03 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009345676.1.fas
+    output: output/phylogeny/YP_009345676.1.logs
+    jobid: 100
+    reason: Missing output files: output/phylogeny/YP_009345676.1.logs; Input files updated by another job: output/alignment/YP_009345676.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009345676.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:47:12 2026]
+Finished job 100.
+92 of 103 steps (89%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:47:12 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009116770.1.fas
+    output: output/phylogeny/YP_009116770.1.logs
+    jobid: 96
+    reason: Missing output files: output/phylogeny/YP_009116770.1.logs; Input files updated by another job: output/alignment/YP_009116770.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009116770.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:51:00 2026]
+Finished job 96.
+93 of 103 steps (90%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:51:00 2026]
+localrule phylogeny:
+    input: output/alignment/k141_71921_8125_9366_Fi_077.fas
+    output: output/phylogeny/k141_71921_8125_9366_Fi_077.logs
+    jobid: 79
+    reason: Missing output files: output/phylogeny/k141_71921_8125_9366_Fi_077.logs; Input files updated by another job: output/alignment/k141_71921_8125_9366_Fi_077.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_71921_8125_9366_Fi_077
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 06:52:36 2026]
+Finished job 79.
+94 of 103 steps (91%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 06:52:36 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009345656.1.fas
+    output: output/phylogeny/YP_009345656.1.logs
+    jobid: 98
+    reason: Missing output files: output/phylogeny/YP_009345656.1.logs; Input files updated by another job: output/alignment/YP_009345656.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009345656.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 10:21:46 2026]
+Finished job 98.
+95 of 103 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 10:21:47 2026]
+localrule phylogeny:
+    input: output/alignment/WKA13572.1.fas
+    output: output/phylogeny/WKA13572.1.logs
+    jobid: 83
+    reason: Missing output files: output/phylogeny/WKA13572.1.logs; Input files updated by another job: output/alignment/WKA13572.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WKA13572.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 10:22:04 2026]
+Finished job 83.
+96 of 103 steps (93%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 10:22:04 2026]
+localrule phylogeny:
+    input: output/alignment/k141_833869_1988_2446_Fi_051.fas
+    output: output/phylogeny/k141_833869_1988_2446_Fi_051.logs
+    jobid: 80
+    reason: Missing output files: output/phylogeny/k141_833869_1988_2446_Fi_051.logs; Input files updated by another job: output/alignment/k141_833869_1988_2446_Fi_051.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_833869_1988_2446_Fi_051
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 11:49:32 2026]
+Finished job 80.
+97 of 103 steps (94%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 11:49:32 2026]
+localrule phylogeny:
+    input: output/alignment/WKA13590.1.fas
+    output: output/phylogeny/WKA13590.1.logs
+    jobid: 84
+    reason: Missing output files: output/phylogeny/WKA13590.1.logs; Input files updated by another job: output/alignment/WKA13590.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=WKA13590.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 11:49:44 2026]
+Finished job 84.
+98 of 103 steps (95%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 11:49:44 2026]
+localrule phylogeny:
+    input: output/alignment/YP_008003641.1.fas
+    output: output/phylogeny/YP_008003641.1.logs
+    jobid: 95
+    reason: Missing output files: output/phylogeny/YP_008003641.1.logs; Input files updated by another job: output/alignment/YP_008003641.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_008003641.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 12:25:12 2026]
+Finished job 95.
+99 of 103 steps (96%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 12:25:12 2026]
+localrule phylogeny:
+    input: output/alignment/YP_009345664.1.fas
+    output: output/phylogeny/YP_009345664.1.logs
+    jobid: 99
+    reason: Missing output files: output/phylogeny/YP_009345664.1.logs; Input files updated by another job: output/alignment/YP_009345664.1.fas; Code has changed since last execution
+    wildcards: cluster_IDs=YP_009345664.1
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 12:26:48 2026]
+Finished job 99.
+100 of 103 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Feb  4 12:26:48 2026]
+localrule phylogeny:
+    input: output/alignment/k141_41129_1195_4071_Fi_077.fas
+    output: output/phylogeny/k141_41129_1195_4071_Fi_077.logs
+    jobid: 77
+    reason: Missing output files: output/phylogeny/k141_41129_1195_4071_Fi_077.logs; Input files updated by another job: output/alignment/k141_41129_1195_4071_Fi_077.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_41129_1195_4071_Fi_077
+    threads: 20
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+Activating conda environment: .snakemake/conda/d31a73846a9be8050525b380ec4ec76d_
+[Wed Feb  4 12:31:53 2026]
+Finished job 77.
+101 of 103 steps (98%) done
+[Thu Feb  5 13:07:59 2026]
+Finished job 88.
+102 of 103 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Feb  5 13:07:59 2026]
+localrule all:
+    input: data/Fila_EVEs.txt, data/Fila_clusters.tsv, data/tmp/k141_134513_304_888_Fi_035.tsv, data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/tmp/k141_21072_2346_2486_Fi_035.tsv, data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/tmp/k141_41129_1195_4071_Fi_077.tsv, data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/tmp/k141_833869_1988_2446_Fi_051.tsv, data/tmp/k141_99135_1926_2732_Fi_005.tsv, data/tmp/WKA13552.1.tsv, data/tmp/WKA13572.1.tsv, data/tmp/WKA13590.1.tsv, data/tmp/WKT15146.1.tsv, data/tmp/WNK26465.1.tsv, data/tmp/WNK26496.1.tsv, data/tmp/WNK26503.1.tsv, data/tmp/WNK26513.1.tsv, data/tmp/WNK26517.1.tsv, data/tmp/WNK26526.1.tsv, data/tmp/WNK26545.1.tsv, data/tmp/YP_001686949.1.tsv, data/tmp/YP_001687088.1.tsv, data/tmp/YP_008003641.1.tsv, data/tmp/YP_009116770.1.tsv, data/tmp/YP_009173562.1.tsv, data/tmp/YP_009345656.1.tsv, data/tmp/YP_009345664.1.tsv, data/tmp/YP_009345676.1.tsv, data/tmp/YP_009345698.1.tsv, data/tmp/YP_009666641.1.tsv, data/tmp/YP_010780875.1.tsv, data/single_clusters/k141_134513_304_888_Fi_035.tsv, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, data/single_clusters/k141_21072_2346_2486_Fi_035.tsv, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/single_clusters/k141_41129_1195_4071_Fi_077.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/single_clusters/k141_833869_1988_2446_Fi_051.tsv, data/single_clusters/k141_99135_1926_2732_Fi_005.tsv, data/single_clusters/WKA13552.1.tsv, data/single_clusters/WKA13572.1.tsv, data/single_clusters/WKA13590.1.tsv, data/single_clusters/WKT15146.1.tsv, data/single_clusters/WNK26465.1.tsv, data/single_clusters/WNK26496.1.tsv, data/single_clusters/WNK26503.1.tsv, data/single_clusters/WNK26513.1.tsv, data/single_clusters/WNK26517.1.tsv, data/single_clusters/WNK26526.1.tsv, data/single_clusters/WNK26545.1.tsv, data/single_clusters/YP_001686949.1.tsv, data/single_clusters/YP_001687088.1.tsv, data/single_clusters/YP_008003641.1.tsv, data/single_clusters/YP_009116770.1.tsv, data/single_clusters/YP_009173562.1.tsv, data/single_clusters/YP_009345656.1.tsv, data/single_clusters/YP_009345664.1.tsv, data/single_clusters/YP_009345676.1.tsv, data/single_clusters/YP_009345698.1.tsv, data/single_clusters/YP_009666641.1.tsv, data/single_clusters/YP_010780875.1.tsv, data/FASTA/k141_134513_304_888_Fi_035.fas, data/FASTA/k141_15738_22635_23612_Fi_077.fas, data/FASTA/k141_15738_26993_27403_Fi_077.fas, data/FASTA/k141_187430_1476_2150_Fi_096.fas, data/FASTA/k141_21072_2346_2486_Fi_035.fas, data/FASTA/k141_361753_1543_1875_Fi_085.fas, data/FASTA/k141_402023_4616_5203_Fi_035.fas, data/FASTA/k141_41129_1195_4071_Fi_077.fas, data/FASTA/k141_71921_16515_21209_Fi_077.fas, data/FASTA/k141_71921_8125_9366_Fi_077.fas, data/FASTA/k141_833869_1988_2446_Fi_051.fas, data/FASTA/k141_99135_1926_2732_Fi_005.fas, data/FASTA/WKA13552.1.fas, data/FASTA/WKA13572.1.fas, data/FASTA/WKA13590.1.fas, data/FASTA/WKT15146.1.fas, data/FASTA/WNK26465.1.fas, data/FASTA/WNK26496.1.fas, data/FASTA/WNK26503.1.fas, data/FASTA/WNK26513.1.fas, data/FASTA/WNK26517.1.fas, data/FASTA/WNK26526.1.fas, data/FASTA/WNK26545.1.fas, data/FASTA/YP_001686949.1.fas, data/FASTA/YP_001687088.1.fas, data/FASTA/YP_008003641.1.fas, data/FASTA/YP_009116770.1.fas, data/FASTA/YP_009173562.1.fas, data/FASTA/YP_009345656.1.fas, data/FASTA/YP_009345664.1.fas, data/FASTA/YP_009345676.1.fas, data/FASTA/YP_009345698.1.fas, data/FASTA/YP_009666641.1.fas, data/FASTA/YP_010780875.1.fas, output/alignment/k141_134513_304_888_Fi_035.fas, output/alignment/k141_15738_22635_23612_Fi_077.fas, output/alignment/k141_15738_26993_27403_Fi_077.fas, output/alignment/k141_187430_1476_2150_Fi_096.fas, output/alignment/k141_21072_2346_2486_Fi_035.fas, output/alignment/k141_361753_1543_1875_Fi_085.fas, output/alignment/k141_402023_4616_5203_Fi_035.fas, output/alignment/k141_41129_1195_4071_Fi_077.fas, output/alignment/k141_71921_16515_21209_Fi_077.fas, output/alignment/k141_71921_8125_9366_Fi_077.fas, output/alignment/k141_833869_1988_2446_Fi_051.fas, output/alignment/k141_99135_1926_2732_Fi_005.fas, output/alignment/WKA13552.1.fas, output/alignment/WKA13572.1.fas, output/alignment/WKA13590.1.fas, output/alignment/WKT15146.1.fas, output/alignment/WNK26465.1.fas, output/alignment/WNK26496.1.fas, output/alignment/WNK26503.1.fas, output/alignment/WNK26513.1.fas, output/alignment/WNK26517.1.fas, output/alignment/WNK26526.1.fas, output/alignment/WNK26545.1.fas, output/alignment/YP_001686949.1.fas, output/alignment/YP_001687088.1.fas, output/alignment/YP_008003641.1.fas, output/alignment/YP_009116770.1.fas, output/alignment/YP_009173562.1.fas, output/alignment/YP_009345656.1.fas, output/alignment/YP_009345664.1.fas, output/alignment/YP_009345676.1.fas, output/alignment/YP_009345698.1.fas, output/alignment/YP_009666641.1.fas, output/alignment/YP_010780875.1.fas, output/phylogeny/k141_134513_304_888_Fi_035.logs, output/phylogeny/k141_15738_22635_23612_Fi_077.logs, output/phylogeny/k141_15738_26993_27403_Fi_077.logs, output/phylogeny/k141_187430_1476_2150_Fi_096.logs, output/phylogeny/k141_21072_2346_2486_Fi_035.logs, output/phylogeny/k141_361753_1543_1875_Fi_085.logs, output/phylogeny/k141_402023_4616_5203_Fi_035.logs, output/phylogeny/k141_41129_1195_4071_Fi_077.logs, output/phylogeny/k141_71921_16515_21209_Fi_077.logs, output/phylogeny/k141_71921_8125_9366_Fi_077.logs, output/phylogeny/k141_833869_1988_2446_Fi_051.logs, output/phylogeny/k141_99135_1926_2732_Fi_005.logs, output/phylogeny/WKA13552.1.logs, output/phylogeny/WKA13572.1.logs, output/phylogeny/WKA13590.1.logs, output/phylogeny/WKT15146.1.logs, output/phylogeny/WNK26465.1.logs, output/phylogeny/WNK26496.1.logs, output/phylogeny/WNK26503.1.logs, output/phylogeny/WNK26513.1.logs, output/phylogeny/WNK26517.1.logs, output/phylogeny/WNK26526.1.logs, output/phylogeny/WNK26545.1.logs, output/phylogeny/YP_001686949.1.logs, output/phylogeny/YP_001687088.1.logs, output/phylogeny/YP_008003641.1.logs, output/phylogeny/YP_009116770.1.logs, output/phylogeny/YP_009173562.1.logs, output/phylogeny/YP_009345656.1.logs, output/phylogeny/YP_009345664.1.logs, output/phylogeny/YP_009345676.1.logs, output/phylogeny/YP_009345698.1.logs, output/phylogeny/YP_009666641.1.logs, output/phylogeny/YP_010780875.1.logs
+    jobid: 0
+    reason: Input files updated by another job: data/tmp/WNK26503.1.tsv, output/phylogeny/k141_402023_4616_5203_Fi_035.logs, data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/FASTA/k141_402023_4616_5203_Fi_035.fas, data/FASTA/k141_15738_22635_23612_Fi_077.fas, data/tmp/YP_009345656.1.tsv, output/alignment/YP_001686949.1.fas, output/alignment/YP_009345656.1.fas, output/phylogeny/k141_187430_1476_2150_Fi_096.logs, data/tmp/WKA13572.1.tsv, data/FASTA/k141_187430_1476_2150_Fi_096.fas, data/FASTA/k141_361753_1543_1875_Fi_085.fas, data/tmp/WKT15146.1.tsv, data/tmp/k141_833869_1988_2446_Fi_051.tsv, output/alignment/k141_41129_1195_4071_Fi_077.fas, data/FASTA/k141_833869_1988_2446_Fi_051.fas, output/phylogeny/YP_001686949.1.logs, output/alignment/WNK26513.1.fas, output/phylogeny/WNK26513.1.logs, output/phylogeny/k141_361753_1543_1875_Fi_085.logs, data/FASTA/YP_009345656.1.fas, data/single_clusters/k141_833869_1988_2446_Fi_051.tsv, data/tmp/k141_134513_304_888_Fi_035.tsv, output/phylogeny/YP_010780875.1.logs, output/alignment/WNK26545.1.fas, data/FASTA/YP_001686949.1.fas, data/FASTA/WNK26545.1.fas, data/FASTA/WNK26503.1.fas, data/single_clusters/YP_009345676.1.tsv, data/FASTA/YP_009345676.1.fas, data/tmp/YP_009345664.1.tsv, data/FASTA/WKA13572.1.fas, output/alignment/k141_402023_4616_5203_Fi_035.fas, output/phylogeny/WNK26545.1.logs, data/tmp/WNK26496.1.tsv, data/single_clusters/WNK26513.1.tsv, output/phylogeny/k141_15738_26993_27403_Fi_077.logs, output/alignment/k141_15738_26993_27403_Fi_077.fas, data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/single_clusters/WNK26465.1.tsv, data/tmp/WNK26526.1.tsv, data/single_clusters/YP_010780875.1.tsv, output/phylogeny/k141_833869_1988_2446_Fi_051.logs, output/alignment/k141_187430_1476_2150_Fi_096.fas, output/phylogeny/WKA13552.1.logs, data/tmp/YP_009116770.1.tsv, output/alignment/YP_001687088.1.fas, data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/FASTA/k141_99135_1926_2732_Fi_005.fas, output/phylogeny/YP_009345698.1.logs, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, output/alignment/k141_15738_22635_23612_Fi_077.fas, data/tmp/WNK26465.1.tsv, data/single_clusters/WNK26496.1.tsv, output/alignment/WNK26503.1.fas, data/tmp/YP_009345698.1.tsv, output/phylogeny/k141_41129_1195_4071_Fi_077.logs, data/FASTA/YP_009345664.1.fas, data/tmp/YP_009666641.1.tsv, output/phylogeny/YP_009345676.1.logs, output/phylogeny/WNK26496.1.logs, data/single_clusters/WNK26503.1.tsv, output/phylogeny/k141_21072_2346_2486_Fi_035.logs, output/phylogeny/k141_15738_22635_23612_Fi_077.logs, output/alignment/WKT15146.1.fas, output/alignment/YP_008003641.1.fas, data/single_clusters/WNK26517.1.tsv, data/single_clusters/WKA13552.1.tsv, output/alignment/k141_71921_8125_9366_Fi_077.fas, data/FASTA/WNK26526.1.fas, data/tmp/WNK26545.1.tsv, output/alignment/k141_833869_1988_2446_Fi_051.fas, data/single_clusters/k141_99135_1926_2732_Fi_005.tsv, data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, output/alignment/k141_361753_1543_1875_Fi_085.fas, output/phylogeny/YP_009345664.1.logs, data/single_clusters/YP_008003641.1.tsv, data/FASTA/WKA13590.1.fas, data/single_clusters/YP_009116770.1.tsv, output/alignment/WKA13552.1.fas, data/FASTA/WKA13552.1.fas, output/alignment/WNK26496.1.fas, output/alignment/k141_21072_2346_2486_Fi_035.fas, data/single_clusters/YP_009666641.1.tsv, output/phylogeny/k141_99135_1926_2732_Fi_005.logs, data/single_clusters/YP_009345656.1.tsv, data/single_clusters/WNK26526.1.tsv, data/FASTA/k141_71921_16515_21209_Fi_077.fas, data/FASTA/k141_41129_1195_4071_Fi_077.fas, output/alignment/YP_009173562.1.fas, output/alignment/WKA13590.1.fas, data/tmp/WNK26517.1.tsv, output/alignment/WNK26526.1.fas, data/single_clusters/k141_134513_304_888_Fi_035.tsv, data/FASTA/WKT15146.1.fas, output/phylogeny/k141_71921_8125_9366_Fi_077.logs, data/FASTA/k141_21072_2346_2486_Fi_035.fas, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_21072_2346_2486_Fi_035.tsv, output/phylogeny/WKT15146.1.logs, data/tmp/YP_009345676.1.tsv, data/FASTA/YP_009666641.1.fas, data/tmp/WNK26513.1.tsv, output/alignment/k141_71921_16515_21209_Fi_077.fas, output/phylogeny/WNK26503.1.logs, data/single_clusters/WKA13572.1.tsv, data/FASTA/k141_134513_304_888_Fi_035.fas, output/alignment/k141_134513_304_888_Fi_035.fas, output/phylogeny/YP_009116770.1.logs, data/FASTA/YP_009116770.1.fas, output/phylogeny/WKA13590.1.logs, output/alignment/WNK26465.1.fas, data/tmp/k141_41129_1195_4071_Fi_077.tsv, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, data/single_clusters/WNK26545.1.tsv, data/tmp/k141_15738_22635_23612_Fi_077.tsv, output/phylogeny/YP_009345656.1.logs, data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/FASTA/YP_009345698.1.fas, output/alignment/WNK26517.1.fas, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/single_clusters/YP_009345664.1.tsv, output/phylogeny/k141_71921_16515_21209_Fi_077.logs, output/alignment/k141_99135_1926_2732_Fi_005.fas, data/FASTA/k141_15738_26993_27403_Fi_077.fas, output/phylogeny/WNK26526.1.logs, data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/tmp/YP_001687088.1.tsv, data/tmp/k141_21072_2346_2486_Fi_035.tsv, output/alignment/WKA13572.1.fas, data/FASTA/WNK26496.1.fas, data/FASTA/YP_001687088.1.fas, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, data/FASTA/YP_010780875.1.fas, output/phylogeny/WNK26465.1.logs, output/phylogeny/YP_009666641.1.logs, output/alignment/YP_009345698.1.fas, data/single_clusters/k141_41129_1195_4071_Fi_077.tsv, data/single_clusters/YP_009345698.1.tsv, data/tmp/YP_009173562.1.tsv, data/single_clusters/WKA13590.1.tsv, data/single_clusters/YP_001687088.1.tsv, output/alignment/YP_009116770.1.fas, data/tmp/WKA13552.1.tsv, data/FASTA/k141_71921_8125_9366_Fi_077.fas, data/FASTA/WNK26465.1.fas, data/FASTA/WNK26517.1.fas, data/tmp/YP_008003641.1.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/tmp/YP_010780875.1.tsv, output/phylogeny/YP_008003641.1.logs, output/alignment/YP_009345664.1.fas, data/single_clusters/YP_009173562.1.tsv, output/alignment/YP_009666641.1.fas, data/single_clusters/YP_001686949.1.tsv, data/tmp/WKA13590.1.tsv, data/tmp/k141_99135_1926_2732_Fi_005.tsv, output/phylogeny/WKA13572.1.logs, output/alignment/YP_009345676.1.fas, data/tmp/YP_001686949.1.tsv, output/alignment/YP_010780875.1.fas, data/FASTA/WNK26513.1.fas, output/phylogeny/k141_134513_304_888_Fi_035.logs, data/FASTA/YP_009173562.1.fas, output/phylogeny/WNK26517.1.logs, output/phylogeny/YP_009173562.1.logs, data/single_clusters/WKT15146.1.tsv, output/phylogeny/YP_001687088.1.logs, data/FASTA/YP_008003641.1.fas
+    resources: tmpdir=/tmp/2097124.1.small.q
+
+[Thu Feb  5 13:07:59 2026]
+Finished job 0.
+103 of 103 steps (100%) done
+Complete log: .snakemake/log/2026-02-02T155533.589154.snakemake.log

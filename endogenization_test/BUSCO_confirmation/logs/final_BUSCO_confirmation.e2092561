@@ -1,0 +1,1376 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 30
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count
+------------------  -------
+BUSCO_confirmation       41
+BUSCO_search             41
+all                       1
+total                    83
+
+Select jobs to execute...
+Execute 6 jobs...
+
+[Mon Dec 15 17:38:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-037.fa
+    output: output/BUSCO_results/Fi-037/run_hymenoptera_odb12/full_table.tsv
+    jobid: 12
+    reason: Missing output files: output/BUSCO_results/Fi-037/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-037
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+
+[Mon Dec 15 17:38:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-083.fa
+    output: output/BUSCO_results/Fi-083/run_hymenoptera_odb12/full_table.tsv
+    jobid: 27
+    reason: Missing output files: output/BUSCO_results/Fi-083/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-083
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+
+[Mon Dec 15 17:38:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-027.fa
+    output: output/BUSCO_results/Fi-027/run_hymenoptera_odb12/full_table.tsv
+    jobid: 7
+    reason: Missing output files: output/BUSCO_results/Fi-027/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-027
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+
+[Mon Dec 15 17:38:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-035.fa
+    output: output/BUSCO_results/Fi-035/run_hymenoptera_odb12/full_table.tsv
+    jobid: 10
+    reason: Missing output files: output/BUSCO_results/Fi-035/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-035
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+
+[Mon Dec 15 17:38:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-040.fa
+    output: output/BUSCO_results/Fi-040/run_hymenoptera_odb12/full_table.tsv
+    jobid: 13
+    reason: Missing output files: output/BUSCO_results/Fi-040/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-040
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+
+[Mon Dec 15 17:38:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-085.fa
+    output: output/BUSCO_results/Fi-085/run_hymenoptera_odb12/full_table.tsv
+    jobid: 28
+    reason: Missing output files: output/BUSCO_results/Fi-085/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-085
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+2025-12-15 17:38:37 ERROR:	Cannot reach https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz
+[Mon Dec 15 18:07:25 2025]
+Finished job 27.
+1 of 83 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:07:25 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-043.fa
+    output: output/BUSCO_results/Fi-043/run_hymenoptera_odb12/full_table.tsv
+    jobid: 15
+    reason: Missing output files: output/BUSCO_results/Fi-043/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-043
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:09:12 2025]
+Finished job 7.
+2 of 83 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:09:12 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-089.fa
+    output: output/BUSCO_results/Fi-089/run_hymenoptera_odb12/full_table.tsv
+    jobid: 30
+    reason: Missing output files: output/BUSCO_results/Fi-089/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-089
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:10:02 2025]
+Finished job 12.
+3 of 83 steps (4%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:10:02 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-000.fa
+    output: output/BUSCO_results/Fi-000/run_hymenoptera_odb12/full_table.tsv
+    jobid: 1
+    reason: Missing output files: output/BUSCO_results/Fi-000/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-000
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:10:54 2025]
+Finished job 13.
+4 of 83 steps (5%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:10:54 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-091.fa
+    output: output/BUSCO_results/Fi-091/run_hymenoptera_odb12/full_table.tsv
+    jobid: 31
+    reason: Missing output files: output/BUSCO_results/Fi-091/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-091
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:11:16 2025]
+Finished job 28.
+5 of 83 steps (6%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:11:16 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-047.fa
+    output: output/BUSCO_results/Fi-047/run_hymenoptera_odb12/full_table.tsv
+    jobid: 16
+    reason: Missing output files: output/BUSCO_results/Fi-047/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-047
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:13:19 2025]
+Finished job 10.
+6 of 83 steps (7%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:13:19 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-059.fa
+    output: output/BUSCO_results/Fi-059/run_hymenoptera_odb12/full_table.tsv
+    jobid: 24
+    reason: Missing output files: output/BUSCO_results/Fi-059/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-059
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:35:28 2025]
+Finished job 16.
+7 of 83 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:35:28 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-042.fa
+    output: output/BUSCO_results/Fi-042/run_hymenoptera_odb12/full_table.tsv
+    jobid: 14
+    reason: Missing output files: output/BUSCO_results/Fi-042/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-042
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:42:23 2025]
+Finished job 30.
+8 of 83 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:42:23 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-099.fa
+    output: output/BUSCO_results/Fi-099/run_hymenoptera_odb12/full_table.tsv
+    jobid: 38
+    reason: Missing output files: output/BUSCO_results/Fi-099/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-099
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:43:42 2025]
+Finished job 15.
+9 of 83 steps (11%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:43:42 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-032.fa
+    output: output/BUSCO_results/Fi-032/run_hymenoptera_odb12/full_table.tsv
+    jobid: 8
+    reason: Missing output files: output/BUSCO_results/Fi-032/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-032
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:44:56 2025]
+Finished job 31.
+10 of 83 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:44:56 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-057.fa
+    output: output/BUSCO_results/Fi-057/run_hymenoptera_odb12/full_table.tsv
+    jobid: 22
+    reason: Missing output files: output/BUSCO_results/Fi-057/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-057
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 18:45:32 2025]
+Finished job 24.
+11 of 83 steps (13%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 18:45:32 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-098.fa
+    output: output/BUSCO_results/Fi-098/run_hymenoptera_odb12/full_table.tsv
+    jobid: 37
+    reason: Missing output files: output/BUSCO_results/Fi-098/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-098
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:04:03 2025]
+Finished job 14.
+12 of 83 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:04:03 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-026.fa
+    output: output/BUSCO_results/Fi-026/run_hymenoptera_odb12/full_table.tsv
+    jobid: 6
+    reason: Missing output files: output/BUSCO_results/Fi-026/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-026
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:07:25 2025]
+Finished job 1.
+13 of 83 steps (16%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:07:25 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-056.fa
+    output: output/BUSCO_results/Fi-056/run_hymenoptera_odb12/full_table.tsv
+    jobid: 21
+    reason: Missing output files: output/BUSCO_results/Fi-056/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-056
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:18:44 2025]
+Finished job 22.
+14 of 83 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:18:45 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-048.fa
+    output: output/BUSCO_results/Fi-048/run_hymenoptera_odb12/full_table.tsv
+    jobid: 17
+    reason: Missing output files: output/BUSCO_results/Fi-048/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-048
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:20:40 2025]
+Finished job 38.
+15 of 83 steps (18%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:20:40 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-001.fa
+    output: output/BUSCO_results/Fi-001/run_hymenoptera_odb12/full_table.tsv
+    jobid: 2
+    reason: Missing output files: output/BUSCO_results/Fi-001/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-001
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:20:42 2025]
+Finished job 37.
+16 of 83 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:20:42 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-101.fa
+    output: output/BUSCO_results/Fi-101/run_hymenoptera_odb12/full_table.tsv
+    jobid: 39
+    reason: Missing output files: output/BUSCO_results/Fi-101/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-101
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:31:05 2025]
+Finished job 6.
+17 of 83 steps (20%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:31:05 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-086.fa
+    output: output/BUSCO_results/Fi-086/run_hymenoptera_odb12/full_table.tsv
+    jobid: 29
+    reason: Missing output files: output/BUSCO_results/Fi-086/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-086
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:35:13 2025]
+Finished job 8.
+18 of 83 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:35:13 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-092.fa
+    output: output/BUSCO_results/Fi-092/run_hymenoptera_odb12/full_table.tsv
+    jobid: 32
+    reason: Missing output files: output/BUSCO_results/Fi-092/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-092
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:40:01 2025]
+Finished job 21.
+19 of 83 steps (23%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:40:01 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-034.fa
+    output: output/BUSCO_results/Fi-034/run_hymenoptera_odb12/full_table.tsv
+    jobid: 9
+    reason: Missing output files: output/BUSCO_results/Fi-034/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-034
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:47:11 2025]
+Finished job 39.
+20 of 83 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:47:11 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-051.fa
+    output: output/BUSCO_results/Fi-051/run_hymenoptera_odb12/full_table.tsv
+    jobid: 18
+    reason: Missing output files: output/BUSCO_results/Fi-051/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-051
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:56:07 2025]
+Finished job 17.
+21 of 83 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:56:08 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-103.fa
+    output: output/BUSCO_results/Fi-103/run_hymenoptera_odb12/full_table.tsv
+    jobid: 41
+    reason: Missing output files: output/BUSCO_results/Fi-103/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-103
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 19:58:17 2025]
+Finished job 29.
+22 of 83 steps (27%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 19:58:17 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-036.fa
+    output: output/BUSCO_results/Fi-036/run_hymenoptera_odb12/full_table.tsv
+    jobid: 11
+    reason: Missing output files: output/BUSCO_results/Fi-036/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-036
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:02:29 2025]
+Finished job 2.
+23 of 83 steps (28%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:02:29 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-096.fa
+    output: output/BUSCO_results/Fi-096/run_hymenoptera_odb12/full_table.tsv
+    jobid: 35
+    reason: Missing output files: output/BUSCO_results/Fi-096/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-096
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:03:12 2025]
+Finished job 32.
+24 of 83 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:03:12 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-055.fa
+    output: output/BUSCO_results/Fi-055/run_hymenoptera_odb12/full_table.tsv
+    jobid: 20
+    reason: Missing output files: output/BUSCO_results/Fi-055/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-055
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:07:58 2025]
+Finished job 9.
+25 of 83 steps (30%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:07:58 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-005.fa
+    output: output/BUSCO_results/Fi-005/run_hymenoptera_odb12/full_table.tsv
+    jobid: 4
+    reason: Missing output files: output/BUSCO_results/Fi-005/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-005
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:26:10 2025]
+Finished job 41.
+26 of 83 steps (31%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:26:10 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-054.fa
+    output: output/BUSCO_results/Fi-054/run_hymenoptera_odb12/full_table.tsv
+    jobid: 19
+    reason: Missing output files: output/BUSCO_results/Fi-054/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-054
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:29:32 2025]
+Finished job 35.
+27 of 83 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:29:32 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-094.fa
+    output: output/BUSCO_results/Fi-094/run_hymenoptera_odb12/full_table.tsv
+    jobid: 34
+    reason: Missing output files: output/BUSCO_results/Fi-094/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-094
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:29:50 2025]
+Finished job 18.
+28 of 83 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:29:50 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-009.fa
+    output: output/BUSCO_results/Fi-009/run_hymenoptera_odb12/full_table.tsv
+    jobid: 5
+    reason: Missing output files: output/BUSCO_results/Fi-009/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-009
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:30:42 2025]
+Finished job 11.
+29 of 83 steps (35%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:30:42 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-093.fa
+    output: output/BUSCO_results/Fi-093/run_hymenoptera_odb12/full_table.tsv
+    jobid: 33
+    reason: Missing output files: output/BUSCO_results/Fi-093/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-093
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:32:37 2025]
+Finished job 20.
+30 of 83 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:32:37 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-058.fa
+    output: output/BUSCO_results/Fi-058/run_hymenoptera_odb12/full_table.tsv
+    jobid: 23
+    reason: Missing output files: output/BUSCO_results/Fi-058/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-058
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:36:26 2025]
+Finished job 4.
+31 of 83 steps (37%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:36:26 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-004.fa
+    output: output/BUSCO_results/Fi-004/run_hymenoptera_odb12/full_table.tsv
+    jobid: 3
+    reason: Missing output files: output/BUSCO_results/Fi-004/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-004
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:56:09 2025]
+Finished job 19.
+32 of 83 steps (39%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:56:09 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-079.fa
+    output: output/BUSCO_results/Fi-079/run_hymenoptera_odb12/full_table.tsv
+    jobid: 26
+    reason: Missing output files: output/BUSCO_results/Fi-079/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-079
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:57:14 2025]
+Finished job 5.
+33 of 83 steps (40%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:57:15 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-077.fa
+    output: output/BUSCO_results/Fi-077/run_hymenoptera_odb12/full_table.tsv
+    jobid: 25
+    reason: Missing output files: output/BUSCO_results/Fi-077/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-077
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:58:56 2025]
+Finished job 33.
+34 of 83 steps (41%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:58:57 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-102.fa
+    output: output/BUSCO_results/Fi-102/run_hymenoptera_odb12/full_table.tsv
+    jobid: 40
+    reason: Missing output files: output/BUSCO_results/Fi-102/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-102
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 20:59:37 2025]
+Finished job 34.
+35 of 83 steps (42%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 20:59:37 2025]
+localrule BUSCO_search:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-097.fa
+    output: output/BUSCO_results/Fi-097/run_hymenoptera_odb12/full_table.tsv
+    jobid: 36
+    reason: Missing output files: output/BUSCO_results/Fi-097/run_hymenoptera_odb12/full_table.tsv
+    wildcards: Genome_ID=Fi-097
+    threads: 5
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+Activating conda environment: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_
+[Mon Dec 15 21:03:34 2025]
+Finished job 3.
+36 of 83 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:34 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-000/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-000_BUSCO_contigs.txt, output/EVEs/Fi-000.txt
+    jobid: 42
+    reason: Missing output files: output/EVEs/Fi-000.txt, output/BUSCO_contigs/Fi-000_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-000/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-000
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:37 2025]
+Finished job 42.
+37 of 83 steps (45%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:37 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-027/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-027_BUSCO_contigs.txt, output/EVEs/Fi-027.txt
+    jobid: 48
+    reason: Missing output files: output/EVEs/Fi-027.txt, output/BUSCO_contigs/Fi-027_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-027/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-027
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:39 2025]
+Finished job 48.
+38 of 83 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:39 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-056/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-056_BUSCO_contigs.txt, output/EVEs/Fi-056.txt
+    jobid: 62
+    reason: Missing output files: output/BUSCO_contigs/Fi-056_BUSCO_contigs.txt, output/EVEs/Fi-056.txt; Input files updated by another job: output/BUSCO_results/Fi-056/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-056
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:41 2025]
+Finished job 62.
+39 of 83 steps (47%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:41 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-099/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-099_BUSCO_contigs.txt, output/EVEs/Fi-099.txt
+    jobid: 79
+    reason: Missing output files: output/BUSCO_contigs/Fi-099_BUSCO_contigs.txt, output/EVEs/Fi-099.txt; Input files updated by another job: output/BUSCO_results/Fi-099/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-099
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:44 2025]
+Finished job 79.
+40 of 83 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:44 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-040/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-040_BUSCO_contigs.txt, output/EVEs/Fi-040.txt
+    jobid: 54
+    reason: Missing output files: output/EVEs/Fi-040.txt, output/BUSCO_contigs/Fi-040_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-040/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-040
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:46 2025]
+Finished job 54.
+41 of 83 steps (49%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:46 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-093/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-093_BUSCO_contigs.txt, output/EVEs/Fi-093.txt
+    jobid: 74
+    reason: Missing output files: output/BUSCO_contigs/Fi-093_BUSCO_contigs.txt, output/EVEs/Fi-093.txt; Input files updated by another job: output/BUSCO_results/Fi-093/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-093
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:48 2025]
+Finished job 74.
+42 of 83 steps (51%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:48 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-048/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-048_BUSCO_contigs.txt, output/EVEs/Fi-048.txt
+    jobid: 58
+    reason: Missing output files: output/BUSCO_contigs/Fi-048_BUSCO_contigs.txt, output/EVEs/Fi-048.txt; Input files updated by another job: output/BUSCO_results/Fi-048/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-048
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:50 2025]
+Finished job 58.
+43 of 83 steps (52%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:50 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-051/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-051_BUSCO_contigs.txt, output/EVEs/Fi-051.txt
+    jobid: 59
+    reason: Missing output files: output/EVEs/Fi-051.txt, output/BUSCO_contigs/Fi-051_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-051/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-051
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:53 2025]
+Finished job 59.
+44 of 83 steps (53%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:53 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-004/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-004_BUSCO_contigs.txt, output/EVEs/Fi-004.txt
+    jobid: 44
+    reason: Missing output files: output/EVEs/Fi-004.txt, output/BUSCO_contigs/Fi-004_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-004/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-004
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:55 2025]
+Finished job 44.
+45 of 83 steps (54%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:55 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-085/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-085_BUSCO_contigs.txt, output/EVEs/Fi-085.txt
+    jobid: 69
+    reason: Missing output files: output/BUSCO_contigs/Fi-085_BUSCO_contigs.txt, output/EVEs/Fi-085.txt; Input files updated by another job: output/BUSCO_results/Fi-085/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-085
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:03:58 2025]
+Finished job 69.
+46 of 83 steps (55%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:03:58 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-032/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-032_BUSCO_contigs.txt, output/EVEs/Fi-032.txt
+    jobid: 49
+    reason: Missing output files: output/EVEs/Fi-032.txt, output/BUSCO_contigs/Fi-032_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-032/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-032
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:00 2025]
+Finished job 49.
+47 of 83 steps (57%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:00 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-037/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-037_BUSCO_contigs.txt, output/EVEs/Fi-037.txt
+    jobid: 53
+    reason: Missing output files: output/EVEs/Fi-037.txt, output/BUSCO_contigs/Fi-037_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-037/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-037
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:02 2025]
+Finished job 23.
+48 of 83 steps (58%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Dec 15 21:04:02 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-094/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-094_BUSCO_contigs.txt, output/EVEs/Fi-094.txt
+    jobid: 75
+    reason: Missing output files: output/EVEs/Fi-094.txt, output/BUSCO_contigs/Fi-094_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-094/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-094
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+
+[Mon Dec 15 21:04:02 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-005/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-005_BUSCO_contigs.txt, output/EVEs/Fi-005.txt
+    jobid: 45
+    reason: Missing output files: output/BUSCO_contigs/Fi-005_BUSCO_contigs.txt, output/EVEs/Fi-005.txt; Input files updated by another job: output/BUSCO_results/Fi-005/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-005
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:02 2025]
+Finished job 53.
+49 of 83 steps (59%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:03 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-058/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-058_BUSCO_contigs.txt, output/EVEs/Fi-058.txt
+    jobid: 64
+    reason: Missing output files: output/EVEs/Fi-058.txt, output/BUSCO_contigs/Fi-058_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-058/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-058
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:04 2025]
+Finished job 75.
+50 of 83 steps (60%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:05 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-042/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-042_BUSCO_contigs.txt, output/EVEs/Fi-042.txt
+    jobid: 55
+    reason: Missing output files: output/BUSCO_contigs/Fi-042_BUSCO_contigs.txt, output/EVEs/Fi-042.txt; Input files updated by another job: output/BUSCO_results/Fi-042/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-042
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:05 2025]
+Finished job 45.
+51 of 83 steps (61%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:05 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-054/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-054_BUSCO_contigs.txt, output/EVEs/Fi-054.txt
+    jobid: 60
+    reason: Missing output files: output/BUSCO_contigs/Fi-054_BUSCO_contigs.txt, output/EVEs/Fi-054.txt; Input files updated by another job: output/BUSCO_results/Fi-054/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-054
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:05 2025]
+Finished job 64.
+52 of 83 steps (63%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:05 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-101/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-101_BUSCO_contigs.txt, output/EVEs/Fi-101.txt
+    jobid: 80
+    reason: Missing output files: output/BUSCO_contigs/Fi-101_BUSCO_contigs.txt, output/EVEs/Fi-101.txt; Input files updated by another job: output/BUSCO_results/Fi-101/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-101
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:07 2025]
+Finished job 55.
+53 of 83 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:07 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-059/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-059_BUSCO_contigs.txt, output/EVEs/Fi-059.txt
+    jobid: 65
+    reason: Missing output files: output/BUSCO_contigs/Fi-059_BUSCO_contigs.txt, output/EVEs/Fi-059.txt; Input files updated by another job: output/BUSCO_results/Fi-059/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-059
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:07 2025]
+Finished job 60.
+54 of 83 steps (65%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:08 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-091/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-091_BUSCO_contigs.txt, output/EVEs/Fi-091.txt
+    jobid: 72
+    reason: Missing output files: output/EVEs/Fi-091.txt, output/BUSCO_contigs/Fi-091_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-091/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-091
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:08 2025]
+Finished job 80.
+55 of 83 steps (66%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:08 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-036/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-036_BUSCO_contigs.txt, output/EVEs/Fi-036.txt
+    jobid: 52
+    reason: Missing output files: output/BUSCO_contigs/Fi-036_BUSCO_contigs.txt, output/EVEs/Fi-036.txt; Input files updated by another job: output/BUSCO_results/Fi-036/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-036
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:09 2025]
+Finished job 72.
+56 of 83 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:10 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-001/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-001_BUSCO_contigs.txt, output/EVEs/Fi-001.txt
+    jobid: 43
+    reason: Missing output files: output/BUSCO_contigs/Fi-001_BUSCO_contigs.txt, output/EVEs/Fi-001.txt; Input files updated by another job: output/BUSCO_results/Fi-001/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-001
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:10 2025]
+Finished job 65.
+57 of 83 steps (69%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:10 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-034/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-034_BUSCO_contigs.txt, output/EVEs/Fi-034.txt
+    jobid: 50
+    reason: Missing output files: output/EVEs/Fi-034.txt, output/BUSCO_contigs/Fi-034_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-034/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-034
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:10 2025]
+Finished job 52.
+58 of 83 steps (70%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:10 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-083/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-083_BUSCO_contigs.txt, output/EVEs/Fi-083.txt
+    jobid: 68
+    reason: Missing output files: output/BUSCO_contigs/Fi-083_BUSCO_contigs.txt, output/EVEs/Fi-083.txt; Input files updated by another job: output/BUSCO_results/Fi-083/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-083
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:12 2025]
+Finished job 43.
+59 of 83 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:12 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-092/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-092_BUSCO_contigs.txt, output/EVEs/Fi-092.txt
+    jobid: 73
+    reason: Missing output files: output/BUSCO_contigs/Fi-092_BUSCO_contigs.txt, output/EVEs/Fi-092.txt; Input files updated by another job: output/BUSCO_results/Fi-092/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-092
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:12 2025]
+Finished job 50.
+60 of 83 steps (72%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:12 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-098/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-098_BUSCO_contigs.txt, output/EVEs/Fi-098.txt
+    jobid: 78
+    reason: Missing output files: output/EVEs/Fi-098.txt, output/BUSCO_contigs/Fi-098_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-098/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-098
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:13 2025]
+Finished job 68.
+61 of 83 steps (73%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:13 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-057/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-057_BUSCO_contigs.txt, output/EVEs/Fi-057.txt
+    jobid: 63
+    reason: Missing output files: output/EVEs/Fi-057.txt, output/BUSCO_contigs/Fi-057_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-057/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-057
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:14 2025]
+Finished job 73.
+62 of 83 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:14 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-103/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-103_BUSCO_contigs.txt, output/EVEs/Fi-103.txt
+    jobid: 82
+    reason: Missing output files: output/EVEs/Fi-103.txt, output/BUSCO_contigs/Fi-103_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-103/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-103
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:15 2025]
+Finished job 78.
+63 of 83 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:15 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-086/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-086_BUSCO_contigs.txt, output/EVEs/Fi-086.txt
+    jobid: 70
+    reason: Missing output files: output/BUSCO_contigs/Fi-086_BUSCO_contigs.txt, output/EVEs/Fi-086.txt; Input files updated by another job: output/BUSCO_results/Fi-086/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-086
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:16 2025]
+Finished job 63.
+64 of 83 steps (77%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:17 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-096/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-096_BUSCO_contigs.txt, output/EVEs/Fi-096.txt
+    jobid: 76
+    reason: Missing output files: output/EVEs/Fi-096.txt, output/BUSCO_contigs/Fi-096_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-096/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-096
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:17 2025]
+Finished job 82.
+65 of 83 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:17 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-089/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-089_BUSCO_contigs.txt, output/EVEs/Fi-089.txt
+    jobid: 71
+    reason: Missing output files: output/BUSCO_contigs/Fi-089_BUSCO_contigs.txt, output/EVEs/Fi-089.txt; Input files updated by another job: output/BUSCO_results/Fi-089/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-089
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:17 2025]
+Finished job 70.
+66 of 83 steps (80%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:18 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-043/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-043_BUSCO_contigs.txt, output/EVEs/Fi-043.txt
+    jobid: 56
+    reason: Missing output files: output/BUSCO_contigs/Fi-043_BUSCO_contigs.txt, output/EVEs/Fi-043.txt; Input files updated by another job: output/BUSCO_results/Fi-043/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-043
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:19 2025]
+Finished job 71.
+67 of 83 steps (81%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:19 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-035/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-035_BUSCO_contigs.txt, output/EVEs/Fi-035.txt
+    jobid: 51
+    reason: Missing output files: output/EVEs/Fi-035.txt, output/BUSCO_contigs/Fi-035_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-035/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-035
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:19 2025]
+Finished job 76.
+68 of 83 steps (82%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:20 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-009/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-009_BUSCO_contigs.txt, output/EVEs/Fi-009.txt
+    jobid: 46
+    reason: Missing output files: output/EVEs/Fi-009.txt, output/BUSCO_contigs/Fi-009_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-009/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-009
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:21 2025]
+Finished job 56.
+69 of 83 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:21 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-055/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-055_BUSCO_contigs.txt, output/EVEs/Fi-055.txt
+    jobid: 61
+    reason: Missing output files: output/BUSCO_contigs/Fi-055_BUSCO_contigs.txt, output/EVEs/Fi-055.txt; Input files updated by another job: output/BUSCO_results/Fi-055/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-055
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:22 2025]
+Finished job 51.
+70 of 83 steps (84%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:22 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-026/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-026_BUSCO_contigs.txt, output/EVEs/Fi-026.txt
+    jobid: 47
+    reason: Missing output files: output/EVEs/Fi-026.txt, output/BUSCO_contigs/Fi-026_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-026/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-026
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:22 2025]
+Finished job 46.
+71 of 83 steps (86%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:04:22 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-047/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-047_BUSCO_contigs.txt, output/EVEs/Fi-047.txt
+    jobid: 57
+    reason: Missing output files: output/BUSCO_contigs/Fi-047_BUSCO_contigs.txt, output/EVEs/Fi-047.txt; Input files updated by another job: output/BUSCO_results/Fi-047/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-047
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:04:22 2025]
+Finished job 61.
+72 of 83 steps (87%) done
+[Mon Dec 15 21:04:23 2025]
+Finished job 47.
+73 of 83 steps (88%) done
+[Mon Dec 15 21:04:24 2025]
+Finished job 57.
+74 of 83 steps (89%) done
+[Mon Dec 15 21:19:12 2025]
+Finished job 25.
+75 of 83 steps (90%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:19:12 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-077/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-077_BUSCO_contigs.txt, output/EVEs/Fi-077.txt
+    jobid: 66
+    reason: Missing output files: output/BUSCO_contigs/Fi-077_BUSCO_contigs.txt, output/EVEs/Fi-077.txt; Input files updated by another job: output/BUSCO_results/Fi-077/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-077
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:19:14 2025]
+Finished job 66.
+76 of 83 steps (92%) done
+[Mon Dec 15 21:19:45 2025]
+Finished job 26.
+77 of 83 steps (93%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:19:45 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-079/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-079_BUSCO_contigs.txt, output/EVEs/Fi-079.txt
+    jobid: 67
+    reason: Missing output files: output/BUSCO_contigs/Fi-079_BUSCO_contigs.txt, output/EVEs/Fi-079.txt; Input files updated by another job: output/BUSCO_results/Fi-079/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-079
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:19:46 2025]
+Finished job 67.
+78 of 83 steps (94%) done
+[Mon Dec 15 21:22:28 2025]
+Finished job 36.
+79 of 83 steps (95%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:22:28 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-097/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-097_BUSCO_contigs.txt, output/EVEs/Fi-097.txt
+    jobid: 77
+    reason: Missing output files: output/BUSCO_contigs/Fi-097_BUSCO_contigs.txt, output/EVEs/Fi-097.txt; Input files updated by another job: output/BUSCO_results/Fi-097/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-097
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:22:29 2025]
+Finished job 77.
+80 of 83 steps (96%) done
+[Mon Dec 15 21:30:00 2025]
+Finished job 40.
+81 of 83 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:30:00 2025]
+localrule BUSCO_confirmation:
+    input: output/BUSCO_results/Fi-102/run_hymenoptera_odb12/full_table.tsv, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/BUSCO_contigs/Fi-102_BUSCO_contigs.txt, output/EVEs/Fi-102.txt
+    jobid: 81
+    reason: Missing output files: output/EVEs/Fi-102.txt, output/BUSCO_contigs/Fi-102_BUSCO_contigs.txt; Input files updated by another job: output/BUSCO_results/Fi-102/run_hymenoptera_odb12/full_table.tsv; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-102
+    threads: 3
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:30:01 2025]
+Finished job 81.
+82 of 83 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Dec 15 21:30:01 2025]
+localrule all:
+    input: output/BUSCO_results/Fi-000/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-001/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-004/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-005/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-009/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-026/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-027/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-032/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-034/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-035/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-036/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-037/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-040/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-042/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-043/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-047/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-048/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-051/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-054/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-055/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-056/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-057/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-058/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-059/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-077/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-079/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-083/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-085/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-086/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-089/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-091/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-092/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-093/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-094/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-096/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-097/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-098/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-099/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-101/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-102/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-103/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-000_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-001_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-004_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-005_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-009_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-026_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-027_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-032_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-034_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-035_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-036_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-037_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-040_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-042_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-043_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-047_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-048_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-051_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-054_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-055_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-056_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-057_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-058_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-059_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-077_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-079_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-083_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-085_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-086_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-089_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-091_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-092_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-093_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-094_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-096_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-097_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-098_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-099_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-101_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-102_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-103_BUSCO_contigs.txt, output/EVEs/Fi-000.txt, output/EVEs/Fi-001.txt, output/EVEs/Fi-004.txt, output/EVEs/Fi-005.txt, output/EVEs/Fi-009.txt, output/EVEs/Fi-026.txt, output/EVEs/Fi-027.txt, output/EVEs/Fi-032.txt, output/EVEs/Fi-034.txt, output/EVEs/Fi-035.txt, output/EVEs/Fi-036.txt, output/EVEs/Fi-037.txt, output/EVEs/Fi-040.txt, output/EVEs/Fi-042.txt, output/EVEs/Fi-043.txt, output/EVEs/Fi-047.txt, output/EVEs/Fi-048.txt, output/EVEs/Fi-051.txt, output/EVEs/Fi-054.txt, output/EVEs/Fi-055.txt, output/EVEs/Fi-056.txt, output/EVEs/Fi-057.txt, output/EVEs/Fi-058.txt, output/EVEs/Fi-059.txt, output/EVEs/Fi-077.txt, output/EVEs/Fi-079.txt, output/EVEs/Fi-083.txt, output/EVEs/Fi-085.txt, output/EVEs/Fi-086.txt, output/EVEs/Fi-089.txt, output/EVEs/Fi-091.txt, output/EVEs/Fi-092.txt, output/EVEs/Fi-093.txt, output/EVEs/Fi-094.txt, output/EVEs/Fi-096.txt, output/EVEs/Fi-097.txt, output/EVEs/Fi-098.txt, output/EVEs/Fi-099.txt, output/EVEs/Fi-101.txt, output/EVEs/Fi-102.txt, output/EVEs/Fi-103.txt
+    jobid: 0
+    reason: Input files updated by another job: output/BUSCO_contigs/Fi-077_BUSCO_contigs.txt, output/BUSCO_results/Fi-026/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-086.txt, output/EVEs/Fi-001.txt, output/BUSCO_results/Fi-040/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-048.txt, output/EVEs/Fi-098.txt, output/EVEs/Fi-043.txt, output/BUSCO_contigs/Fi-035_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-083_BUSCO_contigs.txt, output/BUSCO_results/Fi-077/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-089/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-057.txt, output/BUSCO_contigs/Fi-092_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-094_BUSCO_contigs.txt, output/BUSCO_results/Fi-048/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-086_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-043_BUSCO_contigs.txt, output/EVEs/Fi-099.txt, output/BUSCO_contigs/Fi-034_BUSCO_contigs.txt, output/EVEs/Fi-034.txt, output/EVEs/Fi-027.txt, output/BUSCO_results/Fi-083/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-058.txt, output/BUSCO_contigs/Fi-097_BUSCO_contigs.txt, output/EVEs/Fi-040.txt, output/BUSCO_contigs/Fi-079_BUSCO_contigs.txt, output/EVEs/Fi-054.txt, output/BUSCO_contigs/Fi-057_BUSCO_contigs.txt, output/EVEs/Fi-092.txt, output/BUSCO_contigs/Fi-089_BUSCO_contigs.txt, output/EVEs/Fi-089.txt, output/EVEs/Fi-077.txt, output/BUSCO_results/Fi-001/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-056.txt, output/BUSCO_contigs/Fi-098_BUSCO_contigs.txt, output/EVEs/Fi-079.txt, output/EVEs/Fi-103.txt, output/BUSCO_contigs/Fi-054_BUSCO_contigs.txt, output/BUSCO_results/Fi-005/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-043/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-055.txt, output/BUSCO_results/Fi-034/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-103/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-032/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-085/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-005.txt, output/EVEs/Fi-000.txt, output/BUSCO_contigs/Fi-040_BUSCO_contigs.txt, output/EVEs/Fi-102.txt, output/BUSCO_results/Fi-055/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-099_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-001_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-051_BUSCO_contigs.txt, output/BUSCO_results/Fi-059/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-091/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-054/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-103_BUSCO_contigs.txt, output/EVEs/Fi-032.txt, output/BUSCO_results/Fi-058/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-097/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-042/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-000_BUSCO_contigs.txt, output/BUSCO_results/Fi-000/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-035/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-101_BUSCO_contigs.txt, output/BUSCO_results/Fi-037/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-051.txt, output/BUSCO_contigs/Fi-093_BUSCO_contigs.txt, output/EVEs/Fi-101.txt, output/BUSCO_contigs/Fi-058_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-042_BUSCO_contigs.txt, output/BUSCO_results/Fi-092/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-086/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-004_BUSCO_contigs.txt, output/EVEs/Fi-037.txt, output/BUSCO_results/Fi-047/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-096/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-047_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-059_BUSCO_contigs.txt, output/EVEs/Fi-009.txt, output/BUSCO_results/Fi-094/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-093.txt, output/EVEs/Fi-026.txt, output/BUSCO_results/Fi-101/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-059.txt, output/EVEs/Fi-036.txt, output/BUSCO_contigs/Fi-036_BUSCO_contigs.txt, output/BUSCO_results/Fi-009/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-056_BUSCO_contigs.txt, output/BUSCO_results/Fi-098/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-097.txt, output/BUSCO_contigs/Fi-085_BUSCO_contigs.txt, output/EVEs/Fi-004.txt, output/EVEs/Fi-042.txt, output/BUSCO_results/Fi-079/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-026_BUSCO_contigs.txt, output/EVEs/Fi-096.txt, output/EVEs/Fi-035.txt, output/BUSCO_contigs/Fi-005_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-055_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-009_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-027_BUSCO_contigs.txt, output/EVEs/Fi-083.txt, output/BUSCO_results/Fi-093/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-094.txt, output/BUSCO_results/Fi-027/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-091.txt, output/BUSCO_contigs/Fi-032_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-096_BUSCO_contigs.txt, output/BUSCO_results/Fi-057/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-085.txt, output/BUSCO_contigs/Fi-048_BUSCO_contigs.txt, output/BUSCO_results/Fi-056/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-051/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-102/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-102_BUSCO_contigs.txt, output/BUSCO_contigs/Fi-091_BUSCO_contigs.txt, output/BUSCO_results/Fi-004/run_hymenoptera_odb12/full_table.tsv, output/EVEs/Fi-047.txt, output/BUSCO_results/Fi-036/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_results/Fi-099/run_hymenoptera_odb12/full_table.tsv, output/BUSCO_contigs/Fi-037_BUSCO_contigs.txt
+    resources: tmpdir=/tmp/2092561.1.small.q
+
+[Mon Dec 15 21:30:01 2025]
+Finished job 0.
+83 of 83 steps (100%) done
+Complete log: .snakemake/log/2025-12-15T173803.558245.snakemake.log

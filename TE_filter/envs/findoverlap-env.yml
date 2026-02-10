@@ -1,0 +1,5 @@
+name: findoverlap-env
+channels:
+  - conda-forge
+  - bioconda
+prefix: /home/yzitzmann/.conda/envs/findoverlap-env

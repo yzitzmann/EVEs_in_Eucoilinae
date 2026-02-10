@@ -1,0 +1,5 @@
+name: C_longula-env
+channels:
+  - conda-forge
+  - bioconda
+prefix: /home/yzitzmann/.conda/envs/C_longula-env

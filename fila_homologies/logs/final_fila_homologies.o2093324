@@ -1,0 +1,2580 @@
+createdb data/complete_Filamentoviridae.fasta data/complete_Filamentoviridae 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[
+Time for merging to complete_Filamentoviridae_h: 0h 0m 0s 55ms
+Time for merging to complete_Filamentoviridae: 0h 0m 0s 53ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 249ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-040.fa output/mmseqs2/Fi-040/Fi-040_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[=createdb /home/yzitzmann/paper/homology_search/genomes/Fi-036.fa output/mmseqs2/Fi-036/Fi-036_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[=createdb /home/yzitzmann/paper/homology_search/genomes/Fi-077.fa output/mmseqs2/Fi-077/Fi-077_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[===============================================================
+Time for merging to Fi-077_mmseqs2_db_h: 0h 0m 0s 137ms
+Time for merging to Fi-077_mmseqs2_db: 0h 0m 1s 259ms
+Database type: Nucleotide
+Time for processing: 0h 0m 3s 666ms
+Create directory output/mmseqs2/Fi-077/tpm
+search output/mmseqs2/Fi-077/Fi-077_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-077/result_mmseqs2 output/mmseqs2/Fi-077/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+
+Time for merging to Fi-040_mmseqs2_db_h: 0h 0m 0s 159ms
+Time for merging to Fi-040_mmseqs2_db: 0h 0m 1s 245ms
+Database type: Nucleotide
+Time for processing: 0h 0m 3s 798ms
+Create directory output/mmseqs2/Fi-040/tpm
+search output/mmseqs2/Fi-040/Fi-040_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-040/result_mmseqs2 output/mmseqs2/Fi-040/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-077/Fi-077_mmseqs2_db output/mmseqs2/Fi-077/tpm/17979007475381928018/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[=====extractorfs output/mmseqs2/Fi-040/Fi-040_mmseqs2_db output/mmseqs2/Fi-040/tpm/16043396306628392887/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[==
+Time for merging to Fi-036_mmseqs2_db_h: 0h 0m 0s 238ms
+Time for merging to Fi-036_mmseqs2_db: 0h 0m 1s 183ms
+Database type: Nucleotide
+Time for processing: 0h 0m 4s 73ms
+Create directory output/mmseqs2/Fi-036/tpm
+search output/mmseqs2/Fi-036/Fi-036_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-036/result_mmseqs2 output/mmseqs2/Fi-036/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+================extractorfs output/mmseqs2/Fi-036/Fi-036_mmseqs2_db output/mmseqs2/Fi-036/tpm/3850838977320466823/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[============================================================================================================================================================================] 197.89K 2s 31ms
+Time for merging to q_orfs_aa_h: 0h 0m 1s 797ms
+Time for merging to q_orfs_aa: 0h 0m 2s 500ms
+Time for processing: 0h 0m 9s 121ms
+prefilter output/mmseqs2/Fi-077/tpm/17979007475381928018/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-077/tpm/17979007475381928018/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 5266445 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 19ms
+Index table: Masked residues: 5896
+Index table: fill
+[=================================================================] 227.14K 2s 773ms
+Time for merging to q_orfs_aa_h: 0h 0m 1s 991ms
+Time for merging to q_orfs_aa: 0h 0m 2s 649ms
+Time for processing: 0h 0m 10s 309ms
+prefilter output/mmseqs2/Fi-040/tpm/16043396306628392887/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-040/tpm/16043396306628392887/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 5215297 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 19ms
+Index table: Masked residues: 5896
+Index table: fill
+[=================================================================] 247.88K 3s 129ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 469ms
+Time for merging to q_orfs_aa: 0h 0m 2s 762ms
+Time for processing: 0h 0m 11s 731ms
+prefilter output/mmseqs2/Fi-036/tpm/3850838977320466823/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-036/tpm/3850838977320466823/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 6214976 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 18ms
+Index table: Masked residues: 5896
+Index table: fill
+[=================================================================] 478 0s 13ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 514ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 5266445
+Target db start 1 to 478
+[=] 478 0s 13ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 523ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 5215297
+Target db start 1 to 478
+[=] 478 0s 18ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 778ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6214976
+Target db start 1 to 478
+[=====================================================================================================================================================================] 5.27M 16m 5s 327ms
+
+1183.369950 k-mers per position
+156 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+1507346 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 2s 163ms
+Time for processing: 0h 16m 11s 620ms
+align output/mmseqs2/Fi-077/tpm/17979007475381928018/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-077/tpm/17979007475381928018/search/pref_0 output/mmseqs2/Fi-077/tpm/17979007475381928018/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 5266445 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[=================================================================] 5.27M 2s 131ms
+Time for merging to aln: 0h 0m 2s 515ms
+668892 alignments calculated
+113 sequence pairs passed the thresholds (0.000169 of overall calculated)
+0.000021 hits per query sequence
+Time for processing: 0h 0m 5s 538ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 62ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-077/Fi-077_mmseqs2_db output/mmseqs2/Fi-077/tpm/17979007475381928018/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-077/tpm/17979007475381928018/aln output/mmseqs2/Fi-077/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 175ms
+Writing results to: output/mmseqs2/Fi-077/result_mmseqs2
+[=================================================================] 197.89K 0s 326ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 83ms
+Time for processing: 0h 0m 1s 466ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 147ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-077/tpm/17979007475381928018/aln -v 3 
+
+Time for processing: 0h 0m 0s 53ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-077/Fi-077_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-077/result_mmseqs2 output/mmseqs2/Fi-077/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 197.89K 0s 65ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 252ms
+Time for processing: 0h 0m 0s 881ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-047.fa output/mmseqs2/Fi-047/Fi-047_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[======================
+Time for merging to Fi-047_mmseqs2_db_h: 0h 0m 0s 125ms
+Time for merging to Fi-047_mmseqs2_db: 0h 0m 0s 848ms
+Database type: Nucleotide
+Time for processing: 0h 0m 3s 57ms
+Create directory output/mmseqs2/Fi-047/tpm
+search output/mmseqs2/Fi-047/Fi-047_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-047/result_mmseqs2 output/mmseqs2/Fi-047/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+=extractorfs output/mmseqs2/Fi-047/Fi-047_mmseqs2_db output/mmseqs2/Fi-047/tpm/10577462364597027034/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[=================================================================] 211.84K 2s 567ms
+Time for merging to q_orfs_aa_h: 0h 0m 1s 694ms
+Time for merging to q_orfs_aa: 0h 0m 2s 100ms
+Time for processing: 0h 0m 9s 207ms
+prefilter output/mmseqs2/Fi-047/tpm/10577462364597027034/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-047/tpm/10577462364597027034/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 5120576 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 19ms
+Index table: Masked residues: 5896
+Index table: fill
+[===================================================================] 478 0s 16ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 562ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 5120576
+Target db start 1 to 478
+[===========] 5.22M 17m 33s 78ms
+
+1272.103217 k-mers per position
+162 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+1396868 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 2s 187ms
+Time for processing: 0h 17m 39s 132ms
+align output/mmseqs2/Fi-040/tpm/16043396306628392887/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-040/tpm/16043396306628392887/search/pref_0 output/mmseqs2/Fi-040/tpm/16043396306628392887/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 5215297 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[=================================================================] 5.22M 2s 238ms
+Time for merging to aln: 0h 0m 2s 90ms
+730019 alignments calculated
+51 sequence pairs passed the thresholds (0.000070 of overall calculated)
+0.000010 hits per query sequence
+Time for processing: 0h 0m 5s 240ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 60ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+offsetalignment output/mmseqs2/Fi-040/Fi-040_mmseqs2_db output/mmseqs2/Fi-040/tpm/16043396306628392887/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-040/tpm/16043396306628392887/aln output/mmseqs2/Fi-040/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 156ms
+Writing results to: output/mmseqs2/Fi-040/result_mmseqs2
+[=================================================================] 227.14K 0s 188ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 90ms
+Time for processing: 0h 0m 1s 244ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 151ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-040/tpm/16043396306628392887/aln -v 3 
+
+Time for processing: 0h 0m 0s 50ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-040/Fi-040_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-040/result_mmseqs2 output/mmseqs2/Fi-040/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 227.14K 0s 36ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 268ms
+Time for processing: 0h 0m 0s 949ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-043.fa output/mmseqs2/Fi-043/Fi-043_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[=====================================================
+Time for merging to Fi-043_mmseqs2_db_h: 0h 0m 0s 203ms
+Time for merging to Fi-043_mmseqs2_db: 0h 0m 1s 642ms
+Database type: Nucleotide
+Time for processing: 0h 0m 5s 964ms
+Create directory output/mmseqs2/Fi-043/tpm
+search output/mmseqs2/Fi-043/Fi-043_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-043/result_mmseqs2 output/mmseqs2/Fi-043/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-043/Fi-043_mmseqs2_db output/mmseqs2/Fi-043/tpm/3362022038676844517/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[==================================================================] 510.83K 4s 419ms
+Time for merging to q_orfs_aa_h: 0h 0m 3s 294ms
+Time for merging to q_orfs_aa: 0h 0m 4s 466ms
+Time for processing: 0h 0m 17s 300ms
+=prefilter output/mmseqs2/Fi-043/tpm/3362022038676844517/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-043/tpm/3362022038676844517/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 9914464 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 18ms
+Index table: Masked residues: 5896
+Index table: fill
+[====================================================================] 478 0s 13ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 550ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 9914464
+Target db start 1 to 478
+[=======================================] 6.21M 23m 12s 342ms
+
+1295.919662 k-mers per position
+163 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+1633853 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 2s 810ms
+Time for processing: 0h 23m 20s 559ms
+align output/mmseqs2/Fi-036/tpm/3850838977320466823/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-036/tpm/3850838977320466823/search/pref_0 output/mmseqs2/Fi-036/tpm/3850838977320466823/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6214976 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[===================================================================] 6.21M 2s 840ms
+Time for merging to aln: 0h 0m 2s 636ms
+843268 alignments calculated
+30 sequence pairs passed the thresholds (0.000036 of overall calculated)
+0.000005 hits per query sequence
+Time for processing: 0h 0m 6s 606ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 70ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-036/Fi-036_mmseqs2_db output/mmseqs2/Fi-036/tpm/3850838977320466823/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-036/tpm/3850838977320466823/aln output/mmseqs2/Fi-036/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 255ms
+Writing results to: output/mmseqs2/Fi-036/result_mmseqs2
+[=================================================================] 247.88K 0s 382ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 101ms
+Time for processing: 0h 0m 1s 841ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 171ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-036/tpm/3850838977320466823/aln -v 3 
+
+Time for processing: 0h 0m 0s 62ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-036/Fi-036_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-036/result_mmseqs2 output/mmseqs2/Fi-036/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 247.88K 0s 38ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 461ms
+Time for processing: 0h 0m 1s 125ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-034.fa output/mmseqs2/Fi-034/Fi-034_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[===================================
+Time for merging to Fi-034_mmseqs2_db_h: 0h 0m 0s 170ms
+Time for merging to Fi-034_mmseqs2_db: 0h 0m 1s 62ms
+Database type: Nucleotide
+Time for processing: 0h 0m 4s 262ms
+Create directory output/mmseqs2/Fi-034/tpm
+search output/mmseqs2/Fi-034/Fi-034_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-034/result_mmseqs2 output/mmseqs2/Fi-034/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-034/Fi-034_mmseqs2_db output/mmseqs2/Fi-034/tpm/7485751589759565749/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[==================================================================] 357.45K 4s 358ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 378ms
+Time for merging to q_orfs_aa: 0h 0m 3s 74ms
+Time for processing: 0h 0m 13s 448ms
+prefilter output/mmseqs2/Fi-034/tpm/7485751589759565749/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-034/tpm/7485751589759565749/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 6670044 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 18ms
+Index table: Masked residues: 5896
+Index table: fill
+[====================================================================] 478 0s 13ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 592ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6670044
+Target db start 1 to 478
+[===============================================================================] 5.12M 16m 37s 723ms
+
+1228.184731 k-mers per position
+154 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+1427822 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 2s 64ms
+Time for processing: 0h 16m 43s 399ms
+align output/mmseqs2/Fi-047/tpm/10577462364597027034/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-047/tpm/10577462364597027034/search/pref_0 output/mmseqs2/Fi-047/tpm/10577462364597027034/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 5120576 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[==================================================================] 5.12M 1s 715ms
+Time for merging to aln: 0h 0m 2s 74ms
+609672 alignments calculated
+37 sequence pairs passed the thresholds (0.000061 of overall calculated)
+0.000007 hits per query sequence
+Time for processing: 0h 0m 4s 675ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 55ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-047/Fi-047_mmseqs2_db output/mmseqs2/Fi-047/tpm/10577462364597027034/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-047/tpm/10577462364597027034/aln output/mmseqs2/Fi-047/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 158ms
+Writing results to: output/mmseqs2/Fi-047/result_mmseqs2
+[=================================================================] 211.84K 0s 224ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 86ms
+Time for processing: 0h 0m 1s 363ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 141ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-047/tpm/10577462364597027034/aln -v 3 
+
+Time for processing: 0h 0m 0s 46ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-047/Fi-047_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-047/result_mmseqs2 output/mmseqs2/Fi-047/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 211.84K 0s 67ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 222ms
+Time for processing: 0h 0m 0s 860ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-027.fa output/mmseqs2/Fi-027/Fi-027_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[=================================================
+Time for merging to Fi-027_mmseqs2_db_h: 0h 0m 0s 295ms
+Time for merging to Fi-027_mmseqs2_db: 0h 0m 1s 405ms
+Database type: Nucleotide
+Time for processing: 0h 0m 5s 331ms
+Create directory output/mmseqs2/Fi-027/tpm
+search output/mmseqs2/Fi-027/Fi-027_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-027/result_mmseqs2 output/mmseqs2/Fi-027/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-027/Fi-027_mmseqs2_db output/mmseqs2/Fi-027/tpm/10750020570869551068/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[===================================================================] 497.77K 3s 693ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 644ms
+Time for merging to q_orfs_aa: 0h 0m 3s 378ms
+Time for processing: 0h 0m 13s 968ms
+prefilter output/mmseqs2/Fi-027/tpm/10750020570869551068/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-027/tpm/10750020570869551068/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 8147671 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 18ms
+Index table: Masked residues: 5896
+Index table: fill
+[==================================================================] 478 0s 14ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 731ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 8147671
+Target db start 1 to 478
+[===============================================================================================================] 6.67M 26m 44s 303ms
+
+1301.126078 k-mers per position
+162 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+1744907 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 2s 881ms
+Time for processing: 0h 26m 53s 471ms
+align output/mmseqs2/Fi-034/tpm/7485751589759565749/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-034/tpm/7485751589759565749/search/pref_0 output/mmseqs2/Fi-034/tpm/7485751589759565749/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6670044 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[==================================================================] 6.67M 2s 885ms
+Time for merging to aln: 0h 0m 2s 688ms
+887214 alignments calculated
+32 sequence pairs passed the thresholds (0.000036 of overall calculated)
+0.000005 hits per query sequence
+Time for processing: 0h 0m 6s 686ms
+rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 67ms
+rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-034/Fi-034_mmseqs2_db output/mmseqs2/Fi-034/tpm/7485751589759565749/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-034/tpm/7485751589759565749/aln output/mmseqs2/Fi-034/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 227ms
+Writing results to: output/mmseqs2/Fi-034/result_mmseqs2
+[=================================================================] 357.45K 0s 525ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 143ms
+Time for processing: 0h 0m 1s 980ms
+=rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 186ms
+rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-034/tpm/7485751589759565749/aln -v 3 
+
+Time for processing: 0h 0m 0s 62ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-034/Fi-034_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-034/result_mmseqs2 output/mmseqs2/Fi-034/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 357.45K 0s 115ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 447ms
+Time for processing: 0h 0m 1s 234ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-042.fa output/mmseqs2/Fi-042/Fi-042_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[==============================================
+Time for merging to Fi-042_mmseqs2_db_h: 0h 0m 0s 239ms
+Time for merging to Fi-042_mmseqs2_db: 0h 0m 1s 481ms
+Database type: Nucleotide
+Time for processing: 0h 0m 5s 416ms
+Create directory output/mmseqs2/Fi-042/tpm
+search output/mmseqs2/Fi-042/Fi-042_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-042/result_mmseqs2 output/mmseqs2/Fi-042/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-042/Fi-042_mmseqs2_db output/mmseqs2/Fi-042/tpm/15843188262152829440/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[==================================================================] 466.04K 4s 167ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 866ms
+Time for merging to q_orfs_aa: 0h 0m 3s 692ms
+Time for processing: 0h 0m 15s 98ms
+prefilter output/mmseqs2/Fi-042/tpm/15843188262152829440/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-042/tpm/15843188262152829440/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 8187227 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 18ms
+Index table: Masked residues: 5896
+Index table: fill
+[===================================================================] 478 0s 13ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 573ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 8187227
+Target db start 1 to 478
+[==========] 9.91M 34m 34s 941ms
+
+1314.818694 k-mers per position
+160 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+2625375 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 4s 912ms
+Time for processing: 0h 34m 47s 567ms
+align output/mmseqs2/Fi-043/tpm/3362022038676844517/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-043/tpm/3362022038676844517/search/pref_0 output/mmseqs2/Fi-043/tpm/3362022038676844517/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 9914464 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[==================================================================] 9.91M 5s 671ms
+Time for merging to aln: 0h 0m 5s 494ms
+1301684 alignments calculated
+52 sequence pairs passed the thresholds (0.000040 of overall calculated)
+0.000005 hits per query sequence
+Time for processing: 0h 0m 13s 312ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 96ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+=offsetalignment output/mmseqs2/Fi-043/Fi-043_mmseqs2_db output/mmseqs2/Fi-043/tpm/3362022038676844517/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-043/tpm/3362022038676844517/aln output/mmseqs2/Fi-043/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 482ms
+Writing results to: output/mmseqs2/Fi-043/result_mmseqs2
+[=================================================================] 510.83K 1s 0ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 350ms
+Time for processing: 0h 0m 4s 197ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 310ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-043/tpm/3362022038676844517/aln -v 3 
+
+Time for processing: 0h 0m 0s 101ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-043/Fi-043_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-043/result_mmseqs2 output/mmseqs2/Fi-043/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 510.83K 0s 139ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 665ms
+Time for processing: 0h 0m 1s 960ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-037.fa output/mmseqs2/Fi-037/Fi-037_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[=====================================
+Time for merging to Fi-037_mmseqs2_db_h: 0h 0m 0s 196ms
+Time for merging to Fi-037_mmseqs2_db: 0h 0m 1s 368ms
+Database type: Nucleotide
+Time for processing: 0h 0m 5s 424ms
+Create directory output/mmseqs2/Fi-037/tpm
+search output/mmseqs2/Fi-037/Fi-037_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-037/result_mmseqs2 output/mmseqs2/Fi-037/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-037/Fi-037_mmseqs2_db output/mmseqs2/Fi-037/tpm/5160083260140681741/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[===================================================================] 375.82K 4s 695ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 694ms
+Time for merging to q_orfs_aa: 0h 0m 3s 218ms
+Time for processing: 0h 0m 14s 590ms
+prefilter output/mmseqs2/Fi-037/tpm/5160083260140681741/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-037/tpm/5160083260140681741/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 6866711 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 19ms
+Index table: Masked residues: 5896
+Index table: fill
+[===================================================================] 478 0s 13ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 645ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 6866711
+Target db start 1 to 478
+[==================================] 8.15M 24m 34s 89ms
+
+1105.251232 k-mers per position
+158 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+2283620 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 3s 577ms
+Time for processing: 0h 24m 43s 617ms
+align output/mmseqs2/Fi-027/tpm/10750020570869551068/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-027/tpm/10750020570869551068/search/pref_0 output/mmseqs2/Fi-027/tpm/10750020570869551068/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8147671 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[=================================================================] 8.15M 2s 722ms
+Time for merging to aln: 0h 0m 3s 300ms
+979788 alignments calculated
+33 sequence pairs passed the thresholds (0.000034 of overall calculated)
+0.000004 hits per query sequence
+Time for processing: 0h 0m 7s 181ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 72ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-027/Fi-027_mmseqs2_db output/mmseqs2/Fi-027/tpm/10750020570869551068/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-027/tpm/10750020570869551068/aln output/mmseqs2/Fi-027/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 234ms
+Writing results to: output/mmseqs2/Fi-027/result_mmseqs2
+[=================================================================] 497.77K 0s 482ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 180ms
+Time for processing: 0h 0m 2s 172ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 209ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-027/tpm/10750020570869551068/aln -v 3 
+
+Time for processing: 0h 0m 0s 66ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-027/Fi-027_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-027/result_mmseqs2 output/mmseqs2/Fi-027/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 497.77K 0s 184ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 501ms
+Time for processing: 0h 0m 1s 394ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-035.fa output/mmseqs2/Fi-035/Fi-035_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[===================================
+Time for merging to Fi-035_mmseqs2_db_h: 0h 0m 0s 165ms
+Time for merging to Fi-035_mmseqs2_db: 0h 0m 1s 177ms
+Database type: Nucleotide
+Time for processing: 0h 0m 4s 391ms
+Create directory output/mmseqs2/Fi-035/tpm
+search output/mmseqs2/Fi-035/Fi-035_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-035/result_mmseqs2 output/mmseqs2/Fi-035/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+extractorfs output/mmseqs2/Fi-035/Fi-035_mmseqs2_db output/mmseqs2/Fi-035/tpm/6489697977810414469/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[==================================================================] 342.13K 3s 72ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 465ms
+Time for merging to q_orfs_aa: 0h 0m 3s 94ms
+Time for processing: 0h 0m 12s 466ms
+prefilter output/mmseqs2/Fi-035/tpm/6489697977810414469/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-035/tpm/6489697977810414469/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 7194144 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 11ms
+Index table: Masked residues: 5896
+Index table: fill
+[===================================================================] 478 0s 14ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 734ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 7194144
+Target db start 1 to 478
+[=====================================================================================================================================================] 6.87M 25m 32s 168ms
+
+1285.119840 k-mers per position
+162 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+1808001 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 4s 462ms
+Time for processing: 0h 25m 43s 895ms
+align output/mmseqs2/Fi-037/tpm/5160083260140681741/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-037/tpm/5160083260140681741/search/pref_0 output/mmseqs2/Fi-037/tpm/5160083260140681741/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 6866711 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[==================================================================] 6.87M 3s 843ms
+Time for merging to aln: 0h 0m 3s 817ms
+898237 alignments calculated
+29 sequence pairs passed the thresholds (0.000032 of overall calculated)
+0.000004 hits per query sequence
+Time for processing: 0h 0m 9s 323ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 96ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 12ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+=offsetalignment output/mmseqs2/Fi-037/Fi-037_mmseqs2_db output/mmseqs2/Fi-037/tpm/5160083260140681741/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-037/tpm/5160083260140681741/aln output/mmseqs2/Fi-037/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 365ms
+Writing results to: output/mmseqs2/Fi-037/result_mmseqs2
+[=================================================================] 375.82K 0s 919ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 195ms
+Time for processing: 0h 0m 3s 28ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 225ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 164ms
+rmdb output/mmseqs2/Fi-037/tpm/5160083260140681741/aln -v 3 
+
+Time for processing: 0h 0m 0s 60ms
+] 8.19M 28m 8s 634ms
+
+1324.231457 k-mers per position
+158 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+2196662 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 5s 280ms
+Time for processing: 0h 28m 21s 157ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-037/Fi-037_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-037/result_mmseqs2 output/mmseqs2/Fi-037/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 375.82K 0s 153ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 567ms
+Time for processing: 0h 0m 1s 690ms
+createdb /home/yzitzmann/paper/homology_search/genomes/Fi-026.fa output/mmseqs2/Fi-026/Fi-026_mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[==================align output/mmseqs2/Fi-042/tpm/15843188262152829440/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-042/tpm/15843188262152829440/search/pref_0 output/mmseqs2/Fi-042/tpm/15843188262152829440/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8187227 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[============================================================================
+Time for merging to Fi-026_mmseqs2_db_h: 0h 0m 0s 173ms
+Time for merging to Fi-026_mmseqs2_db: 0h 0m 1s 158ms
+Database type: Nucleotide
+Time for processing: 0h 0m 5s 137ms
+Create directory output/mmseqs2/Fi-026/tpm
+search output/mmseqs2/Fi-026/Fi-026_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-026/result_mmseqs2 output/mmseqs2/Fi-026/tpm -a -s 7.5 -c 0.7 --min-seq-id 0.25 -e 0.001 --threads 10 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.7
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	10
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+==extractorfs output/mmseqs2/Fi-026/Fi-026_mmseqs2_db output/mmseqs2/Fi-026/tpm/7426814271153602763/q_orfs_aa --min-length 30 --max-length 32734 --max-gaps 2147483647 --contig-start-mode 2 --contig-end-mode 2 --orf-start-mode 1 --forward-frames 1,2,3 --reverse-frames 1,2,3 --translation-table 1 --translate 1 --use-all-table-starts 0 --id-offset 0 --create-lookup 0 --threads 10 --compressed 0 -v 3 
+
+[=================================================================] 8.19M 4s 685ms
+Time for merging to aln: 0h 0m 4s 213ms
+1031152 alignments calculated
+20 sequence pairs passed the thresholds (0.000019 of overall calculated)
+0.000002 hits per query sequence
+Time for processing: 0h 0m 10s 911ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 81ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-042/Fi-042_mmseqs2_db output/mmseqs2/Fi-042/tpm/15843188262152829440/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-042/tpm/15843188262152829440/aln output/mmseqs2/Fi-042/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 270ms
+Writing results to: output/mmseqs2/Fi-042/result_mmseqs2
+[=================================================================] 466.04K 0s 606ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 232ms
+Time for processing: 0h 0m 2s 686ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 273ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-042/tpm/15843188262152829440/aln -v 3 
+
+Time for processing: 0h 0m 0s 62ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-042/Fi-042_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-042/result_mmseqs2 output/mmseqs2/Fi-042/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 466.04K 0s 123ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 542ms
+Time for processing: 0h 0m 1s 482ms
+] 316.18K 3s 377ms
+Time for merging to q_orfs_aa_h: 0h 0m 2s 427ms
+Time for merging to q_orfs_aa: 0h 0m 3s 15ms
+Time for processing: 0h 0m 12s 170ms
+prefilter output/mmseqs2/Fi-026/tpm/7426814271153602763/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-026/tpm/7426814271153602763/search/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.7 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 10 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 5657111 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 478 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 478 0s 18ms
+Index table: Masked residues: 5896
+Index table: fill
+[==================================================================] 478 0s 14ms
+Index statistics
+Entries:          126520
+DB size:          489 MB
+Avg k-mer size:   0.001977
+Top 10 k-mers
+    HQYNFA	7
+    FALEGA	7
+    REYANA	7
+    GAQAGE	7
+    ENLARE	7
+    PTQHYE	7
+    YHRELF	7
+    YGTNLG	7
+    LFLRYG	7
+    QRESAL	7
+Time for index table init: 0h 0m 0s 573ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 5657111
+Target db start 1 to 478
+[==========================] 7.19M 25m 16s 663ms
+
+1285.218079 k-mers per position
+162 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+1903167 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 2s 726ms
+Time for processing: 0h 25m 24s 330ms
+align output/mmseqs2/Fi-035/tpm/6489697977810414469/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-035/tpm/6489697977810414469/search/pref_0 output/mmseqs2/Fi-035/tpm/6489697977810414469/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 7194144 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[==================================================================] 7.19M 2s 581ms
+Time for merging to aln: 0h 0m 2s 627ms
+962387 alignments calculated
+31 sequence pairs passed the thresholds (0.000032 of overall calculated)
+0.000004 hits per query sequence
+Time for processing: 0h 0m 6s 305ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 77ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-035/Fi-035_mmseqs2_db output/mmseqs2/Fi-035/tpm/6489697977810414469/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-035/tpm/6489697977810414469/aln output/mmseqs2/Fi-035/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 190ms
+Writing results to: output/mmseqs2/Fi-035/result_mmseqs2
+[=================================================================] 342.13K 0s 303ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 133ms
+Time for processing: 0h 0m 1s 566ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 194ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-035/tpm/6489697977810414469/aln -v 3 
+
+Time for processing: 0h 0m 0s 54ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-035/Fi-035_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-035/result_mmseqs2 output/mmseqs2/Fi-035/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 342.13K 0s 101ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 430ms
+Time for processing: 0h 0m 1s 151ms
+=================================================] 5.66M 16m 4s 870ms
+
+1226.482945 k-mers per position
+159 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+1544853 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 1s 962ms
+Time for processing: 0h 16m 10s 824ms
+align output/mmseqs2/Fi-026/tpm/7426814271153602763/q_orfs_aa data/complete_Filamentoviridae output/mmseqs2/Fi-026/tpm/7426814271153602763/search/pref_0 output/mmseqs2/Fi-026/tpm/7426814271153602763/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.7 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 10 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 5657111 type: Aminoacid
+Target database size: 478 type: Aminoacid
+Calculation of alignments
+[=================================================================] 5.66M 2s 97ms
+Time for merging to aln: 0h 0m 1s 894ms
+747294 alignments calculated
+44 sequence pairs passed the thresholds (0.000059 of overall calculated)
+0.000008 hits per query sequence
+Time for processing: 0h 0m 4s 909ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/search/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 60ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/search/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/search/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/search/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+offsetalignment output/mmseqs2/Fi-026/Fi-026_mmseqs2_db output/mmseqs2/Fi-026/tpm/7426814271153602763/q_orfs_aa data/complete_Filamentoviridae data/complete_Filamentoviridae output/mmseqs2/Fi-026/tpm/7426814271153602763/aln output/mmseqs2/Fi-026/result_mmseqs2 --chain-alignments 0 --merge-query 1 --search-type 0 --threads 10 --compressed 0 --db-load-mode 0 -v 3 
+
+Computing ORF lookup
+Computing contig offsets
+Computing contig lookup
+Time for contig lookup: 0h 0m 0s 142ms
+Writing results to: output/mmseqs2/Fi-026/result_mmseqs2
+[=================================================================] 316.18K 0s 225ms
+
+Time for merging to result_mmseqs2: 0h 0m 0s 120ms
+Time for processing: 0h 0m 1s 288ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/q_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 150ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/t_orfs_aa -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/mmseqs2/Fi-026/tpm/7426814271153602763/aln -v 3 
+
+Time for processing: 0h 0m 0s 44ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/mmseqs2/Fi-026/Fi-026_mmseqs2_db data/complete_Filamentoviridae output/mmseqs2/Fi-026/result_mmseqs2 output/mmseqs2/Fi-026/result_mmseqs2.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 316.18K 0s 94ms
+Time for merging to result_mmseqs2.m8: 0h 0m 0s 376ms
+Time for processing: 0h 0m 1s 92ms

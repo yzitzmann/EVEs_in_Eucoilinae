@@ -1,0 +1,482 @@
+createdb /home/yzitzmann/paper/taxonomy_filter/output/filtered_loci/candidate_loci.faa output/query/mmseqs2_db 
+
+MMseqs Version:       	62975ca936b912083c2218e4e30ad962901cbb3b
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[
+Time for merging to mmseqs2_db_h: 0h 0m 0s 41ms
+Time for merging to mmseqs2_db: 0h 0m 0s 56ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 211ms
+search output/query/mmseqs2_db /home/yzitzmann/paper/homology_search/data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5 output/results/result_mmseqs2 output/tmp -a -s 7.5 -c 0.3 --min-seq-id 0.2 -e 0.002 --threads 20 --remove-tmp-files 
+
+MMseqs Version:                        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	true
+Alignment mode                         	2
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.002
+Seq. id. threshold                     	0.2
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.3
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias                     	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	20
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	0
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	300
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	0
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.1
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Add orf stop                           	false
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Prefilter mode                         	0
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+
+prefilter output/query/mmseqs2_db /home/yzitzmann/paper/homology_search/data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5 output/tmp/12868819158652429459/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.3 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 20 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 8281 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 141451 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 141.45K 0s 771ms
+Index table: Masked residues: 1231930
+Index table: fill
+[=================================================================] 141.45K 1s 154ms
+Index statistics
+Entries:          50408589
+DB size:          776 MB
+Avg k-mer size:   0.787634
+Top 10 k-mers
+    SRGTAR	629
+    LKEREK	511
+    WQNKKP	505
+    NHEALY	499
+    MATAPV	473
+    YMCHNP	467
+    ATKRFY	465
+    ACHSVY	460
+    TNVFVR	447
+    LKRYDS	447
+Time for index table init: 0h 0m 2s 772ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 8281
+Target db start 1 to 141451
+[=================================================================] 8.28K 9s 171ms
+
+1863.048895 k-mers per position
+267883 DB matches per sequence
+19 overflows
+299 sequences passed prefiltering per query sequence
+300 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 34ms
+Time for processing: 0h 0m 12s 597ms
+align output/query/mmseqs2_db /home/yzitzmann/paper/homology_search/data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5 output/tmp/12868819158652429459/pref_0 output/results/result_mmseqs2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 1 --alignment-mode 2 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.002 --min-seq-id 0.2 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.3 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 20 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 8281 type: Aminoacid
+Target database size: 141451 type: Aminoacid
+Calculation of alignments
+[=================================================================] 8.28K 3s 707ms
+Time for merging to result_mmseqs2: 0h 0m 0s 31ms
+1212281 alignments calculated
+113070 sequence pairs passed the thresholds (0.093270 of overall calculated)
+13.654148 hits per query sequence
+Time for processing: 0h 0m 3s 855ms
+rmdb output/tmp/12868819158652429459/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 17ms
+rmdb output/tmp/12868819158652429459/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/tmp/12868819158652429459/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb output/tmp/12868819158652429459/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+convertalis --format-output query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln output/query/mmseqs2_db /home/yzitzmann/paper/homology_search/data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5 output/results/result_mmseqs2 output/metadata_aa.m8 
+
+MMseqs Version:        	62975ca936b912083c2218e4e30ad962901cbb3b
+Substitution matrix    	aa:blosum62.out,nucl:nucleotide.out
+Alignment format       	0
+Format alignment output	query,qlen,tlen,target,qstart,qend,qframe,tstart,tend,evalue,tcov,pident,alnlen,mismatch,gapopen,bits,qaln
+Translation table      	1
+Gap open cost          	aa:11,nucl:5
+Gap extension cost     	aa:1,nucl:2
+Database output        	false
+Preload mode           	0
+Search type            	0
+Threads                	112
+Compressed             	0
+Verbosity              	3
+
+[=================================================================] 8.28K 0s 83ms
+Time for merging to metadata_aa.m8: 0h 0m 0s 282ms
+Time for processing: 0h 0m 0s 776ms
+[1] "Metadata:"
+                               V1  V2  V3             V4 V5  V6 V7  V8  V9
+1 k141_101743:1007-1504(+):Fi-009 166 312 YP_009329884.1  1 166  0  44 208
+2 k141_101743:1007-1504(+):Fi-009 166 316 YP_009329868.1  1 166  0  44 212
+3    k141_488985:14-331(-):Fi-096 106 299 YP_010796968.1  1 106  0  30 140
+4  k141_518356:819-1607(-):Fi-054 263 444 YP_010800932.1  1 263  0 190 439
+5  k141_518356:819-1607(-):Fi-054 263 442 YP_010784506.1 26 166  1 211 357
+        V10   V11  V12 V13 V14 V15 V16
+1 1.296e-24 0.529 34.3 166 108   1 102
+2 2.149e-20 0.535 31.3 172 109   3  90
+3 4.021e-11 0.371 34.5 113  65   3  61
+4 1.431e-19 0.563 26.4 265 178   7  91
+5 2.191e-05 0.333 25.6 152  97   4  48
+                                                                                                                                                                                                                                                                        V17
+1                                                                                                    QSVRPSDIPDFASQLVERGIENELCPTIVAPLSDLINTYIDVNTEDFNAYFSTLRNALITVVFPNGDVVPANTITKADFRPICLYLPKARIDHVYSATSGRRPTSRIPIPRNLVIPRALADEINGIGVITVRSGMFFFVPTPEEDPRDVNQRLTNMVTFAMLYNFT
+2                                                                                              QSVRPSDIPDFASQLVERGIENEL------CPTIVAPLSDLINTYIDVNTEDFNAYFSTLRNALITVVFPNGDVVPANTITKADFRPICLYLPKARIDHVYSATSGRRPTSRIPIPRNLVIPRALADEINGIGVITVRSGMFFFVPTPEEDPRDVNQRLTNMVTFAMLYNFT
+3                                                                                                                                                         NYALGLVELLTFNSISNVDIRNNKFH----VDNKM---VTLLEGSYEIEDFESYIQNLLKNDNIKINIRPNNITLRNEITCNRQIDFTSKNSIGRLLGFKPRLLAANTTYASD
+4 NLRVTAIFIFMCLNRNFKDN-QHFEEFREKRLQNLKNMLGITFEPALVFENNLFMKMQTISQRIPKLIHELYRF-MKLETPFTEIKSLRILCAYTGMNFYQFITAFINSTTKTKAHRHRTIIKEAGAYYKHMHNLVSRYGADWIYVWYLNPSATETLKSNYPNIAFAAYHFHIHYRPIVEGGKNPMENFNPGKMYPTIIGLEQLVKTEEDDMSIYTGAVVEKIDAIKASFKIMGIDFDKYKEVPSAPKDDQLEQLTKNPEVKKFI
+5                                                                                                                  FREKRLQNLKNMLGITFEPALVFENNLFMKMQTISQRIPKLIHELYRFMKLE-----------TPFTEIKSLRILCAYTGMNFYQFITAFINSTTKTKAHRHRTIIKEAGAYYKHMHNLVSRYGADWIYVWYLNPSATETLKSNYPNIAFAA
+[1] "Families:"
+       V1 V2 V3 V4 V5             V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17
+1 VERSION          NA YP_009237256.1               NA  NA  NA  NA  NA  NA  NA
+2 VERSION          NA YP_009237257.1               NA  NA  NA  NA  NA  NA  NA
+3 VERSION          NA YP_009237258.1               NA  NA  NA  NA  NA  NA  NA
+4 VERSION          NA YP_009237259.1               NA  NA  NA  NA  NA  NA  NA
+5 VERSION          NA YP_009237260.1               NA  NA  NA  NA  NA  NA  NA
+                 V18             V19           V20          V21
+1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+2 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+3 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+4 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+5 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+[1] "Phages:"
+               V1 V2
+1    Ahmunviridae NA
+2   Ahpuchviridae NA
+3  Ampullaviridae NA
+4 Anaerodiviridae NA
+5  Aoguangviridae NA
+[1] "Filamentoviridae:"
+          V1
+1 WNK26574.1
+2 WNK26573.1
+3 WNK26572.1
+4 WNK26571.1
+5 WNK26570.1
+[1] "Genomic Structure:"
+                V1    V2
+1       Chuviridae ssRNA
+2      Artoviridae ssRNA
+3 Orthomyxoviridae ssRNA
+4      Metaviridae ssRNA
+5    Phasmaviridae ssRNA
+[1] "Classes:"
+       V1 V2 V3 V4 V5             V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16 V17
+1 VERSION    NA NA NA YP_009237256.1 NA NA NA  NA  NA  NA  NA  NA  NA  NA  NA
+2 VERSION    NA NA NA YP_009237257.1 NA NA NA  NA  NA  NA  NA  NA  NA  NA  NA
+3 VERSION    NA NA NA YP_009237258.1 NA NA NA  NA  NA  NA  NA  NA  NA  NA  NA
+4 VERSION    NA NA NA YP_009237259.1 NA NA NA  NA  NA  NA  NA  NA  NA  NA  NA
+5 VERSION    NA NA NA YP_009237260.1 NA NA NA  NA  NA  NA  NA  NA  NA  NA  NA
+                 V18             V19           V20          V21
+1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+2 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+3 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+4 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+5 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+[1] "Number of duplicates in metadata:"
+[1] 105029
+[1] "Number of originals in metadata:"
+[1] 8041
+[1] "Head families:"
+       Accession               tax1            tax2          tax3         tax4
+1 YP_009237256.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+2 YP_009237257.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+3 YP_009237258.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+4 YP_009237259.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+5 YP_009237260.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+[1] "Filter taxonomic data for family level:"
+       Accession      Family
+1 YP_009237256.1 Fimoviridae
+2 YP_009237257.1 Fimoviridae
+3 YP_009237258.1 Fimoviridae
+4 YP_009237259.1 Fimoviridae
+5 YP_009237260.1 Fimoviridae
+[1] "Add family information:"
+                                 query qlen tlen      target         Vfam
+45040     k141_350252:75-311(-):Fi-001   79  205 AP_000013.1 Adenoviridae
+24685     k141_312928:15-320(-):Fi-026  102  204 AP_000246.1 Adenoviridae
+108355    k141_600836:16-441(-):Fi-058  142  204 AP_000352.1 Adenoviridae
+101493 k141_350370:4596-5843(-):Fi-096  416  163 AP_000367.1 Adenoviridae
+101496 k141_350370:4596-5843(-):Fi-096  416  178 AP_000401.1 Adenoviridae
+       qstart qend qframe tstart tend    evalue  tcov pident alnlen mismatch
+45040       1   79      0     42  136 2.918e-05 0.463   28.4     95       52
+24685       6  100      2     19  128 1.627e-03 0.539   26.3    110       66
+108355     20  119      1     20  134 3.545e-05 0.564   26.9    115       69
+101493    279  415      2     27  151 8.268e-14 0.767   36.4    137       75
+101496    279  416      2     34  159 8.268e-14 0.708   33.8    139       78
+       gapopen bits
+45040        2   42
+24685        3   38
+108355       5   45
+101493       2   76
+101496       3   76
+                                                                                                                                              qaln
+45040                                              IINLDDKDGGGTHWCAYKKIDN--EIFYFDSFGNLRPPLDRVQYF--------------GVSNIMYNYERYQNYDSFVCGHLCLKFLCNQLNIPD
+24685                               SYFRGVFMRNELPIRGPWKYESAIINLDDKDDSGTHW--VAYKKLSNKAFYFDSFGNLQPPFELV---NYLGLNTLIQFNHDSC----------QNYNTFHCGHLCLKFL
+108355                         FCGVYPIDKIPIQKVKRPCSFIINTDTSKEPGTHWFAI-YLPTTGPLVYFDSYGL---------KPNHSNILK--FITKNGKKYI--YNKHQ-LQSETSINCGKFCVIFIVFYSK
+101493   PERIHVGDAGMDLKSSIDFTLKPLERRLVSSGISIEIPPTYVGYIMSRSGLAHSHGIVVLNAPGVIDSGYKGDIKINLINLGEKEFSFKIGDRIAQIIIQKVEIPKLFIKSIEDSDLEKELEKHLLIRDTKGLGSSG
+101496 PERIHVGDAGMDLKSSIDFTLKPLERRLVSSGISIEIPPTYVGYIMSRSGLAHSHGIVVLNAPGVIDSGYKGDIKINLINLGEKEFSFKIGDRIAQIIIQKVEIPKLF-IKSIEDSDLEKELEKHLLIRDTKGLGSSGI
+[1] "Head Classes:"
+       Accession               tax1            tax2          tax3         tax4
+1 YP_009237256.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+2 YP_009237257.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+3 YP_009237258.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+4 YP_009237259.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+5 YP_009237260.1 Polyploviricotina; Ellioviricetes; Bunyavirales; Fimoviridae;
+[1] "Filter taxonomic data for class level:"
+       Accession          Class
+1 YP_009237256.1 Ellioviricetes
+2 YP_009237257.1 Ellioviricetes
+3 YP_009237258.1 Ellioviricetes
+4 YP_009237259.1 Ellioviricetes
+5 YP_009237260.1 Ellioviricetes
+[1] "Add class information:"
+                                 query qlen tlen      target             Vcla
+45040     k141_350252:75-311(-):Fi-001   79  205 AP_000013.1 Tectiliviricetes
+24685     k141_312928:15-320(-):Fi-026  102  204 AP_000246.1 Tectiliviricetes
+108355    k141_600836:16-441(-):Fi-058  142  204 AP_000352.1 Tectiliviricetes
+101493 k141_350370:4596-5843(-):Fi-096  416  163 AP_000367.1 Tectiliviricetes
+101496 k141_350370:4596-5843(-):Fi-096  416  178 AP_000401.1 Tectiliviricetes
+               Vfam qstart qend qframe tstart tend    evalue  tcov pident
+45040  Adenoviridae      1   79      0     42  136 2.918e-05 0.463   28.4
+24685  Adenoviridae      6  100      2     19  128 1.627e-03 0.539   26.3
+108355 Adenoviridae     20  119      1     20  134 3.545e-05 0.564   26.9
+101493 Adenoviridae    279  415      2     27  151 8.268e-14 0.767   36.4
+101496 Adenoviridae    279  416      2     34  159 8.268e-14 0.708   33.8
+       alnlen mismatch gapopen bits
+45040      95       52       2   42
+24685     110       66       3   38
+108355    115       69       5   45
+101493    137       75       2   76
+101496    139       78       3   76
+                                                                                                                                              qaln
+45040                                              IINLDDKDGGGTHWCAYKKIDN--EIFYFDSFGNLRPPLDRVQYF--------------GVSNIMYNYERYQNYDSFVCGHLCLKFLCNQLNIPD
+24685                               SYFRGVFMRNELPIRGPWKYESAIINLDDKDDSGTHW--VAYKKLSNKAFYFDSFGNLQPPFELV---NYLGLNTLIQFNHDSC----------QNYNTFHCGHLCLKFL
+108355                         FCGVYPIDKIPIQKVKRPCSFIINTDTSKEPGTHWFAI-YLPTTGPLVYFDSYGL---------KPNHSNILK--FITKNGKKYI--YNKHQ-LQSETSINCGKFCVIFIVFYSK
+101493   PERIHVGDAGMDLKSSIDFTLKPLERRLVSSGISIEIPPTYVGYIMSRSGLAHSHGIVVLNAPGVIDSGYKGDIKINLINLGEKEFSFKIGDRIAQIIIQKVEIPKLFIKSIEDSDLEKELEKHLLIRDTKGLGSSG
+101496 PERIHVGDAGMDLKSSIDFTLKPLERRLVSSGISIEIPPTYVGYIMSRSGLAHSHGIVVLNAPGVIDSGYKGDIKINLINLGEKEFSFKIGDRIAQIIIQKVEIPKLF-IKSIEDSDLEKELEKHLLIRDTKGLGSSGI
+[1] "Remove phages from data set:"
+                                 query qlen tlen      target             Vcla
+45040     k141_350252:75-311(-):Fi-001   79  205 AP_000013.1 Tectiliviricetes
+24685     k141_312928:15-320(-):Fi-026  102  204 AP_000246.1 Tectiliviricetes
+108355    k141_600836:16-441(-):Fi-058  142  204 AP_000352.1 Tectiliviricetes
+101493 k141_350370:4596-5843(-):Fi-096  416  163 AP_000367.1 Tectiliviricetes
+101496 k141_350370:4596-5843(-):Fi-096  416  178 AP_000401.1 Tectiliviricetes
+               Vfam qstart qend qframe tstart tend    evalue  tcov pident
+45040  Adenoviridae      1   79      0     42  136 2.918e-05 0.463   28.4
+24685  Adenoviridae      6  100      2     19  128 1.627e-03 0.539   26.3
+108355 Adenoviridae     20  119      1     20  134 3.545e-05 0.564   26.9
+101493 Adenoviridae    279  415      2     27  151 8.268e-14 0.767   36.4
+101496 Adenoviridae    279  416      2     34  159 8.268e-14 0.708   33.8
+       alnlen mismatch gapopen bits
+45040      95       52       2   42
+24685     110       66       3   38
+108355    115       69       5   45
+101493    137       75       2   76
+101496    139       78       3   76
+                                                                                                                                              qaln
+45040                                              IINLDDKDGGGTHWCAYKKIDN--EIFYFDSFGNLRPPLDRVQYF--------------GVSNIMYNYERYQNYDSFVCGHLCLKFLCNQLNIPD
+24685                               SYFRGVFMRNELPIRGPWKYESAIINLDDKDDSGTHW--VAYKKLSNKAFYFDSFGNLQPPFELV---NYLGLNTLIQFNHDSC----------QNYNTFHCGHLCLKFL
+108355                         FCGVYPIDKIPIQKVKRPCSFIINTDTSKEPGTHWFAI-YLPTTGPLVYFDSYGL---------KPNHSNILK--FITKNGKKYI--YNKHQ-LQSETSINCGKFCVIFIVFYSK
+101493   PERIHVGDAGMDLKSSIDFTLKPLERRLVSSGISIEIPPTYVGYIMSRSGLAHSHGIVVLNAPGVIDSGYKGDIKINLINLGEKEFSFKIGDRIAQIIIQKVEIPKLFIKSIEDSDLEKELEKHLLIRDTKGLGSSG
+101496 PERIHVGDAGMDLKSSIDFTLKPLERRLVSSGISIEIPPTYVGYIMSRSGLAHSHGIVVLNAPGVIDSGYKGDIKINLINLGEKEFSFKIGDRIAQIIIQKVEIPKLF-IKSIEDSDLEKELEKHLLIRDTKGLGSSGI
+[1] "Number of rows removed:"
+[1] 4321
+[1] "Remove duplicates from metadata & Number of candidate loci:"
+                                 query qlen tlen         target           Vcla
+88342  k141_131732:1775-4777(+):Fi-096 1001  987 YP_009639989.1  Megaviricetes
+83450   k141_15975:3622-6738(+):Fi-096 1039 1034 YP_009640061.1  Megaviricetes
+38831  k141_350370:1922-4546(+):Fi-096  875  873 YP_009640077.1  Megaviricetes
+16158  k141_631263:2975-6793(-):Fi-051 1273 1308 YP_009345662.1               
+105976   k141_337129:32-2359(-):Fi-096  776 2166 YP_009505433.1 Monjiviricetes
+              Vfam qstart qend qframe tstart tend     evalue  tcov pident
+88342  Ascoviridae     18 1001      2      5  985  0.000e+00 0.994   58.2
+83450  Ascoviridae      4 1036      3      7 1032  0.000e+00 0.992   56.4
+38831  Ascoviridae      1  869      0      1  870  0.000e+00 0.997   58.3
+16158                   1 1273      0     14 1304 5.631e-311 0.987   42.5
+105976 Artoviridae      5  762      1    507 1265 7.904e-310 0.350   59.9
+       alnlen mismatch gapopen bits
+88342     989      400       6 1190
+83450    1039      434       8 1195
+38831     874      355       6 1036
+16158    1324      677      29  988
+105976    759      303       1  960
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               qaln
+88342                                                                                                                                                                                                                                                                                                                                                 VSVFAYYWKAEEITEYSNFHTELRIYGIDDKNNNVCVRMEDVKLRIFIEFSDEEYLVNNFAKIKNTLSELIFNKRDRNTIKIVYKRKLYGSHLNSDGSHKLFPYIEIFFSSRIGMMSVRKNIKE---MPFPCEVRFHEDKACSELQFMVSRNIQPSGWLLLKKPTEIFGDTKLSTCTHEYLVEQNQVLPSEKSDPVNAKIMAWDIEAKCKDIGKNPGNHVSDCVFQISCVFFSVITKEVTKVLLTLGKCRSFCDDVEIQIFKTEKDLILGFTKLMIREKPNVITGWNIFQFDINFMINRAEHNMCLGEFLSFGFVDAPGEISTMKWESKAFMTTDIKYINAEGILTIDLIEVVRKDYKLDSYSLNNVAKHFLKEEKDDITFKDLMHAYNCFLNNSEDLEEEFTKVGKYCVQDSKLVVDLFDKLQTWLGLSEMSKTTCTPISTVHMNGQQKKFYNQIYRYCYYQNIVVESDAYSSKDTDRYTGAYVFDPVPGLYDYVVPLDFASLYPSIIIAYNIDYTTIVTGDCDL--DKVTVMEWEDHIGCEHDKLVQQKNILTEIIEKCNDKIKKKEYIHQRSAIVKKLGTKQKKKMCQKNSFKFLKHEFYGKGVLPTIIQNLLDARKEVRKQMKQTTDETTLAILNQRQLSYKISANSMYGATGVKVGSLPFMPVAMCVTYIGRESIQKAAQILSNLGGTIVYGDTDSNYVMFNDIKGTHEEKCEKIWDTAVSVANQISENYPAPMKIEFEEVIYFKFMILTKKRYMYYSCKKSGEISKKIGQKGVLLARRDNSKFMKNIYEESVMDVFAGKSKEEVLSNIFGNIFELTEKRLDDGLLKITKSVNDYDECEMKFNDNTGKFMMGNYIVPAPDSSLDQEEKRAYCISKLPAQVQLEIKIIDRGQEKSEGSRLEYIVLDKFGATKQSEKIEQYKYYIDHRDMLQVDNIYYITRLILPLEQVFESVYKTENFISKNLKQFELKHKLNSELKKLFSPTYI
+83450                                                                                                                                                                                                                                                                                               EIVEKYLKEYGLIRHQVDTFHDFVFNGIQTVINDEPNIYTTSGKEVIFSNVRFEKPFIVLNNKKKAIITPSMAREKSLTYEFSVKVDL-RYDQEVHTIDLCTIPAMVRSAVCNLYEKTEEERAALGEIVSDVGGYFVINGKERIITGQTRKTYNRIICFKNLDEEFICETRSCCEETAKSSLIQLKFNNKKTNIDISIDNITFSSGDIFHALNCLDHLEDLVG-DDNIFLEEAIYLIRKNTETTTDI-DISQLFPHLGQCNDFVKGMFLGKMVRKLCLAECNIIKEEDKSNLAYKRVDMVGVLCKDLFKMLWKQFIKSLTKEIEKRKIGSILPIVNIKKKNISINFYYCFSTGTWGIKKNSYKKLGVSEFAQNKVSALTNIALLRKFNIPVGKKDKNIKIRQMHPSSIFYVCPFETPEGASVGTRLTLSVLSSVSSPMSCVVVKEILNSYNIMIDILHVNNNIDFKLTNVLLDGVIIGLCENKEYFFKVFEELRVSNILRRDISILYDDNLNIIEIWCDQSRFIRPLLKTDKMHLL---TNNMDIPTMENKGILVYRDPAELEYSYVAMEHTKDSASDYTEIHPSCIMGVVASQIVFSNHTQSPRVCYMSNMIKQAIGSLPTLENRTDATVYSLDCVQKPLNTTKLADIMGMNEFPNGINAIVAVACYTGFNQEDSVIINQGAIDRGLFRAYVKRTISTETKSFSSFEEIICVPEDKYKLNRDYSKLDERGIIKVGSKVLKGDVIIGKISKTKHAEFSKIEDKSVIAKANEEGTVEKVEVHSSIVKVSISQLKIPEIGDKVCSGMAQKGTIGMTLPEADMPFTSSGMIPDIIINPHCLPSRMTINQLMSCICAKARCIGGDFKFSDGSPFQGTDIIDEASSELESYNFSGDGTEVLYNGMTGEKINARIFMGPVYYHRLTHLVSNKMFSSTNTNVKNKLTRQPLNGRSNDGGLRIGEMEKDCLLRHGIIKFSNERMMDLSDKYIMRTCNNCNGYYHVTKITDNKFICNKCKTIDISAVSIPYAAKLLTQELESMGLNVT
+38831                                                                                                                                                                                                                                                                                                                                                                                                                                                                    MEEIKEVNKILFGVASTEDMRNKSVYTASVSKYTENRSNTVYDHRSGALFNKRCETCKQHEQQCPGHFGIIELNAVIVHPLFFTHVLNVLKIICHVCSKLIITREHLDFNNILKFEGEKRLTEILLKIKKFNKCFHCGSIKREYKIKKDTVTNTILYDNDIEIFDEEVKCIFDDIDSETVNILGMSHPKNCCLEVFPVIPPCCRPYEFVGNVIKEDDLTKQLVEIIKANNMIKEEKVDKLSAINNLKLKIETFCRNPK---KVKNINSEPIKGIRERLTGKDGQLRDNLMGKRTEMSGRTVIGPGPNLKIDEVGIPEVIAKNITFPINVYHNNYNECMKLIKEGLVEKIKRGDKIIRIDIQKYANIINFLKVGD-EIHRNNTIIKVVDNKIPLLQTDRIFRNNEDITPDKIPTVIEPEILVGDVIQRRIIDGDWVLMNRQPTLWKGSMMAFKVVISKCGTKTFTFNLAVCKAFNADFDGDEQNAHFPQSLESRIELQLLSTPDECLCSSTNGTPVIVILQDALLGAYLMSKHDSIVVEQSSYNDIIMCLSRPTEYFLKRKEEIRTTLKLLGLYKDESSLRTGRALLSLILPYKFSYKADDLKIKNGVIYEGVLTKKYLGSTKTSFVYLFKMEFGNKECVNFINDIQFMTNKWLTYNSFSVNISDCYQNDISIKVIEDKLLESNFIKKTILNKKLAEAKINLILSNAKDIGMKIA-ENKDNNFVETIKSGSKGDYFNLGQVKGLLGQQIINGERIKNQVSNCTRSLVHYPKTEMSLKEEYESRGFIMNSFYKGLNPKEFFFHSMSGRQGVCDTAMTTYMSGYNMRKLVKLTEDIKIHNDGTVADSSGNTYSFAYGDMGLNPESKDVNVSRIIDSL
+16158  NSFDYIWIQSLQQGNGQSIEMEYCTLASMKTRRAAIDYNYAVFCLLAENEKTKFFNTLSLLFNDCILEIGDSNLKMTSYPNALLNYMLQIENCERFVEYTLVRIKCNTMRNCRVIYNFLQQSNAHKHWYYVVDSINIQFMLTLSIMFESLTAMFNH-ENQSI-LKLMYYKGTFDETDYRNKSKIEAYFDPKKYFISNAIYIYYRDSRKIALYSSDSATMYKLLPIVSFDIETISDNMIDVPLGCLKDEKLISFVLFGQYKNTVIIIVSYLKYFNIENGHVVWEHFDRQLALKFEAQYRKKYKHAFCTVQGFNTEIDLLKNFIYYYSSGLLIEMLTGNVNMRHFLVGHNILKYDLPFMMRRFKWHSMHAQISEYCTLDSESLNNTPIVKFNRNSFVVDTLRFFGEHNLASKDQLSLRALSVKFLPKEFAKIELNPVLVRIYYII-GMSGPQQSDFEYIKNIWKQSLNL------ASMDHEFFIDLTTPNIGSSVKNILTNDNKNVGQIKVYSYSNFLQYNIVDCESVVKLLETFQYSILFSLITQMYPSNLECALQANLTHRAKLSFDVLGLKYRQI-LKNDSFNGIGTPSNRLLYTAQ-------IND--YFLEQQSSSSSKLSELSRQPLVSNTV-----YKNTKKKYTGAAVYVKPGFYENPLQMDMNSQYPTIMIELNLYYDCVDSLSAGDLLKILELNPSLEKLLFQAIACNIISIYFAED----TCSQYNAYVQDYRVVCSRRAVETRDHNQLFITSVGDLIRSKEQLIQEAHERGSDTPLLLYIESSCGFINDFLRDLLKFRQNIKQELKQTAC--TNKRAILDSKQKFVKVTVNSIYGLYGNNGIPVAAMTTLFGRKVIVFAAKILVYIFLKISYNLIRAFYEYRRQLK-----EVAEGEEELLHTEEEKIKFLNLV-KKYDLFFAQYYA-NIEVGQLMQLLNCIFN-IFFNE-CNAQNVDLSFLSADANLSSSIHPLFNDAFLSVLESRTFLDAARTNSAYTKCARVIVNYM-------HERNDIAHDNFINEILKQYAGPILNLTFDMDTDGIQFINILNLNEKYLTNRVNEYCNRAFNVKNFVFEEKKSPHVLSIAKKKYTVFNKMPTGGGGGGGEIVEI-----KSCKISHSGYEKNALPPFKIMCNYMAAYSFYMRENKVEPLKFKELMFKFFNYMHHLKDNELYVNIKMNLIKQDCERKRFIDAHSKTYTGSLKAVYIVNGTNLNEEKIILLDDYVNDAKKYKINYGFFLRTFGKIWFQQYHMITGNQQLNTSSNSSTNDVKIINLIYGYFTEWFQCNSIEKTRVDLTKIV
+105976                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      LSWRC-VLFLACERNLGDYILPLFKQQSMTLSGSQLKQKMDMLATLPNTDSHVWVRFHMDLEQWNFTFRSLLQSGVLDVLCNIFGVQHFRFMTQIFTDAMFISANSFAPPGMPDIFTHWDTHAGGNQGILQKFWTLLTIVVIRSVMLDMDLEHKLTGSGDNQVLFVKLKNDQSLPEMIQKIKEALQHSFGNIGLALKLEETWVSTTLTCYQRSYYYNGIKVPGGIKLTGRAFAGVSDINCGINSIVTTAINGGIGLTEQQTNPIMGLMYSLMEIYITLLGDKHYSKLVPDDVKALVMISWLSSDFGLLPLQLLSTFLYAGHQDTLSESLSLLKYVWEGFPEYRPYIAGAVKFEAGEASPTTKLQLILEPTSLNISRPKLPEALLQDLVESFLLDQTNVPNIQLSKMFACCKKDDQLSLAETLLQIRPINTDLLRSLFKYSPIGSLMASLNQFNKISSIIKLVKGNATLDKARCFSAQVRELDVKNLVYYKKRLTPTEYTGQTMIQELLSMCFDRFLHYCSLHNMNPSCIFAARLFLISYTYGLEDELVTGPYTPPPGEQLIVRFDPEYIPGESDLLVSPSYNMPDSIDELELSRGCFGIYLGSKTGDPVRSIKLNSLEGAESGTAIKQLLKLYAWLRSTGSHLNVSNLVIQSLDARMEGLGTLAQSIVPGTSGGHFLHRHASPGTPMWAFSISPSVISTWYHVSSNTAKLIQRGEEDRFIFFQQGNHHILSGLRFCKPIKRRFSVTIRLDCCSYPLPDS
+[1] 7783
+[1] "Replace missing Vfam values with NA:"
+                                 query qlen tlen         target           Vcla
+88342  k141_131732:1775-4777(+):Fi-096 1001  987 YP_009639989.1  Megaviricetes
+83450   k141_15975:3622-6738(+):Fi-096 1039 1034 YP_009640061.1  Megaviricetes
+38831  k141_350370:1922-4546(+):Fi-096  875  873 YP_009640077.1  Megaviricetes
+16158  k141_631263:2975-6793(-):Fi-051 1273 1308 YP_009345662.1               
+105976   k141_337129:32-2359(-):Fi-096  776 2166 YP_009505433.1 Monjiviricetes
+              Vfam qstart qend qframe tstart tend     evalue  tcov pident
+88342  Ascoviridae     18 1001      2      5  985  0.000e+00 0.994   58.2
+83450  Ascoviridae      4 1036      3      7 1032  0.000e+00 0.992   56.4
+38831  Ascoviridae      1  869      0      1  870  0.000e+00 0.997   58.3
+16158           NA      1 1273      0     14 1304 5.631e-311 0.987   42.5
+105976 Artoviridae      5  762      1    507 1265 7.904e-310 0.350   59.9
+       alnlen mismatch gapopen bits
+88342     989      400       6 1190
+83450    1039      434       8 1195
+38831     874      355       6 1036
+16158    1324      677      29  988
+105976    759      303       1  960
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               qaln
+88342                                                                                                                                                                                                                                                                                                                                                 VSVFAYYWKAEEITEYSNFHTELRIYGIDDKNNNVCVRMEDVKLRIFIEFSDEEYLVNNFAKIKNTLSELIFNKRDRNTIKIVYKRKLYGSHLNSDGSHKLFPYIEIFFSSRIGMMSVRKNIKE---MPFPCEVRFHEDKACSELQFMVSRNIQPSGWLLLKKPTEIFGDTKLSTCTHEYLVEQNQVLPSEKSDPVNAKIMAWDIEAKCKDIGKNPGNHVSDCVFQISCVFFSVITKEVTKVLLTLGKCRSFCDDVEIQIFKTEKDLILGFTKLMIREKPNVITGWNIFQFDINFMINRAEHNMCLGEFLSFGFVDAPGEISTMKWESKAFMTTDIKYINAEGILTIDLIEVVRKDYKLDSYSLNNVAKHFLKEEKDDITFKDLMHAYNCFLNNSEDLEEEFTKVGKYCVQDSKLVVDLFDKLQTWLGLSEMSKTTCTPISTVHMNGQQKKFYNQIYRYCYYQNIVVESDAYSSKDTDRYTGAYVFDPVPGLYDYVVPLDFASLYPSIIIAYNIDYTTIVTGDCDL--DKVTVMEWEDHIGCEHDKLVQQKNILTEIIEKCNDKIKKKEYIHQRSAIVKKLGTKQKKKMCQKNSFKFLKHEFYGKGVLPTIIQNLLDARKEVRKQMKQTTDETTLAILNQRQLSYKISANSMYGATGVKVGSLPFMPVAMCVTYIGRESIQKAAQILSNLGGTIVYGDTDSNYVMFNDIKGTHEEKCEKIWDTAVSVANQISENYPAPMKIEFEEVIYFKFMILTKKRYMYYSCKKSGEISKKIGQKGVLLARRDNSKFMKNIYEESVMDVFAGKSKEEVLSNIFGNIFELTEKRLDDGLLKITKSVNDYDECEMKFNDNTGKFMMGNYIVPAPDSSLDQEEKRAYCISKLPAQVQLEIKIIDRGQEKSEGSRLEYIVLDKFGATKQSEKIEQYKYYIDHRDMLQVDNIYYITRLILPLEQVFESVYKTENFISKNLKQFELKHKLNSELKKLFSPTYI
+83450                                                                                                                                                                                                                                                                                               EIVEKYLKEYGLIRHQVDTFHDFVFNGIQTVINDEPNIYTTSGKEVIFSNVRFEKPFIVLNNKKKAIITPSMAREKSLTYEFSVKVDL-RYDQEVHTIDLCTIPAMVRSAVCNLYEKTEEERAALGEIVSDVGGYFVINGKERIITGQTRKTYNRIICFKNLDEEFICETRSCCEETAKSSLIQLKFNNKKTNIDISIDNITFSSGDIFHALNCLDHLEDLVG-DDNIFLEEAIYLIRKNTETTTDI-DISQLFPHLGQCNDFVKGMFLGKMVRKLCLAECNIIKEEDKSNLAYKRVDMVGVLCKDLFKMLWKQFIKSLTKEIEKRKIGSILPIVNIKKKNISINFYYCFSTGTWGIKKNSYKKLGVSEFAQNKVSALTNIALLRKFNIPVGKKDKNIKIRQMHPSSIFYVCPFETPEGASVGTRLTLSVLSSVSSPMSCVVVKEILNSYNIMIDILHVNNNIDFKLTNVLLDGVIIGLCENKEYFFKVFEELRVSNILRRDISILYDDNLNIIEIWCDQSRFIRPLLKTDKMHLL---TNNMDIPTMENKGILVYRDPAELEYSYVAMEHTKDSASDYTEIHPSCIMGVVASQIVFSNHTQSPRVCYMSNMIKQAIGSLPTLENRTDATVYSLDCVQKPLNTTKLADIMGMNEFPNGINAIVAVACYTGFNQEDSVIINQGAIDRGLFRAYVKRTISTETKSFSSFEEIICVPEDKYKLNRDYSKLDERGIIKVGSKVLKGDVIIGKISKTKHAEFSKIEDKSVIAKANEEGTVEKVEVHSSIVKVSISQLKIPEIGDKVCSGMAQKGTIGMTLPEADMPFTSSGMIPDIIINPHCLPSRMTINQLMSCICAKARCIGGDFKFSDGSPFQGTDIIDEASSELESYNFSGDGTEVLYNGMTGEKINARIFMGPVYYHRLTHLVSNKMFSSTNTNVKNKLTRQPLNGRSNDGGLRIGEMEKDCLLRHGIIKFSNERMMDLSDKYIMRTCNNCNGYYHVTKITDNKFICNKCKTIDISAVSIPYAAKLLTQELESMGLNVT
+38831                                                                                                                                                                                                                                                                                                                                                                                                                                                                    MEEIKEVNKILFGVASTEDMRNKSVYTASVSKYTENRSNTVYDHRSGALFNKRCETCKQHEQQCPGHFGIIELNAVIVHPLFFTHVLNVLKIICHVCSKLIITREHLDFNNILKFEGEKRLTEILLKIKKFNKCFHCGSIKREYKIKKDTVTNTILYDNDIEIFDEEVKCIFDDIDSETVNILGMSHPKNCCLEVFPVIPPCCRPYEFVGNVIKEDDLTKQLVEIIKANNMIKEEKVDKLSAINNLKLKIETFCRNPK---KVKNINSEPIKGIRERLTGKDGQLRDNLMGKRTEMSGRTVIGPGPNLKIDEVGIPEVIAKNITFPINVYHNNYNECMKLIKEGLVEKIKRGDKIIRIDIQKYANIINFLKVGD-EIHRNNTIIKVVDNKIPLLQTDRIFRNNEDITPDKIPTVIEPEILVGDVIQRRIIDGDWVLMNRQPTLWKGSMMAFKVVISKCGTKTFTFNLAVCKAFNADFDGDEQNAHFPQSLESRIELQLLSTPDECLCSSTNGTPVIVILQDALLGAYLMSKHDSIVVEQSSYNDIIMCLSRPTEYFLKRKEEIRTTLKLLGLYKDESSLRTGRALLSLILPYKFSYKADDLKIKNGVIYEGVLTKKYLGSTKTSFVYLFKMEFGNKECVNFINDIQFMTNKWLTYNSFSVNISDCYQNDISIKVIEDKLLESNFIKKTILNKKLAEAKINLILSNAKDIGMKIA-ENKDNNFVETIKSGSKGDYFNLGQVKGLLGQQIINGERIKNQVSNCTRSLVHYPKTEMSLKEEYESRGFIMNSFYKGLNPKEFFFHSMSGRQGVCDTAMTTYMSGYNMRKLVKLTEDIKIHNDGTVADSSGNTYSFAYGDMGLNPESKDVNVSRIIDSL
+16158  NSFDYIWIQSLQQGNGQSIEMEYCTLASMKTRRAAIDYNYAVFCLLAENEKTKFFNTLSLLFNDCILEIGDSNLKMTSYPNALLNYMLQIENCERFVEYTLVRIKCNTMRNCRVIYNFLQQSNAHKHWYYVVDSINIQFMLTLSIMFESLTAMFNH-ENQSI-LKLMYYKGTFDETDYRNKSKIEAYFDPKKYFISNAIYIYYRDSRKIALYSSDSATMYKLLPIVSFDIETISDNMIDVPLGCLKDEKLISFVLFGQYKNTVIIIVSYLKYFNIENGHVVWEHFDRQLALKFEAQYRKKYKHAFCTVQGFNTEIDLLKNFIYYYSSGLLIEMLTGNVNMRHFLVGHNILKYDLPFMMRRFKWHSMHAQISEYCTLDSESLNNTPIVKFNRNSFVVDTLRFFGEHNLASKDQLSLRALSVKFLPKEFAKIELNPVLVRIYYII-GMSGPQQSDFEYIKNIWKQSLNL------ASMDHEFFIDLTTPNIGSSVKNILTNDNKNVGQIKVYSYSNFLQYNIVDCESVVKLLETFQYSILFSLITQMYPSNLECALQANLTHRAKLSFDVLGLKYRQI-LKNDSFNGIGTPSNRLLYTAQ-------IND--YFLEQQSSSSSKLSELSRQPLVSNTV-----YKNTKKKYTGAAVYVKPGFYENPLQMDMNSQYPTIMIELNLYYDCVDSLSAGDLLKILELNPSLEKLLFQAIACNIISIYFAED----TCSQYNAYVQDYRVVCSRRAVETRDHNQLFITSVGDLIRSKEQLIQEAHERGSDTPLLLYIESSCGFINDFLRDLLKFRQNIKQELKQTAC--TNKRAILDSKQKFVKVTVNSIYGLYGNNGIPVAAMTTLFGRKVIVFAAKILVYIFLKISYNLIRAFYEYRRQLK-----EVAEGEEELLHTEEEKIKFLNLV-KKYDLFFAQYYA-NIEVGQLMQLLNCIFN-IFFNE-CNAQNVDLSFLSADANLSSSIHPLFNDAFLSVLESRTFLDAARTNSAYTKCARVIVNYM-------HERNDIAHDNFINEILKQYAGPILNLTFDMDTDGIQFINILNLNEKYLTNRVNEYCNRAFNVKNFVFEEKKSPHVLSIAKKKYTVFNKMPTGGGGGGGEIVEI-----KSCKISHSGYEKNALPPFKIMCNYMAAYSFYMRENKVEPLKFKELMFKFFNYMHHLKDNELYVNIKMNLIKQDCERKRFIDAHSKTYTGSLKAVYIVNGTNLNEEKIILLDDYVNDAKKYKINYGFFLRTFGKIWFQQYHMITGNQQLNTSSNSSTNDVKIINLIYGYFTEWFQCNSIEKTRVDLTKIV
+105976                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      LSWRC-VLFLACERNLGDYILPLFKQQSMTLSGSQLKQKMDMLATLPNTDSHVWVRFHMDLEQWNFTFRSLLQSGVLDVLCNIFGVQHFRFMTQIFTDAMFISANSFAPPGMPDIFTHWDTHAGGNQGILQKFWTLLTIVVIRSVMLDMDLEHKLTGSGDNQVLFVKLKNDQSLPEMIQKIKEALQHSFGNIGLALKLEETWVSTTLTCYQRSYYYNGIKVPGGIKLTGRAFAGVSDINCGINSIVTTAINGGIGLTEQQTNPIMGLMYSLMEIYITLLGDKHYSKLVPDDVKALVMISWLSSDFGLLPLQLLSTFLYAGHQDTLSESLSLLKYVWEGFPEYRPYIAGAVKFEAGEASPTTKLQLILEPTSLNISRPKLPEALLQDLVESFLLDQTNVPNIQLSKMFACCKKDDQLSLAETLLQIRPINTDLLRSLFKYSPIGSLMASLNQFNKISSIIKLVKGNATLDKARCFSAQVRELDVKNLVYYKKRLTPTEYTGQTMIQELLSMCFDRFLHYCSLHNMNPSCIFAARLFLISYTYGLEDELVTGPYTPPPGEQLIVRFDPEYIPGESDLLVSPSYNMPDSIDELELSRGCFGIYLGSKTGDPVRSIKLNSLEGAESGTAIKQLLKLYAWLRSTGSHLNVSNLVIQSLDARMEGLGTLAQSIVPGTSGGHFLHRHASPGTPMWAFSISPSVISTWYHVSSNTAKLIQRGEEDRFIFFQQGNHHILSGLRFCKPIKRRFSVTIRLDCCSYPLPDS
+[1] "Add Filamentoviridae to metadata_Vfam:"
+                                 query qlen tlen         target           Vcla
+88342  k141_131732:1775-4777(+):Fi-096 1001  987 YP_009639989.1  Megaviricetes
+83450   k141_15975:3622-6738(+):Fi-096 1039 1034 YP_009640061.1  Megaviricetes
+38831  k141_350370:1922-4546(+):Fi-096  875  873 YP_009640077.1  Megaviricetes
+16158  k141_631263:2975-6793(-):Fi-051 1273 1308 YP_009345662.1               
+105976   k141_337129:32-2359(-):Fi-096  776 2166 YP_009505433.1 Monjiviricetes
+                   Vfam qstart qend qframe tstart tend     evalue  tcov pident
+88342       Ascoviridae     18 1001      2      5  985  0.000e+00 0.994   58.2
+83450       Ascoviridae      4 1036      3      7 1032  0.000e+00 0.992   56.4
+38831       Ascoviridae      1  869      0      1  870  0.000e+00 0.997   58.3
+16158  Filamentoviridae      1 1273      0     14 1304 5.631e-311 0.987   42.5
+105976      Artoviridae      5  762      1    507 1265 7.904e-310 0.350   59.9
+       alnlen mismatch gapopen bits
+88342     989      400       6 1190
+83450    1039      434       8 1195
+38831     874      355       6 1036
+16158    1324      677      29  988
+105976    759      303       1  960
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               qaln
+88342                                                                                                                                                                                                                                                                                                                                                 VSVFAYYWKAEEITEYSNFHTELRIYGIDDKNNNVCVRMEDVKLRIFIEFSDEEYLVNNFAKIKNTLSELIFNKRDRNTIKIVYKRKLYGSHLNSDGSHKLFPYIEIFFSSRIGMMSVRKNIKE---MPFPCEVRFHEDKACSELQFMVSRNIQPSGWLLLKKPTEIFGDTKLSTCTHEYLVEQNQVLPSEKSDPVNAKIMAWDIEAKCKDIGKNPGNHVSDCVFQISCVFFSVITKEVTKVLLTLGKCRSFCDDVEIQIFKTEKDLILGFTKLMIREKPNVITGWNIFQFDINFMINRAEHNMCLGEFLSFGFVDAPGEISTMKWESKAFMTTDIKYINAEGILTIDLIEVVRKDYKLDSYSLNNVAKHFLKEEKDDITFKDLMHAYNCFLNNSEDLEEEFTKVGKYCVQDSKLVVDLFDKLQTWLGLSEMSKTTCTPISTVHMNGQQKKFYNQIYRYCYYQNIVVESDAYSSKDTDRYTGAYVFDPVPGLYDYVVPLDFASLYPSIIIAYNIDYTTIVTGDCDL--DKVTVMEWEDHIGCEHDKLVQQKNILTEIIEKCNDKIKKKEYIHQRSAIVKKLGTKQKKKMCQKNSFKFLKHEFYGKGVLPTIIQNLLDARKEVRKQMKQTTDETTLAILNQRQLSYKISANSMYGATGVKVGSLPFMPVAMCVTYIGRESIQKAAQILSNLGGTIVYGDTDSNYVMFNDIKGTHEEKCEKIWDTAVSVANQISENYPAPMKIEFEEVIYFKFMILTKKRYMYYSCKKSGEISKKIGQKGVLLARRDNSKFMKNIYEESVMDVFAGKSKEEVLSNIFGNIFELTEKRLDDGLLKITKSVNDYDECEMKFNDNTGKFMMGNYIVPAPDSSLDQEEKRAYCISKLPAQVQLEIKIIDRGQEKSEGSRLEYIVLDKFGATKQSEKIEQYKYYIDHRDMLQVDNIYYITRLILPLEQVFESVYKTENFISKNLKQFELKHKLNSELKKLFSPTYI
+83450                                                                                                                                                                                                                                                                                               EIVEKYLKEYGLIRHQVDTFHDFVFNGIQTVINDEPNIYTTSGKEVIFSNVRFEKPFIVLNNKKKAIITPSMAREKSLTYEFSVKVDL-RYDQEVHTIDLCTIPAMVRSAVCNLYEKTEEERAALGEIVSDVGGYFVINGKERIITGQTRKTYNRIICFKNLDEEFICETRSCCEETAKSSLIQLKFNNKKTNIDISIDNITFSSGDIFHALNCLDHLEDLVG-DDNIFLEEAIYLIRKNTETTTDI-DISQLFPHLGQCNDFVKGMFLGKMVRKLCLAECNIIKEEDKSNLAYKRVDMVGVLCKDLFKMLWKQFIKSLTKEIEKRKIGSILPIVNIKKKNISINFYYCFSTGTWGIKKNSYKKLGVSEFAQNKVSALTNIALLRKFNIPVGKKDKNIKIRQMHPSSIFYVCPFETPEGASVGTRLTLSVLSSVSSPMSCVVVKEILNSYNIMIDILHVNNNIDFKLTNVLLDGVIIGLCENKEYFFKVFEELRVSNILRRDISILYDDNLNIIEIWCDQSRFIRPLLKTDKMHLL---TNNMDIPTMENKGILVYRDPAELEYSYVAMEHTKDSASDYTEIHPSCIMGVVASQIVFSNHTQSPRVCYMSNMIKQAIGSLPTLENRTDATVYSLDCVQKPLNTTKLADIMGMNEFPNGINAIVAVACYTGFNQEDSVIINQGAIDRGLFRAYVKRTISTETKSFSSFEEIICVPEDKYKLNRDYSKLDERGIIKVGSKVLKGDVIIGKISKTKHAEFSKIEDKSVIAKANEEGTVEKVEVHSSIVKVSISQLKIPEIGDKVCSGMAQKGTIGMTLPEADMPFTSSGMIPDIIINPHCLPSRMTINQLMSCICAKARCIGGDFKFSDGSPFQGTDIIDEASSELESYNFSGDGTEVLYNGMTGEKINARIFMGPVYYHRLTHLVSNKMFSSTNTNVKNKLTRQPLNGRSNDGGLRIGEMEKDCLLRHGIIKFSNERMMDLSDKYIMRTCNNCNGYYHVTKITDNKFICNKCKTIDISAVSIPYAAKLLTQELESMGLNVT
+38831                                                                                                                                                                                                                                                                                                                                                                                                                                                                    MEEIKEVNKILFGVASTEDMRNKSVYTASVSKYTENRSNTVYDHRSGALFNKRCETCKQHEQQCPGHFGIIELNAVIVHPLFFTHVLNVLKIICHVCSKLIITREHLDFNNILKFEGEKRLTEILLKIKKFNKCFHCGSIKREYKIKKDTVTNTILYDNDIEIFDEEVKCIFDDIDSETVNILGMSHPKNCCLEVFPVIPPCCRPYEFVGNVIKEDDLTKQLVEIIKANNMIKEEKVDKLSAINNLKLKIETFCRNPK---KVKNINSEPIKGIRERLTGKDGQLRDNLMGKRTEMSGRTVIGPGPNLKIDEVGIPEVIAKNITFPINVYHNNYNECMKLIKEGLVEKIKRGDKIIRIDIQKYANIINFLKVGD-EIHRNNTIIKVVDNKIPLLQTDRIFRNNEDITPDKIPTVIEPEILVGDVIQRRIIDGDWVLMNRQPTLWKGSMMAFKVVISKCGTKTFTFNLAVCKAFNADFDGDEQNAHFPQSLESRIELQLLSTPDECLCSSTNGTPVIVILQDALLGAYLMSKHDSIVVEQSSYNDIIMCLSRPTEYFLKRKEEIRTTLKLLGLYKDESSLRTGRALLSLILPYKFSYKADDLKIKNGVIYEGVLTKKYLGSTKTSFVYLFKMEFGNKECVNFINDIQFMTNKWLTYNSFSVNISDCYQNDISIKVIEDKLLESNFIKKTILNKKLAEAKINLILSNAKDIGMKIA-ENKDNNFVETIKSGSKGDYFNLGQVKGLLGQQIINGERIKNQVSNCTRSLVHYPKTEMSLKEEYESRGFIMNSFYKGLNPKEFFFHSMSGRQGVCDTAMTTYMSGYNMRKLVKLTEDIKIHNDGTVADSSGNTYSFAYGDMGLNPESKDVNVSRIIDSL
+16158  NSFDYIWIQSLQQGNGQSIEMEYCTLASMKTRRAAIDYNYAVFCLLAENEKTKFFNTLSLLFNDCILEIGDSNLKMTSYPNALLNYMLQIENCERFVEYTLVRIKCNTMRNCRVIYNFLQQSNAHKHWYYVVDSINIQFMLTLSIMFESLTAMFNH-ENQSI-LKLMYYKGTFDETDYRNKSKIEAYFDPKKYFISNAIYIYYRDSRKIALYSSDSATMYKLLPIVSFDIETISDNMIDVPLGCLKDEKLISFVLFGQYKNTVIIIVSYLKYFNIENGHVVWEHFDRQLALKFEAQYRKKYKHAFCTVQGFNTEIDLLKNFIYYYSSGLLIEMLTGNVNMRHFLVGHNILKYDLPFMMRRFKWHSMHAQISEYCTLDSESLNNTPIVKFNRNSFVVDTLRFFGEHNLASKDQLSLRALSVKFLPKEFAKIELNPVLVRIYYII-GMSGPQQSDFEYIKNIWKQSLNL------ASMDHEFFIDLTTPNIGSSVKNILTNDNKNVGQIKVYSYSNFLQYNIVDCESVVKLLETFQYSILFSLITQMYPSNLECALQANLTHRAKLSFDVLGLKYRQI-LKNDSFNGIGTPSNRLLYTAQ-------IND--YFLEQQSSSSSKLSELSRQPLVSNTV-----YKNTKKKYTGAAVYVKPGFYENPLQMDMNSQYPTIMIELNLYYDCVDSLSAGDLLKILELNPSLEKLLFQAIACNIISIYFAED----TCSQYNAYVQDYRVVCSRRAVETRDHNQLFITSVGDLIRSKEQLIQEAHERGSDTPLLLYIESSCGFINDFLRDLLKFRQNIKQELKQTAC--TNKRAILDSKQKFVKVTVNSIYGLYGNNGIPVAAMTTLFGRKVIVFAAKILVYIFLKISYNLIRAFYEYRRQLK-----EVAEGEEELLHTEEEKIKFLNLV-KKYDLFFAQYYA-NIEVGQLMQLLNCIFN-IFFNE-CNAQNVDLSFLSADANLSSSIHPLFNDAFLSVLESRTFLDAARTNSAYTKCARVIVNYM-------HERNDIAHDNFINEILKQYAGPILNLTFDMDTDGIQFINILNLNEKYLTNRVNEYCNRAFNVKNFVFEEKKSPHVLSIAKKKYTVFNKMPTGGGGGGGEIVEI-----KSCKISHSGYEKNALPPFKIMCNYMAAYSFYMRENKVEPLKFKELMFKFFNYMHHLKDNELYVNIKMNLIKQDCERKRFIDAHSKTYTGSLKAVYIVNGTNLNEEKIILLDDYVNDAKKYKINYGFFLRTFGKIWFQQYHMITGNQQLNTSSNSSTNDVKIINLIYGYFTEWFQCNSIEKTRVDLTKIV
+105976                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      LSWRC-VLFLACERNLGDYILPLFKQQSMTLSGSQLKQKMDMLATLPNTDSHVWVRFHMDLEQWNFTFRSLLQSGVLDVLCNIFGVQHFRFMTQIFTDAMFISANSFAPPGMPDIFTHWDTHAGGNQGILQKFWTLLTIVVIRSVMLDMDLEHKLTGSGDNQVLFVKLKNDQSLPEMIQKIKEALQHSFGNIGLALKLEETWVSTTLTCYQRSYYYNGIKVPGGIKLTGRAFAGVSDINCGINSIVTTAINGGIGLTEQQTNPIMGLMYSLMEIYITLLGDKHYSKLVPDDVKALVMISWLSSDFGLLPLQLLSTFLYAGHQDTLSESLSLLKYVWEGFPEYRPYIAGAVKFEAGEASPTTKLQLILEPTSLNISRPKLPEALLQDLVESFLLDQTNVPNIQLSKMFACCKKDDQLSLAETLLQIRPINTDLLRSLFKYSPIGSLMASLNQFNKISSIIKLVKGNATLDKARCFSAQVRELDVKNLVYYKKRLTPTEYTGQTMIQELLSMCFDRFLHYCSLHNMNPSCIFAARLFLISYTYGLEDELVTGPYTPPPGEQLIVRFDPEYIPGESDLLVSPSYNMPDSIDELELSRGCFGIYLGSKTGDPVRSIKLNSLEGAESGTAIKQLLKLYAWLRSTGSHLNVSNLVIQSLDARMEGLGTLAQSIVPGTSGGHFLHRHASPGTPMWAFSISPSVISTWYHVSSNTAKLIQRGEEDRFIFFQQGNHHILSGLRFCKPIKRRFSVTIRLDCCSYPLPDS
+[1] "Final table:"
+                                 query      contig qlen tlen         target
+88342  k141_131732:1775-4777(+):Fi-096 k141_131732 1001  987 YP_009639989.1
+83450   k141_15975:3622-6738(+):Fi-096  k141_15975 1039 1034 YP_009640061.1
+38831  k141_350370:1922-4546(+):Fi-096 k141_350370  875  873 YP_009640077.1
+16158  k141_631263:2975-6793(-):Fi-051 k141_631263 1273 1308 YP_009345662.1
+105976   k141_337129:32-2359(-):Fi-096 k141_337129  776 2166 YP_009505433.1
+                 Vlca             Vfam Gstruc qstart qend qframe tstart tend
+88342   Megaviricetes      Ascoviridae  dsDNA     18 1001      2      5  985
+83450   Megaviricetes      Ascoviridae  dsDNA      4 1036      3      7 1032
+38831   Megaviricetes      Ascoviridae  dsDNA      1  869      0      1  870
+16158                 Filamentoviridae  dsDNA      1 1273      0     14 1304
+105976 Monjiviricetes      Artoviridae  ssRNA      5  762      1    507 1265
+           evalue  tcov pident alnlen mismatch gapopen bits
+88342   0.000e+00 0.994   58.2    989      400       6 1190
+83450   0.000e+00 0.992   56.4   1039      434       8 1195
+38831   0.000e+00 0.997   58.3    874      355       6 1036
+16158  5.631e-311 0.987   42.5   1324      677      29  988
+105976 7.904e-310 0.350   59.9    759      303       1  960
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               qaln
+88342                                                                                                                                                                                                                                                                                                                                                 VSVFAYYWKAEEITEYSNFHTELRIYGIDDKNNNVCVRMEDVKLRIFIEFSDEEYLVNNFAKIKNTLSELIFNKRDRNTIKIVYKRKLYGSHLNSDGSHKLFPYIEIFFSSRIGMMSVRKNIKE---MPFPCEVRFHEDKACSELQFMVSRNIQPSGWLLLKKPTEIFGDTKLSTCTHEYLVEQNQVLPSEKSDPVNAKIMAWDIEAKCKDIGKNPGNHVSDCVFQISCVFFSVITKEVTKVLLTLGKCRSFCDDVEIQIFKTEKDLILGFTKLMIREKPNVITGWNIFQFDINFMINRAEHNMCLGEFLSFGFVDAPGEISTMKWESKAFMTTDIKYINAEGILTIDLIEVVRKDYKLDSYSLNNVAKHFLKEEKDDITFKDLMHAYNCFLNNSEDLEEEFTKVGKYCVQDSKLVVDLFDKLQTWLGLSEMSKTTCTPISTVHMNGQQKKFYNQIYRYCYYQNIVVESDAYSSKDTDRYTGAYVFDPVPGLYDYVVPLDFASLYPSIIIAYNIDYTTIVTGDCDL--DKVTVMEWEDHIGCEHDKLVQQKNILTEIIEKCNDKIKKKEYIHQRSAIVKKLGTKQKKKMCQKNSFKFLKHEFYGKGVLPTIIQNLLDARKEVRKQMKQTTDETTLAILNQRQLSYKISANSMYGATGVKVGSLPFMPVAMCVTYIGRESIQKAAQILSNLGGTIVYGDTDSNYVMFNDIKGTHEEKCEKIWDTAVSVANQISENYPAPMKIEFEEVIYFKFMILTKKRYMYYSCKKSGEISKKIGQKGVLLARRDNSKFMKNIYEESVMDVFAGKSKEEVLSNIFGNIFELTEKRLDDGLLKITKSVNDYDECEMKFNDNTGKFMMGNYIVPAPDSSLDQEEKRAYCISKLPAQVQLEIKIIDRGQEKSEGSRLEYIVLDKFGATKQSEKIEQYKYYIDHRDMLQVDNIYYITRLILPLEQVFESVYKTENFISKNLKQFELKHKLNSELKKLFSPTYI
+83450                                                                                                                                                                                                                                                                                               EIVEKYLKEYGLIRHQVDTFHDFVFNGIQTVINDEPNIYTTSGKEVIFSNVRFEKPFIVLNNKKKAIITPSMAREKSLTYEFSVKVDL-RYDQEVHTIDLCTIPAMVRSAVCNLYEKTEEERAALGEIVSDVGGYFVINGKERIITGQTRKTYNRIICFKNLDEEFICETRSCCEETAKSSLIQLKFNNKKTNIDISIDNITFSSGDIFHALNCLDHLEDLVG-DDNIFLEEAIYLIRKNTETTTDI-DISQLFPHLGQCNDFVKGMFLGKMVRKLCLAECNIIKEEDKSNLAYKRVDMVGVLCKDLFKMLWKQFIKSLTKEIEKRKIGSILPIVNIKKKNISINFYYCFSTGTWGIKKNSYKKLGVSEFAQNKVSALTNIALLRKFNIPVGKKDKNIKIRQMHPSSIFYVCPFETPEGASVGTRLTLSVLSSVSSPMSCVVVKEILNSYNIMIDILHVNNNIDFKLTNVLLDGVIIGLCENKEYFFKVFEELRVSNILRRDISILYDDNLNIIEIWCDQSRFIRPLLKTDKMHLL---TNNMDIPTMENKGILVYRDPAELEYSYVAMEHTKDSASDYTEIHPSCIMGVVASQIVFSNHTQSPRVCYMSNMIKQAIGSLPTLENRTDATVYSLDCVQKPLNTTKLADIMGMNEFPNGINAIVAVACYTGFNQEDSVIINQGAIDRGLFRAYVKRTISTETKSFSSFEEIICVPEDKYKLNRDYSKLDERGIIKVGSKVLKGDVIIGKISKTKHAEFSKIEDKSVIAKANEEGTVEKVEVHSSIVKVSISQLKIPEIGDKVCSGMAQKGTIGMTLPEADMPFTSSGMIPDIIINPHCLPSRMTINQLMSCICAKARCIGGDFKFSDGSPFQGTDIIDEASSELESYNFSGDGTEVLYNGMTGEKINARIFMGPVYYHRLTHLVSNKMFSSTNTNVKNKLTRQPLNGRSNDGGLRIGEMEKDCLLRHGIIKFSNERMMDLSDKYIMRTCNNCNGYYHVTKITDNKFICNKCKTIDISAVSIPYAAKLLTQELESMGLNVT
+38831                                                                                                                                                                                                                                                                                                                                                                                                                                                                    MEEIKEVNKILFGVASTEDMRNKSVYTASVSKYTENRSNTVYDHRSGALFNKRCETCKQHEQQCPGHFGIIELNAVIVHPLFFTHVLNVLKIICHVCSKLIITREHLDFNNILKFEGEKRLTEILLKIKKFNKCFHCGSIKREYKIKKDTVTNTILYDNDIEIFDEEVKCIFDDIDSETVNILGMSHPKNCCLEVFPVIPPCCRPYEFVGNVIKEDDLTKQLVEIIKANNMIKEEKVDKLSAINNLKLKIETFCRNPK---KVKNINSEPIKGIRERLTGKDGQLRDNLMGKRTEMSGRTVIGPGPNLKIDEVGIPEVIAKNITFPINVYHNNYNECMKLIKEGLVEKIKRGDKIIRIDIQKYANIINFLKVGD-EIHRNNTIIKVVDNKIPLLQTDRIFRNNEDITPDKIPTVIEPEILVGDVIQRRIIDGDWVLMNRQPTLWKGSMMAFKVVISKCGTKTFTFNLAVCKAFNADFDGDEQNAHFPQSLESRIELQLLSTPDECLCSSTNGTPVIVILQDALLGAYLMSKHDSIVVEQSSYNDIIMCLSRPTEYFLKRKEEIRTTLKLLGLYKDESSLRTGRALLSLILPYKFSYKADDLKIKNGVIYEGVLTKKYLGSTKTSFVYLFKMEFGNKECVNFINDIQFMTNKWLTYNSFSVNISDCYQNDISIKVIEDKLLESNFIKKTILNKKLAEAKINLILSNAKDIGMKIA-ENKDNNFVETIKSGSKGDYFNLGQVKGLLGQQIINGERIKNQVSNCTRSLVHYPKTEMSLKEEYESRGFIMNSFYKGLNPKEFFFHSMSGRQGVCDTAMTTYMSGYNMRKLVKLTEDIKIHNDGTVADSSGNTYSFAYGDMGLNPESKDVNVSRIIDSL
+16158  NSFDYIWIQSLQQGNGQSIEMEYCTLASMKTRRAAIDYNYAVFCLLAENEKTKFFNTLSLLFNDCILEIGDSNLKMTSYPNALLNYMLQIENCERFVEYTLVRIKCNTMRNCRVIYNFLQQSNAHKHWYYVVDSINIQFMLTLSIMFESLTAMFNH-ENQSI-LKLMYYKGTFDETDYRNKSKIEAYFDPKKYFISNAIYIYYRDSRKIALYSSDSATMYKLLPIVSFDIETISDNMIDVPLGCLKDEKLISFVLFGQYKNTVIIIVSYLKYFNIENGHVVWEHFDRQLALKFEAQYRKKYKHAFCTVQGFNTEIDLLKNFIYYYSSGLLIEMLTGNVNMRHFLVGHNILKYDLPFMMRRFKWHSMHAQISEYCTLDSESLNNTPIVKFNRNSFVVDTLRFFGEHNLASKDQLSLRALSVKFLPKEFAKIELNPVLVRIYYII-GMSGPQQSDFEYIKNIWKQSLNL------ASMDHEFFIDLTTPNIGSSVKNILTNDNKNVGQIKVYSYSNFLQYNIVDCESVVKLLETFQYSILFSLITQMYPSNLECALQANLTHRAKLSFDVLGLKYRQI-LKNDSFNGIGTPSNRLLYTAQ-------IND--YFLEQQSSSSSKLSELSRQPLVSNTV-----YKNTKKKYTGAAVYVKPGFYENPLQMDMNSQYPTIMIELNLYYDCVDSLSAGDLLKILELNPSLEKLLFQAIACNIISIYFAED----TCSQYNAYVQDYRVVCSRRAVETRDHNQLFITSVGDLIRSKEQLIQEAHERGSDTPLLLYIESSCGFINDFLRDLLKFRQNIKQELKQTAC--TNKRAILDSKQKFVKVTVNSIYGLYGNNGIPVAAMTTLFGRKVIVFAAKILVYIFLKISYNLIRAFYEYRRQLK-----EVAEGEEELLHTEEEKIKFLNLV-KKYDLFFAQYYA-NIEVGQLMQLLNCIFN-IFFNE-CNAQNVDLSFLSADANLSSSIHPLFNDAFLSVLESRTFLDAARTNSAYTKCARVIVNYM-------HERNDIAHDNFINEILKQYAGPILNLTFDMDTDGIQFINILNLNEKYLTNRVNEYCNRAFNVKNFVFEEKKSPHVLSIAKKKYTVFNKMPTGGGGGGGEIVEI-----KSCKISHSGYEKNALPPFKIMCNYMAAYSFYMRENKVEPLKFKELMFKFFNYMHHLKDNELYVNIKMNLIKQDCERKRFIDAHSKTYTGSLKAVYIVNGTNLNEEKIILLDDYVNDAKKYKINYGFFLRTFGKIWFQQYHMITGNQQLNTSSNSSTNDVKIINLIYGYFTEWFQCNSIEKTRVDLTKIV
+105976                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      LSWRC-VLFLACERNLGDYILPLFKQQSMTLSGSQLKQKMDMLATLPNTDSHVWVRFHMDLEQWNFTFRSLLQSGVLDVLCNIFGVQHFRFMTQIFTDAMFISANSFAPPGMPDIFTHWDTHAGGNQGILQKFWTLLTIVVIRSVMLDMDLEHKLTGSGDNQVLFVKLKNDQSLPEMIQKIKEALQHSFGNIGLALKLEETWVSTTLTCYQRSYYYNGIKVPGGIKLTGRAFAGVSDINCGINSIVTTAINGGIGLTEQQTNPIMGLMYSLMEIYITLLGDKHYSKLVPDDVKALVMISWLSSDFGLLPLQLLSTFLYAGHQDTLSESLSLLKYVWEGFPEYRPYIAGAVKFEAGEASPTTKLQLILEPTSLNISRPKLPEALLQDLVESFLLDQTNVPNIQLSKMFACCKKDDQLSLAETLLQIRPINTDLLRSLFKYSPIGSLMASLNQFNKISSIIKLVKGNATLDKARCFSAQVRELDVKNLVYYKKRLTPTEYTGQTMIQELLSMCFDRFLHYCSLHNMNPSCIFAARLFLISYTYGLEDELVTGPYTPPPGEQLIVRFDPEYIPGESDLLVSPSYNMPDSIDELELSRGCFGIYLGSKTGDPVRSIKLNSLEGAESGTAIKQLLKLYAWLRSTGSHLNVSNLVIQSLDARMEGLGTLAQSIVPGTSGGHFLHRHASPGTPMWAFSISPSVISTWYHVSSNTAKLIQRGEEDRFIFFQQGNHHILSGLRFCKPIKRRFSVTIRLDCCSYPLPDS

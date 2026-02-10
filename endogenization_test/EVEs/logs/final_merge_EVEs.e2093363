@@ -1,0 +1,608 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+all              1
+merge           41
+merge_all        1
+total           43
+
+Select jobs to execute...
+Execute 5 jobs...
+
+[Fri Jan  2 09:51:30 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-004.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-004_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-004.txt
+    output: output/Fi-004.txt
+    jobid: 3
+    reason: Missing output files: output/Fi-004.txt
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-083.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-083_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-083.txt
+    output: output/Fi-083.txt
+    jobid: 27
+    reason: Missing output files: output/Fi-083.txt
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-079.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-079_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-079.txt
+    output: output/Fi-079.txt
+    jobid: 26
+    reason: Missing output files: output/Fi-079.txt
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-091.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-091_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-091.txt
+    output: output/Fi-091.txt
+    jobid: 31
+    reason: Missing output files: output/Fi-091.txt
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-097.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-097_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-097.txt
+    output: output/Fi-097.txt
+    jobid: 36
+    reason: Missing output files: output/Fi-097.txt
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 3.
+1 of 43 steps (2%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 27.
+2 of 43 steps (5%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-092.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-092_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-092.txt
+    output: output/Fi-092.txt
+    jobid: 32
+    reason: Missing output files: output/Fi-092.txt
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-047.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-047_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-047.txt
+    output: output/Fi-047.txt
+    jobid: 16
+    reason: Missing output files: output/Fi-047.txt
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 26.
+3 of 43 steps (7%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 31.
+4 of 43 steps (9%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 36.
+5 of 43 steps (12%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-057.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-057_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-057.txt
+    output: output/Fi-057.txt
+    jobid: 22
+    reason: Missing output files: output/Fi-057.txt
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-036.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-036_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-036.txt
+    output: output/Fi-036.txt
+    jobid: 11
+    reason: Missing output files: output/Fi-036.txt
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-056.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-056_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-056.txt
+    output: output/Fi-056.txt
+    jobid: 21
+    reason: Missing output files: output/Fi-056.txt
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 32.
+6 of 43 steps (14%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 16.
+7 of 43 steps (16%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 22.
+8 of 43 steps (19%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-054.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-054_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-054.txt
+    output: output/Fi-054.txt
+    jobid: 19
+    reason: Missing output files: output/Fi-054.txt
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-005.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-005_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-005.txt
+    output: output/Fi-005.txt
+    jobid: 4
+    reason: Missing output files: output/Fi-005.txt
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-000.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-000_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-000.txt
+    output: output/Fi-000.txt
+    jobid: 1
+    reason: Missing output files: output/Fi-000.txt
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 21.
+9 of 43 steps (21%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 11.
+10 of 43 steps (23%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-059.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-059_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-059.txt
+    output: output/Fi-059.txt
+    jobid: 24
+    reason: Missing output files: output/Fi-059.txt
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-103.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-103_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-103.txt
+    output: output/Fi-103.txt
+    jobid: 41
+    reason: Missing output files: output/Fi-103.txt
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 19.
+11 of 43 steps (26%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 4.
+12 of 43 steps (28%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 1.
+13 of 43 steps (30%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-026.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-026_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-026.txt
+    output: output/Fi-026.txt
+    jobid: 6
+    reason: Missing output files: output/Fi-026.txt
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-094.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-094_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-094.txt
+    output: output/Fi-094.txt
+    jobid: 34
+    reason: Missing output files: output/Fi-094.txt
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-101.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-101_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-101.txt
+    output: output/Fi-101.txt
+    jobid: 39
+    reason: Missing output files: output/Fi-101.txt
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 41.
+14 of 43 steps (33%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 24.
+15 of 43 steps (35%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-051.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-051_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-051.txt
+    output: output/Fi-051.txt
+    jobid: 18
+    reason: Missing output files: output/Fi-051.txt
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-086.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-086_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-086.txt
+    output: output/Fi-086.txt
+    jobid: 29
+    reason: Missing output files: output/Fi-086.txt
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 6.
+16 of 43 steps (37%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 34.
+17 of 43 steps (40%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 39.
+18 of 43 steps (42%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-048.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-048_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-048.txt
+    output: output/Fi-048.txt
+    jobid: 17
+    reason: Missing output files: output/Fi-048.txt
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-096.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-096_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-096.txt
+    output: output/Fi-096.txt
+    jobid: 35
+    reason: Missing output files: output/Fi-096.txt
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-102.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-102_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-102.txt
+    output: output/Fi-102.txt
+    jobid: 40
+    reason: Missing output files: output/Fi-102.txt
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 18.
+19 of 43 steps (44%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 29.
+20 of 43 steps (47%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 17.
+21 of 43 steps (49%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-098.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-098_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-098.txt
+    output: output/Fi-098.txt
+    jobid: 37
+    reason: Missing output files: output/Fi-098.txt
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-043.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-043_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-043.txt
+    output: output/Fi-043.txt
+    jobid: 15
+    reason: Missing output files: output/Fi-043.txt
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-055.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-055_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-055.txt
+    output: output/Fi-055.txt
+    jobid: 20
+    reason: Missing output files: output/Fi-055.txt
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 40.
+22 of 43 steps (51%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 35.
+23 of 43 steps (53%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 37.
+24 of 43 steps (56%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-035.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-035_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-035.txt
+    output: output/Fi-035.txt
+    jobid: 10
+    reason: Missing output files: output/Fi-035.txt
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-099.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-099_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-099.txt
+    output: output/Fi-099.txt
+    jobid: 38
+    reason: Missing output files: output/Fi-099.txt
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-089.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-089_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-089.txt
+    output: output/Fi-089.txt
+    jobid: 30
+    reason: Missing output files: output/Fi-089.txt
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 15.
+25 of 43 steps (58%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 20.
+26 of 43 steps (60%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 10.
+27 of 43 steps (63%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-037.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-037_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-037.txt
+    output: output/Fi-037.txt
+    jobid: 12
+    reason: Missing output files: output/Fi-037.txt
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-042.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-042_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-042.txt
+    output: output/Fi-042.txt
+    jobid: 14
+    reason: Missing output files: output/Fi-042.txt
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:32 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-034.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-034_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-034.txt
+    output: output/Fi-034.txt
+    jobid: 9
+    reason: Missing output files: output/Fi-034.txt
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:32 2026]
+Finished job 38.
+28 of 43 steps (65%) done
+[Fri Jan  2 09:51:32 2026]
+Finished job 30.
+29 of 43 steps (67%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-032.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-032_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-032.txt
+    output: output/Fi-032.txt
+    jobid: 8
+    reason: Missing output files: output/Fi-032.txt
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-009.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-009_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-009.txt
+    output: output/Fi-009.txt
+    jobid: 5
+    reason: Missing output files: output/Fi-009.txt
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:33 2026]
+Finished job 14.
+30 of 43 steps (70%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 9.
+31 of 43 steps (72%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 12.
+32 of 43 steps (74%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-085.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-085_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-085.txt
+    output: output/Fi-085.txt
+    jobid: 28
+    reason: Missing output files: output/Fi-085.txt
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-040.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-040_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-040.txt
+    output: output/Fi-040.txt
+    jobid: 13
+    reason: Missing output files: output/Fi-040.txt
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-093.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-093_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-093.txt
+    output: output/Fi-093.txt
+    jobid: 33
+    reason: Missing output files: output/Fi-093.txt
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:33 2026]
+Finished job 5.
+33 of 43 steps (77%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 8.
+34 of 43 steps (79%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-001.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-001_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-001.txt
+    output: output/Fi-001.txt
+    jobid: 2
+    reason: Missing output files: output/Fi-001.txt
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-058.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-058_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-058.txt
+    output: output/Fi-058.txt
+    jobid: 23
+    reason: Missing output files: output/Fi-058.txt
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:33 2026]
+Finished job 28.
+35 of 43 steps (81%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 13.
+36 of 43 steps (84%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 33.
+37 of 43 steps (86%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge_all:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/BUSCO_EVEs.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/TE_EVEs.txt
+    output: output/all_EVEs.txt
+    jobid: 42
+    reason: Missing output files: output/all_EVEs.txt
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-027.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-027_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-027.txt
+    output: output/Fi-027.txt
+    jobid: 7
+    reason: Missing output files: output/Fi-027.txt
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+
+[Fri Jan  2 09:51:33 2026]
+localrule merge:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/EVEs/Fi-077.txt, /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVEs/Fi-077_depth_EVEs.txt, /home/yzitzmann/paper/endogenization_test/TE_and_depth/output/EVEs/Fi-077.txt
+    output: output/Fi-077.txt
+    jobid: 25
+    reason: Missing output files: output/Fi-077.txt
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:33 2026]
+Finished job 2.
+38 of 43 steps (88%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 23.
+39 of 43 steps (91%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 7.
+40 of 43 steps (93%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 25.
+41 of 43 steps (95%) done
+[Fri Jan  2 09:51:33 2026]
+Finished job 42.
+42 of 43 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jan  2 09:51:33 2026]
+localrule all:
+    input: output/Fi-000.txt, output/Fi-001.txt, output/Fi-004.txt, output/Fi-005.txt, output/Fi-009.txt, output/Fi-026.txt, output/Fi-027.txt, output/Fi-032.txt, output/Fi-034.txt, output/Fi-035.txt, output/Fi-036.txt, output/Fi-037.txt, output/Fi-040.txt, output/Fi-042.txt, output/Fi-043.txt, output/Fi-047.txt, output/Fi-048.txt, output/Fi-051.txt, output/Fi-054.txt, output/Fi-055.txt, output/Fi-056.txt, output/Fi-057.txt, output/Fi-058.txt, output/Fi-059.txt, output/Fi-077.txt, output/Fi-079.txt, output/Fi-083.txt, output/Fi-085.txt, output/Fi-086.txt, output/Fi-089.txt, output/Fi-091.txt, output/Fi-092.txt, output/Fi-093.txt, output/Fi-094.txt, output/Fi-096.txt, output/Fi-097.txt, output/Fi-098.txt, output/Fi-099.txt, output/Fi-101.txt, output/Fi-102.txt, output/Fi-103.txt, output/all_EVEs.txt
+    jobid: 0
+    reason: Input files updated by another job: output/Fi-056.txt, output/Fi-101.txt, output/Fi-091.txt, output/Fi-043.txt, output/Fi-097.txt, output/Fi-092.txt, output/Fi-103.txt, output/Fi-035.txt, output/Fi-032.txt, output/Fi-079.txt, output/Fi-048.txt, output/Fi-009.txt, output/Fi-093.txt, output/Fi-077.txt, output/Fi-005.txt, output/Fi-036.txt, output/Fi-059.txt, output/Fi-057.txt, output/Fi-083.txt, output/all_EVEs.txt, output/Fi-004.txt, output/Fi-000.txt, output/Fi-086.txt, output/Fi-085.txt, output/Fi-051.txt, output/Fi-034.txt, output/Fi-037.txt, output/Fi-001.txt, output/Fi-089.txt, output/Fi-099.txt, output/Fi-054.txt, output/Fi-098.txt, output/Fi-094.txt, output/Fi-042.txt, output/Fi-026.txt, output/Fi-027.txt, output/Fi-058.txt, output/Fi-055.txt, output/Fi-096.txt, output/Fi-102.txt, output/Fi-047.txt, output/Fi-040.txt
+    resources: tmpdir=/tmp/2093363.1.fast.q
+
+[Fri Jan  2 09:51:33 2026]
+Finished job 0.
+43 of 43 steps (100%) done
+Complete log: .snakemake/log/2026-01-02T095129.835386.snakemake.log

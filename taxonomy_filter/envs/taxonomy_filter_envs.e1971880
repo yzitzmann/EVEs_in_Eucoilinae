@@ -1,0 +1,11 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/seqkit.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/taxonomy_filter/envs/seqkit.yml created (location: .snakemake/conda/8fbce4be8854aa0f285b19e25142fd05_)

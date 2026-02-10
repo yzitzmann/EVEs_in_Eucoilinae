@@ -1,0 +1,151 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/blast_seqkit.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/phylogenetic_reconstruction/phylogeny_lost_EVEs/envs/blast_seqkit.yml created (location: .snakemake/conda/a2491ba252fba2feeff863e75839dac7_)
+Using shell: /bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+Alignment        3
+all              1
+blast            1
+phylogeny        3
+total            8
+
+Select jobs to execute...
+Execute 4 jobs...
+
+[Thu Feb  5 16:48:11 2026]
+localrule Alignment:
+    input: data/FASTA/LbFV_lef5.fas
+    output: output/alignment/LbFV_lef5.fas
+    jobid: 4
+    reason: Missing output files: output/alignment/LbFV_lef5.fas
+    wildcards: cluster_IDs=LbFV_lef5
+    threads: 10
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/e1323a358b6799b7242ddea7b5ca6d8d_
+
+[Thu Feb  5 16:48:11 2026]
+localrule Alignment:
+    input: data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    output: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    jobid: 3
+    reason: Missing output files: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    threads: 10
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/e1323a358b6799b7242ddea7b5ca6d8d_
+
+[Thu Feb  5 16:48:11 2026]
+localrule Alignment:
+    input: data/FASTA/k141_21072_2346_2486_Fi_035.fas
+    output: output/alignment/k141_21072_2346_2486_Fi_035.fas
+    jobid: 2
+    reason: Missing output files: output/alignment/k141_21072_2346_2486_Fi_035.fas
+    wildcards: cluster_IDs=k141_21072_2346_2486_Fi_035
+    threads: 10
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/e1323a358b6799b7242ddea7b5ca6d8d_
+
+[Thu Feb  5 16:48:11 2026]
+localrule blast:
+    input: data/FASTA/k141_402023_4616_5203_Fi_035.fas, /home/yzitzmann/paper/viral_protein_database/final/viral_protein_ivspers_fila_nophages_nopolydna_LbFV_lef5.faa
+    output: output/blast/orf108.tbl, output/blast/orf108.txt, output/blast/orf108.faa
+    jobid: 1
+    reason: Missing output files: output/blast/orf108.txt, output/blast/orf108.tbl, output/blast/orf108.faa
+    threads: 10
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/a2491ba252fba2feeff863e75839dac7_
+[Thu Feb  5 16:48:11 2026]
+Finished job 2.
+1 of 8 steps (12%) done
+Select jobs to execute...
+[Thu Feb  5 16:48:11 2026]
+Finished job 4.
+2 of 8 steps (25%) done
+Execute 1 jobs...
+
+[Thu Feb  5 16:48:12 2026]
+localrule phylogeny:
+    input: output/alignment/k141_21072_2346_2486_Fi_035.fas
+    output: output/phylogeny/k141_21072_2346_2486_Fi_035.logs
+    jobid: 5
+    reason: Missing output files: output/phylogeny/k141_21072_2346_2486_Fi_035.logs; Input files updated by another job: output/alignment/k141_21072_2346_2486_Fi_035.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_21072_2346_2486_Fi_035
+    threads: 20
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/8c788dd599454f48d2c84de68170e210_
+[Thu Feb  5 16:48:12 2026]
+Finished job 3.
+3 of 8 steps (38%) done
+Select jobs to execute...
+[Thu Feb  5 16:48:15 2026]
+Finished job 5.
+4 of 8 steps (50%) done
+Execute 1 jobs...
+
+[Thu Feb  5 16:48:15 2026]
+localrule phylogeny:
+    input: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    output: output/phylogeny/k141_402023_4616_5203_Fi_035.logs
+    jobid: 6
+    reason: Missing output files: output/phylogeny/k141_402023_4616_5203_Fi_035.logs; Input files updated by another job: output/alignment/k141_402023_4616_5203_Fi_035.fas; Code has changed since last execution
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    threads: 20
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/8c788dd599454f48d2c84de68170e210_
+[INFO][0m 1 patterns loaded from file
+[Thu Feb  5 16:48:29 2026]
+Finished job 1.
+5 of 8 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Feb  5 16:48:29 2026]
+localrule phylogeny:
+    input: output/alignment/LbFV_lef5.fas
+    output: output/phylogeny/LbFV_lef5.logs
+    jobid: 7
+    reason: Missing output files: output/phylogeny/LbFV_lef5.logs; Input files updated by another job: output/alignment/LbFV_lef5.fas; Code has changed since last execution
+    wildcards: cluster_IDs=LbFV_lef5
+    threads: 20
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+Activating conda environment: .snakemake/conda/8c788dd599454f48d2c84de68170e210_
+[Thu Feb  5 16:48:33 2026]
+Finished job 6.
+6 of 8 steps (75%) done
+[Thu Feb  5 16:48:40 2026]
+Finished job 7.
+7 of 8 steps (88%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Feb  5 16:48:40 2026]
+localrule all:
+    input: output/blast/orf108.tbl, output/blast/orf108.txt, output/blast/orf108.faa, output/alignment/k141_21072_2346_2486_Fi_035.fas, output/alignment/k141_402023_4616_5203_Fi_035.fas, output/alignment/LbFV_lef5.fas, output/phylogeny/k141_21072_2346_2486_Fi_035.logs, output/phylogeny/k141_402023_4616_5203_Fi_035.logs, output/phylogeny/LbFV_lef5.logs
+    jobid: 0
+    reason: Input files updated by another job: output/blast/orf108.txt, output/phylogeny/LbFV_lef5.logs, output/blast/orf108.tbl, output/phylogeny/k141_402023_4616_5203_Fi_035.logs, output/blast/orf108.faa, output/alignment/k141_21072_2346_2486_Fi_035.fas, output/phylogeny/k141_21072_2346_2486_Fi_035.logs, output/alignment/k141_402023_4616_5203_Fi_035.fas, output/alignment/LbFV_lef5.fas
+    resources: tmpdir=/tmp/2097522.1.fast.q
+
+[Thu Feb  5 16:48:40 2026]
+Finished job 0.
+8 of 8 steps (100%) done
+Complete log: .snakemake/log/2026-02-05T164700.007084.snakemake.log

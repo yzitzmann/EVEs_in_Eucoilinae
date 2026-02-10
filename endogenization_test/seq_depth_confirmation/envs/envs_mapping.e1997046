@@ -1,0 +1,17 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/bwa-mem2.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/envs/bwa-mem2.yml created (location: .snakemake/conda/2e5f67635aadcbb19650ac84ebcf6625_)
+Creating conda environment envs/samtools.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/envs/samtools.yml created (location: .snakemake/conda/baec54368f933d540f19b64135f49c68_)
+Creating conda environment envs/R.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/envs/R.yml created (location: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_)

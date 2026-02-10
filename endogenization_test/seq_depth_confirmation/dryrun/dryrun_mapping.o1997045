@@ -1,0 +1,1806 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Conda environment envs/samtools.yml will be created.
+Conda environment envs/bwa-mem2.yml will be created.
+Conda environment envs/R.yml will be created.
+Job stats:
+job                 count
+----------------  -------
+Identify_depth         40
+Mapping                40
+all                     1
+sequencing_depth       40
+statistics             40
+total                 161
+
+Execute 40 jobs...
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-009.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-009.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-009.sam
+    jobid: 4
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-009.sam
+    wildcards: Genome_ID=Fi-009
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-055.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-055.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-055.sam
+    jobid: 19
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-055.sam
+    wildcards: Genome_ID=Fi-055
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-096.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-096.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-096.sam
+    jobid: 34
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-096.sam
+    wildcards: Genome_ID=Fi-096
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-056.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-056.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-056.sam
+    jobid: 20
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-056.sam
+    wildcards: Genome_ID=Fi-056
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-026.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-026.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-026.sam
+    jobid: 5
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-026.sam
+    wildcards: Genome_ID=Fi-026
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-097.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-097.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-097.sam
+    jobid: 35
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-097.sam
+    wildcards: Genome_ID=Fi-097
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-094.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-094.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-094.sam
+    jobid: 33
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-094.sam
+    wildcards: Genome_ID=Fi-094
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-027.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-027.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-027.sam
+    jobid: 6
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-027.sam
+    wildcards: Genome_ID=Fi-027
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-057.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-057.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-057.sam
+    jobid: 21
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-057.sam
+    wildcards: Genome_ID=Fi-057
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-098.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-098.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-098.sam
+    jobid: 36
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-098.sam
+    wildcards: Genome_ID=Fi-098
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-099.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-099.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-099.sam
+    jobid: 37
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-099.sam
+    wildcards: Genome_ID=Fi-099
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-032.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-032.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-032.sam
+    jobid: 7
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-032.sam
+    wildcards: Genome_ID=Fi-032
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-058.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-058.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-058.sam
+    jobid: 22
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-058.sam
+    wildcards: Genome_ID=Fi-058
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-059.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-059.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-059.sam
+    jobid: 23
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-059.sam
+    wildcards: Genome_ID=Fi-059
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-034.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-034.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-034.sam
+    jobid: 8
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-034.sam
+    wildcards: Genome_ID=Fi-034
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-101.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-101.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-101.sam
+    jobid: 38
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-101.sam
+    wildcards: Genome_ID=Fi-101
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-035.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-035.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-035.sam
+    jobid: 9
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-035.sam
+    wildcards: Genome_ID=Fi-035
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-077.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-077.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-077.sam
+    jobid: 24
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-077.sam
+    wildcards: Genome_ID=Fi-077
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-102.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-102.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-102.sam
+    jobid: 39
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-102.sam
+    wildcards: Genome_ID=Fi-102
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-036.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-036.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-036.sam
+    jobid: 10
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-036.sam
+    wildcards: Genome_ID=Fi-036
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-079.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-079.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-079.sam
+    jobid: 25
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-079.sam
+    wildcards: Genome_ID=Fi-079
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-103.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-103.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-103.sam
+    jobid: 40
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-103.sam
+    wildcards: Genome_ID=Fi-103
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-054.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-054.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-054.sam
+    jobid: 18
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-054.sam
+    wildcards: Genome_ID=Fi-054
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-037.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-037.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-037.sam
+    jobid: 11
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-037.sam
+    wildcards: Genome_ID=Fi-037
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-083.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-083.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-083.sam
+    jobid: 26
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-083.sam
+    wildcards: Genome_ID=Fi-083
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-040.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-040.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-040.sam
+    jobid: 12
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-040.sam
+    wildcards: Genome_ID=Fi-040
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-085.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-085.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-085.sam
+    jobid: 27
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-085.sam
+    wildcards: Genome_ID=Fi-085
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-042.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-042.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-042.sam
+    jobid: 13
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-042.sam
+    wildcards: Genome_ID=Fi-042
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-086.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-086.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-086.sam
+    jobid: 28
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-086.sam
+    wildcards: Genome_ID=Fi-086
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-043.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-043.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-043.sam
+    jobid: 14
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-043.sam
+    wildcards: Genome_ID=Fi-043
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-089.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-089.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-089.sam
+    jobid: 29
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-089.sam
+    wildcards: Genome_ID=Fi-089
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-047.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-047.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-047.sam
+    jobid: 15
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-047.sam
+    wildcards: Genome_ID=Fi-047
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-091.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-091.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-091.sam
+    jobid: 30
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-091.sam
+    wildcards: Genome_ID=Fi-091
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-001.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-001.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-001.sam
+    jobid: 1
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-001.sam
+    wildcards: Genome_ID=Fi-001
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-048.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-048.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-048.sam
+    jobid: 16
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-048.sam
+    wildcards: Genome_ID=Fi-048
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-092.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-092.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-092.sam
+    jobid: 31
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-092.sam
+    wildcards: Genome_ID=Fi-092
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-004.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-004.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-004.sam
+    jobid: 2
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-004.sam
+    wildcards: Genome_ID=Fi-004
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-051.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-051.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-051.sam
+    jobid: 17
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-051.sam
+    wildcards: Genome_ID=Fi-051
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-093.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-093.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-093.sam
+    jobid: 32
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-093.sam
+    wildcards: Genome_ID=Fi-093
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Mapping:
+    input: /home/yzitzmann/paper/homology_search/genomes/Fi-005.fa, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/combined/Fi-005.fastq
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-005.sam
+    jobid: 3
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-005.sam
+    wildcards: Genome_ID=Fi-005
+    threads: 5
+    resources: tmpdir=<TBD>
+
+Execute 40 jobs...
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-077.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-077.bam, output/depth_all_contigs/Fi-077.txt
+    jobid: 64
+    reason: Missing output files: output/depth_all_contigs/Fi-077.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-077.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-077.sam
+    wildcards: Genome_ID=Fi-077
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-102.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-102.bam, output/depth_all_contigs/Fi-102.txt
+    jobid: 79
+    reason: Missing output files: output/depth_all_contigs/Fi-102.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-102.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-102.sam
+    wildcards: Genome_ID=Fi-102
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-035.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-035.bam, output/depth_all_contigs/Fi-035.txt
+    jobid: 49
+    reason: Missing output files: output/depth_all_contigs/Fi-035.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-035.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-035.sam
+    wildcards: Genome_ID=Fi-035
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-079.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-079.bam, output/depth_all_contigs/Fi-079.txt
+    jobid: 65
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-079.bam, output/depth_all_contigs/Fi-079.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-079.sam
+    wildcards: Genome_ID=Fi-079
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-036.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-036.bam, output/depth_all_contigs/Fi-036.txt
+    jobid: 50
+    reason: Missing output files: output/depth_all_contigs/Fi-036.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-036.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-036.sam
+    wildcards: Genome_ID=Fi-036
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-103.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-103.bam, output/depth_all_contigs/Fi-103.txt
+    jobid: 80
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-103.bam, output/depth_all_contigs/Fi-103.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-103.sam
+    wildcards: Genome_ID=Fi-103
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-037.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-037.bam, output/depth_all_contigs/Fi-037.txt
+    jobid: 51
+    reason: Missing output files: output/depth_all_contigs/Fi-037.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-037.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-037.sam
+    wildcards: Genome_ID=Fi-037
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-083.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-083.bam, output/depth_all_contigs/Fi-083.txt
+    jobid: 66
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-083.bam, output/depth_all_contigs/Fi-083.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-083.sam
+    wildcards: Genome_ID=Fi-083
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-040.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-040.bam, output/depth_all_contigs/Fi-040.txt
+    jobid: 52
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-040.bam, output/depth_all_contigs/Fi-040.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-040.sam
+    wildcards: Genome_ID=Fi-040
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-085.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-085.bam, output/depth_all_contigs/Fi-085.txt
+    jobid: 67
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-085.bam, output/depth_all_contigs/Fi-085.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-085.sam
+    wildcards: Genome_ID=Fi-085
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-042.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-042.bam, output/depth_all_contigs/Fi-042.txt
+    jobid: 53
+    reason: Missing output files: output/depth_all_contigs/Fi-042.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-042.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-042.sam
+    wildcards: Genome_ID=Fi-042
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-086.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-086.bam, output/depth_all_contigs/Fi-086.txt
+    jobid: 68
+    reason: Missing output files: output/depth_all_contigs/Fi-086.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-086.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-086.sam
+    wildcards: Genome_ID=Fi-086
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-043.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-043.bam, output/depth_all_contigs/Fi-043.txt
+    jobid: 54
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-043.bam, output/depth_all_contigs/Fi-043.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-043.sam
+    wildcards: Genome_ID=Fi-043
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-089.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-089.bam, output/depth_all_contigs/Fi-089.txt
+    jobid: 69
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-089.bam, output/depth_all_contigs/Fi-089.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-089.sam
+    wildcards: Genome_ID=Fi-089
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-047.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-047.bam, output/depth_all_contigs/Fi-047.txt
+    jobid: 55
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-047.bam, output/depth_all_contigs/Fi-047.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-047.sam
+    wildcards: Genome_ID=Fi-047
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-091.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-091.bam, output/depth_all_contigs/Fi-091.txt
+    jobid: 70
+    reason: Missing output files: output/depth_all_contigs/Fi-091.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-091.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-091.sam
+    wildcards: Genome_ID=Fi-091
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-001.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-001.bam, output/depth_all_contigs/Fi-001.txt
+    jobid: 41
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-001.bam, output/depth_all_contigs/Fi-001.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-001.sam
+    wildcards: Genome_ID=Fi-001
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-048.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-048.bam, output/depth_all_contigs/Fi-048.txt
+    jobid: 56
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-048.bam, output/depth_all_contigs/Fi-048.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-048.sam
+    wildcards: Genome_ID=Fi-048
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-092.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-092.bam, output/depth_all_contigs/Fi-092.txt
+    jobid: 71
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-092.bam, output/depth_all_contigs/Fi-092.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-092.sam
+    wildcards: Genome_ID=Fi-092
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-101.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-101.bam, output/depth_all_contigs/Fi-101.txt
+    jobid: 78
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-101.bam, output/depth_all_contigs/Fi-101.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-101.sam
+    wildcards: Genome_ID=Fi-101
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-004.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-004.bam, output/depth_all_contigs/Fi-004.txt
+    jobid: 42
+    reason: Missing output files: output/depth_all_contigs/Fi-004.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-004.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-004.sam
+    wildcards: Genome_ID=Fi-004
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-051.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-051.bam, output/depth_all_contigs/Fi-051.txt
+    jobid: 57
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-051.bam, output/depth_all_contigs/Fi-051.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-051.sam
+    wildcards: Genome_ID=Fi-051
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-093.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-093.bam, output/depth_all_contigs/Fi-093.txt
+    jobid: 72
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-093.bam, output/depth_all_contigs/Fi-093.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-093.sam
+    wildcards: Genome_ID=Fi-093
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-094.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-094.bam, output/depth_all_contigs/Fi-094.txt
+    jobid: 73
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-094.bam, output/depth_all_contigs/Fi-094.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-094.sam
+    wildcards: Genome_ID=Fi-094
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-054.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-054.bam, output/depth_all_contigs/Fi-054.txt
+    jobid: 58
+    reason: Missing output files: output/depth_all_contigs/Fi-054.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-054.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-054.sam
+    wildcards: Genome_ID=Fi-054
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-005.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-005.bam, output/depth_all_contigs/Fi-005.txt
+    jobid: 43
+    reason: Missing output files: output/depth_all_contigs/Fi-005.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-005.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-005.sam
+    wildcards: Genome_ID=Fi-005
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-009.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-009.bam, output/depth_all_contigs/Fi-009.txt
+    jobid: 44
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-009.bam, output/depth_all_contigs/Fi-009.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-009.sam
+    wildcards: Genome_ID=Fi-009
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-096.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-096.bam, output/depth_all_contigs/Fi-096.txt
+    jobid: 74
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-096.bam, output/depth_all_contigs/Fi-096.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-096.sam
+    wildcards: Genome_ID=Fi-096
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-034.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-034.bam, output/depth_all_contigs/Fi-034.txt
+    jobid: 48
+    reason: Missing output files: output/depth_all_contigs/Fi-034.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-034.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-034.sam
+    wildcards: Genome_ID=Fi-034
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-055.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-055.bam, output/depth_all_contigs/Fi-055.txt
+    jobid: 59
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-055.bam, output/depth_all_contigs/Fi-055.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-055.sam
+    wildcards: Genome_ID=Fi-055
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-026.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-026.bam, output/depth_all_contigs/Fi-026.txt
+    jobid: 45
+    reason: Missing output files: output/depth_all_contigs/Fi-026.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-026.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-026.sam
+    wildcards: Genome_ID=Fi-026
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-056.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-056.bam, output/depth_all_contigs/Fi-056.txt
+    jobid: 60
+    reason: Missing output files: output/depth_all_contigs/Fi-056.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-056.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-056.sam
+    wildcards: Genome_ID=Fi-056
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-097.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-097.bam, output/depth_all_contigs/Fi-097.txt
+    jobid: 75
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-097.bam, output/depth_all_contigs/Fi-097.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-097.sam
+    wildcards: Genome_ID=Fi-097
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-027.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-027.bam, output/depth_all_contigs/Fi-027.txt
+    jobid: 46
+    reason: Missing output files: output/depth_all_contigs/Fi-027.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-027.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-027.sam
+    wildcards: Genome_ID=Fi-027
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-057.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-057.bam, output/depth_all_contigs/Fi-057.txt
+    jobid: 61
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-057.bam, output/depth_all_contigs/Fi-057.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-057.sam
+    wildcards: Genome_ID=Fi-057
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-098.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-098.bam, output/depth_all_contigs/Fi-098.txt
+    jobid: 76
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-098.bam, output/depth_all_contigs/Fi-098.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-098.sam
+    wildcards: Genome_ID=Fi-098
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-099.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-099.bam, output/depth_all_contigs/Fi-099.txt
+    jobid: 77
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-099.bam, output/depth_all_contigs/Fi-099.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-099.sam
+    wildcards: Genome_ID=Fi-099
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-032.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-032.bam, output/depth_all_contigs/Fi-032.txt
+    jobid: 47
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-032.bam, output/depth_all_contigs/Fi-032.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-032.sam
+    wildcards: Genome_ID=Fi-032
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-058.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-058.bam, output/depth_all_contigs/Fi-058.txt
+    jobid: 62
+    reason: Missing output files: output/depth_all_contigs/Fi-058.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-058.bam; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-058.sam
+    wildcards: Genome_ID=Fi-058
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule sequencing_depth:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-059.sam
+    output: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-059.bam, output/depth_all_contigs/Fi-059.txt
+    jobid: 63
+    reason: Missing output files: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-059.bam, output/depth_all_contigs/Fi-059.txt; Input files updated by another job: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-059.sam
+    wildcards: Genome_ID=Fi-059
+    threads: 5
+    resources: tmpdir=<TBD>
+
+Execute 40 jobs...
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-056_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-056.txt
+    output: output/candidate_contigs/Fi-056_candidate_contigs.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt
+    jobid: 100
+    reason: Missing output files: output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_contigs/Fi-056_candidate_contigs.txt, output/candidate_depth/Fi-056_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-056.txt
+    wildcards: Genome_ID=Fi-056
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-097_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-097.txt
+    output: output/candidate_contigs/Fi-097_candidate_contigs.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt
+    jobid: 115
+    reason: Missing output files: output/candidate_depth/Fi-097_candidate_depth.txt, output/candidate_contigs/Fi-097_candidate_contigs.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-097.txt
+    wildcards: Genome_ID=Fi-097
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-026_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-026.txt
+    output: output/candidate_contigs/Fi-026_candidate_contigs.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/candidate_depth/Fi-026_candidate_depth.txt
+    jobid: 85
+    reason: Missing output files: output/candidate_contigs/Fi-026_candidate_contigs.txt, output/candidate_depth/Fi-026_candidate_depth.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-026.txt
+    wildcards: Genome_ID=Fi-026
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-005_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-005.txt
+    output: output/candidate_contigs/Fi-005_candidate_contigs.txt, output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    jobid: 83
+    reason: Missing output files: output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_contigs/Fi-005_candidate_contigs.txt, output/candidate_depth/Fi-005_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-005.txt
+    wildcards: Genome_ID=Fi-005
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-054_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-054.txt
+    output: output/candidate_contigs/Fi-054_candidate_contigs.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/candidate_depth/Fi-054_candidate_depth.txt
+    jobid: 98
+    reason: Missing output files: output/candidate_contigs/Fi-054_candidate_contigs.txt, output/candidate_depth/Fi-054_candidate_depth.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-054.txt
+    wildcards: Genome_ID=Fi-054
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-094_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-094.txt
+    output: output/candidate_contigs/Fi-094_candidate_contigs.txt, output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    jobid: 113
+    reason: Missing output files: output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_contigs/Fi-094_candidate_contigs.txt, output/candidate_depth/Fi-094_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-094.txt
+    wildcards: Genome_ID=Fi-094
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-092_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-092.txt
+    output: output/candidate_contigs/Fi-092_candidate_contigs.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    jobid: 111
+    reason: Missing output files: output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_contigs/Fi-092_candidate_contigs.txt, output/candidate_depth/Fi-092_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-092.txt
+    wildcards: Genome_ID=Fi-092
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-001_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-001.txt
+    output: output/candidate_contigs/Fi-001_candidate_contigs.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/candidate_depth/Fi-001_candidate_depth.txt
+    jobid: 81
+    reason: Missing output files: output/candidate_depth/Fi-001_candidate_depth.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/candidate_contigs/Fi-001_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-001.txt
+    wildcards: Genome_ID=Fi-001
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-048_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-048.txt
+    output: output/candidate_contigs/Fi-048_candidate_contigs.txt, output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt
+    jobid: 96
+    reason: Missing output files: output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt, output/candidate_contigs/Fi-048_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-048.txt
+    wildcards: Genome_ID=Fi-048
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-043_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-043.txt
+    output: output/candidate_contigs/Fi-043_candidate_contigs.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/candidate_depth/Fi-043_candidate_depth.txt
+    jobid: 94
+    reason: Missing output files: output/candidate_contigs/Fi-043_candidate_contigs.txt, output/candidate_depth/Fi-043_candidate_depth.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-043.txt
+    wildcards: Genome_ID=Fi-043
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-089_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-089.txt
+    output: output/candidate_contigs/Fi-089_candidate_contigs.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt
+    jobid: 109
+    reason: Missing output files: output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_contigs/Fi-089_candidate_contigs.txt, output/candidate_depth/Fi-089_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-089.txt
+    wildcards: Genome_ID=Fi-089
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-040_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-040.txt
+    output: output/candidate_contigs/Fi-040_candidate_contigs.txt, output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt
+    jobid: 92
+    reason: Missing output files: output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_contigs/Fi-040_candidate_contigs.txt, output/candidate_depth/Fi-040_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-040.txt
+    wildcards: Genome_ID=Fi-040
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-085_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-085.txt
+    output: output/candidate_contigs/Fi-085_candidate_contigs.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt
+    jobid: 107
+    reason: Missing output files: output/candidate_contigs/Fi-085_candidate_contigs.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-085.txt
+    wildcards: Genome_ID=Fi-085
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-036_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-036.txt
+    output: output/candidate_contigs/Fi-036_candidate_contigs.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt
+    jobid: 90
+    reason: Missing output files: output/candidate_depth/Fi-036_candidate_depth.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_contigs/Fi-036_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-036.txt
+    wildcards: Genome_ID=Fi-036
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-079_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-079.txt
+    output: output/candidate_contigs/Fi-079_candidate_contigs.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt
+    jobid: 105
+    reason: Missing output files: output/candidate_depth/Fi-079_candidate_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/candidate_contigs/Fi-079_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-079.txt
+    wildcards: Genome_ID=Fi-079
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-103_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-103.txt
+    output: output/candidate_contigs/Fi-103_candidate_contigs.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-103_candidate_depth.txt
+    jobid: 120
+    reason: Missing output files: output/candidate_depth/Fi-103_candidate_depth.txt, output/candidate_contigs/Fi-103_candidate_contigs.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-103.txt
+    wildcards: Genome_ID=Fi-103
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-034_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-034.txt
+    output: output/candidate_contigs/Fi-034_candidate_contigs.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt
+    jobid: 88
+    reason: Missing output files: output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt, output/candidate_contigs/Fi-034_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-034.txt
+    wildcards: Genome_ID=Fi-034
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-059_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-059.txt
+    output: output/candidate_contigs/Fi-059_candidate_contigs.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt
+    jobid: 103
+    reason: Missing output files: output/candidate_contigs/Fi-059_candidate_contigs.txt, output/candidate_depth/Fi-059_candidate_depth.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-059.txt
+    wildcards: Genome_ID=Fi-059
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-101_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-101.txt
+    output: output/candidate_contigs/Fi-101_candidate_contigs.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/candidate_depth/Fi-101_candidate_depth.txt
+    jobid: 118
+    reason: Missing output files: output/candidate_contigs/Fi-101_candidate_contigs.txt, output/candidate_depth/Fi-101_candidate_depth.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-101.txt
+    wildcards: Genome_ID=Fi-101
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-057_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-057.txt
+    output: output/candidate_contigs/Fi-057_candidate_contigs.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt
+    jobid: 101
+    reason: Missing output files: output/candidate_depth/Fi-057_candidate_depth.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_contigs/Fi-057_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-057.txt
+    wildcards: Genome_ID=Fi-057
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-098_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-098.txt
+    output: output/candidate_contigs/Fi-098_candidate_contigs.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt
+    jobid: 116
+    reason: Missing output files: output/candidate_contigs/Fi-098_candidate_contigs.txt, output/candidate_depth/Fi-098_candidate_depth.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-098.txt
+    wildcards: Genome_ID=Fi-098
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-027_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-027.txt
+    output: output/candidate_contigs/Fi-027_candidate_contigs.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    jobid: 86
+    reason: Missing output files: output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt, output/candidate_contigs/Fi-027_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-027.txt
+    wildcards: Genome_ID=Fi-027
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-009_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-009.txt
+    output: output/candidate_contigs/Fi-009_candidate_contigs.txt, output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt
+    jobid: 84
+    reason: Missing output files: output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt, output/candidate_contigs/Fi-009_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-009.txt
+    wildcards: Genome_ID=Fi-009
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-055_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-055.txt
+    output: output/candidate_contigs/Fi-055_candidate_contigs.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt
+    jobid: 99
+    reason: Missing output files: output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt, output/candidate_contigs/Fi-055_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-055.txt
+    wildcards: Genome_ID=Fi-055
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-096_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-096.txt
+    output: output/candidate_contigs/Fi-096_candidate_contigs.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    jobid: 114
+    reason: Missing output files: output/candidate_contigs/Fi-096_candidate_contigs.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-096.txt
+    wildcards: Genome_ID=Fi-096
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-093_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-093.txt
+    output: output/candidate_contigs/Fi-093_candidate_contigs.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/candidate_depth/Fi-093_candidate_depth.txt
+    jobid: 112
+    reason: Missing output files: output/candidate_depth/Fi-093_candidate_depth.txt, output/candidate_contigs/Fi-093_candidate_contigs.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-093.txt
+    wildcards: Genome_ID=Fi-093
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-004_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-004.txt
+    output: output/candidate_contigs/Fi-004_candidate_contigs.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt
+    jobid: 82
+    reason: Missing output files: output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt, output/candidate_contigs/Fi-004_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-004.txt
+    wildcards: Genome_ID=Fi-004
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-051_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-051.txt
+    output: output/candidate_contigs/Fi-051_candidate_contigs.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt
+    jobid: 97
+    reason: Missing output files: output/candidate_contigs/Fi-051_candidate_contigs.txt, output/candidate_depth/Fi-051_candidate_depth.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-051.txt
+    wildcards: Genome_ID=Fi-051
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-047_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-047.txt
+    output: output/candidate_contigs/Fi-047_candidate_contigs.txt, output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt
+    jobid: 95
+    reason: Missing output files: output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_contigs/Fi-047_candidate_contigs.txt, output/candidate_depth/Fi-047_candidate_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-047.txt
+    wildcards: Genome_ID=Fi-047
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-091_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-091.txt
+    output: output/candidate_contigs/Fi-091_candidate_contigs.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt
+    jobid: 110
+    reason: Missing output files: output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt, output/candidate_contigs/Fi-091_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-091.txt
+    wildcards: Genome_ID=Fi-091
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-042_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-042.txt
+    output: output/candidate_contigs/Fi-042_candidate_contigs.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt
+    jobid: 93
+    reason: Missing output files: output/candidate_depth/Fi-042_candidate_depth.txt, output/candidate_contigs/Fi-042_candidate_contigs.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-042.txt
+    wildcards: Genome_ID=Fi-042
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-086_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-086.txt
+    output: output/candidate_contigs/Fi-086_candidate_contigs.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt
+    jobid: 108
+    reason: Missing output files: output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt, output/candidate_contigs/Fi-086_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-086.txt
+    wildcards: Genome_ID=Fi-086
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-083_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-083.txt
+    output: output/candidate_contigs/Fi-083_candidate_contigs.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt
+    jobid: 106
+    reason: Missing output files: output/candidate_contigs/Fi-083_candidate_contigs.txt, output/candidate_depth/Fi-083_candidate_depth.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-083.txt
+    wildcards: Genome_ID=Fi-083
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-037_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-037.txt
+    output: output/candidate_contigs/Fi-037_candidate_contigs.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt
+    jobid: 91
+    reason: Missing output files: output/candidate_contigs/Fi-037_candidate_contigs.txt, output/candidate_depth/Fi-037_candidate_depth.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-037.txt
+    wildcards: Genome_ID=Fi-037
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-035_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-035.txt
+    output: output/candidate_contigs/Fi-035_candidate_contigs.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt
+    jobid: 89
+    reason: Missing output files: output/candidate_contigs/Fi-035_candidate_contigs.txt, output/candidate_depth/Fi-035_candidate_depth.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-035.txt
+    wildcards: Genome_ID=Fi-035
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-077_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-077.txt
+    output: output/candidate_contigs/Fi-077_candidate_contigs.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_depth/Fi-077_candidate_depth.txt
+    jobid: 104
+    reason: Missing output files: output/candidate_depth/Fi-077_candidate_depth.txt, output/candidate_contigs/Fi-077_candidate_contigs.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-077.txt
+    wildcards: Genome_ID=Fi-077
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-102_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-102.txt
+    output: output/candidate_contigs/Fi-102_candidate_contigs.txt, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    jobid: 119
+    reason: Missing output files: output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt, output/candidate_contigs/Fi-102_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-102.txt
+    wildcards: Genome_ID=Fi-102
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-099_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-099.txt
+    output: output/candidate_contigs/Fi-099_candidate_contigs.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt
+    jobid: 117
+    reason: Missing output files: output/candidate_contigs/Fi-099_candidate_contigs.txt, output/candidate_depth/Fi-099_candidate_depth.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-099.txt
+    wildcards: Genome_ID=Fi-099
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-032_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-032.txt
+    output: output/candidate_contigs/Fi-032_candidate_contigs.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt
+    jobid: 87
+    reason: Missing output files: output/candidate_depth/Fi-032_candidate_depth.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/candidate_contigs/Fi-032_candidate_contigs.txt; Input files updated by another job: output/depth_all_contigs/Fi-032.txt
+    wildcards: Genome_ID=Fi-032
+    threads: 3
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-058_BUSCO_contigs.txt, /home/yzitzmann/paper/metadata/output/metadata.txt, output/depth_all_contigs/Fi-058.txt
+    output: output/candidate_contigs/Fi-058_candidate_contigs.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt
+    jobid: 102
+    reason: Missing output files: output/candidate_contigs/Fi-058_candidate_contigs.txt, output/candidate_depth/Fi-058_candidate_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt; Input files updated by another job: output/depth_all_contigs/Fi-058.txt
+    wildcards: Genome_ID=Fi-058
+    threads: 3
+    resources: tmpdir=<TBD>
+
+Execute 40 jobs...
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt
+    output: output/EVEs/Fi-004_20_80.txt, output/EVEs/Fi-004_5_95.txt
+    jobid: 122
+    reason: Missing output files: output/EVEs/Fi-004_20_80.txt, output/EVEs/Fi-004_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt
+    wildcards: Genome_ID=Fi-004
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt
+    output: output/EVEs/Fi-085_20_80.txt, output/EVEs/Fi-085_5_95.txt
+    jobid: 147
+    reason: Missing output files: output/EVEs/Fi-085_20_80.txt, output/EVEs/Fi-085_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-085_candidate_depth.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-085
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt
+    output: output/EVEs/Fi-040_20_80.txt, output/EVEs/Fi-040_5_95.txt
+    jobid: 132
+    reason: Missing output files: output/EVEs/Fi-040_5_95.txt, output/EVEs/Fi-040_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt
+    wildcards: Genome_ID=Fi-040
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/candidate_depth/Fi-093_candidate_depth.txt
+    output: output/EVEs/Fi-093_20_80.txt, output/EVEs/Fi-093_5_95.txt
+    jobid: 152
+    reason: Missing output files: output/EVEs/Fi-093_20_80.txt, output/EVEs/Fi-093_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-093_candidate_depth.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-093
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt
+    output: output/EVEs/Fi-051_20_80.txt, output/EVEs/Fi-051_5_95.txt
+    jobid: 137
+    reason: Missing output files: output/EVEs/Fi-051_20_80.txt, output/EVEs/Fi-051_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-051_candidate_depth.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-051
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt
+    output: output/EVEs/Fi-099_20_80.txt, output/EVEs/Fi-099_5_95.txt
+    jobid: 157
+    reason: Missing output files: output/EVEs/Fi-099_20_80.txt, output/EVEs/Fi-099_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-099_candidate_depth.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-099
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt
+    output: output/EVEs/Fi-032_20_80.txt, output/EVEs/Fi-032_5_95.txt
+    jobid: 127
+    reason: Missing output files: output/EVEs/Fi-032_5_95.txt, output/EVEs/Fi-032_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-032_candidate_depth.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-032
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt
+    output: output/EVEs/Fi-058_20_80.txt, output/EVEs/Fi-058_5_95.txt
+    jobid: 142
+    reason: Missing output files: output/EVEs/Fi-058_5_95.txt, output/EVEs/Fi-058_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-058_candidate_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-058
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    output: output/EVEs/Fi-005_20_80.txt, output/EVEs/Fi-005_5_95.txt
+    jobid: 123
+    reason: Missing output files: output/EVEs/Fi-005_5_95.txt, output/EVEs/Fi-005_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    wildcards: Genome_ID=Fi-005
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt
+    output: output/EVEs/Fi-086_20_80.txt, output/EVEs/Fi-086_5_95.txt
+    jobid: 148
+    reason: Missing output files: output/EVEs/Fi-086_5_95.txt, output/EVEs/Fi-086_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt
+    wildcards: Genome_ID=Fi-086
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt
+    output: output/EVEs/Fi-042_20_80.txt, output/EVEs/Fi-042_5_95.txt
+    jobid: 133
+    reason: Missing output files: output/EVEs/Fi-042_20_80.txt, output/EVEs/Fi-042_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-042_candidate_depth.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-042
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/candidate_depth/Fi-054_candidate_depth.txt
+    output: output/EVEs/Fi-054_20_80.txt, output/EVEs/Fi-054_5_95.txt
+    jobid: 138
+    reason: Missing output files: output/EVEs/Fi-054_20_80.txt, output/EVEs/Fi-054_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-054_candidate_depth.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-054
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt
+    output: output/EVEs/Fi-059_20_80.txt, output/EVEs/Fi-059_5_95.txt
+    jobid: 143
+    reason: Missing output files: output/EVEs/Fi-059_5_95.txt, output/EVEs/Fi-059_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-059_candidate_depth.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-059
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt
+    output: output/EVEs/Fi-034_20_80.txt, output/EVEs/Fi-034_5_95.txt
+    jobid: 128
+    reason: Missing output files: output/EVEs/Fi-034_5_95.txt, output/EVEs/Fi-034_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt
+    wildcards: Genome_ID=Fi-034
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    output: output/EVEs/Fi-094_20_80.txt, output/EVEs/Fi-094_5_95.txt
+    jobid: 153
+    reason: Missing output files: output/EVEs/Fi-094_5_95.txt, output/EVEs/Fi-094_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    wildcards: Genome_ID=Fi-094
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/candidate_depth/Fi-101_candidate_depth.txt
+    output: output/EVEs/Fi-101_20_80.txt, output/EVEs/Fi-101_5_95.txt
+    jobid: 158
+    reason: Missing output files: output/EVEs/Fi-101_5_95.txt, output/EVEs/Fi-101_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-101_candidate_depth.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-101
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt
+    output: output/EVEs/Fi-089_20_80.txt, output/EVEs/Fi-089_5_95.txt
+    jobid: 149
+    reason: Missing output files: output/EVEs/Fi-089_20_80.txt, output/EVEs/Fi-089_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-089_candidate_depth.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-089
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/candidate_depth/Fi-043_candidate_depth.txt
+    output: output/EVEs/Fi-043_20_80.txt, output/EVEs/Fi-043_5_95.txt
+    jobid: 134
+    reason: Missing output files: output/EVEs/Fi-043_5_95.txt, output/EVEs/Fi-043_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-043_candidate_depth.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-043
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt
+    output: output/EVEs/Fi-055_20_80.txt, output/EVEs/Fi-055_5_95.txt
+    jobid: 139
+    reason: Missing output files: output/EVEs/Fi-055_20_80.txt, output/EVEs/Fi-055_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt
+    wildcards: Genome_ID=Fi-055
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt
+    output: output/EVEs/Fi-009_20_80.txt, output/EVEs/Fi-009_5_95.txt
+    jobid: 124
+    reason: Missing output files: output/EVEs/Fi-009_5_95.txt, output/EVEs/Fi-009_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt
+    wildcards: Genome_ID=Fi-009
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    output: output/EVEs/Fi-096_20_80.txt, output/EVEs/Fi-096_5_95.txt
+    jobid: 154
+    reason: Missing output files: output/EVEs/Fi-096_20_80.txt, output/EVEs/Fi-096_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    wildcards: Genome_ID=Fi-096
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt
+    output: output/EVEs/Fi-035_20_80.txt, output/EVEs/Fi-035_5_95.txt
+    jobid: 129
+    reason: Missing output files: output/EVEs/Fi-035_5_95.txt, output/EVEs/Fi-035_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt
+    wildcards: Genome_ID=Fi-035
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_depth/Fi-077_candidate_depth.txt
+    output: output/EVEs/Fi-077_20_80.txt, output/EVEs/Fi-077_5_95.txt
+    jobid: 144
+    reason: Missing output files: output/EVEs/Fi-077_20_80.txt, output/EVEs/Fi-077_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-077_candidate_depth.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-077
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    output: output/EVEs/Fi-102_20_80.txt, output/EVEs/Fi-102_5_95.txt
+    jobid: 159
+    reason: Missing output files: output/EVEs/Fi-102_20_80.txt, output/EVEs/Fi-102_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    wildcards: Genome_ID=Fi-102
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt
+    output: output/EVEs/Fi-036_20_80.txt, output/EVEs/Fi-036_5_95.txt
+    jobid: 130
+    reason: Missing output files: output/EVEs/Fi-036_5_95.txt, output/EVEs/Fi-036_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-036_candidate_depth.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-036
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt
+    output: output/EVEs/Fi-097_20_80.txt, output/EVEs/Fi-097_5_95.txt
+    jobid: 155
+    reason: Missing output files: output/EVEs/Fi-097_5_95.txt, output/EVEs/Fi-097_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-097_candidate_depth.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-097
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt
+    output: output/EVEs/Fi-056_20_80.txt, output/EVEs/Fi-056_5_95.txt
+    jobid: 140
+    reason: Missing output files: output/EVEs/Fi-056_5_95.txt, output/EVEs/Fi-056_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt
+    wildcards: Genome_ID=Fi-056
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/candidate_depth/Fi-026_candidate_depth.txt
+    output: output/EVEs/Fi-026_20_80.txt, output/EVEs/Fi-026_5_95.txt
+    jobid: 125
+    reason: Missing output files: output/EVEs/Fi-026_20_80.txt, output/EVEs/Fi-026_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-026_candidate_depth.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-026
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt
+    output: output/EVEs/Fi-079_20_80.txt, output/EVEs/Fi-079_5_95.txt
+    jobid: 145
+    reason: Missing output files: output/EVEs/Fi-079_20_80.txt, output/EVEs/Fi-079_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-079_candidate_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-079
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-103_candidate_depth.txt
+    output: output/EVEs/Fi-103_20_80.txt, output/EVEs/Fi-103_5_95.txt
+    jobid: 160
+    reason: Missing output files: output/EVEs/Fi-103_20_80.txt, output/EVEs/Fi-103_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-103_candidate_depth.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-103
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt
+    output: output/EVEs/Fi-047_20_80.txt, output/EVEs/Fi-047_5_95.txt
+    jobid: 135
+    reason: Missing output files: output/EVEs/Fi-047_20_80.txt, output/EVEs/Fi-047_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt
+    wildcards: Genome_ID=Fi-047
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt
+    output: output/EVEs/Fi-091_20_80.txt, output/EVEs/Fi-091_5_95.txt
+    jobid: 150
+    reason: Missing output files: output/EVEs/Fi-091_5_95.txt, output/EVEs/Fi-091_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt
+    wildcards: Genome_ID=Fi-091
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt
+    output: output/EVEs/Fi-048_20_80.txt, output/EVEs/Fi-048_5_95.txt
+    jobid: 136
+    reason: Missing output files: output/EVEs/Fi-048_20_80.txt, output/EVEs/Fi-048_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-048_candidate_depth.txt, output/BUSCO_depth/Fi-048_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-048
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/candidate_depth/Fi-001_candidate_depth.txt
+    output: output/EVEs/Fi-001_20_80.txt, output/EVEs/Fi-001_5_95.txt
+    jobid: 121
+    reason: Missing output files: output/EVEs/Fi-001_5_95.txt, output/EVEs/Fi-001_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-001_candidate_depth.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-001
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt
+    output: output/EVEs/Fi-057_20_80.txt, output/EVEs/Fi-057_5_95.txt
+    jobid: 141
+    reason: Missing output files: output/EVEs/Fi-057_20_80.txt, output/EVEs/Fi-057_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-057_candidate_depth.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-057
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    output: output/EVEs/Fi-092_20_80.txt, output/EVEs/Fi-092_5_95.txt
+    jobid: 151
+    reason: Missing output files: output/EVEs/Fi-092_5_95.txt, output/EVEs/Fi-092_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    wildcards: Genome_ID=Fi-092
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt
+    output: output/EVEs/Fi-098_20_80.txt, output/EVEs/Fi-098_5_95.txt
+    jobid: 156
+    reason: Missing output files: output/EVEs/Fi-098_5_95.txt, output/EVEs/Fi-098_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-098_candidate_depth.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-098
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    output: output/EVEs/Fi-027_20_80.txt, output/EVEs/Fi-027_5_95.txt
+    jobid: 126
+    reason: Missing output files: output/EVEs/Fi-027_5_95.txt, output/EVEs/Fi-027_20_80.txt; Input files updated by another job: output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    wildcards: Genome_ID=Fi-027
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt
+    output: output/EVEs/Fi-083_20_80.txt, output/EVEs/Fi-083_5_95.txt
+    jobid: 146
+    reason: Missing output files: output/EVEs/Fi-083_5_95.txt, output/EVEs/Fi-083_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-083_candidate_depth.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-083
+    threads: 5
+    resources: tmpdir=<TBD>
+
+
+[Sat Aug  2 21:08:37 2025]
+rule statistics:
+    input: output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt
+    output: output/EVEs/Fi-037_20_80.txt, output/EVEs/Fi-037_5_95.txt
+    jobid: 131
+    reason: Missing output files: output/EVEs/Fi-037_5_95.txt, output/EVEs/Fi-037_20_80.txt; Input files updated by another job: output/candidate_depth/Fi-037_candidate_depth.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-037
+    threads: 5
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Sat Aug  2 21:08:37 2025]
+rule all:
+    input: /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-001.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-004.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-005.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-009.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-026.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-027.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-032.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-034.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-035.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-036.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-037.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-040.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-042.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-043.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-047.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-048.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-051.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-054.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-055.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-056.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-057.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-058.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-059.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-077.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-079.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-083.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-085.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-086.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-089.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-091.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-092.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-093.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-094.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-096.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-097.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-098.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-099.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-101.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-102.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-103.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-001.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-004.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-005.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-009.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-026.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-027.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-032.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-034.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-035.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-036.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-037.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-040.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-042.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-043.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-047.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-048.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-051.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-054.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-055.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-056.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-057.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-058.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-059.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-077.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-079.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-083.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-085.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-086.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-089.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-091.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-092.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-093.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-094.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-096.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-097.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-098.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-099.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-101.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-102.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-103.bam, output/depth_all_contigs/Fi-001.txt, output/depth_all_contigs/Fi-004.txt, output/depth_all_contigs/Fi-005.txt, output/depth_all_contigs/Fi-009.txt, output/depth_all_contigs/Fi-026.txt, output/depth_all_contigs/Fi-027.txt, output/depth_all_contigs/Fi-032.txt, output/depth_all_contigs/Fi-034.txt, output/depth_all_contigs/Fi-035.txt, output/depth_all_contigs/Fi-036.txt, output/depth_all_contigs/Fi-037.txt, output/depth_all_contigs/Fi-040.txt, output/depth_all_contigs/Fi-042.txt, output/depth_all_contigs/Fi-043.txt, output/depth_all_contigs/Fi-047.txt, output/depth_all_contigs/Fi-048.txt, output/depth_all_contigs/Fi-051.txt, output/depth_all_contigs/Fi-054.txt, output/depth_all_contigs/Fi-055.txt, output/depth_all_contigs/Fi-056.txt, output/depth_all_contigs/Fi-057.txt, output/depth_all_contigs/Fi-058.txt, output/depth_all_contigs/Fi-059.txt, output/depth_all_contigs/Fi-077.txt, output/depth_all_contigs/Fi-079.txt, output/depth_all_contigs/Fi-083.txt, output/depth_all_contigs/Fi-085.txt, output/depth_all_contigs/Fi-086.txt, output/depth_all_contigs/Fi-089.txt, output/depth_all_contigs/Fi-091.txt, output/depth_all_contigs/Fi-092.txt, output/depth_all_contigs/Fi-093.txt, output/depth_all_contigs/Fi-094.txt, output/depth_all_contigs/Fi-096.txt, output/depth_all_contigs/Fi-097.txt, output/depth_all_contigs/Fi-098.txt, output/depth_all_contigs/Fi-099.txt, output/depth_all_contigs/Fi-101.txt, output/depth_all_contigs/Fi-102.txt, output/depth_all_contigs/Fi-103.txt, output/candidate_contigs/Fi-001_candidate_contigs.txt, output/candidate_contigs/Fi-004_candidate_contigs.txt, output/candidate_contigs/Fi-005_candidate_contigs.txt, output/candidate_contigs/Fi-009_candidate_contigs.txt, output/candidate_contigs/Fi-026_candidate_contigs.txt, output/candidate_contigs/Fi-027_candidate_contigs.txt, output/candidate_contigs/Fi-032_candidate_contigs.txt, output/candidate_contigs/Fi-034_candidate_contigs.txt, output/candidate_contigs/Fi-035_candidate_contigs.txt, output/candidate_contigs/Fi-036_candidate_contigs.txt, output/candidate_contigs/Fi-037_candidate_contigs.txt, output/candidate_contigs/Fi-040_candidate_contigs.txt, output/candidate_contigs/Fi-042_candidate_contigs.txt, output/candidate_contigs/Fi-043_candidate_contigs.txt, output/candidate_contigs/Fi-047_candidate_contigs.txt, output/candidate_contigs/Fi-048_candidate_contigs.txt, output/candidate_contigs/Fi-051_candidate_contigs.txt, output/candidate_contigs/Fi-054_candidate_contigs.txt, output/candidate_contigs/Fi-055_candidate_contigs.txt, output/candidate_contigs/Fi-056_candidate_contigs.txt, output/candidate_contigs/Fi-057_candidate_contigs.txt, output/candidate_contigs/Fi-058_candidate_contigs.txt, output/candidate_contigs/Fi-059_candidate_contigs.txt, output/candidate_contigs/Fi-077_candidate_contigs.txt, output/candidate_contigs/Fi-079_candidate_contigs.txt, output/candidate_contigs/Fi-083_candidate_contigs.txt, output/candidate_contigs/Fi-085_candidate_contigs.txt, output/candidate_contigs/Fi-086_candidate_contigs.txt, output/candidate_contigs/Fi-089_candidate_contigs.txt, output/candidate_contigs/Fi-091_candidate_contigs.txt, output/candidate_contigs/Fi-092_candidate_contigs.txt, output/candidate_contigs/Fi-093_candidate_contigs.txt, output/candidate_contigs/Fi-094_candidate_contigs.txt, output/candidate_contigs/Fi-096_candidate_contigs.txt, output/candidate_contigs/Fi-097_candidate_contigs.txt, output/candidate_contigs/Fi-098_candidate_contigs.txt, output/candidate_contigs/Fi-099_candidate_contigs.txt, output/candidate_contigs/Fi-101_candidate_contigs.txt, output/candidate_contigs/Fi-102_candidate_contigs.txt, output/candidate_contigs/Fi-103_candidate_contigs.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-001_candidate_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt, output/candidate_depth/Fi-026_candidate_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt, output/candidate_depth/Fi-043_candidate_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt, output/candidate_depth/Fi-054_candidate_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt, output/candidate_depth/Fi-077_candidate_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt, output/candidate_depth/Fi-093_candidate_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt, output/candidate_depth/Fi-101_candidate_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt, output/candidate_depth/Fi-103_candidate_depth.txt, output/EVEs/Fi-001_20_80.txt, output/EVEs/Fi-004_20_80.txt, output/EVEs/Fi-005_20_80.txt, output/EVEs/Fi-009_20_80.txt, output/EVEs/Fi-026_20_80.txt, output/EVEs/Fi-027_20_80.txt, output/EVEs/Fi-032_20_80.txt, output/EVEs/Fi-034_20_80.txt, output/EVEs/Fi-035_20_80.txt, output/EVEs/Fi-036_20_80.txt, output/EVEs/Fi-037_20_80.txt, output/EVEs/Fi-040_20_80.txt, output/EVEs/Fi-042_20_80.txt, output/EVEs/Fi-043_20_80.txt, output/EVEs/Fi-047_20_80.txt, output/EVEs/Fi-048_20_80.txt, output/EVEs/Fi-051_20_80.txt, output/EVEs/Fi-054_20_80.txt, output/EVEs/Fi-055_20_80.txt, output/EVEs/Fi-056_20_80.txt, output/EVEs/Fi-057_20_80.txt, output/EVEs/Fi-058_20_80.txt, output/EVEs/Fi-059_20_80.txt, output/EVEs/Fi-077_20_80.txt, output/EVEs/Fi-079_20_80.txt, output/EVEs/Fi-083_20_80.txt, output/EVEs/Fi-085_20_80.txt, output/EVEs/Fi-086_20_80.txt, output/EVEs/Fi-089_20_80.txt, output/EVEs/Fi-091_20_80.txt, output/EVEs/Fi-092_20_80.txt, output/EVEs/Fi-093_20_80.txt, output/EVEs/Fi-094_20_80.txt, output/EVEs/Fi-096_20_80.txt, output/EVEs/Fi-097_20_80.txt, output/EVEs/Fi-098_20_80.txt, output/EVEs/Fi-099_20_80.txt, output/EVEs/Fi-101_20_80.txt, output/EVEs/Fi-102_20_80.txt, output/EVEs/Fi-103_20_80.txt, output/EVEs/Fi-001_5_95.txt, output/EVEs/Fi-004_5_95.txt, output/EVEs/Fi-005_5_95.txt, output/EVEs/Fi-009_5_95.txt, output/EVEs/Fi-026_5_95.txt, output/EVEs/Fi-027_5_95.txt, output/EVEs/Fi-032_5_95.txt, output/EVEs/Fi-034_5_95.txt, output/EVEs/Fi-035_5_95.txt, output/EVEs/Fi-036_5_95.txt, output/EVEs/Fi-037_5_95.txt, output/EVEs/Fi-040_5_95.txt, output/EVEs/Fi-042_5_95.txt, output/EVEs/Fi-043_5_95.txt, output/EVEs/Fi-047_5_95.txt, output/EVEs/Fi-048_5_95.txt, output/EVEs/Fi-051_5_95.txt, output/EVEs/Fi-054_5_95.txt, output/EVEs/Fi-055_5_95.txt, output/EVEs/Fi-056_5_95.txt, output/EVEs/Fi-057_5_95.txt, output/EVEs/Fi-058_5_95.txt, output/EVEs/Fi-059_5_95.txt, output/EVEs/Fi-077_5_95.txt, output/EVEs/Fi-079_5_95.txt, output/EVEs/Fi-083_5_95.txt, output/EVEs/Fi-085_5_95.txt, output/EVEs/Fi-086_5_95.txt, output/EVEs/Fi-089_5_95.txt, output/EVEs/Fi-091_5_95.txt, output/EVEs/Fi-092_5_95.txt, output/EVEs/Fi-093_5_95.txt, output/EVEs/Fi-094_5_95.txt, output/EVEs/Fi-096_5_95.txt, output/EVEs/Fi-097_5_95.txt, output/EVEs/Fi-098_5_95.txt, output/EVEs/Fi-099_5_95.txt, output/EVEs/Fi-101_5_95.txt, output/EVEs/Fi-102_5_95.txt, output/EVEs/Fi-103_5_95.txt
+    jobid: 0
+    reason: Input files updated by another job: output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/depth_all_contigs/Fi-040.txt, output/candidate_depth/Fi-091_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-047.bam, output/candidate_depth/Fi-037_candidate_depth.txt, output/candidate_contigs/Fi-027_candidate_contigs.txt, output/EVEs/Fi-089_20_80.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-032.sam, output/depth_all_contigs/Fi-005.txt, output/depth_all_contigs/Fi-099.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-055.bam, output/depth_all_contigs/Fi-086.txt, output/candidate_depth/Fi-085_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-089.bam, output/depth_all_contigs/Fi-027.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-040.bam, output/EVEs/Fi-047_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-089.sam, output/depth_all_contigs/Fi-059.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt, output/EVEs/Fi-086_20_80.txt, output/candidate_depth/Fi-101_candidate_depth.txt, output/depth_all_contigs/Fi-032.txt, output/EVEs/Fi-032_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-009.bam, output/EVEs/Fi-077_20_80.txt, output/candidate_depth/Fi-103_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-001.bam, output/candidate_depth/Fi-086_candidate_depth.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_contigs/Fi-009_candidate_contigs.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-097.sam, output/candidate_contigs/Fi-086_candidate_contigs.txt, output/EVEs/Fi-099_5_95.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-036.sam, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/depth_all_contigs/Fi-101.txt, output/EVEs/Fi-079_5_95.txt, output/EVEs/Fi-042_5_95.txt, output/EVEs/Fi-093_5_95.txt, output/EVEs/Fi-058_20_80.txt, output/candidate_depth/Fi-077_candidate_depth.txt, output/EVEs/Fi-047_20_80.txt, output/candidate_contigs/Fi-083_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-083.sam, output/EVEs/Fi-094_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-037.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-026.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-093.bam, output/depth_all_contigs/Fi-004.txt, output/depth_all_contigs/Fi-026.txt, output/candidate_contigs/Fi-036_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-026.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-001.sam, output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/candidate_contigs/Fi-101_candidate_contigs.txt, output/candidate_depth/Fi-027_candidate_depth.txt, output/candidate_contigs/Fi-001_candidate_contigs.txt, output/EVEs/Fi-037_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-059.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-085.bam, output/EVEs/Fi-005_20_80.txt, output/depth_all_contigs/Fi-102.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-004.bam, output/depth_all_contigs/Fi-094.txt, output/depth_all_contigs/Fi-035.txt, output/candidate_contigs/Fi-089_candidate_contigs.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-103.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-086.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-099.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-032.bam, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-034.sam, output/EVEs/Fi-059_20_80.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-056.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-059.bam, output/candidate_contigs/Fi-099_candidate_contigs.txt, output/candidate_depth/Fi-098_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-048.bam, output/candidate_contigs/Fi-097_candidate_contigs.txt, output/depth_all_contigs/Fi-001.txt, output/EVEs/Fi-085_5_95.txt, output/candidate_contigs/Fi-037_candidate_contigs.txt, output/depth_all_contigs/Fi-055.txt, output/candidate_depth/Fi-093_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-036.bam, output/EVEs/Fi-091_20_80.txt, output/candidate_depth/Fi-004_candidate_depth.txt, output/EVEs/Fi-027_5_95.txt, output/EVEs/Fi-004_20_80.txt, output/depth_all_contigs/Fi-051.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-056.bam, output/candidate_depth/Fi-097_candidate_depth.txt, output/depth_all_contigs/Fi-048.txt, output/EVEs/Fi-027_20_80.txt, output/depth_all_contigs/Fi-096.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-079.bam, output/EVEs/Fi-093_20_80.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/EVEs/Fi-098_5_95.txt, output/EVEs/Fi-055_5_95.txt, output/EVEs/Fi-043_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-096.bam, output/candidate_contigs/Fi-048_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-037.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-102.bam, output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/depth_all_contigs/Fi-056.txt, output/EVEs/Fi-086_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-091.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-098.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-043.sam, output/EVEs/Fi-004_5_95.txt, output/EVEs/Fi-042_20_80.txt, output/candidate_depth/Fi-083_candidate_depth.txt, output/depth_all_contigs/Fi-097.txt, output/candidate_contigs/Fi-034_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-051.sam, output/EVEs/Fi-054_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-096.sam, output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-035.bam, output/candidate_contigs/Fi-102_candidate_contigs.txt, output/EVEs/Fi-056_20_80.txt, output/depth_all_contigs/Fi-037.txt, output/candidate_depth/Fi-048_candidate_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt, output/candidate_contigs/Fi-091_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-097.bam, output/candidate_depth/Fi-094_candidate_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt, output/EVEs/Fi-057_20_80.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/EVEs/Fi-101_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-027.sam, output/depth_all_contigs/Fi-083.txt, output/EVEs/Fi-001_5_95.txt, output/candidate_contigs/Fi-047_candidate_contigs.txt, output/candidate_depth/Fi-056_candidate_depth.txt, output/EVEs/Fi-079_20_80.txt, output/EVEs/Fi-092_5_95.txt, output/EVEs/Fi-054_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-079.sam, output/candidate_contigs/Fi-043_candidate_contigs.txt, output/EVEs/Fi-051_20_80.txt, output/candidate_contigs/Fi-051_candidate_contigs.txt, output/candidate_depth/Fi-040_candidate_depth.txt, output/EVEs/Fi-103_5_95.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/EVEs/Fi-035_5_95.txt, output/candidate_contigs/Fi-094_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-094.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-057.bam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-034.bam, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-042.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-083.bam, output/BUSCO_depth/Fi-048_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-048.sam, output/candidate_contigs/Fi-032_candidate_contigs.txt, output/candidate_depth/Fi-057_candidate_depth.txt, output/candidate_contigs/Fi-055_candidate_contigs.txt, output/candidate_depth/Fi-001_candidate_depth.txt, output/depth_all_contigs/Fi-009.txt, output/candidate_depth/Fi-054_candidate_depth.txt, output/EVEs/Fi-057_5_95.txt, output/candidate_contigs/Fi-077_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-102.sam, output/candidate_contigs/Fi-058_candidate_contigs.txt, output/EVEs/Fi-051_5_95.txt, output/depth_all_contigs/Fi-085.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-042.bam, output/EVEs/Fi-009_20_80.txt, output/depth_all_contigs/Fi-103.txt, output/candidate_contigs/Fi-092_candidate_contigs.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/EVEs/Fi-103_20_80.txt, output/EVEs/Fi-034_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-085.sam, output/candidate_contigs/Fi-057_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-091.sam, output/EVEs/Fi-089_5_95.txt, output/candidate_depth/Fi-009_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-077.bam, output/depth_all_contigs/Fi-089.txt, output/candidate_depth/Fi-099_candidate_depth.txt, output/EVEs/Fi-040_20_80.txt, output/EVEs/Fi-102_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-057.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-051.bam, output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_contigs/Fi-026_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-040.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-054.sam, output/EVEs/Fi-036_20_80.txt, output/depth_all_contigs/Fi-057.txt, output/candidate_depth/Fi-079_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-103.bam, output/candidate_depth/Fi-026_candidate_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-099.bam, output/candidate_contigs/Fi-098_candidate_contigs.txt, output/depth_all_contigs/Fi-034.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-058.bam, output/candidate_contigs/Fi-042_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-054.bam, output/candidate_contigs/Fi-059_candidate_contigs.txt, output/depth_all_contigs/Fi-079.txt, output/candidate_depth/Fi-102_candidate_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt, output/EVEs/Fi-085_20_80.txt, output/EVEs/Fi-055_20_80.txt, output/EVEs/Fi-005_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-058.sam, output/EVEs/Fi-032_20_80.txt, output/candidate_contigs/Fi-079_candidate_contigs.txt, output/depth_all_contigs/Fi-098.txt, output/candidate_depth/Fi-047_candidate_depth.txt, output/EVEs/Fi-059_5_95.txt, output/depth_all_contigs/Fi-047.txt, output/EVEs/Fi-026_20_80.txt, output/candidate_depth/Fi-096_candidate_depth.txt, output/EVEs/Fi-034_20_80.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/EVEs/Fi-035_20_80.txt, output/EVEs/Fi-083_20_80.txt, output/EVEs/Fi-043_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-094.sam, output/EVEs/Fi-098_20_80.txt, output/candidate_contigs/Fi-096_candidate_contigs.txt, output/depth_all_contigs/Fi-036.txt, output/EVEs/Fi-040_5_95.txt, output/EVEs/Fi-009_5_95.txt, output/candidate_contigs/Fi-005_candidate_contigs.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/depth_all_contigs/Fi-091.txt, output/depth_all_contigs/Fi-077.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/EVEs/Fi-101_5_95.txt, output/EVEs/Fi-026_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-101.bam, output/depth_all_contigs/Fi-092.txt, output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/EVEs/Fi-056_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-098.sam, output/candidate_depth/Fi-089_candidate_depth.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt, output/EVEs/Fi-097_5_95.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-005.bam, output/EVEs/Fi-096_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-093.sam, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/EVEs/Fi-037_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-043.bam, output/EVEs/Fi-083_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-027.bam, output/EVEs/Fi-094_5_95.txt, output/EVEs/Fi-036_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-035.sam, output/candidate_depth/Fi-035_candidate_depth.txt, output/candidate_contigs/Fi-035_candidate_contigs.txt, output/candidate_depth/Fi-043_candidate_depth.txt, output/EVEs/Fi-099_20_80.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-077.sam, output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/BUSCO_depth/Fi-009_BUSCO_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-092.bam, output/candidate_contigs/Fi-040_candidate_contigs.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/candidate_contigs/Fi-056_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-047.sam, output/EVEs/Fi-092_20_80.txt, output/depth_all_contigs/Fi-054.txt, output/EVEs/Fi-096_20_80.txt, output/depth_all_contigs/Fi-042.txt, output/depth_all_contigs/Fi-058.txt, output/candidate_depth/Fi-059_candidate_depth.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-055.sam, output/depth_all_contigs/Fi-093.txt, output/EVEs/Fi-102_5_95.txt, output/candidate_contigs/Fi-085_candidate_contigs.txt, output/EVEs/Fi-001_20_80.txt, output/candidate_depth/Fi-042_candidate_depth.txt, output/EVEs/Fi-091_5_95.txt, output/candidate_contigs/Fi-004_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-004.sam, output/candidate_contigs/Fi-093_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-092.sam, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_contigs/Fi-103_candidate_contigs.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/BAM/Fi-086.bam, output/EVEs/Fi-048_5_95.txt, output/candidate_depth/Fi-092_candidate_depth.txt, output/EVEs/Fi-058_5_95.txt, output/depth_all_contigs/Fi-043.txt, output/candidate_depth/Fi-036_candidate_depth.txt, output/EVEs/Fi-097_20_80.txt, output/candidate_contigs/Fi-054_candidate_contigs.txt, output/EVEs/Fi-077_5_95.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-005.sam, output/EVEs/Fi-048_20_80.txt, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-101.sam, /share/pool/gbol3_figitidae_wgs/figi_wgs_workflow/resources/copied_data/SAM/Fi-009.sam
+    resources: tmpdir=<TBD>
+
+Job stats:
+job                 count
+----------------  -------
+Identify_depth         40
+Mapping                40
+all                     1
+sequencing_depth       40
+statistics             40
+total                 161
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        Identify_depth, all, sequencing_depth, statistics
+    output files have to be generated:
+        Identify_depth, Mapping, sequencing_depth, statistics
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

@@ -1,0 +1,1081 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 30
+Rules claiming more threads will be scaled down.
+Job stats:
+job                  count
+-----------------  -------
+Create_viral_db          1
+Define_loci             11
+Homology_analysis       11
+all                      1
+total                   24
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 15:39:20 2025]
+localrule Create_viral_db:
+    input: data/complete_Filamentoviridae.fasta
+    output: data/complete_Filamentoviridae
+    jobid: 1
+    reason: Missing output files: data/complete_Filamentoviridae; Code has changed since last execution
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 15:39:20 2025]
+Finished job 1.
+1 of 24 steps (4%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Tue Dec 30 15:39:20 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-077.fa
+    output: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    jobid: 2
+    reason: Missing output files: output/mmseqs2/Fi-077/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-077
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+
+[Tue Dec 30 15:39:20 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-040.fa
+    output: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    jobid: 9
+    reason: Missing output files: output/mmseqs2/Fi-040/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-040
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+
+[Tue Dec 30 15:39:20 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-036.fa
+    output: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    jobid: 6
+    reason: Missing output files: output/mmseqs2/Fi-036/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-036
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 15:55:53 2025]
+Finished job 2.
+2 of 24 steps (8%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 15:55:53 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-047.fa
+    output: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    jobid: 5
+    reason: Missing output files: output/mmseqs2/Fi-047/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-047
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 15:57:22 2025]
+Finished job 9.
+3 of 24 steps (12%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 15:57:22 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-043.fa
+    output: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    jobid: 12
+    reason: Missing output files: output/mmseqs2/Fi-043/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-043
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:03:07 2025]
+Finished job 6.
+4 of 24 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:03:07 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-034.fa
+    output: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    jobid: 8
+    reason: Missing output files: output/mmseqs2/Fi-034/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-034
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:12:56 2025]
+Finished job 5.
+5 of 24 steps (21%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:12:56 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-027.fa
+    output: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    jobid: 4
+    reason: Missing output files: output/mmseqs2/Fi-027/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-027
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:30:29 2025]
+Finished job 8.
+6 of 24 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:30:29 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-042.fa
+    output: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    jobid: 11
+    reason: Missing output files: output/mmseqs2/Fi-042/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-042
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:32:53 2025]
+Finished job 12.
+7 of 24 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:32:53 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-037.fa
+    output: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    jobid: 7
+    reason: Missing output files: output/mmseqs2/Fi-037/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-037
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:38:11 2025]
+Finished job 4.
+8 of 24 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:38:11 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-035.fa
+    output: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    jobid: 10
+    reason: Missing output files: output/mmseqs2/Fi-035/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-035
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:59:11 2025]
+Finished job 7.
+9 of 24 steps (38%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:59:12 2025]
+localrule Homology_analysis:
+    input: data/complete_Filamentoviridae, /home/yzitzmann/paper/homology_search/genomes/Fi-026.fa
+    output: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    jobid: 3
+    reason: Missing output files: output/mmseqs2/Fi-026/result_mmseqs2.m8; Input files updated by another job: data/complete_Filamentoviridae
+    wildcards: Genome_ID=Fi-026
+    threads: 10
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:59:26 2025]
+Finished job 11.
+10 of 24 steps (42%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Tue Dec 30 16:59:26 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    output: output/merged_loci/Fi-077_mmseqs_hits_merged.bed
+    jobid: 13
+    reason: Missing output files: output/merged_loci/Fi-077_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-077
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:59:26 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    output: output/merged_loci/Fi-047_mmseqs_hits_merged.bed
+    jobid: 16
+    reason: Missing output files: output/merged_loci/Fi-047_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-047
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:59:26 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    output: output/merged_loci/Fi-040_mmseqs_hits_merged.bed
+    jobid: 20
+    reason: Missing output files: output/merged_loci/Fi-040_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-040
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Lade nötiges Paket: stats4
+Lade nötiges Paket: stats4
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+Lade nötiges Paket: BiocGenerics
+Lade nötiges Paket: BiocGenerics
+
+Attache Paket: ‘BiocGenerics’
+
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attache Paket: ‘S4Vectors’
+
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: GenomeInfoDb
+Lade nötiges Paket: GenomeInfoDb
+Lade nötiges Paket: GenomeInfoDb
+
+Attache Paket: ‘dplyr’
+
+
+Attache Paket: ‘dplyr’
+
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[Tue Dec 30 16:59:32 2025]
+Finished job 20.
+11 of 24 steps (46%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:59:32 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    output: output/merged_loci/Fi-036_mmseqs_hits_merged.bed
+    jobid: 17
+    reason: Missing output files: output/merged_loci/Fi-036_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-036
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+[Tue Dec 30 16:59:32 2025]
+Finished job 16.
+12 of 24 steps (50%) done
+[Tue Dec 30 16:59:32 2025]
+Finished job 13.
+13 of 24 steps (54%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Tue Dec 30 16:59:32 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    output: output/merged_loci/Fi-034_mmseqs_hits_merged.bed
+    jobid: 19
+    reason: Missing output files: output/merged_loci/Fi-034_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-034
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 16:59:32 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    output: output/merged_loci/Fi-043_mmseqs_hits_merged.bed
+    jobid: 23
+    reason: Missing output files: output/merged_loci/Fi-043_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-043
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Select jobs to execute...
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Lade nötiges Paket: stats4
+Lade nötiges Paket: stats4
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+Lade nötiges Paket: BiocGenerics
+Lade nötiges Paket: BiocGenerics
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: GenomeInfoDb
+Lade nötiges Paket: GenomeInfoDb
+Lade nötiges Paket: GenomeInfoDb
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[Tue Dec 30 16:59:36 2025]
+Finished job 17.
+14 of 24 steps (58%) done
+Execute 1 jobs...
+
+[Tue Dec 30 16:59:36 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    output: output/merged_loci/Fi-042_mmseqs_hits_merged.bed
+    jobid: 22
+    reason: Missing output files: output/merged_loci/Fi-042_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-042
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+[Tue Dec 30 16:59:36 2025]
+Finished job 23.
+15 of 24 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:59:37 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    output: output/merged_loci/Fi-037_mmseqs_hits_merged.bed
+    jobid: 18
+    reason: Missing output files: output/merged_loci/Fi-037_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-037
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+[Tue Dec 30 16:59:37 2025]
+Finished job 19.
+16 of 24 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 16:59:37 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    output: output/merged_loci/Fi-027_mmseqs_hits_merged.bed
+    jobid: 15
+    reason: Missing output files: output/merged_loci/Fi-027_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-027
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Lade nötiges Paket: stats4
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+Lade nötiges Paket: BiocGenerics
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: GenomeInfoDb
+Lade nötiges Paket: GenomeInfoDb
+Lade nötiges Paket: GenomeInfoDb
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[Tue Dec 30 16:59:41 2025]
+Finished job 22.
+17 of 24 steps (71%) done
+[Tue Dec 30 16:59:41 2025]
+Finished job 15.
+18 of 24 steps (75%) done
+[Tue Dec 30 16:59:41 2025]
+Finished job 18.
+19 of 24 steps (79%) done
+[Tue Dec 30 17:04:01 2025]
+Finished job 10.
+20 of 24 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 17:04:01 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    output: output/merged_loci/Fi-035_mmseqs_hits_merged.bed
+    jobid: 21
+    reason: Missing output files: output/merged_loci/Fi-035_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-035
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: GenomeInfoDb
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[Tue Dec 30 17:04:05 2025]
+Finished job 21.
+21 of 24 steps (88%) done
+[Tue Dec 30 17:15:47 2025]
+Finished job 3.
+22 of 24 steps (92%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 17:15:47 2025]
+localrule Define_loci:
+    input: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    output: output/merged_loci/Fi-026_mmseqs_hits_merged.bed
+    jobid: 14
+    reason: Missing output files: output/merged_loci/Fi-026_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-026
+    threads: 3
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+Activating conda environment: .snakemake/conda/ba49bb8a1f1916bc26a8b009aded702a_
+Lade nötiges Paket: stats4
+Lade nötiges Paket: BiocGenerics
+
+Attache Paket: ‘BiocGenerics’
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, saveRDS, setdiff,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attache Paket: ‘S4Vectors’
+
+Das folgende Objekt ist maskiert ‘package:utils’:
+
+    findMatches
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    expand.grid, I, unname
+
+Lade nötiges Paket: IRanges
+Lade nötiges Paket: GenomeInfoDb
+
+Attache Paket: ‘dplyr’
+
+Die folgenden Objekte sind maskiert von ‘package:GenomicRanges’:
+
+    intersect, setdiff, union
+
+Das folgende Objekt ist maskiert ‘package:GenomeInfoDb’:
+
+    intersect
+
+Die folgenden Objekte sind maskiert von ‘package:IRanges’:
+
+    collapse, desc, intersect, setdiff, slice, union
+
+Die folgenden Objekte sind maskiert von ‘package:S4Vectors’:
+
+    first, intersect, rename, setdiff, setequal, union
+
+Die folgenden Objekte sind maskiert von ‘package:BiocGenerics’:
+
+    combine, intersect, setdiff, union
+
+Die folgenden Objekte sind maskiert von ‘package:stats’:
+
+    filter, lag
+
+Die folgenden Objekte sind maskiert von ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[Tue Dec 30 17:15:51 2025]
+Finished job 14.
+23 of 24 steps (96%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Dec 30 17:15:51 2025]
+localrule all:
+    input: data/complete_Filamentoviridae, output/mmseqs2/Fi-077/result_mmseqs2.m8, output/mmseqs2/Fi-026/result_mmseqs2.m8, output/mmseqs2/Fi-027/result_mmseqs2.m8, output/mmseqs2/Fi-047/result_mmseqs2.m8, output/mmseqs2/Fi-036/result_mmseqs2.m8, output/mmseqs2/Fi-037/result_mmseqs2.m8, output/mmseqs2/Fi-034/result_mmseqs2.m8, output/mmseqs2/Fi-040/result_mmseqs2.m8, output/mmseqs2/Fi-035/result_mmseqs2.m8, output/mmseqs2/Fi-042/result_mmseqs2.m8, output/mmseqs2/Fi-043/result_mmseqs2.m8, output/merged_loci/Fi-077_mmseqs_hits_merged.bed, output/merged_loci/Fi-026_mmseqs_hits_merged.bed, output/merged_loci/Fi-027_mmseqs_hits_merged.bed, output/merged_loci/Fi-047_mmseqs_hits_merged.bed, output/merged_loci/Fi-036_mmseqs_hits_merged.bed, output/merged_loci/Fi-037_mmseqs_hits_merged.bed, output/merged_loci/Fi-034_mmseqs_hits_merged.bed, output/merged_loci/Fi-040_mmseqs_hits_merged.bed, output/merged_loci/Fi-035_mmseqs_hits_merged.bed, output/merged_loci/Fi-042_mmseqs_hits_merged.bed, output/merged_loci/Fi-043_mmseqs_hits_merged.bed
+    jobid: 0
+    reason: Input files updated by another job: output/merged_loci/Fi-034_mmseqs_hits_merged.bed, output/mmseqs2/Fi-047/result_mmseqs2.m8, output/merged_loci/Fi-036_mmseqs_hits_merged.bed, output/mmseqs2/Fi-037/result_mmseqs2.m8, output/mmseqs2/Fi-077/result_mmseqs2.m8, output/merged_loci/Fi-037_mmseqs_hits_merged.bed, output/mmseqs2/Fi-036/result_mmseqs2.m8, output/merged_loci/Fi-043_mmseqs_hits_merged.bed, output/merged_loci/Fi-042_mmseqs_hits_merged.bed, data/complete_Filamentoviridae, output/merged_loci/Fi-047_mmseqs_hits_merged.bed, output/mmseqs2/Fi-040/result_mmseqs2.m8, output/merged_loci/Fi-035_mmseqs_hits_merged.bed, output/mmseqs2/Fi-026/result_mmseqs2.m8, output/merged_loci/Fi-027_mmseqs_hits_merged.bed, output/mmseqs2/Fi-043/result_mmseqs2.m8, output/merged_loci/Fi-026_mmseqs_hits_merged.bed, output/merged_loci/Fi-040_mmseqs_hits_merged.bed, output/merged_loci/Fi-077_mmseqs_hits_merged.bed, output/mmseqs2/Fi-035/result_mmseqs2.m8, output/mmseqs2/Fi-042/result_mmseqs2.m8, output/mmseqs2/Fi-034/result_mmseqs2.m8, output/mmseqs2/Fi-027/result_mmseqs2.m8
+    resources: tmpdir=/tmp/2093324.1.small.q
+
+[Tue Dec 30 17:15:51 2025]
+Finished job 0.
+24 of 24 steps (100%) done
+Complete log: .snakemake/log/2025-12-30T153917.971664.snakemake.log

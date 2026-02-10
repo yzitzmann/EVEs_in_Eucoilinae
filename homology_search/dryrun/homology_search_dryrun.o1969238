@@ -1,0 +1,1281 @@
+Building DAG of jobs...
+Job stats:
+job                       count
+----------------------  -------
+Create_viral_db               1
+Define_loci                  41
+Extract_translate_loci       41
+Homology_analysis            41
+all                           1
+total                       125
+
+Execute 1 jobs...
+
+[Sat May 24 12:25:27 2025]
+rule Create_viral_db:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5.faa
+    output: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    jobid: 1
+    reason: Missing output files: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    resources: tmpdir=<TBD>
+
+Execute 41 jobs...
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-089.fa
+    output: output/mmseqs2/Fi-089/result_mmseqs2.m8
+    jobid: 31
+    reason: Missing output files: output/mmseqs2/Fi-089/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-043.fa
+    output: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    jobid: 16
+    reason: Missing output files: output/mmseqs2/Fi-043/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-091.fa
+    output: output/mmseqs2/Fi-091/result_mmseqs2.m8
+    jobid: 32
+    reason: Missing output files: output/mmseqs2/Fi-091/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-047.fa
+    output: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    jobid: 17
+    reason: Missing output files: output/mmseqs2/Fi-047/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-000.fa
+    output: output/mmseqs2/Fi-000/result_mmseqs2.m8
+    jobid: 2
+    reason: Missing output files: output/mmseqs2/Fi-000/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-001.fa
+    output: output/mmseqs2/Fi-001/result_mmseqs2.m8
+    jobid: 3
+    reason: Missing output files: output/mmseqs2/Fi-001/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-048.fa
+    output: output/mmseqs2/Fi-048/result_mmseqs2.m8
+    jobid: 18
+    reason: Missing output files: output/mmseqs2/Fi-048/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-092.fa
+    output: output/mmseqs2/Fi-092/result_mmseqs2.m8
+    jobid: 33
+    reason: Missing output files: output/mmseqs2/Fi-092/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-093.fa
+    output: output/mmseqs2/Fi-093/result_mmseqs2.m8
+    jobid: 34
+    reason: Missing output files: output/mmseqs2/Fi-093/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-004.fa
+    output: output/mmseqs2/Fi-004/result_mmseqs2.m8
+    jobid: 4
+    reason: Missing output files: output/mmseqs2/Fi-004/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-051.fa
+    output: output/mmseqs2/Fi-051/result_mmseqs2.m8
+    jobid: 19
+    reason: Missing output files: output/mmseqs2/Fi-051/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-005.fa
+    output: output/mmseqs2/Fi-005/result_mmseqs2.m8
+    jobid: 5
+    reason: Missing output files: output/mmseqs2/Fi-005/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-054.fa
+    output: output/mmseqs2/Fi-054/result_mmseqs2.m8
+    jobid: 20
+    reason: Missing output files: output/mmseqs2/Fi-054/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-094.fa
+    output: output/mmseqs2/Fi-094/result_mmseqs2.m8
+    jobid: 35
+    reason: Missing output files: output/mmseqs2/Fi-094/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-009.fa
+    output: output/mmseqs2/Fi-009/result_mmseqs2.m8
+    jobid: 6
+    reason: Missing output files: output/mmseqs2/Fi-009/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-055.fa
+    output: output/mmseqs2/Fi-055/result_mmseqs2.m8
+    jobid: 21
+    reason: Missing output files: output/mmseqs2/Fi-055/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-096.fa
+    output: output/mmseqs2/Fi-096/result_mmseqs2.m8
+    jobid: 36
+    reason: Missing output files: output/mmseqs2/Fi-096/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-026.fa
+    output: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    jobid: 7
+    reason: Missing output files: output/mmseqs2/Fi-026/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-056.fa
+    output: output/mmseqs2/Fi-056/result_mmseqs2.m8
+    jobid: 22
+    reason: Missing output files: output/mmseqs2/Fi-056/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-097.fa
+    output: output/mmseqs2/Fi-097/result_mmseqs2.m8
+    jobid: 37
+    reason: Missing output files: output/mmseqs2/Fi-097/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-042.fa
+    output: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    jobid: 15
+    reason: Missing output files: output/mmseqs2/Fi-042/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-027.fa
+    output: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    jobid: 8
+    reason: Missing output files: output/mmseqs2/Fi-027/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-057.fa
+    output: output/mmseqs2/Fi-057/result_mmseqs2.m8
+    jobid: 23
+    reason: Missing output files: output/mmseqs2/Fi-057/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-098.fa
+    output: output/mmseqs2/Fi-098/result_mmseqs2.m8
+    jobid: 38
+    reason: Missing output files: output/mmseqs2/Fi-098/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-032.fa
+    output: output/mmseqs2/Fi-032/result_mmseqs2.m8
+    jobid: 9
+    reason: Missing output files: output/mmseqs2/Fi-032/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-058.fa
+    output: output/mmseqs2/Fi-058/result_mmseqs2.m8
+    jobid: 24
+    reason: Missing output files: output/mmseqs2/Fi-058/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-099.fa
+    output: output/mmseqs2/Fi-099/result_mmseqs2.m8
+    jobid: 39
+    reason: Missing output files: output/mmseqs2/Fi-099/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-034.fa
+    output: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    jobid: 10
+    reason: Missing output files: output/mmseqs2/Fi-034/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-059.fa
+    output: output/mmseqs2/Fi-059/result_mmseqs2.m8
+    jobid: 25
+    reason: Missing output files: output/mmseqs2/Fi-059/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-101.fa
+    output: output/mmseqs2/Fi-101/result_mmseqs2.m8
+    jobid: 40
+    reason: Missing output files: output/mmseqs2/Fi-101/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-035.fa
+    output: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    jobid: 11
+    reason: Missing output files: output/mmseqs2/Fi-035/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-077.fa
+    output: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    jobid: 26
+    reason: Missing output files: output/mmseqs2/Fi-077/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-102.fa
+    output: output/mmseqs2/Fi-102/result_mmseqs2.m8
+    jobid: 41
+    reason: Missing output files: output/mmseqs2/Fi-102/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-036.fa
+    output: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    jobid: 12
+    reason: Missing output files: output/mmseqs2/Fi-036/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-079.fa
+    output: output/mmseqs2/Fi-079/result_mmseqs2.m8
+    jobid: 27
+    reason: Missing output files: output/mmseqs2/Fi-079/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-103.fa
+    output: output/mmseqs2/Fi-103/result_mmseqs2.m8
+    jobid: 42
+    reason: Missing output files: output/mmseqs2/Fi-103/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-037.fa
+    output: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    jobid: 13
+    reason: Missing output files: output/mmseqs2/Fi-037/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-083.fa
+    output: output/mmseqs2/Fi-083/result_mmseqs2.m8
+    jobid: 28
+    reason: Missing output files: output/mmseqs2/Fi-083/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-040.fa
+    output: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    jobid: 14
+    reason: Missing output files: output/mmseqs2/Fi-040/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-085.fa
+    output: output/mmseqs2/Fi-085/result_mmseqs2.m8
+    jobid: 29
+    reason: Missing output files: output/mmseqs2/Fi-085/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Homology_analysis:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, genomes/Fi-086.fa
+    output: output/mmseqs2/Fi-086/result_mmseqs2.m8
+    jobid: 30
+    reason: Missing output files: output/mmseqs2/Fi-086/result_mmseqs2.m8; Input files updated by another job: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+Execute 41 jobs...
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-085/result_mmseqs2.m8
+    output: output/merged_loci/Fi-085_mmseqs_hits_merged.bed
+    jobid: 70
+    reason: Missing output files: output/merged_loci/Fi-085_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-085/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    output: output/merged_loci/Fi-040_mmseqs_hits_merged.bed
+    jobid: 55
+    reason: Missing output files: output/merged_loci/Fi-040_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    output: output/merged_loci/Fi-037_mmseqs_hits_merged.bed
+    jobid: 54
+    reason: Missing output files: output/merged_loci/Fi-037_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-083/result_mmseqs2.m8
+    output: output/merged_loci/Fi-083_mmseqs_hits_merged.bed
+    jobid: 69
+    reason: Missing output files: output/merged_loci/Fi-083_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-083/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    output: output/merged_loci/Fi-036_mmseqs_hits_merged.bed
+    jobid: 53
+    reason: Missing output files: output/merged_loci/Fi-036_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-079/result_mmseqs2.m8
+    output: output/merged_loci/Fi-079_mmseqs_hits_merged.bed
+    jobid: 68
+    reason: Missing output files: output/merged_loci/Fi-079_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-079/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-103/result_mmseqs2.m8
+    output: output/merged_loci/Fi-103_mmseqs_hits_merged.bed
+    jobid: 83
+    reason: Missing output files: output/merged_loci/Fi-103_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-103/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    output: output/merged_loci/Fi-035_mmseqs_hits_merged.bed
+    jobid: 52
+    reason: Missing output files: output/merged_loci/Fi-035_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    output: output/merged_loci/Fi-077_mmseqs_hits_merged.bed
+    jobid: 67
+    reason: Missing output files: output/merged_loci/Fi-077_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-102/result_mmseqs2.m8
+    output: output/merged_loci/Fi-102_mmseqs_hits_merged.bed
+    jobid: 82
+    reason: Missing output files: output/merged_loci/Fi-102_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-102/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    output: output/merged_loci/Fi-034_mmseqs_hits_merged.bed
+    jobid: 51
+    reason: Missing output files: output/merged_loci/Fi-034_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-059/result_mmseqs2.m8
+    output: output/merged_loci/Fi-059_mmseqs_hits_merged.bed
+    jobid: 66
+    reason: Missing output files: output/merged_loci/Fi-059_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-059/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-101/result_mmseqs2.m8
+    output: output/merged_loci/Fi-101_mmseqs_hits_merged.bed
+    jobid: 81
+    reason: Missing output files: output/merged_loci/Fi-101_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-101/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-099/result_mmseqs2.m8
+    output: output/merged_loci/Fi-099_mmseqs_hits_merged.bed
+    jobid: 80
+    reason: Missing output files: output/merged_loci/Fi-099_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-099/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-032/result_mmseqs2.m8
+    output: output/merged_loci/Fi-032_mmseqs_hits_merged.bed
+    jobid: 50
+    reason: Missing output files: output/merged_loci/Fi-032_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-032/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-058/result_mmseqs2.m8
+    output: output/merged_loci/Fi-058_mmseqs_hits_merged.bed
+    jobid: 65
+    reason: Missing output files: output/merged_loci/Fi-058_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-058/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-098/result_mmseqs2.m8
+    output: output/merged_loci/Fi-098_mmseqs_hits_merged.bed
+    jobid: 79
+    reason: Missing output files: output/merged_loci/Fi-098_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-098/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    output: output/merged_loci/Fi-027_mmseqs_hits_merged.bed
+    jobid: 49
+    reason: Missing output files: output/merged_loci/Fi-027_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-057/result_mmseqs2.m8
+    output: output/merged_loci/Fi-057_mmseqs_hits_merged.bed
+    jobid: 64
+    reason: Missing output files: output/merged_loci/Fi-057_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-057/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-056/result_mmseqs2.m8
+    output: output/merged_loci/Fi-056_mmseqs_hits_merged.bed
+    jobid: 63
+    reason: Missing output files: output/merged_loci/Fi-056_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-056/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-097/result_mmseqs2.m8
+    output: output/merged_loci/Fi-097_mmseqs_hits_merged.bed
+    jobid: 78
+    reason: Missing output files: output/merged_loci/Fi-097_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-097/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    output: output/merged_loci/Fi-026_mmseqs_hits_merged.bed
+    jobid: 48
+    reason: Missing output files: output/merged_loci/Fi-026_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-055/result_mmseqs2.m8
+    output: output/merged_loci/Fi-055_mmseqs_hits_merged.bed
+    jobid: 62
+    reason: Missing output files: output/merged_loci/Fi-055_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-055/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-096/result_mmseqs2.m8
+    output: output/merged_loci/Fi-096_mmseqs_hits_merged.bed
+    jobid: 77
+    reason: Missing output files: output/merged_loci/Fi-096_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-096/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-009/result_mmseqs2.m8
+    output: output/merged_loci/Fi-009_mmseqs_hits_merged.bed
+    jobid: 47
+    reason: Missing output files: output/merged_loci/Fi-009_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-009/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-005/result_mmseqs2.m8
+    output: output/merged_loci/Fi-005_mmseqs_hits_merged.bed
+    jobid: 46
+    reason: Missing output files: output/merged_loci/Fi-005_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-005/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-054/result_mmseqs2.m8
+    output: output/merged_loci/Fi-054_mmseqs_hits_merged.bed
+    jobid: 61
+    reason: Missing output files: output/merged_loci/Fi-054_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-054/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-094/result_mmseqs2.m8
+    output: output/merged_loci/Fi-094_mmseqs_hits_merged.bed
+    jobid: 76
+    reason: Missing output files: output/merged_loci/Fi-094_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-094/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-004/result_mmseqs2.m8
+    output: output/merged_loci/Fi-004_mmseqs_hits_merged.bed
+    jobid: 45
+    reason: Missing output files: output/merged_loci/Fi-004_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-004/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-051/result_mmseqs2.m8
+    output: output/merged_loci/Fi-051_mmseqs_hits_merged.bed
+    jobid: 60
+    reason: Missing output files: output/merged_loci/Fi-051_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-051/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-093/result_mmseqs2.m8
+    output: output/merged_loci/Fi-093_mmseqs_hits_merged.bed
+    jobid: 75
+    reason: Missing output files: output/merged_loci/Fi-093_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-093/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-001/result_mmseqs2.m8
+    output: output/merged_loci/Fi-001_mmseqs_hits_merged.bed
+    jobid: 44
+    reason: Missing output files: output/merged_loci/Fi-001_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-001/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-048/result_mmseqs2.m8
+    output: output/merged_loci/Fi-048_mmseqs_hits_merged.bed
+    jobid: 59
+    reason: Missing output files: output/merged_loci/Fi-048_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-048/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-092/result_mmseqs2.m8
+    output: output/merged_loci/Fi-092_mmseqs_hits_merged.bed
+    jobid: 74
+    reason: Missing output files: output/merged_loci/Fi-092_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-092/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-000/result_mmseqs2.m8
+    output: output/merged_loci/Fi-000_mmseqs_hits_merged.bed
+    jobid: 43
+    reason: Missing output files: output/merged_loci/Fi-000_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-000/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    output: output/merged_loci/Fi-047_mmseqs_hits_merged.bed
+    jobid: 58
+    reason: Missing output files: output/merged_loci/Fi-047_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-091/result_mmseqs2.m8
+    output: output/merged_loci/Fi-091_mmseqs_hits_merged.bed
+    jobid: 73
+    reason: Missing output files: output/merged_loci/Fi-091_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-091/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-089/result_mmseqs2.m8
+    output: output/merged_loci/Fi-089_mmseqs_hits_merged.bed
+    jobid: 72
+    reason: Missing output files: output/merged_loci/Fi-089_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-089/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    output: output/merged_loci/Fi-043_mmseqs_hits_merged.bed
+    jobid: 57
+    reason: Missing output files: output/merged_loci/Fi-043_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-086/result_mmseqs2.m8
+    output: output/merged_loci/Fi-086_mmseqs_hits_merged.bed
+    jobid: 71
+    reason: Missing output files: output/merged_loci/Fi-086_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-086/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Define_loci:
+    input: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    output: output/merged_loci/Fi-042_mmseqs_hits_merged.bed
+    jobid: 56
+    reason: Missing output files: output/merged_loci/Fi-042_mmseqs_hits_merged.bed; Input files updated by another job: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+Execute 41 jobs...
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-036_mmseqs_hits_merged.bed, genomes/Fi-036.fa
+    output: output/loci/Fi-036_viral_loci.fna, output/loci/Fi-036_viral_loci.faa
+    jobid: 94
+    reason: Missing output files: output/loci/Fi-036_viral_loci.fna, output/loci/Fi-036_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-036_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-097_mmseqs_hits_merged.bed, genomes/Fi-097.fa
+    output: output/loci/Fi-097_viral_loci.fna, output/loci/Fi-097_viral_loci.faa
+    jobid: 119
+    reason: Missing output files: output/loci/Fi-097_viral_loci.fna, output/loci/Fi-097_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-097_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-056_mmseqs_hits_merged.bed, genomes/Fi-056.fa
+    output: output/loci/Fi-056_viral_loci.fna, output/loci/Fi-056_viral_loci.faa
+    jobid: 104
+    reason: Missing output files: output/loci/Fi-056_viral_loci.faa, output/loci/Fi-056_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-056_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-103_mmseqs_hits_merged.bed, genomes/Fi-103.fa
+    output: output/loci/Fi-103_viral_loci.fna, output/loci/Fi-103_viral_loci.faa
+    jobid: 124
+    reason: Missing output files: output/loci/Fi-103_viral_loci.faa, output/loci/Fi-103_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-103_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-079_mmseqs_hits_merged.bed, genomes/Fi-079.fa
+    output: output/loci/Fi-079_viral_loci.fna, output/loci/Fi-079_viral_loci.faa
+    jobid: 109
+    reason: Missing output files: output/loci/Fi-079_viral_loci.faa, output/loci/Fi-079_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-079_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-026_mmseqs_hits_merged.bed, genomes/Fi-026.fa
+    output: output/loci/Fi-026_viral_loci.fna, output/loci/Fi-026_viral_loci.faa
+    jobid: 89
+    reason: Missing output files: output/loci/Fi-026_viral_loci.fna, output/loci/Fi-026_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-026_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-000_mmseqs_hits_merged.bed, genomes/Fi-000.fa
+    output: output/loci/Fi-000_viral_loci.fna, output/loci/Fi-000_viral_loci.faa
+    jobid: 84
+    reason: Missing output files: output/loci/Fi-000_viral_loci.faa, output/loci/Fi-000_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-000_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-047_mmseqs_hits_merged.bed, genomes/Fi-047.fa
+    output: output/loci/Fi-047_viral_loci.fna, output/loci/Fi-047_viral_loci.faa
+    jobid: 99
+    reason: Missing output files: output/loci/Fi-047_viral_loci.faa, output/loci/Fi-047_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-047_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-091_mmseqs_hits_merged.bed, genomes/Fi-091.fa
+    output: output/loci/Fi-091_viral_loci.fna, output/loci/Fi-091_viral_loci.faa
+    jobid: 114
+    reason: Missing output files: output/loci/Fi-091_viral_loci.faa, output/loci/Fi-091_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-091_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-098_mmseqs_hits_merged.bed, genomes/Fi-098.fa
+    output: output/loci/Fi-098_viral_loci.fna, output/loci/Fi-098_viral_loci.faa
+    jobid: 120
+    reason: Missing output files: output/loci/Fi-098_viral_loci.fna, output/loci/Fi-098_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-098_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-057_mmseqs_hits_merged.bed, genomes/Fi-057.fa
+    output: output/loci/Fi-057_viral_loci.fna, output/loci/Fi-057_viral_loci.faa
+    jobid: 105
+    reason: Missing output files: output/loci/Fi-057_viral_loci.fna, output/loci/Fi-057_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-057_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-083_mmseqs_hits_merged.bed, genomes/Fi-083.fa
+    output: output/loci/Fi-083_viral_loci.fna, output/loci/Fi-083_viral_loci.faa
+    jobid: 110
+    reason: Missing output files: output/loci/Fi-083_viral_loci.fna, output/loci/Fi-083_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-083_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-037_mmseqs_hits_merged.bed, genomes/Fi-037.fa
+    output: output/loci/Fi-037_viral_loci.fna, output/loci/Fi-037_viral_loci.faa
+    jobid: 95
+    reason: Missing output files: output/loci/Fi-037_viral_loci.fna, output/loci/Fi-037_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-037_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-027_mmseqs_hits_merged.bed, genomes/Fi-027.fa
+    output: output/loci/Fi-027_viral_loci.fna, output/loci/Fi-027_viral_loci.faa
+    jobid: 90
+    reason: Missing output files: output/loci/Fi-027_viral_loci.fna, output/loci/Fi-027_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-027_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-001_mmseqs_hits_merged.bed, genomes/Fi-001.fa
+    output: output/loci/Fi-001_viral_loci.fna, output/loci/Fi-001_viral_loci.faa
+    jobid: 85
+    reason: Missing output files: output/loci/Fi-001_viral_loci.fna, output/loci/Fi-001_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-001_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-048_mmseqs_hits_merged.bed, genomes/Fi-048.fa
+    output: output/loci/Fi-048_viral_loci.fna, output/loci/Fi-048_viral_loci.faa
+    jobid: 100
+    reason: Missing output files: output/loci/Fi-048_viral_loci.fna, output/loci/Fi-048_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-048_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-092_mmseqs_hits_merged.bed, genomes/Fi-092.fa
+    output: output/loci/Fi-092_viral_loci.fna, output/loci/Fi-092_viral_loci.faa
+    jobid: 115
+    reason: Missing output files: output/loci/Fi-092_viral_loci.fna, output/loci/Fi-092_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-092_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-099_mmseqs_hits_merged.bed, genomes/Fi-099.fa
+    output: output/loci/Fi-099_viral_loci.fna, output/loci/Fi-099_viral_loci.faa
+    jobid: 121
+    reason: Missing output files: output/loci/Fi-099_viral_loci.fna, output/loci/Fi-099_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-099_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-058_mmseqs_hits_merged.bed, genomes/Fi-058.fa
+    output: output/loci/Fi-058_viral_loci.fna, output/loci/Fi-058_viral_loci.faa
+    jobid: 106
+    reason: Missing output files: output/loci/Fi-058_viral_loci.fna, output/loci/Fi-058_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-058_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-032_mmseqs_hits_merged.bed, genomes/Fi-032.fa
+    output: output/loci/Fi-032_viral_loci.fna, output/loci/Fi-032_viral_loci.faa
+    jobid: 91
+    reason: Missing output files: output/loci/Fi-032_viral_loci.faa, output/loci/Fi-032_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-032_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-040_mmseqs_hits_merged.bed, genomes/Fi-040.fa
+    output: output/loci/Fi-040_viral_loci.fna, output/loci/Fi-040_viral_loci.faa
+    jobid: 96
+    reason: Missing output files: output/loci/Fi-040_viral_loci.faa, output/loci/Fi-040_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-040_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-085_mmseqs_hits_merged.bed, genomes/Fi-085.fa
+    output: output/loci/Fi-085_viral_loci.fna, output/loci/Fi-085_viral_loci.faa
+    jobid: 111
+    reason: Missing output files: output/loci/Fi-085_viral_loci.fna, output/loci/Fi-085_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-085_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-004_mmseqs_hits_merged.bed, genomes/Fi-004.fa
+    output: output/loci/Fi-004_viral_loci.fna, output/loci/Fi-004_viral_loci.faa
+    jobid: 86
+    reason: Missing output files: output/loci/Fi-004_viral_loci.faa, output/loci/Fi-004_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-004_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-051_mmseqs_hits_merged.bed, genomes/Fi-051.fa
+    output: output/loci/Fi-051_viral_loci.fna, output/loci/Fi-051_viral_loci.faa
+    jobid: 101
+    reason: Missing output files: output/loci/Fi-051_viral_loci.fna, output/loci/Fi-051_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-051_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-093_mmseqs_hits_merged.bed, genomes/Fi-093.fa
+    output: output/loci/Fi-093_viral_loci.fna, output/loci/Fi-093_viral_loci.faa
+    jobid: 116
+    reason: Missing output files: output/loci/Fi-093_viral_loci.faa, output/loci/Fi-093_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-093_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-059_mmseqs_hits_merged.bed, genomes/Fi-059.fa
+    output: output/loci/Fi-059_viral_loci.fna, output/loci/Fi-059_viral_loci.faa
+    jobid: 107
+    reason: Missing output files: output/loci/Fi-059_viral_loci.fna, output/loci/Fi-059_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-059_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-034_mmseqs_hits_merged.bed, genomes/Fi-034.fa
+    output: output/loci/Fi-034_viral_loci.fna, output/loci/Fi-034_viral_loci.faa
+    jobid: 92
+    reason: Missing output files: output/loci/Fi-034_viral_loci.fna, output/loci/Fi-034_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-034_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-005_mmseqs_hits_merged.bed, genomes/Fi-005.fa
+    output: output/loci/Fi-005_viral_loci.fna, output/loci/Fi-005_viral_loci.faa
+    jobid: 87
+    reason: Missing output files: output/loci/Fi-005_viral_loci.fna, output/loci/Fi-005_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-005_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-101_mmseqs_hits_merged.bed, genomes/Fi-101.fa
+    output: output/loci/Fi-101_viral_loci.fna, output/loci/Fi-101_viral_loci.faa
+    jobid: 122
+    reason: Missing output files: output/loci/Fi-101_viral_loci.fna, output/loci/Fi-101_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-101_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-054_mmseqs_hits_merged.bed, genomes/Fi-054.fa
+    output: output/loci/Fi-054_viral_loci.fna, output/loci/Fi-054_viral_loci.faa
+    jobid: 102
+    reason: Missing output files: output/loci/Fi-054_viral_loci.fna, output/loci/Fi-054_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-054_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-094_mmseqs_hits_merged.bed, genomes/Fi-094.fa
+    output: output/loci/Fi-094_viral_loci.fna, output/loci/Fi-094_viral_loci.faa
+    jobid: 117
+    reason: Missing output files: output/loci/Fi-094_viral_loci.fna, output/loci/Fi-094_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-094_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-086_mmseqs_hits_merged.bed, genomes/Fi-086.fa
+    output: output/loci/Fi-086_viral_loci.fna, output/loci/Fi-086_viral_loci.faa
+    jobid: 112
+    reason: Missing output files: output/loci/Fi-086_viral_loci.fna, output/loci/Fi-086_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-086_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-042_mmseqs_hits_merged.bed, genomes/Fi-042.fa
+    output: output/loci/Fi-042_viral_loci.fna, output/loci/Fi-042_viral_loci.faa
+    jobid: 97
+    reason: Missing output files: output/loci/Fi-042_viral_loci.fna, output/loci/Fi-042_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-042_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-077_mmseqs_hits_merged.bed, genomes/Fi-077.fa
+    output: output/loci/Fi-077_viral_loci.fna, output/loci/Fi-077_viral_loci.faa
+    jobid: 108
+    reason: Missing output files: output/loci/Fi-077_viral_loci.fna, output/loci/Fi-077_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-077_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-035_mmseqs_hits_merged.bed, genomes/Fi-035.fa
+    output: output/loci/Fi-035_viral_loci.fna, output/loci/Fi-035_viral_loci.faa
+    jobid: 93
+    reason: Missing output files: output/loci/Fi-035_viral_loci.fna, output/loci/Fi-035_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-035_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-096_mmseqs_hits_merged.bed, genomes/Fi-096.fa
+    output: output/loci/Fi-096_viral_loci.fna, output/loci/Fi-096_viral_loci.faa
+    jobid: 118
+    reason: Missing output files: output/loci/Fi-096_viral_loci.faa, output/loci/Fi-096_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-096_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-102_mmseqs_hits_merged.bed, genomes/Fi-102.fa
+    output: output/loci/Fi-102_viral_loci.fna, output/loci/Fi-102_viral_loci.faa
+    jobid: 123
+    reason: Missing output files: output/loci/Fi-102_viral_loci.fna, output/loci/Fi-102_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-102_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-055_mmseqs_hits_merged.bed, genomes/Fi-055.fa
+    output: output/loci/Fi-055_viral_loci.fna, output/loci/Fi-055_viral_loci.faa
+    jobid: 103
+    reason: Missing output files: output/loci/Fi-055_viral_loci.faa, output/loci/Fi-055_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-055_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-009_mmseqs_hits_merged.bed, genomes/Fi-009.fa
+    output: output/loci/Fi-009_viral_loci.fna, output/loci/Fi-009_viral_loci.faa
+    jobid: 88
+    reason: Missing output files: output/loci/Fi-009_viral_loci.faa, output/loci/Fi-009_viral_loci.fna; Input files updated by another job: output/merged_loci/Fi-009_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-089_mmseqs_hits_merged.bed, genomes/Fi-089.fa
+    output: output/loci/Fi-089_viral_loci.fna, output/loci/Fi-089_viral_loci.faa
+    jobid: 113
+    reason: Missing output files: output/loci/Fi-089_viral_loci.fna, output/loci/Fi-089_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-089_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Sat May 24 12:25:27 2025]
+rule Extract_translate_loci:
+    input: output/merged_loci/Fi-043_mmseqs_hits_merged.bed, genomes/Fi-043.fa
+    output: output/loci/Fi-043_viral_loci.fna, output/loci/Fi-043_viral_loci.faa
+    jobid: 98
+    reason: Missing output files: output/loci/Fi-043_viral_loci.fna, output/loci/Fi-043_viral_loci.faa; Input files updated by another job: output/merged_loci/Fi-043_mmseqs_hits_merged.bed
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Sat May 24 12:25:27 2025]
+rule all:
+    input: data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, output/mmseqs2/Fi-000/result_mmseqs2.m8, output/mmseqs2/Fi-001/result_mmseqs2.m8, output/mmseqs2/Fi-004/result_mmseqs2.m8, output/mmseqs2/Fi-005/result_mmseqs2.m8, output/mmseqs2/Fi-009/result_mmseqs2.m8, output/mmseqs2/Fi-026/result_mmseqs2.m8, output/mmseqs2/Fi-027/result_mmseqs2.m8, output/mmseqs2/Fi-032/result_mmseqs2.m8, output/mmseqs2/Fi-034/result_mmseqs2.m8, output/mmseqs2/Fi-035/result_mmseqs2.m8, output/mmseqs2/Fi-036/result_mmseqs2.m8, output/mmseqs2/Fi-037/result_mmseqs2.m8, output/mmseqs2/Fi-040/result_mmseqs2.m8, output/mmseqs2/Fi-042/result_mmseqs2.m8, output/mmseqs2/Fi-043/result_mmseqs2.m8, output/mmseqs2/Fi-047/result_mmseqs2.m8, output/mmseqs2/Fi-048/result_mmseqs2.m8, output/mmseqs2/Fi-051/result_mmseqs2.m8, output/mmseqs2/Fi-054/result_mmseqs2.m8, output/mmseqs2/Fi-055/result_mmseqs2.m8, output/mmseqs2/Fi-056/result_mmseqs2.m8, output/mmseqs2/Fi-057/result_mmseqs2.m8, output/mmseqs2/Fi-058/result_mmseqs2.m8, output/mmseqs2/Fi-059/result_mmseqs2.m8, output/mmseqs2/Fi-077/result_mmseqs2.m8, output/mmseqs2/Fi-079/result_mmseqs2.m8, output/mmseqs2/Fi-083/result_mmseqs2.m8, output/mmseqs2/Fi-085/result_mmseqs2.m8, output/mmseqs2/Fi-086/result_mmseqs2.m8, output/mmseqs2/Fi-089/result_mmseqs2.m8, output/mmseqs2/Fi-091/result_mmseqs2.m8, output/mmseqs2/Fi-092/result_mmseqs2.m8, output/mmseqs2/Fi-093/result_mmseqs2.m8, output/mmseqs2/Fi-094/result_mmseqs2.m8, output/mmseqs2/Fi-096/result_mmseqs2.m8, output/mmseqs2/Fi-097/result_mmseqs2.m8, output/mmseqs2/Fi-098/result_mmseqs2.m8, output/mmseqs2/Fi-099/result_mmseqs2.m8, output/mmseqs2/Fi-101/result_mmseqs2.m8, output/mmseqs2/Fi-102/result_mmseqs2.m8, output/mmseqs2/Fi-103/result_mmseqs2.m8, output/merged_loci/Fi-000_mmseqs_hits_merged.bed, output/merged_loci/Fi-001_mmseqs_hits_merged.bed, output/merged_loci/Fi-004_mmseqs_hits_merged.bed, output/merged_loci/Fi-005_mmseqs_hits_merged.bed, output/merged_loci/Fi-009_mmseqs_hits_merged.bed, output/merged_loci/Fi-026_mmseqs_hits_merged.bed, output/merged_loci/Fi-027_mmseqs_hits_merged.bed, output/merged_loci/Fi-032_mmseqs_hits_merged.bed, output/merged_loci/Fi-034_mmseqs_hits_merged.bed, output/merged_loci/Fi-035_mmseqs_hits_merged.bed, output/merged_loci/Fi-036_mmseqs_hits_merged.bed, output/merged_loci/Fi-037_mmseqs_hits_merged.bed, output/merged_loci/Fi-040_mmseqs_hits_merged.bed, output/merged_loci/Fi-042_mmseqs_hits_merged.bed, output/merged_loci/Fi-043_mmseqs_hits_merged.bed, output/merged_loci/Fi-047_mmseqs_hits_merged.bed, output/merged_loci/Fi-048_mmseqs_hits_merged.bed, output/merged_loci/Fi-051_mmseqs_hits_merged.bed, output/merged_loci/Fi-054_mmseqs_hits_merged.bed, output/merged_loci/Fi-055_mmseqs_hits_merged.bed, output/merged_loci/Fi-056_mmseqs_hits_merged.bed, output/merged_loci/Fi-057_mmseqs_hits_merged.bed, output/merged_loci/Fi-058_mmseqs_hits_merged.bed, output/merged_loci/Fi-059_mmseqs_hits_merged.bed, output/merged_loci/Fi-077_mmseqs_hits_merged.bed, output/merged_loci/Fi-079_mmseqs_hits_merged.bed, output/merged_loci/Fi-083_mmseqs_hits_merged.bed, output/merged_loci/Fi-085_mmseqs_hits_merged.bed, output/merged_loci/Fi-086_mmseqs_hits_merged.bed, output/merged_loci/Fi-089_mmseqs_hits_merged.bed, output/merged_loci/Fi-091_mmseqs_hits_merged.bed, output/merged_loci/Fi-092_mmseqs_hits_merged.bed, output/merged_loci/Fi-093_mmseqs_hits_merged.bed, output/merged_loci/Fi-094_mmseqs_hits_merged.bed, output/merged_loci/Fi-096_mmseqs_hits_merged.bed, output/merged_loci/Fi-097_mmseqs_hits_merged.bed, output/merged_loci/Fi-098_mmseqs_hits_merged.bed, output/merged_loci/Fi-099_mmseqs_hits_merged.bed, output/merged_loci/Fi-101_mmseqs_hits_merged.bed, output/merged_loci/Fi-102_mmseqs_hits_merged.bed, output/merged_loci/Fi-103_mmseqs_hits_merged.bed, output/loci/Fi-000_viral_loci.fna, output/loci/Fi-001_viral_loci.fna, output/loci/Fi-004_viral_loci.fna, output/loci/Fi-005_viral_loci.fna, output/loci/Fi-009_viral_loci.fna, output/loci/Fi-026_viral_loci.fna, output/loci/Fi-027_viral_loci.fna, output/loci/Fi-032_viral_loci.fna, output/loci/Fi-034_viral_loci.fna, output/loci/Fi-035_viral_loci.fna, output/loci/Fi-036_viral_loci.fna, output/loci/Fi-037_viral_loci.fna, output/loci/Fi-040_viral_loci.fna, output/loci/Fi-042_viral_loci.fna, output/loci/Fi-043_viral_loci.fna, output/loci/Fi-047_viral_loci.fna, output/loci/Fi-048_viral_loci.fna, output/loci/Fi-051_viral_loci.fna, output/loci/Fi-054_viral_loci.fna, output/loci/Fi-055_viral_loci.fna, output/loci/Fi-056_viral_loci.fna, output/loci/Fi-057_viral_loci.fna, output/loci/Fi-058_viral_loci.fna, output/loci/Fi-059_viral_loci.fna, output/loci/Fi-077_viral_loci.fna, output/loci/Fi-079_viral_loci.fna, output/loci/Fi-083_viral_loci.fna, output/loci/Fi-085_viral_loci.fna, output/loci/Fi-086_viral_loci.fna, output/loci/Fi-089_viral_loci.fna, output/loci/Fi-091_viral_loci.fna, output/loci/Fi-092_viral_loci.fna, output/loci/Fi-093_viral_loci.fna, output/loci/Fi-094_viral_loci.fna, output/loci/Fi-096_viral_loci.fna, output/loci/Fi-097_viral_loci.fna, output/loci/Fi-098_viral_loci.fna, output/loci/Fi-099_viral_loci.fna, output/loci/Fi-101_viral_loci.fna, output/loci/Fi-102_viral_loci.fna, output/loci/Fi-103_viral_loci.fna, output/loci/Fi-000_viral_loci.faa, output/loci/Fi-001_viral_loci.faa, output/loci/Fi-004_viral_loci.faa, output/loci/Fi-005_viral_loci.faa, output/loci/Fi-009_viral_loci.faa, output/loci/Fi-026_viral_loci.faa, output/loci/Fi-027_viral_loci.faa, output/loci/Fi-032_viral_loci.faa, output/loci/Fi-034_viral_loci.faa, output/loci/Fi-035_viral_loci.faa, output/loci/Fi-036_viral_loci.faa, output/loci/Fi-037_viral_loci.faa, output/loci/Fi-040_viral_loci.faa, output/loci/Fi-042_viral_loci.faa, output/loci/Fi-043_viral_loci.faa, output/loci/Fi-047_viral_loci.faa, output/loci/Fi-048_viral_loci.faa, output/loci/Fi-051_viral_loci.faa, output/loci/Fi-054_viral_loci.faa, output/loci/Fi-055_viral_loci.faa, output/loci/Fi-056_viral_loci.faa, output/loci/Fi-057_viral_loci.faa, output/loci/Fi-058_viral_loci.faa, output/loci/Fi-059_viral_loci.faa, output/loci/Fi-077_viral_loci.faa, output/loci/Fi-079_viral_loci.faa, output/loci/Fi-083_viral_loci.faa, output/loci/Fi-085_viral_loci.faa, output/loci/Fi-086_viral_loci.faa, output/loci/Fi-089_viral_loci.faa, output/loci/Fi-091_viral_loci.faa, output/loci/Fi-092_viral_loci.faa, output/loci/Fi-093_viral_loci.faa, output/loci/Fi-094_viral_loci.faa, output/loci/Fi-096_viral_loci.faa, output/loci/Fi-097_viral_loci.faa, output/loci/Fi-098_viral_loci.faa, output/loci/Fi-099_viral_loci.faa, output/loci/Fi-101_viral_loci.faa, output/loci/Fi-102_viral_loci.faa, output/loci/Fi-103_viral_loci.faa
+    jobid: 0
+    reason: Input files updated by another job: output/merged_loci/Fi-056_mmseqs_hits_merged.bed, output/loci/Fi-026_viral_loci.fna, output/mmseqs2/Fi-096/result_mmseqs2.m8, output/loci/Fi-103_viral_loci.fna, output/mmseqs2/Fi-056/result_mmseqs2.m8, output/mmseqs2/Fi-040/result_mmseqs2.m8, output/mmseqs2/Fi-048/result_mmseqs2.m8, output/mmseqs2/Fi-051/result_mmseqs2.m8, output/mmseqs2/Fi-101/result_mmseqs2.m8, output/loci/Fi-035_viral_loci.fna, output/mmseqs2/Fi-042/result_mmseqs2.m8, output/merged_loci/Fi-089_mmseqs_hits_merged.bed, output/mmseqs2/Fi-092/result_mmseqs2.m8, output/loci/Fi-097_viral_loci.fna, output/loci/Fi-027_viral_loci.faa, output/mmseqs2/Fi-026/result_mmseqs2.m8, output/mmseqs2/Fi-001/result_mmseqs2.m8, output/merged_loci/Fi-093_mmseqs_hits_merged.bed, output/merged_loci/Fi-032_mmseqs_hits_merged.bed, output/loci/Fi-026_viral_loci.faa, output/merged_loci/Fi-094_mmseqs_hits_merged.bed, output/loci/Fi-098_viral_loci.faa, output/mmseqs2/Fi-037/result_mmseqs2.m8, output/mmseqs2/Fi-079/result_mmseqs2.m8, output/loci/Fi-054_viral_loci.fna, output/loci/Fi-055_viral_loci.faa, output/mmseqs2/Fi-004/result_mmseqs2.m8, output/merged_loci/Fi-042_mmseqs_hits_merged.bed, output/loci/Fi-037_viral_loci.faa, output/merged_loci/Fi-103_mmseqs_hits_merged.bed, output/merged_loci/Fi-037_mmseqs_hits_merged.bed, output/loci/Fi-034_viral_loci.fna, output/loci/Fi-000_viral_loci.faa, output/mmseqs2/Fi-103/result_mmseqs2.m8, output/merged_loci/Fi-079_mmseqs_hits_merged.bed, output/loci/Fi-102_viral_loci.fna, output/merged_loci/Fi-099_mmseqs_hits_merged.bed, output/loci/Fi-096_viral_loci.faa, output/merged_loci/Fi-000_mmseqs_hits_merged.bed, output/merged_loci/Fi-040_mmseqs_hits_merged.bed, output/loci/Fi-091_viral_loci.fna, output/loci/Fi-089_viral_loci.faa, output/merged_loci/Fi-027_mmseqs_hits_merged.bed, output/mmseqs2/Fi-055/result_mmseqs2.m8, output/loci/Fi-089_viral_loci.fna, output/loci/Fi-051_viral_loci.faa, output/mmseqs2/Fi-077/result_mmseqs2.m8, output/merged_loci/Fi-058_mmseqs_hits_merged.bed, output/loci/Fi-093_viral_loci.fna, output/merged_loci/Fi-085_mmseqs_hits_merged.bed, output/loci/Fi-036_viral_loci.fna, output/mmseqs2/Fi-085/result_mmseqs2.m8, output/loci/Fi-099_viral_loci.fna, output/merged_loci/Fi-101_mmseqs_hits_merged.bed, output/merged_loci/Fi-048_mmseqs_hits_merged.bed, output/loci/Fi-001_viral_loci.fna, output/loci/Fi-043_viral_loci.fna, output/loci/Fi-043_viral_loci.faa, output/loci/Fi-091_viral_loci.faa, output/loci/Fi-092_viral_loci.fna, output/loci/Fi-040_viral_loci.faa, output/loci/Fi-004_viral_loci.fna, output/loci/Fi-054_viral_loci.faa, output/merged_loci/Fi-026_mmseqs_hits_merged.bed, output/loci/Fi-101_viral_loci.faa, output/loci/Fi-077_viral_loci.faa, output/mmseqs2/Fi-034/result_mmseqs2.m8, output/loci/Fi-047_viral_loci.faa, output/mmseqs2/Fi-047/result_mmseqs2.m8, output/merged_loci/Fi-091_mmseqs_hits_merged.bed, output/mmseqs2/Fi-083/result_mmseqs2.m8, output/loci/Fi-032_viral_loci.fna, output/merged_loci/Fi-055_mmseqs_hits_merged.bed, output/loci/Fi-101_viral_loci.fna, output/loci/Fi-036_viral_loci.faa, output/loci/Fi-085_viral_loci.faa, output/mmseqs2/Fi-027/result_mmseqs2.m8, output/mmseqs2/Fi-005/result_mmseqs2.m8, output/mmseqs2/Fi-089/result_mmseqs2.m8, output/loci/Fi-094_viral_loci.faa, output/merged_loci/Fi-096_mmseqs_hits_merged.bed, output/loci/Fi-093_viral_loci.faa, output/merged_loci/Fi-034_mmseqs_hits_merged.bed, output/mmseqs2/Fi-009/result_mmseqs2.m8, output/loci/Fi-056_viral_loci.fna, output/mmseqs2/Fi-043/result_mmseqs2.m8, output/loci/Fi-037_viral_loci.fna, output/loci/Fi-047_viral_loci.fna, output/loci/Fi-001_viral_loci.faa, output/merged_loci/Fi-098_mmseqs_hits_merged.bed, output/merged_loci/Fi-057_mmseqs_hits_merged.bed, output/loci/Fi-000_viral_loci.fna, output/loci/Fi-057_viral_loci.fna, output/merged_loci/Fi-051_mmseqs_hits_merged.bed, output/loci/Fi-048_viral_loci.fna, output/loci/Fi-058_viral_loci.fna, output/merged_loci/Fi-043_mmseqs_hits_merged.bed, output/loci/Fi-096_viral_loci.fna, output/loci/Fi-092_viral_loci.faa, output/mmseqs2/Fi-086/result_mmseqs2.m8, output/loci/Fi-055_viral_loci.fna, output/mmseqs2/Fi-093/result_mmseqs2.m8, output/mmseqs2/Fi-057/result_mmseqs2.m8, output/merged_loci/Fi-009_mmseqs_hits_merged.bed, data/viral_protein_ivspers_fila_nophages_nopolydna_LbFVlef5, output/loci/Fi-102_viral_loci.faa, output/loci/Fi-042_viral_loci.fna, output/loci/Fi-027_viral_loci.fna, output/loci/Fi-009_viral_loci.faa, output/loci/Fi-059_viral_loci.faa, output/loci/Fi-042_viral_loci.faa, output/mmseqs2/Fi-054/result_mmseqs2.m8, output/loci/Fi-051_viral_loci.fna, output/loci/Fi-079_viral_loci.faa, output/merged_loci/Fi-001_mmseqs_hits_merged.bed, output/loci/Fi-083_viral_loci.faa, output/merged_loci/Fi-083_mmseqs_hits_merged.bed, output/mmseqs2/Fi-036/result_mmseqs2.m8, output/loci/Fi-009_viral_loci.fna, output/merged_loci/Fi-005_mmseqs_hits_merged.bed, output/loci/Fi-032_viral_loci.faa, output/mmseqs2/Fi-032/result_mmseqs2.m8, output/loci/Fi-103_viral_loci.faa, output/mmseqs2/Fi-098/result_mmseqs2.m8, output/loci/Fi-099_viral_loci.faa, output/mmseqs2/Fi-058/result_mmseqs2.m8, output/loci/Fi-004_viral_loci.faa, output/loci/Fi-097_viral_loci.faa, output/mmseqs2/Fi-035/result_mmseqs2.m8, output/merged_loci/Fi-054_mmseqs_hits_merged.bed, output/mmseqs2/Fi-097/result_mmseqs2.m8, output/loci/Fi-056_viral_loci.faa, output/merged_loci/Fi-102_mmseqs_hits_merged.bed, output/mmseqs2/Fi-099/result_mmseqs2.m8, output/loci/Fi-059_viral_loci.fna, output/loci/Fi-086_viral_loci.fna, output/merged_loci/Fi-077_mmseqs_hits_merged.bed, output/merged_loci/Fi-047_mmseqs_hits_merged.bed, output/mmseqs2/Fi-102/result_mmseqs2.m8, output/loci/Fi-057_viral_loci.faa, output/merged_loci/Fi-004_mmseqs_hits_merged.bed, output/loci/Fi-077_viral_loci.fna, output/loci/Fi-058_viral_loci.faa, output/merged_loci/Fi-097_mmseqs_hits_merged.bed, output/merged_loci/Fi-035_mmseqs_hits_merged.bed, output/loci/Fi-048_viral_loci.faa, output/loci/Fi-005_viral_loci.faa, output/loci/Fi-086_viral_loci.faa, output/loci/Fi-085_viral_loci.fna, output/mmseqs2/Fi-000/result_mmseqs2.m8, output/mmseqs2/Fi-091/result_mmseqs2.m8, output/loci/Fi-094_viral_loci.fna, output/loci/Fi-083_viral_loci.fna, output/loci/Fi-005_viral_loci.fna, output/mmseqs2/Fi-059/result_mmseqs2.m8, output/mmseqs2/Fi-094/result_mmseqs2.m8, output/merged_loci/Fi-092_mmseqs_hits_merged.bed, output/merged_loci/Fi-086_mmseqs_hits_merged.bed, output/loci/Fi-040_viral_loci.fna, output/loci/Fi-079_viral_loci.fna, output/loci/Fi-035_viral_loci.faa, output/loci/Fi-034_viral_loci.faa, output/loci/Fi-098_viral_loci.fna, output/merged_loci/Fi-059_mmseqs_hits_merged.bed, output/merged_loci/Fi-036_mmseqs_hits_merged.bed
+    resources: tmpdir=<TBD>
+
+Job stats:
+job                       count
+----------------------  -------
+Create_viral_db               1
+Define_loci                  41
+Extract_translate_loci       41
+Homology_analysis            41
+all                           1
+total                       125
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        Define_loci, Extract_translate_loci, Homology_analysis, all
+    output files have to be generated:
+        Create_viral_db, Define_loci, Extract_translate_loci, Homology_analysis
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

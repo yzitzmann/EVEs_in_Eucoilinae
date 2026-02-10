@@ -1,0 +1,14 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/python.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/homology_search/envs/python.yml created (location: .snakemake/conda/3e43d0f03e4745a9b8336dedf1244938_)
+Creating conda environment envs/R.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/homology_search/envs/R.yml created (location: .snakemake/conda/f358729f197678e581b74256b2886260_)

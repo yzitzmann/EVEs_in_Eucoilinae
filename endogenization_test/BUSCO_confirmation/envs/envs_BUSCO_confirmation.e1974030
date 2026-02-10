@@ -1,0 +1,11 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment envs/busco.yml...
+Downloading and installing remote packages.
+Environment for /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/envs/busco.yml created (location: .snakemake/conda/24940406f4ad29243b2bc49a79bb88c7_)

@@ -1,0 +1,51 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+filter_loci        1
+total              2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Nov  9 10:08:11 2025]
+localrule filter_loci:
+    input: output/_lca.tsv, /home/yzitzmann/paper/homology_search/strict_params_output/loci/All_fasta_viral_loci.faa, /home/yzitzmann/paper/homology_search/strict_params_output/loci/All_fasta_viral_loci.fna
+    output: output/filtered_loci/candidate_loci.faa, output/filtered_loci/candidate_loci.fna
+    jobid: 2
+    reason: Missing output files: output/filtered_loci/candidate_loci.fna, output/filtered_loci/candidate_loci.faa; Code has changed since last execution
+    threads: 2
+    resources: tmpdir=/tmp/2084130.1.small.q
+
+Activating conda environment: .snakemake/conda/8fbce4be8854aa0f285b19e25142fd05_
+[INFO][0m 8281 patterns loaded from file
+[INFO][0m 8281 patterns loaded from file
+[Sun Nov  9 10:08:13 2025]
+Finished job 2.
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Nov  9 10:08:13 2025]
+localrule all:
+    input: output/_lca.tsv, output/filtered_loci/candidate_loci.fna, output/filtered_loci/candidate_loci.faa
+    jobid: 0
+    reason: Input files updated by another job: output/filtered_loci/candidate_loci.fna, output/filtered_loci/candidate_loci.faa
+    resources: tmpdir=/tmp/2084130.1.small.q
+
+[Sun Nov  9 10:08:13 2025]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2025-11-09T100758.425678.snakemake.log

@@ -1,0 +1,56 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Conda environment envs/seqkit.yml will be created.
+Job stats:
+job                count
+---------------  -------
+all                    1
+filter_loci            1
+taxonomy_filter        1
+total                  3
+
+Execute 1 jobs...
+
+[Mon Jun 16 12:20:20 2025]
+rule taxonomy_filter:
+    input: /home/yzitzmann/paper/homology_search/output/loci/All_fasta_viral_loci.faa, /share/pool/databases/nr_db/NR_filtered
+    output: output/lca.tsv
+    jobid: 1
+    reason: Missing output files: output/lca.tsv
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Jun 16 12:20:20 2025]
+rule filter_loci:
+    input: output/lca.tsv, /home/yzitzmann/paper/homology_search/output/loci/All_fasta_viral_loci.faa, /home/yzitzmann/paper/homology_search/output/loci/All_fasta_viral_loci.fna
+    output: output/filtered_loci/candidate_loci.faa, output/filtered_loci/candidate_loci.fna
+    jobid: 2
+    reason: Missing output files: output/filtered_loci/candidate_loci.faa, output/filtered_loci/candidate_loci.fna; Input files updated by another job: output/lca.tsv
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Jun 16 12:20:20 2025]
+rule all:
+    input: output/lca.tsv, output/filtered_loci/candidate_loci.fna, output/filtered_loci/candidate_loci.faa
+    jobid: 0
+    reason: Input files updated by another job: output/lca.tsv, output/filtered_loci/candidate_loci.faa, output/filtered_loci/candidate_loci.fna
+    resources: tmpdir=<TBD>
+
+Job stats:
+job                count
+---------------  -------
+all                    1
+filter_loci            1
+taxonomy_filter        1
+total                  3
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        all, filter_loci
+    output files have to be generated:
+        filter_loci, taxonomy_filter
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

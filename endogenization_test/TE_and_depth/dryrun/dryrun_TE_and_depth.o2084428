@@ -1,0 +1,836 @@
+Building DAG of jobs...
+Job stats:
+job             count
+------------  -------
+all                 1
+confirm_EVEs       40
+gather_EVEs        40
+total              81
+
+Execute 40 jobs...
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-026_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-026/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-026.txt, output/TE_contigs/Fi-026.txt, output/EVE_contigs/Fi-026.txt
+    jobid: 5
+    reason: Missing output files: output/EVE_contigs/Fi-026.txt
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-059_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-059/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-059.txt, output/TE_contigs/Fi-059.txt, output/EVE_contigs/Fi-059.txt
+    jobid: 23
+    reason: Missing output files: output/EVE_contigs/Fi-059.txt
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-101_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-101/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-101.txt, output/TE_contigs/Fi-101.txt, output/EVE_contigs/Fi-101.txt
+    jobid: 38
+    reason: Missing output files: output/EVE_contigs/Fi-101.txt
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-083_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-083/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-083.txt, output/TE_contigs/Fi-083.txt, output/EVE_contigs/Fi-083.txt
+    jobid: 26
+    reason: Missing output files: output/EVE_contigs/Fi-083.txt
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-094_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-094/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-094.txt, output/TE_contigs/Fi-094.txt, output/EVE_contigs/Fi-094.txt
+    jobid: 33
+    reason: Missing output files: output/EVE_contigs/Fi-094.txt
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-005_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-005/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-005.txt, output/TE_contigs/Fi-005.txt, output/EVE_contigs/Fi-005.txt
+    jobid: 3
+    reason: Missing output files: output/EVE_contigs/Fi-005.txt
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-035_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-035/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-035.txt, output/TE_contigs/Fi-035.txt, output/EVE_contigs/Fi-035.txt
+    jobid: 9
+    reason: Missing output files: output/EVE_contigs/Fi-035.txt
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-027_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-027/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-027.txt, output/TE_contigs/Fi-027.txt, output/EVE_contigs/Fi-027.txt
+    jobid: 6
+    reason: Missing output files: output/EVE_contigs/Fi-027.txt
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-040_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-040/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-040.txt, output/TE_contigs/Fi-040.txt, output/EVE_contigs/Fi-040.txt
+    jobid: 12
+    reason: Missing output files: output/EVE_contigs/Fi-040.txt
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-047_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-047/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-047.txt, output/TE_contigs/Fi-047.txt, output/EVE_contigs/Fi-047.txt
+    jobid: 15
+    reason: Missing output files: output/EVE_contigs/Fi-047.txt
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-054_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-054/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-054.txt, output/TE_contigs/Fi-054.txt, output/EVE_contigs/Fi-054.txt
+    jobid: 18
+    reason: Missing output files: output/EVE_contigs/Fi-054.txt
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-057_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-057/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-057.txt, output/TE_contigs/Fi-057.txt, output/EVE_contigs/Fi-057.txt
+    jobid: 21
+    reason: Missing output files: output/EVE_contigs/Fi-057.txt
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-077_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-077/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-077.txt, output/TE_contigs/Fi-077.txt, output/EVE_contigs/Fi-077.txt
+    jobid: 24
+    reason: Missing output files: output/EVE_contigs/Fi-077.txt
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-085_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-085/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-085.txt, output/TE_contigs/Fi-085.txt, output/EVE_contigs/Fi-085.txt
+    jobid: 27
+    reason: Missing output files: output/EVE_contigs/Fi-085.txt
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-091_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-091/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-091.txt, output/TE_contigs/Fi-091.txt, output/EVE_contigs/Fi-091.txt
+    jobid: 30
+    reason: Missing output files: output/EVE_contigs/Fi-091.txt
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-098_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-098/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-098.txt, output/TE_contigs/Fi-098.txt, output/EVE_contigs/Fi-098.txt
+    jobid: 36
+    reason: Missing output files: output/EVE_contigs/Fi-098.txt
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-089_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-089/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-089.txt, output/TE_contigs/Fi-089.txt, output/EVE_contigs/Fi-089.txt
+    jobid: 29
+    reason: Missing output files: output/EVE_contigs/Fi-089.txt
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-004_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-004/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-004.txt, output/TE_contigs/Fi-004.txt, output/EVE_contigs/Fi-004.txt
+    jobid: 2
+    reason: Missing output files: output/EVE_contigs/Fi-004.txt
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-093_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-093/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-093.txt, output/TE_contigs/Fi-093.txt, output/EVE_contigs/Fi-093.txt
+    jobid: 32
+    reason: Missing output files: output/EVE_contigs/Fi-093.txt
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-032_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-032/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-032.txt, output/TE_contigs/Fi-032.txt, output/EVE_contigs/Fi-032.txt
+    jobid: 7
+    reason: Missing output files: output/EVE_contigs/Fi-032.txt
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-036_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-036/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-036.txt, output/TE_contigs/Fi-036.txt, output/EVE_contigs/Fi-036.txt
+    jobid: 10
+    reason: Missing output files: output/EVE_contigs/Fi-036.txt
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-048_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-048/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-048.txt, output/TE_contigs/Fi-048.txt, output/EVE_contigs/Fi-048.txt
+    jobid: 16
+    reason: Missing output files: output/EVE_contigs/Fi-048.txt
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-096_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-096/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-096.txt, output/TE_contigs/Fi-096.txt, output/EVE_contigs/Fi-096.txt
+    jobid: 34
+    reason: Missing output files: output/EVE_contigs/Fi-096.txt
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-055_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-055/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-055.txt, output/TE_contigs/Fi-055.txt, output/EVE_contigs/Fi-055.txt
+    jobid: 19
+    reason: Missing output files: output/EVE_contigs/Fi-055.txt
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-079_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-079/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-079.txt, output/TE_contigs/Fi-079.txt, output/EVE_contigs/Fi-079.txt
+    jobid: 25
+    reason: Missing output files: output/EVE_contigs/Fi-079.txt
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-058_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-058/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-058.txt, output/TE_contigs/Fi-058.txt, output/EVE_contigs/Fi-058.txt
+    jobid: 22
+    reason: Missing output files: output/EVE_contigs/Fi-058.txt
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-037_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-037/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-037.txt, output/TE_contigs/Fi-037.txt, output/EVE_contigs/Fi-037.txt
+    jobid: 11
+    reason: Missing output files: output/EVE_contigs/Fi-037.txt
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-099_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-099/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-099.txt, output/TE_contigs/Fi-099.txt, output/EVE_contigs/Fi-099.txt
+    jobid: 37
+    reason: Missing output files: output/EVE_contigs/Fi-099.txt
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-086_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-086/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-086.txt, output/TE_contigs/Fi-086.txt, output/EVE_contigs/Fi-086.txt
+    jobid: 28
+    reason: Missing output files: output/EVE_contigs/Fi-086.txt
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-103_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-103/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-103.txt, output/TE_contigs/Fi-103.txt, output/EVE_contigs/Fi-103.txt
+    jobid: 40
+    reason: Missing output files: output/EVE_contigs/Fi-103.txt
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-009_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-009/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-009.txt, output/TE_contigs/Fi-009.txt, output/EVE_contigs/Fi-009.txt
+    jobid: 4
+    reason: Missing output files: output/EVE_contigs/Fi-009.txt
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-043_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-043/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-043.txt, output/TE_contigs/Fi-043.txt, output/EVE_contigs/Fi-043.txt
+    jobid: 14
+    reason: Missing output files: output/EVE_contigs/Fi-043.txt
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-001_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-001/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-001.txt, output/TE_contigs/Fi-001.txt, output/EVE_contigs/Fi-001.txt
+    jobid: 1
+    reason: Missing output files: output/EVE_contigs/Fi-001.txt
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-092_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-092/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-092.txt, output/TE_contigs/Fi-092.txt, output/EVE_contigs/Fi-092.txt
+    jobid: 31
+    reason: Missing output files: output/EVE_contigs/Fi-092.txt
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-102_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-102/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-102.txt, output/TE_contigs/Fi-102.txt, output/EVE_contigs/Fi-102.txt
+    jobid: 39
+    reason: Missing output files: output/EVE_contigs/Fi-102.txt
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-051_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-051/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-051.txt, output/TE_contigs/Fi-051.txt, output/EVE_contigs/Fi-051.txt
+    jobid: 17
+    reason: Missing output files: output/EVE_contigs/Fi-051.txt
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-056_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-056/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-056.txt, output/TE_contigs/Fi-056.txt, output/EVE_contigs/Fi-056.txt
+    jobid: 20
+    reason: Missing output files: output/EVE_contigs/Fi-056.txt
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-034_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-034/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-034.txt, output/TE_contigs/Fi-034.txt, output/EVE_contigs/Fi-034.txt
+    jobid: 8
+    reason: Missing output files: output/EVE_contigs/Fi-034.txt
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-097_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-097/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-097.txt, output/TE_contigs/Fi-097.txt, output/EVE_contigs/Fi-097.txt
+    jobid: 35
+    reason: Missing output files: output/EVE_contigs/Fi-097.txt
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule confirm_EVEs:
+    input: /home/yzitzmann/paper/endogenization_test/seq_depth_confirmation/output/EVE_contigs/Fi-042_5_95.txt, /home/yzitzmann/paper/TE_filter/output/mmseqs2/Fi-042/result_mmseqs2.m8
+    output: output/depth_contigs/Fi-042.txt, output/TE_contigs/Fi-042.txt, output/EVE_contigs/Fi-042.txt
+    jobid: 13
+    reason: Missing output files: output/EVE_contigs/Fi-042.txt
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+Execute 40 jobs...
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-051.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-051.txt
+    jobid: 57
+    reason: Missing output files: output/EVEs/Fi-051.txt; Input files updated by another job: output/EVE_contigs/Fi-051.txt
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-004.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-004.txt
+    jobid: 42
+    reason: Missing output files: output/EVEs/Fi-004.txt; Input files updated by another job: output/EVE_contigs/Fi-004.txt
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-093.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-093.txt
+    jobid: 72
+    reason: Missing output files: output/EVEs/Fi-093.txt; Input files updated by another job: output/EVE_contigs/Fi-093.txt
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-094.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-094.txt
+    jobid: 73
+    reason: Missing output files: output/EVEs/Fi-094.txt; Input files updated by another job: output/EVE_contigs/Fi-094.txt
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-005.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-005.txt
+    jobid: 43
+    reason: Missing output files: output/EVEs/Fi-005.txt; Input files updated by another job: output/EVE_contigs/Fi-005.txt
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-054.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-054.txt
+    jobid: 58
+    reason: Missing output files: output/EVEs/Fi-054.txt; Input files updated by another job: output/EVE_contigs/Fi-054.txt
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-096.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-096.txt
+    jobid: 74
+    reason: Missing output files: output/EVEs/Fi-096.txt; Input files updated by another job: output/EVE_contigs/Fi-096.txt
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-055.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-055.txt
+    jobid: 59
+    reason: Missing output files: output/EVEs/Fi-055.txt; Input files updated by another job: output/EVE_contigs/Fi-055.txt
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-009.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-009.txt
+    jobid: 44
+    reason: Missing output files: output/EVEs/Fi-009.txt; Input files updated by another job: output/EVE_contigs/Fi-009.txt
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-056.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-056.txt
+    jobid: 60
+    reason: Missing output files: output/EVEs/Fi-056.txt; Input files updated by another job: output/EVE_contigs/Fi-056.txt
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-097.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-097.txt
+    jobid: 75
+    reason: Missing output files: output/EVEs/Fi-097.txt; Input files updated by another job: output/EVE_contigs/Fi-097.txt
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-026.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-026.txt
+    jobid: 45
+    reason: Missing output files: output/EVEs/Fi-026.txt; Input files updated by another job: output/EVE_contigs/Fi-026.txt
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-027.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-027.txt
+    jobid: 46
+    reason: Missing output files: output/EVEs/Fi-027.txt; Input files updated by another job: output/EVE_contigs/Fi-027.txt
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-057.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-057.txt
+    jobid: 61
+    reason: Missing output files: output/EVEs/Fi-057.txt; Input files updated by another job: output/EVE_contigs/Fi-057.txt
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-098.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-098.txt
+    jobid: 76
+    reason: Missing output files: output/EVEs/Fi-098.txt; Input files updated by another job: output/EVE_contigs/Fi-098.txt
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-032.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-032.txt
+    jobid: 47
+    reason: Missing output files: output/EVEs/Fi-032.txt; Input files updated by another job: output/EVE_contigs/Fi-032.txt
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-058.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-058.txt
+    jobid: 62
+    reason: Missing output files: output/EVEs/Fi-058.txt; Input files updated by another job: output/EVE_contigs/Fi-058.txt
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-099.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-099.txt
+    jobid: 77
+    reason: Missing output files: output/EVEs/Fi-099.txt; Input files updated by another job: output/EVE_contigs/Fi-099.txt
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-059.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-059.txt
+    jobid: 63
+    reason: Missing output files: output/EVEs/Fi-059.txt; Input files updated by another job: output/EVE_contigs/Fi-059.txt
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-101.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-101.txt
+    jobid: 78
+    reason: Missing output files: output/EVEs/Fi-101.txt; Input files updated by another job: output/EVE_contigs/Fi-101.txt
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-034.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-034.txt
+    jobid: 48
+    reason: Missing output files: output/EVEs/Fi-034.txt; Input files updated by another job: output/EVE_contigs/Fi-034.txt
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-035.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-035.txt
+    jobid: 49
+    reason: Missing output files: output/EVEs/Fi-035.txt; Input files updated by another job: output/EVE_contigs/Fi-035.txt
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-077.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-077.txt
+    jobid: 64
+    reason: Missing output files: output/EVEs/Fi-077.txt; Input files updated by another job: output/EVE_contigs/Fi-077.txt
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-102.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-102.txt
+    jobid: 79
+    reason: Missing output files: output/EVEs/Fi-102.txt; Input files updated by another job: output/EVE_contigs/Fi-102.txt
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-036.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-036.txt
+    jobid: 50
+    reason: Missing output files: output/EVEs/Fi-036.txt; Input files updated by another job: output/EVE_contigs/Fi-036.txt
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-079.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-079.txt
+    jobid: 65
+    reason: Missing output files: output/EVEs/Fi-079.txt; Input files updated by another job: output/EVE_contigs/Fi-079.txt
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-103.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-103.txt
+    jobid: 80
+    reason: Missing output files: output/EVEs/Fi-103.txt; Input files updated by another job: output/EVE_contigs/Fi-103.txt
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-083.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-083.txt
+    jobid: 66
+    reason: Missing output files: output/EVEs/Fi-083.txt; Input files updated by another job: output/EVE_contigs/Fi-083.txt
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-037.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-037.txt
+    jobid: 51
+    reason: Missing output files: output/EVEs/Fi-037.txt; Input files updated by another job: output/EVE_contigs/Fi-037.txt
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-092.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-092.txt
+    jobid: 71
+    reason: Missing output files: output/EVEs/Fi-092.txt; Input files updated by another job: output/EVE_contigs/Fi-092.txt
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-048.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-048.txt
+    jobid: 56
+    reason: Missing output files: output/EVEs/Fi-048.txt; Input files updated by another job: output/EVE_contigs/Fi-048.txt
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-040.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-040.txt
+    jobid: 52
+    reason: Missing output files: output/EVEs/Fi-040.txt; Input files updated by another job: output/EVE_contigs/Fi-040.txt
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-085.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-085.txt
+    jobid: 67
+    reason: Missing output files: output/EVEs/Fi-085.txt; Input files updated by another job: output/EVE_contigs/Fi-085.txt
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-086.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-086.txt
+    jobid: 68
+    reason: Missing output files: output/EVEs/Fi-086.txt; Input files updated by another job: output/EVE_contigs/Fi-086.txt
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-042.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-042.txt
+    jobid: 53
+    reason: Missing output files: output/EVEs/Fi-042.txt; Input files updated by another job: output/EVE_contigs/Fi-042.txt
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-089.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-089.txt
+    jobid: 69
+    reason: Missing output files: output/EVEs/Fi-089.txt; Input files updated by another job: output/EVE_contigs/Fi-089.txt
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-043.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-043.txt
+    jobid: 54
+    reason: Missing output files: output/EVEs/Fi-043.txt; Input files updated by another job: output/EVE_contigs/Fi-043.txt
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-047.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-047.txt
+    jobid: 55
+    reason: Missing output files: output/EVEs/Fi-047.txt; Input files updated by another job: output/EVE_contigs/Fi-047.txt
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-091.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-091.txt
+    jobid: 70
+    reason: Missing output files: output/EVEs/Fi-091.txt; Input files updated by another job: output/EVE_contigs/Fi-091.txt
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Tue Nov 18 15:30:39 2025]
+rule gather_EVEs:
+    input: output/EVE_contigs/Fi-001.txt, /home/yzitzmann/paper/metadata/output/metadata.txt
+    output: output/EVEs/Fi-001.txt
+    jobid: 41
+    reason: Missing output files: output/EVEs/Fi-001.txt; Input files updated by another job: output/EVE_contigs/Fi-001.txt
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Tue Nov 18 15:30:39 2025]
+rule all:
+    input: output/EVE_contigs/Fi-001.txt, output/EVE_contigs/Fi-004.txt, output/EVE_contigs/Fi-005.txt, output/EVE_contigs/Fi-009.txt, output/EVE_contigs/Fi-026.txt, output/EVE_contigs/Fi-027.txt, output/EVE_contigs/Fi-032.txt, output/EVE_contigs/Fi-034.txt, output/EVE_contigs/Fi-035.txt, output/EVE_contigs/Fi-036.txt, output/EVE_contigs/Fi-037.txt, output/EVE_contigs/Fi-040.txt, output/EVE_contigs/Fi-042.txt, output/EVE_contigs/Fi-043.txt, output/EVE_contigs/Fi-047.txt, output/EVE_contigs/Fi-048.txt, output/EVE_contigs/Fi-051.txt, output/EVE_contigs/Fi-054.txt, output/EVE_contigs/Fi-055.txt, output/EVE_contigs/Fi-056.txt, output/EVE_contigs/Fi-057.txt, output/EVE_contigs/Fi-058.txt, output/EVE_contigs/Fi-059.txt, output/EVE_contigs/Fi-077.txt, output/EVE_contigs/Fi-079.txt, output/EVE_contigs/Fi-083.txt, output/EVE_contigs/Fi-085.txt, output/EVE_contigs/Fi-086.txt, output/EVE_contigs/Fi-089.txt, output/EVE_contigs/Fi-091.txt, output/EVE_contigs/Fi-092.txt, output/EVE_contigs/Fi-093.txt, output/EVE_contigs/Fi-094.txt, output/EVE_contigs/Fi-096.txt, output/EVE_contigs/Fi-097.txt, output/EVE_contigs/Fi-098.txt, output/EVE_contigs/Fi-099.txt, output/EVE_contigs/Fi-101.txt, output/EVE_contigs/Fi-102.txt, output/EVE_contigs/Fi-103.txt, output/EVEs/Fi-001.txt, output/EVEs/Fi-004.txt, output/EVEs/Fi-005.txt, output/EVEs/Fi-009.txt, output/EVEs/Fi-026.txt, output/EVEs/Fi-027.txt, output/EVEs/Fi-032.txt, output/EVEs/Fi-034.txt, output/EVEs/Fi-035.txt, output/EVEs/Fi-036.txt, output/EVEs/Fi-037.txt, output/EVEs/Fi-040.txt, output/EVEs/Fi-042.txt, output/EVEs/Fi-043.txt, output/EVEs/Fi-047.txt, output/EVEs/Fi-048.txt, output/EVEs/Fi-051.txt, output/EVEs/Fi-054.txt, output/EVEs/Fi-055.txt, output/EVEs/Fi-056.txt, output/EVEs/Fi-057.txt, output/EVEs/Fi-058.txt, output/EVEs/Fi-059.txt, output/EVEs/Fi-077.txt, output/EVEs/Fi-079.txt, output/EVEs/Fi-083.txt, output/EVEs/Fi-085.txt, output/EVEs/Fi-086.txt, output/EVEs/Fi-089.txt, output/EVEs/Fi-091.txt, output/EVEs/Fi-092.txt, output/EVEs/Fi-093.txt, output/EVEs/Fi-094.txt, output/EVEs/Fi-096.txt, output/EVEs/Fi-097.txt, output/EVEs/Fi-098.txt, output/EVEs/Fi-099.txt, output/EVEs/Fi-101.txt, output/EVEs/Fi-102.txt, output/EVEs/Fi-103.txt
+    jobid: 0
+    reason: Input files updated by another job: output/EVE_contigs/Fi-094.txt, output/EVEs/Fi-099.txt, output/EVE_contigs/Fi-009.txt, output/EVE_contigs/Fi-034.txt, output/EVEs/Fi-058.txt, output/EVEs/Fi-005.txt, output/EVEs/Fi-032.txt, output/EVEs/Fi-040.txt, output/EVE_contigs/Fi-091.txt, output/EVEs/Fi-048.txt, output/EVEs/Fi-093.txt, output/EVE_contigs/Fi-079.txt, output/EVEs/Fi-034.txt, output/EVE_contigs/Fi-089.txt, output/EVE_contigs/Fi-097.txt, output/EVE_contigs/Fi-056.txt, output/EVE_contigs/Fi-001.txt, output/EVEs/Fi-043.txt, output/EVE_contigs/Fi-043.txt, output/EVE_contigs/Fi-042.txt, output/EVEs/Fi-086.txt, output/EVEs/Fi-037.txt, output/EVE_contigs/Fi-035.txt, output/EVE_contigs/Fi-098.txt, output/EVEs/Fi-036.txt, output/EVE_contigs/Fi-101.txt, output/EVE_contigs/Fi-037.txt, output/EVEs/Fi-042.txt, output/EVE_contigs/Fi-055.txt, output/EVE_contigs/Fi-047.txt, output/EVEs/Fi-085.txt, output/EVE_contigs/Fi-085.txt, output/EVE_contigs/Fi-103.txt, output/EVEs/Fi-009.txt, output/EVE_contigs/Fi-092.txt, output/EVE_contigs/Fi-057.txt, output/EVEs/Fi-054.txt, output/EVE_contigs/Fi-032.txt, output/EVEs/Fi-079.txt, output/EVE_contigs/Fi-083.txt, output/EVEs/Fi-083.txt, output/EVEs/Fi-102.txt, output/EVE_contigs/Fi-027.txt, output/EVEs/Fi-004.txt, output/EVE_contigs/Fi-004.txt, output/EVEs/Fi-089.txt, output/EVE_contigs/Fi-048.txt, output/EVEs/Fi-097.txt, output/EVEs/Fi-091.txt, output/EVE_contigs/Fi-051.txt, output/EVEs/Fi-077.txt, output/EVE_contigs/Fi-040.txt, output/EVEs/Fi-092.txt, output/EVE_contigs/Fi-077.txt, output/EVE_contigs/Fi-005.txt, output/EVEs/Fi-096.txt, output/EVEs/Fi-026.txt, output/EVEs/Fi-101.txt, output/EVEs/Fi-055.txt, output/EVE_contigs/Fi-102.txt, output/EVE_contigs/Fi-086.txt, output/EVE_contigs/Fi-058.txt, output/EVE_contigs/Fi-093.txt, output/EVE_contigs/Fi-054.txt, output/EVE_contigs/Fi-099.txt, output/EVEs/Fi-056.txt, output/EVEs/Fi-047.txt, output/EVEs/Fi-001.txt, output/EVE_contigs/Fi-036.txt, output/EVE_contigs/Fi-096.txt, output/EVEs/Fi-027.txt, output/EVEs/Fi-094.txt, output/EVEs/Fi-059.txt, output/EVE_contigs/Fi-059.txt, output/EVEs/Fi-051.txt, output/EVEs/Fi-057.txt, output/EVE_contigs/Fi-026.txt, output/EVEs/Fi-103.txt, output/EVEs/Fi-098.txt, output/EVEs/Fi-035.txt
+    resources: tmpdir=<TBD>
+
+Job stats:
+job             count
+------------  -------
+all                 1
+confirm_EVEs       40
+gather_EVEs        40
+total              81
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        all, gather_EVEs
+    output files have to be generated:
+        confirm_EVEs, gather_EVEs
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

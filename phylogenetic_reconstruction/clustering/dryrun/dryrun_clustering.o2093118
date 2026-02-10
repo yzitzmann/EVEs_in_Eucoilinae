@@ -1,0 +1,92 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Conda environment envs/seqkit.yml will be created.
+Job stats:
+job            count
+-----------  -------
+EVE_loci           1
+all                1
+cluster            1
+concatenate        1
+filter_EVEs        1
+modify             1
+total              6
+
+Execute 1 jobs...
+
+[Mon Dec 22 17:07:16 2025]
+rule EVE_loci:
+    input: /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/all_EVEs.txt
+    output: output/EVE_contigs.txt
+    jobid: 1
+    reason: Missing output files: output/EVE_contigs.txt
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Dec 22 17:07:16 2025]
+rule filter_EVEs:
+    input: /home/yzitzmann/paper/taxonomy_filter/output/filtered_loci/candidate_loci.faa, output/EVE_contigs.txt
+    output: output/EVEs.faa
+    jobid: 2
+    reason: Missing output files: output/EVEs.faa; Input files updated by another job: output/EVE_contigs.txt
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Dec 22 17:07:16 2025]
+rule concatenate:
+    input: output/EVEs.faa, data/viral_protein_ivspers_fila_nophages_nopolydna_LbFV_lef5.faa
+    output: output/EVE_virus_figi.faa
+    jobid: 3
+    reason: Missing output files: output/EVE_virus_figi.faa; Input files updated by another job: output/EVEs.faa
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Dec 22 17:07:16 2025]
+rule cluster:
+    input: output/EVE_virus_figi.faa
+    output: output/EVE_clusters.tsv
+    jobid: 4
+    reason: Missing output files: output/EVE_clusters.tsv; Input files updated by another job: output/EVE_virus_figi.faa
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Dec 22 17:07:16 2025]
+rule modify:
+    input: output/EVE_clusters.tsv
+    output: output/modified_EVE_clusters.tsv
+    jobid: 5
+    reason: Missing output files: output/modified_EVE_clusters.tsv; Input files updated by another job: output/EVE_clusters.tsv
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Dec 22 17:07:16 2025]
+rule all:
+    input: output/EVE_contigs.txt, output/EVEs.faa, output/EVE_virus_figi.faa, output/EVE_clusters.tsv, output/modified_EVE_clusters.tsv
+    jobid: 0
+    reason: Input files updated by another job: output/EVE_clusters.tsv, output/EVE_virus_figi.faa, output/EVE_contigs.txt, output/EVEs.faa, output/modified_EVE_clusters.tsv
+    resources: tmpdir=<TBD>
+
+Job stats:
+job            count
+-----------  -------
+EVE_loci           1
+all                1
+cluster            1
+concatenate        1
+filter_EVEs        1
+modify             1
+total              6
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        all, cluster, concatenate, filter_EVEs, modify
+    output files have to be generated:
+        EVE_loci, cluster, concatenate, filter_EVEs, modify
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

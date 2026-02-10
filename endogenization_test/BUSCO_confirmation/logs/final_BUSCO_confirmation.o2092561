@@ -1,0 +1,2164 @@
+2025-12-15 17:38:25 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 17:38:25 *****
+2025-12-15 17:38:25 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 17:38:25 *****
+2025-12-15 17:38:25 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 17:38:25 *****
+2025-12-15 17:38:25 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 17:38:25 *****
+2025-12-15 17:38:25 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 17:38:25 *****
+2025-12-15 17:38:25 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 17:38:25 *****
+2025-12-15 17:38:25 INFO:	Configuring BUSCO with local environment
+2025-12-15 17:38:25 INFO:	Configuring BUSCO with local environment
+2025-12-15 17:38:25 INFO:	Configuring BUSCO with local environment
+2025-12-15 17:38:25 INFO:	Configuring BUSCO with local environment
+2025-12-15 17:38:25 INFO:	Configuring BUSCO with local environment
+2025-12-15 17:38:25 INFO:	Configuring BUSCO with local environment
+2025-12-15 17:38:25 INFO:	Running genome mode
+2025-12-15 17:38:25 INFO:	Running genome mode
+2025-12-15 17:38:25 INFO:	Running genome mode
+2025-12-15 17:38:25 INFO:	Running genome mode
+2025-12-15 17:38:25 INFO:	Running genome mode
+2025-12-15 17:38:25 INFO:	Running genome mode
+2025-12-15 17:38:25 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 17:38:25 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 17:38:25 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 17:38:25 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 17:38:25 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 17:38:25 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 17:38:25 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 17:38:25 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 17:38:25 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 17:38:25 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 17:38:25 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 17:38:25 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 17:38:37 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-037.fa
+2025-12-15 17:38:37 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:38:37 INFO:	Download connection problem. Retrying in 10 seconds
+2025-12-15 17:38:38 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-035.fa
+2025-12-15 17:38:38 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:38:39 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-085.fa
+2025-12-15 17:38:39 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:38:41 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-083.fa
+2025-12-15 17:38:41 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:38:41 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-040.fa
+2025-12-15 17:38:41 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:38:42 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-027.fa
+2025-12-15 17:38:42 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:38:47 INFO:	Downloading file 'https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz'
+2025-12-15 17:39:09 INFO:	Decompressing file '/home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12.tar.gz'
+2025-12-15 17:39:09 INFO:	Decompressing file '/home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12.tar.gz'
+2025-12-15 17:39:10 INFO:	Decompressing file '/home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12.tar.gz'
+2025-12-15 17:39:10 INFO:	Decompressing file '/home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12.tar.gz'
+2025-12-15 17:39:11 INFO:	Decompressing file '/home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12.tar.gz'
+2025-12-15 17:39:15 INFO:	Decompressing file '/home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12.tar.gz'
+2025-12-15 17:39:32 WARNING:	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:39:33 WARNING:	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:39:34 WARNING:	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:39:34 WARNING:	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:39:38 WARNING:	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:40:13 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 17:40:13 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 17:40:13
+2025-12-15 17:40:17 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 17:40:17 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 17:40:17
+2025-12-15 17:40:19 WARNING:	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 17:40:19 WARNING:	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 17:40:19 WARNING:	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 17:40:23 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 17:40:23 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 17:40:23
+2025-12-15 17:40:23 WARNING:	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 17:40:25 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 17:40:25 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 17:40:25
+2025-12-15 17:40:25 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 17:40:25 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 17:40:25
+2025-12-15 17:40:27 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 17:40:27 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 17:40:27
+2025-12-15 17:40:29 WARNING:	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 17:40:29 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 17:40:30 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 17:40:30
+2025-12-15 17:40:30 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 17:40:30 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 17:40:30
+2025-12-15 17:40:30 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 17:40:30 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 17:40:30
+2025-12-15 17:40:31 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 17:40:31 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 17:40:31
+2025-12-15 17:40:34 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 17:40:34 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 17:40:34
+2025-12-15 17:40:38 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 17:40:38 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 17:40:38
+2025-12-15 17:41:03 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 17:41:04 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 17:41:06 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 17:41:06
+2025-12-15 17:41:09 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 17:41:09
+2025-12-15 17:41:19 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 17:41:22 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 17:41:22
+2025-12-15 17:41:22 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 17:41:25 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 17:41:26 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 17:41:26
+2025-12-15 17:41:29 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 17:41:29
+2025-12-15 17:41:37 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 17:41:42 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 17:41:42
+2025-12-15 18:04:26 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:04:42 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:05:07 INFO:	Running 5872 job(s) on hmmsearch, starting at 12/15/2025 18:05:07
+2025-12-15 18:05:39 INFO:	[hmmsearch]	588 of 5872 task(s) completed
+2025-12-15 18:05:46 INFO:	[hmmsearch]	1175 of 5872 task(s) completed
+2025-12-15 18:05:49 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:05:54 INFO:	[hmmsearch]	1762 of 5872 task(s) completed
+2025-12-15 18:06:01 INFO:	[hmmsearch]	2349 of 5872 task(s) completed
+2025-12-15 18:06:06 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:06:08 INFO:	[hmmsearch]	2937 of 5872 task(s) completed
+2025-12-15 18:06:15 INFO:	[hmmsearch]	3524 of 5872 task(s) completed
+2025-12-15 18:06:23 INFO:	[hmmsearch]	4111 of 5872 task(s) completed
+2025-12-15 18:06:31 INFO:	[hmmsearch]	4698 of 5872 task(s) completed
+2025-12-15 18:06:34 INFO:	Running 5874 job(s) on hmmsearch, starting at 12/15/2025 18:06:34
+2025-12-15 18:06:40 INFO:	[hmmsearch]	5285 of 5872 task(s) completed
+2025-12-15 18:06:50 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:06:56 INFO:	[hmmsearch]	5872 of 5872 task(s) completed
+2025-12-15 18:07:04 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:07:07 INFO:	26 candidate overlapping regions found
+2025-12-15 18:07:07 INFO:	22439 exons in total
+2025-12-15 18:07:10 INFO:	[hmmsearch]	588 of 5874 task(s) completed
+2025-12-15 18:07:14 WARNING:	178 of 2743 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:07:18 INFO:	[hmmsearch]	1175 of 5874 task(s) completed
+2025-12-15 18:07:19 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:07:22 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:46.3%[S:45.9%,D:0.4%],F:28.9%,M:24.8%,n:5920,E:6.5%                                     |
+    |2743    Complete BUSCOs (C)    (of which 178 contain internal stop codons)                |
+    |2720    Complete and single-copy BUSCOs (S)                                               |
+    |23    Complete and duplicated BUSCOs (D)                                                  |
+    |1711    Fragmented BUSCOs (F)                                                             |
+    |1466    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:07:22 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1721 seconds
+
+***** Summary of warnings: *****
+2025-12-15 18:07:14 WARNING:busco.busco_tools.hmmer	178 of 2743 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:07:22 INFO:	Results written in output/BUSCO_results/Fi-083
+2025-12-15 18:07:22 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:07:22 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:07:23 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:07:25 INFO:	[hmmsearch]	1763 of 5874 task(s) completed
+2025-12-15 18:07:27 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:07:27 *****
+2025-12-15 18:07:27 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:07:27 INFO:	Running genome mode
+2025-12-15 18:07:27 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:07:27 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:07:29 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-043.fa
+2025-12-15 18:07:29 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:07:29 INFO:	Running 5874 job(s) on hmmsearch, starting at 12/15/2025 18:07:29
+2025-12-15 18:07:33 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:07:33 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:07:33
+2025-12-15 18:07:34 INFO:	[hmmsearch]	2350 of 5874 task(s) completed
+2025-12-15 18:07:35 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:07:38 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:07:38 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:07:38
+2025-12-15 18:07:42 INFO:	[hmmsearch]	2937 of 5874 task(s) completed
+2025-12-15 18:07:51 INFO:	[hmmsearch]	3525 of 5874 task(s) completed
+2025-12-15 18:07:55 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:08:01 INFO:	[hmmsearch]	4112 of 5874 task(s) completed
+2025-12-15 18:08:01 INFO:	Running 5865 job(s) on hmmsearch, starting at 12/15/2025 18:08:01
+2025-12-15 18:08:03 INFO:	[hmmsearch]	588 of 5874 task(s) completed
+2025-12-15 18:08:11 INFO:	[hmmsearch]	1175 of 5874 task(s) completed
+2025-12-15 18:08:11 INFO:	[hmmsearch]	4700 of 5874 task(s) completed
+2025-12-15 18:08:11 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:08:18 INFO:	[hmmsearch]	1763 of 5874 task(s) completed
+2025-12-15 18:08:22 INFO:	[hmmsearch]	5287 of 5874 task(s) completed
+2025-12-15 18:08:26 INFO:	[hmmsearch]	2350 of 5874 task(s) completed
+2025-12-15 18:08:34 INFO:	[hmmsearch]	2937 of 5874 task(s) completed
+2025-12-15 18:08:36 INFO:	[hmmsearch]	587 of 5865 task(s) completed
+2025-12-15 18:08:38 INFO:	Running 5867 job(s) on hmmsearch, starting at 12/15/2025 18:08:38
+2025-12-15 18:08:39 INFO:	[hmmsearch]	5874 of 5874 task(s) completed
+2025-12-15 18:08:42 INFO:	[hmmsearch]	3525 of 5874 task(s) completed
+2025-12-15 18:08:43 INFO:	[hmmsearch]	1173 of 5865 task(s) completed
+2025-12-15 18:08:50 INFO:	[hmmsearch]	4112 of 5874 task(s) completed
+2025-12-15 18:08:51 INFO:	[hmmsearch]	1760 of 5865 task(s) completed
+2025-12-15 18:08:51 INFO:	20 candidate overlapping regions found
+2025-12-15 18:08:51 INFO:	25008 exons in total
+2025-12-15 18:08:54 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:08:58 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:08:58
+2025-12-15 18:08:59 WARNING:	146 of 3189 Complete matches (4.6%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:09:00 INFO:	[hmmsearch]	4700 of 5874 task(s) completed
+2025-12-15 18:09:00 INFO:	[hmmsearch]	4700 of 5874 task(s) completed
+2025-12-15 18:09:02 INFO:	[hmmsearch]	2346 of 5865 task(s) completed
+2025-12-15 18:09:08 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:53.9%[S:53.6%,D:0.3%],F:25.0%,M:21.1%,n:5920,E:4.6%                                     |
+    |3189    Complete BUSCOs (C)    (of which 146 contain internal stop codons)                |
+    |3174    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |1482    Fragmented BUSCOs (F)                                                             |
+    |1249    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:09:08 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1826 seconds
+
+***** Summary of warnings: *****
+2025-12-15 17:39:38 WARNING:busco.BuscoDownloadManager	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:40:29 WARNING:busco.BuscoDownloadManager	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 18:08:59 WARNING:busco.busco_tools.hmmer	146 of 3189 Complete matches (4.6%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:09:08 INFO:	Results written in output/BUSCO_results/Fi-027
+2025-12-15 18:09:08 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:09:08 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:09:10 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:09:12 INFO:	[hmmsearch]	5287 of 5874 task(s) completed
+2025-12-15 18:09:12 INFO:	[hmmsearch]	2933 of 5865 task(s) completed
+2025-12-15 18:09:13 INFO:	[hmmsearch]	587 of 5867 task(s) completed
+2025-12-15 18:09:14 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:09:14 *****
+2025-12-15 18:09:14 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:09:14 INFO:	Running genome mode
+2025-12-15 18:09:14 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:09:14 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:09:16 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-089.fa
+2025-12-15 18:09:16 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:09:20 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:09:20 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:09:20
+2025-12-15 18:09:21 INFO:	[hmmsearch]	1174 of 5867 task(s) completed
+2025-12-15 18:09:22 INFO:	[hmmsearch]	3519 of 5865 task(s) completed
+2025-12-15 18:09:25 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:09:25 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:09:25
+2025-12-15 18:09:29 INFO:	[hmmsearch]	5874 of 5874 task(s) completed
+2025-12-15 18:09:32 INFO:	[hmmsearch]	4106 of 5865 task(s) completed
+2025-12-15 18:09:36 INFO:	[hmmsearch]	2347 of 5867 task(s) completed
+2025-12-15 18:09:42 INFO:	[hmmsearch]	4692 of 5865 task(s) completed
+2025-12-15 18:09:44 INFO:	19 candidate overlapping regions found
+2025-12-15 18:09:44 INFO:	24565 exons in total
+2025-12-15 18:09:44 INFO:	[hmmsearch]	2934 of 5867 task(s) completed
+2025-12-15 18:09:52 INFO:	[hmmsearch]	3521 of 5867 task(s) completed
+2025-12-15 18:09:53 INFO:	[hmmsearch]	5279 of 5865 task(s) completed
+2025-12-15 18:09:53 WARNING:	184 of 3084 Complete matches (6.0%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:09:59 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:52.1%[S:51.7%,D:0.4%],F:24.5%,M:23.4%,n:5920,E:6.0%                                     |
+    |3084    Complete BUSCOs (C)    (of which 184 contain internal stop codons)                |
+    |3061    Complete and single-copy BUSCOs (S)                                               |
+    |23    Complete and duplicated BUSCOs (D)                                                  |
+    |1449    Fragmented BUSCOs (F)                                                             |
+    |1387    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:09:59 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1882 seconds
+
+***** Summary of warnings: *****
+2025-12-15 17:38:37 ERROR:busco.BuscoDownloadManager	Cannot reach https://busco-data.ezlab.org/v5/data/lineages/hymenoptera_odb12.2025-07-01.tar.gz
+2025-12-15 17:39:34 WARNING:busco.BuscoDownloadManager	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:40:19 WARNING:busco.BuscoDownloadManager	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 18:09:53 WARNING:busco.busco_tools.hmmer	184 of 3084 Complete matches (6.0%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:09:59 INFO:	Results written in output/BUSCO_results/Fi-037
+2025-12-15 18:09:59 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:09:59 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:10:01 INFO:	[hmmsearch]	4107 of 5867 task(s) completed
+2025-12-15 18:10:01 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:10:04 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:10:04 *****
+2025-12-15 18:10:04 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:10:04 INFO:	Running genome mode
+2025-12-15 18:10:04 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:10:04 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:10:06 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-000.fa
+2025-12-15 18:10:06 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:10:06 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:10:13 INFO:	[hmmsearch]	4694 of 5867 task(s) completed
+2025-12-15 18:10:17 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:10:17 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:10:17
+2025-12-15 18:10:18 INFO:	[hmmsearch]	5865 of 5865 task(s) completed
+2025-12-15 18:10:21 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:10:22 INFO:	[hmmsearch]	5281 of 5867 task(s) completed
+2025-12-15 18:10:23 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:10:23 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:10:23
+2025-12-15 18:10:29 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:10:31 INFO:	25 candidate overlapping regions found
+2025-12-15 18:10:31 INFO:	30008 exons in total
+2025-12-15 18:10:33 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:10:33
+2025-12-15 18:10:42 INFO:	[hmmsearch]	5867 of 5867 task(s) completed
+2025-12-15 18:10:43 WARNING:	200 of 4058 Complete matches (4.9%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:10:47 INFO:	Running 5870 job(s) on hmmsearch, starting at 12/15/2025 18:10:47
+2025-12-15 18:10:51 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:68.5%[S:68.1%,D:0.5%],F:15.5%,M:15.9%,n:5920,E:4.9%                                     |
+    |4058    Complete BUSCOs (C)    (of which 200 contain internal stop codons)                |
+    |4029    Complete and single-copy BUSCOs (S)                                               |
+    |29    Complete and duplicated BUSCOs (D)                                                  |
+    |920    Fragmented BUSCOs (F)                                                              |
+    |942    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:10:51 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1930 seconds
+
+***** Summary of warnings: *****
+2025-12-15 17:39:34 WARNING:busco.BuscoDownloadManager	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:40:23 WARNING:busco.BuscoDownloadManager	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 18:10:43 WARNING:busco.busco_tools.hmmer	200 of 4058 Complete matches (4.9%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:10:51 INFO:	Results written in output/BUSCO_results/Fi-040
+2025-12-15 18:10:51 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:10:51 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:10:52 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:10:54 INFO:	29 candidate overlapping regions found
+2025-12-15 18:10:54 INFO:	25277 exons in total
+2025-12-15 18:10:55 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:10:55 *****
+2025-12-15 18:10:55 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:10:55 INFO:	Running genome mode
+2025-12-15 18:10:55 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:10:55 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:10:57 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-091.fa
+2025-12-15 18:10:57 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:11:02 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:11:02 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:11:02
+2025-12-15 18:11:04 WARNING:	221 of 3290 Complete matches (6.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:11:07 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:11:07 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:11:07
+2025-12-15 18:11:13 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:55.6%[S:55.3%,D:0.3%],F:24.8%,M:19.6%,n:5920,E:6.7%                                     |
+    |3290    Complete BUSCOs (C)    (of which 221 contain internal stop codons)                |
+    |3271    Complete and single-copy BUSCOs (S)                                               |
+    |19    Complete and duplicated BUSCOs (D)                                                  |
+    |1467    Fragmented BUSCOs (F)                                                             |
+    |1163    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:11:13 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1953 seconds
+
+***** Summary of warnings: *****
+2025-12-15 17:39:33 WARNING:busco.BuscoDownloadManager	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:40:19 WARNING:busco.BuscoDownloadManager	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 18:11:04 WARNING:busco.busco_tools.hmmer	221 of 3290 Complete matches (6.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:11:13 INFO:	Results written in output/BUSCO_results/Fi-085
+2025-12-15 18:11:13 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:11:13 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:11:14 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:11:17 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:11:17 *****
+2025-12-15 18:11:17 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:11:17 INFO:	Running genome mode
+2025-12-15 18:11:17 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:11:17 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:11:19 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-047.fa
+2025-12-15 18:11:19 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:11:21 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:11:21 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:11:21
+2025-12-15 18:11:23 INFO:	[hmmsearch]	587 of 5870 task(s) completed
+2025-12-15 18:11:24 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:11:24 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:11:24
+2025-12-15 18:11:30 INFO:	[hmmsearch]	1174 of 5870 task(s) completed
+2025-12-15 18:11:37 INFO:	[hmmsearch]	1761 of 5870 task(s) completed
+2025-12-15 18:11:45 INFO:	[hmmsearch]	2348 of 5870 task(s) completed
+2025-12-15 18:11:54 INFO:	[hmmsearch]	2935 of 5870 task(s) completed
+2025-12-15 18:11:55 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:11:59 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:11:59
+2025-12-15 18:12:02 INFO:	[hmmsearch]	3522 of 5870 task(s) completed
+2025-12-15 18:12:12 INFO:	[hmmsearch]	4109 of 5870 task(s) completed
+2025-12-15 18:12:21 INFO:	[hmmsearch]	4696 of 5870 task(s) completed
+2025-12-15 18:12:31 INFO:	[hmmsearch]	5283 of 5870 task(s) completed
+2025-12-15 18:12:48 INFO:	[hmmsearch]	5870 of 5870 task(s) completed
+2025-12-15 18:12:53 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:12:57 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:12:57
+2025-12-15 18:13:02 INFO:	17 candidate overlapping regions found
+2025-12-15 18:13:02 INFO:	24775 exons in total
+2025-12-15 18:13:10 WARNING:	189 of 3203 Complete matches (5.9%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:13:16 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:54.1%[S:53.8%,D:0.3%],F:23.1%,M:22.8%,n:5920,E:5.9%                                     |
+    |3203    Complete BUSCOs (C)    (of which 189 contain internal stop codons)                |
+    |3183    Complete and single-copy BUSCOs (S)                                               |
+    |20    Complete and duplicated BUSCOs (D)                                                  |
+    |1366    Fragmented BUSCOs (F)                                                             |
+    |1351    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:13:16 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2078 seconds
+
+***** Summary of warnings: *****
+2025-12-15 17:39:32 WARNING:busco.BuscoDownloadManager	Downloaded gzip file was removed before this BUSCO run could remove it.
+2025-12-15 17:40:19 WARNING:busco.BuscoDownloadManager	Downloaded tarball was removed before this BUSCO run could remove it.
+2025-12-15 18:13:10 WARNING:busco.busco_tools.hmmer	189 of 3203 Complete matches (5.9%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:13:16 INFO:	Results written in output/BUSCO_results/Fi-035
+2025-12-15 18:13:16 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:13:16 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:13:18 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:13:21 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:13:21 *****
+2025-12-15 18:13:21 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:13:21 INFO:	Running genome mode
+2025-12-15 18:13:21 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:13:21 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:13:23 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-059.fa
+2025-12-15 18:13:23 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:13:26 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:13:26 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:13:26
+2025-12-15 18:13:31 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:13:31 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:13:31
+2025-12-15 18:14:14 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:14:19 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:14:19
+2025-12-15 18:14:41 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:14:46 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:14:46
+2025-12-15 18:31:58 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:32:14 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:32:39 INFO:	Running 5877 job(s) on hmmsearch, starting at 12/15/2025 18:32:39
+2025-12-15 18:33:15 INFO:	[hmmsearch]	588 of 5877 task(s) completed
+2025-12-15 18:33:22 INFO:	[hmmsearch]	1176 of 5877 task(s) completed
+2025-12-15 18:33:30 INFO:	[hmmsearch]	1764 of 5877 task(s) completed
+2025-12-15 18:33:39 INFO:	[hmmsearch]	2351 of 5877 task(s) completed
+2025-12-15 18:33:48 INFO:	[hmmsearch]	2939 of 5877 task(s) completed
+2025-12-15 18:33:57 INFO:	[hmmsearch]	3527 of 5877 task(s) completed
+2025-12-15 18:34:06 INFO:	[hmmsearch]	4114 of 5877 task(s) completed
+2025-12-15 18:34:17 INFO:	[hmmsearch]	4702 of 5877 task(s) completed
+2025-12-15 18:34:29 INFO:	[hmmsearch]	5290 of 5877 task(s) completed
+2025-12-15 18:34:47 INFO:	[hmmsearch]	5877 of 5877 task(s) completed
+2025-12-15 18:35:01 INFO:	43 candidate overlapping regions found
+2025-12-15 18:35:01 INFO:	27507 exons in total
+2025-12-15 18:35:16 WARNING:	190 of 3630 Complete matches (5.2%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:35:25 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:61.3%[S:61.1%,D:0.3%],F:20.3%,M:18.4%,n:5920,E:5.2%                                     |
+    |3630    Complete BUSCOs (C)    (of which 190 contain internal stop codons)                |
+    |3615    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |1203    Fragmented BUSCOs (F)                                                             |
+    |1087    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:35:25 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1446 seconds
+
+***** Summary of warnings: *****
+2025-12-15 18:35:16 WARNING:busco.busco_tools.hmmer	190 of 3630 Complete matches (5.2%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:35:25 INFO:	Results written in output/BUSCO_results/Fi-047
+2025-12-15 18:35:25 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:35:25 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:35:26 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:35:30 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:35:30 *****
+2025-12-15 18:35:30 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:35:30 INFO:	Running genome mode
+2025-12-15 18:35:30 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:35:30 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:35:32 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-042.fa
+2025-12-15 18:35:32 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:35:36 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:35:36 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:35:36
+2025-12-15 18:35:41 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:35:41 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:35:41
+2025-12-15 18:36:45 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:36:50 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:36:50
+2025-12-15 18:39:37 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:39:52 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:40:21 INFO:	Running 5861 job(s) on hmmsearch, starting at 12/15/2025 18:40:21
+2025-12-15 18:40:34 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:40:50 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:40:56 INFO:	[hmmsearch]	587 of 5861 task(s) completed
+2025-12-15 18:40:56 INFO:	[hmmsearch]	587 of 5861 task(s) completed
+2025-12-15 18:41:02 INFO:	[hmmsearch]	1173 of 5861 task(s) completed
+2025-12-15 18:41:08 INFO:	[hmmsearch]	1759 of 5861 task(s) completed
+2025-12-15 18:41:14 INFO:	[hmmsearch]	2345 of 5861 task(s) completed
+2025-12-15 18:41:18 INFO:	Running 5872 job(s) on hmmsearch, starting at 12/15/2025 18:41:18
+2025-12-15 18:41:21 INFO:	[hmmsearch]	2931 of 5861 task(s) completed
+2025-12-15 18:41:28 INFO:	[hmmsearch]	3517 of 5861 task(s) completed
+2025-12-15 18:41:35 INFO:	[hmmsearch]	4103 of 5861 task(s) completed
+2025-12-15 18:41:42 INFO:	[hmmsearch]	4689 of 5861 task(s) completed
+2025-12-15 18:41:50 INFO:	[hmmsearch]	5275 of 5861 task(s) completed
+2025-12-15 18:41:55 INFO:	[hmmsearch]	588 of 5872 task(s) completed
+2025-12-15 18:42:02 INFO:	[hmmsearch]	1175 of 5872 task(s) completed
+2025-12-15 18:42:03 INFO:	[hmmsearch]	5861 of 5861 task(s) completed
+2025-12-15 18:42:09 INFO:	[hmmsearch]	1762 of 5872 task(s) completed
+2025-12-15 18:42:12 INFO:	1 candidate overlapping regions found
+2025-12-15 18:42:12 INFO:	9676 exons in total
+2025-12-15 18:42:14 WARNING:	98 of 1042 Complete matches (9.4%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:42:15 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:42:17 INFO:	[hmmsearch]	2349 of 5872 task(s) completed
+2025-12-15 18:42:20 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:17.6%[S:17.6%,D:0.1%],F:33.7%,M:48.7%,n:5920,E:9.4%                                     |
+    |1042    Complete BUSCOs (C)    (of which 98 contain internal stop codons)                 |
+    |1039    Complete and single-copy BUSCOs (S)                                               |
+    |3    Complete and duplicated BUSCOs (D)                                                   |
+    |1993    Fragmented BUSCOs (F)                                                             |
+    |2885    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:42:20 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1983 seconds
+
+***** Summary of warnings: *****
+2025-12-15 18:42:14 WARNING:busco.busco_tools.hmmer	98 of 1042 Complete matches (9.4%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:42:20 INFO:	Results written in output/BUSCO_results/Fi-089
+2025-12-15 18:42:20 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:42:20 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:42:22 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:42:24 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:42:24 *****
+2025-12-15 18:42:24 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:42:24 INFO:	Running genome mode
+2025-12-15 18:42:24 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:42:24 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:42:25 INFO:	[hmmsearch]	2937 of 5872 task(s) completed
+2025-12-15 18:42:27 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-099.fa
+2025-12-15 18:42:27 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:42:30 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:42:30 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:42:30
+2025-12-15 18:42:31 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 18:42:31 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:42:34 INFO:	[hmmsearch]	3524 of 5872 task(s) completed
+2025-12-15 18:42:36 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:42:36 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:42:36
+2025-12-15 18:42:42 INFO:	[hmmsearch]	4111 of 5872 task(s) completed
+2025-12-15 18:42:47 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 18:42:52 INFO:	[hmmsearch]	4698 of 5872 task(s) completed
+2025-12-15 18:42:56 INFO:	Running 5868 job(s) on hmmsearch, starting at 12/15/2025 18:42:56
+2025-12-15 18:43:00 INFO:	[hmmsearch]	5285 of 5872 task(s) completed
+2025-12-15 18:43:11 INFO:	Running 5872 job(s) on hmmsearch, starting at 12/15/2025 18:43:11
+2025-12-15 18:43:15 INFO:	[hmmsearch]	5872 of 5872 task(s) completed
+2025-12-15 18:43:25 INFO:	19 candidate overlapping regions found
+2025-12-15 18:43:25 INFO:	22141 exons in total
+2025-12-15 18:43:26 INFO:	[hmmsearch]	587 of 5868 task(s) completed
+2025-12-15 18:43:32 INFO:	[hmmsearch]	1174 of 5868 task(s) completed
+2025-12-15 18:43:32 WARNING:	178 of 2855 Complete matches (6.2%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:43:38 INFO:	[hmmsearch]	1761 of 5868 task(s) completed
+2025-12-15 18:43:39 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:48.2%[S:47.9%,D:0.3%],F:25.6%,M:26.2%,n:5920,E:6.2%                                     |
+    |2855    Complete BUSCOs (C)    (of which 178 contain internal stop codons)                |
+    |2837    Complete and single-copy BUSCOs (S)                                               |
+    |18    Complete and duplicated BUSCOs (D)                                                  |
+    |1516    Fragmented BUSCOs (F)                                                             |
+    |1549    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:43:39 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2170 seconds
+
+***** Summary of warnings: *****
+2025-12-15 18:43:32 WARNING:busco.busco_tools.hmmer	178 of 2855 Complete matches (6.2%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:43:39 INFO:	Results written in output/BUSCO_results/Fi-043
+2025-12-15 18:43:39 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:43:39 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:43:41 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:43:43 INFO:	[hmmsearch]	588 of 5872 task(s) completed
+2025-12-15 18:43:44 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:43:44 *****
+2025-12-15 18:43:44 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:43:44 INFO:	Running genome mode
+2025-12-15 18:43:44 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:43:44 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:43:44 INFO:	[hmmsearch]	2348 of 5868 task(s) completed
+2025-12-15 18:43:46 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-032.fa
+2025-12-15 18:43:46 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:43:51 INFO:	[hmmsearch]	1175 of 5872 task(s) completed
+2025-12-15 18:43:52 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:43:52 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:43:52
+2025-12-15 18:43:53 INFO:	[hmmsearch]	2934 of 5868 task(s) completed
+2025-12-15 18:43:59 INFO:	[hmmsearch]	1762 of 5872 task(s) completed
+2025-12-15 18:43:59 INFO:	[hmmsearch]	3521 of 5868 task(s) completed
+2025-12-15 18:44:00 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:44:00 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:44:00
+2025-12-15 18:44:05 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:44:07 INFO:	[hmmsearch]	4108 of 5868 task(s) completed
+2025-12-15 18:44:07 INFO:	[hmmsearch]	2349 of 5872 task(s) completed
+2025-12-15 18:44:10 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:44:10
+2025-12-15 18:44:15 INFO:	[hmmsearch]	4695 of 5868 task(s) completed
+2025-12-15 18:44:17 INFO:	[hmmsearch]	2937 of 5872 task(s) completed
+2025-12-15 18:44:22 INFO:	[hmmsearch]	5282 of 5868 task(s) completed
+2025-12-15 18:44:24 INFO:	[hmmsearch]	3524 of 5872 task(s) completed
+2025-12-15 18:44:33 INFO:	[hmmsearch]	4111 of 5872 task(s) completed
+2025-12-15 18:44:35 INFO:	[hmmsearch]	5868 of 5868 task(s) completed
+2025-12-15 18:44:41 INFO:	[hmmsearch]	4698 of 5872 task(s) completed
+2025-12-15 18:44:44 INFO:	6 candidate overlapping regions found
+2025-12-15 18:44:44 INFO:	9791 exons in total
+2025-12-15 18:44:46 WARNING:	77 of 995 Complete matches (7.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:44:52 INFO:	[hmmsearch]	5285 of 5872 task(s) completed
+2025-12-15 18:44:52 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:16.8%[S:16.7%,D:0.1%],F:35.0%,M:48.2%,n:5920,E:7.7%                                     |
+    |995    Complete BUSCOs (C)    (of which 77 contain internal stop codons)                  |
+    |990    Complete and single-copy BUSCOs (S)                                                |
+    |5    Complete and duplicated BUSCOs (D)                                                   |
+    |2070    Fragmented BUSCOs (F)                                                             |
+    |2855    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:44:52 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2035 seconds
+
+***** Summary of warnings: *****
+2025-12-15 18:44:46 WARNING:busco.busco_tools.hmmer	77 of 995 Complete matches (7.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:44:52 INFO:	Results written in output/BUSCO_results/Fi-091
+2025-12-15 18:44:52 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:44:52 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:44:54 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:44:57 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:44:57 *****
+2025-12-15 18:44:57 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:44:57 INFO:	Running genome mode
+2025-12-15 18:44:57 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:44:57 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:44:59 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-057.fa
+2025-12-15 18:44:59 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:45:03 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:45:03 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:45:03
+2025-12-15 18:45:06 INFO:	[hmmsearch]	5872 of 5872 task(s) completed
+2025-12-15 18:45:09 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:45:09 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:45:09
+2025-12-15 18:45:18 INFO:	13 candidate overlapping regions found
+2025-12-15 18:45:18 INFO:	20223 exons in total
+2025-12-15 18:45:23 WARNING:	198 of 2483 Complete matches (8.0%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 18:45:29 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:41.9%[S:41.8%,D:0.2%],F:28.5%,M:29.6%,n:5920,E:8.0%                                     |
+    |2483    Complete BUSCOs (C)    (of which 198 contain internal stop codons)                |
+    |2473    Complete and single-copy BUSCOs (S)                                               |
+    |10    Complete and duplicated BUSCOs (D)                                                  |
+    |1685    Fragmented BUSCOs (F)                                                             |
+    |1752    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 18:45:29 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1926 seconds
+
+***** Summary of warnings: *****
+2025-12-15 18:45:23 WARNING:busco.busco_tools.hmmer	198 of 2483 Complete matches (8.0%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 18:45:29 INFO:	Results written in output/BUSCO_results/Fi-059
+2025-12-15 18:45:29 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 18:45:29 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 18:45:31 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 18:45:33 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 18:45:33 *****
+2025-12-15 18:45:33 INFO:	Configuring BUSCO with local environment
+2025-12-15 18:45:33 INFO:	Running genome mode
+2025-12-15 18:45:33 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 18:45:33 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 18:45:36 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-098.fa
+2025-12-15 18:45:36 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 18:45:39 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 18:45:39 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 18:45:39
+2025-12-15 18:45:43 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 18:45:43 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 18:45:43
+2025-12-15 18:46:20 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:46:23 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:46:24 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:46:24
+2025-12-15 18:46:27 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:46:27
+2025-12-15 18:47:11 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 18:47:16 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 18:47:16
+2025-12-15 19:01:00 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:01:16 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:01:44 INFO:	Running 5875 job(s) on hmmsearch, starting at 12/15/2025 19:01:44
+2025-12-15 19:02:19 INFO:	[hmmsearch]	588 of 5875 task(s) completed
+2025-12-15 19:02:26 INFO:	[hmmsearch]	1175 of 5875 task(s) completed
+2025-12-15 19:02:33 INFO:	[hmmsearch]	1763 of 5875 task(s) completed
+2025-12-15 19:02:40 INFO:	[hmmsearch]	2350 of 5875 task(s) completed
+2025-12-15 19:02:48 INFO:	[hmmsearch]	2938 of 5875 task(s) completed
+2025-12-15 19:02:55 INFO:	[hmmsearch]	3525 of 5875 task(s) completed
+2025-12-15 19:03:03 INFO:	[hmmsearch]	4113 of 5875 task(s) completed
+2025-12-15 19:03:13 INFO:	[hmmsearch]	4700 of 5875 task(s) completed
+2025-12-15 19:03:21 INFO:	[hmmsearch]	5288 of 5875 task(s) completed
+2025-12-15 19:03:36 INFO:	[hmmsearch]	5875 of 5875 task(s) completed
+2025-12-15 19:03:47 INFO:	5 candidate overlapping regions found
+2025-12-15 19:03:47 INFO:	20161 exons in total
+2025-12-15 19:03:52 WARNING:	168 of 2571 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:03:56 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:04:00 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:43.4%[S:43.2%,D:0.2%],F:27.7%,M:28.9%,n:5920,E:6.5%                                     |
+    |2571    Complete BUSCOs (C)    (of which 168 contain internal stop codons)                |
+    |2560    Complete and single-copy BUSCOs (S)                                               |
+    |11    Complete and duplicated BUSCOs (D)                                                  |
+    |1641    Fragmented BUSCOs (F)                                                             |
+    |1708    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:04:00 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1708 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:03:52 WARNING:busco.busco_tools.hmmer	168 of 2571 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:04:00 INFO:	Results written in output/BUSCO_results/Fi-042
+2025-12-15 19:04:00 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:04:00 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:04:01 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:04:05 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:04:05 *****
+2025-12-15 19:04:05 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:04:05 INFO:	Running genome mode
+2025-12-15 19:04:05 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:04:05 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:04:07 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-026.fa
+2025-12-15 19:04:07 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:04:10 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:04:10 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:04:10
+2025-12-15 19:04:14 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:04:14 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:04:14
+2025-12-15 19:04:14 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:04:39 INFO:	Running 5854 job(s) on hmmsearch, starting at 12/15/2025 19:04:39
+2025-12-15 19:04:53 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:04:57 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:04:57
+2025-12-15 19:05:13 INFO:	[hmmsearch]	586 of 5854 task(s) completed
+2025-12-15 19:05:21 INFO:	[hmmsearch]	1171 of 5854 task(s) completed
+2025-12-15 19:05:29 INFO:	[hmmsearch]	1757 of 5854 task(s) completed
+2025-12-15 19:05:38 INFO:	[hmmsearch]	2342 of 5854 task(s) completed
+2025-12-15 19:05:48 INFO:	[hmmsearch]	2927 of 5854 task(s) completed
+2025-12-15 19:05:56 INFO:	[hmmsearch]	3513 of 5854 task(s) completed
+2025-12-15 19:06:07 INFO:	[hmmsearch]	4098 of 5854 task(s) completed
+2025-12-15 19:06:17 INFO:	[hmmsearch]	4684 of 5854 task(s) completed
+2025-12-15 19:06:28 INFO:	[hmmsearch]	5269 of 5854 task(s) completed
+2025-12-15 19:06:44 INFO:	[hmmsearch]	5854 of 5854 task(s) completed
+2025-12-15 19:06:59 INFO:	34 candidate overlapping regions found
+2025-12-15 19:06:59 INFO:	27248 exons in total
+2025-12-15 19:07:10 WARNING:	236 of 3619 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:07:18 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:61.1%[S:60.7%,D:0.5%],F:20.1%,M:18.8%,n:5920,E:6.5%                                     |
+    |3619    Complete BUSCOs (C)    (of which 236 contain internal stop codons)                |
+    |3592    Complete and single-copy BUSCOs (S)                                               |
+    |27    Complete and duplicated BUSCOs (D)                                                  |
+    |1189    Fragmented BUSCOs (F)                                                             |
+    |1112    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:07:18 INFO:	BUSCO analysis done with WARNING(s). Total running time: 3432 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:07:10 WARNING:busco.busco_tools.hmmer	236 of 3619 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:07:18 INFO:	Results written in output/BUSCO_results/Fi-000
+2025-12-15 19:07:18 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:07:18 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:07:23 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:07:26 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:07:26 *****
+2025-12-15 19:07:26 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:07:26 INFO:	Running genome mode
+2025-12-15 19:07:26 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:07:26 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:07:29 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-056.fa
+2025-12-15 19:07:29 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:07:32 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:07:32 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:07:32
+2025-12-15 19:07:36 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:07:36 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:07:36
+2025-12-15 19:08:28 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:08:33 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:08:33
+2025-12-15 19:15:43 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:15:57 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:16:25 INFO:	Running 5864 job(s) on hmmsearch, starting at 12/15/2025 19:16:25
+2025-12-15 19:17:00 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:17:03 INFO:	[hmmsearch]	587 of 5864 task(s) completed
+2025-12-15 19:17:10 INFO:	[hmmsearch]	1173 of 5864 task(s) completed
+2025-12-15 19:17:17 INFO:	[hmmsearch]	1760 of 5864 task(s) completed
+2025-12-15 19:17:18 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:17:24 INFO:	[hmmsearch]	2346 of 5864 task(s) completed
+2025-12-15 19:17:32 INFO:	[hmmsearch]	2932 of 5864 task(s) completed
+2025-12-15 19:17:39 INFO:	[hmmsearch]	3519 of 5864 task(s) completed
+2025-12-15 19:17:46 INFO:	Running 5892 job(s) on hmmsearch, starting at 12/15/2025 19:17:46
+2025-12-15 19:17:47 INFO:	[hmmsearch]	4105 of 5864 task(s) completed
+2025-12-15 19:17:51 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:17:56 INFO:	[hmmsearch]	4692 of 5864 task(s) completed
+2025-12-15 19:18:04 INFO:	[hmmsearch]	5278 of 5864 task(s) completed
+2025-12-15 19:18:05 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:18:19 INFO:	[hmmsearch]	5864 of 5864 task(s) completed
+2025-12-15 19:18:23 INFO:	[hmmsearch]	590 of 5892 task(s) completed
+2025-12-15 19:18:31 INFO:	2 candidate overlapping regions found
+2025-12-15 19:18:31 INFO:	20145 exons in total
+2025-12-15 19:18:31 INFO:	[hmmsearch]	1179 of 5892 task(s) completed
+2025-12-15 19:18:31 INFO:	[hmmsearch]	1179 of 5892 task(s) completed
+2025-12-15 19:18:32 INFO:	Running 5861 job(s) on hmmsearch, starting at 12/15/2025 19:18:32
+2025-12-15 19:18:35 WARNING:	183 of 2471 Complete matches (7.4%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:18:39 INFO:	[hmmsearch]	1768 of 5892 task(s) completed
+2025-12-15 19:18:41 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:41.7%[S:41.5%,D:0.2%],F:29.4%,M:28.8%,n:5920,E:7.4%                                     |
+    |2471    Complete BUSCOs (C)    (of which 183 contain internal stop codons)                |
+    |2459    Complete and single-copy BUSCOs (S)                                               |
+    |12    Complete and duplicated BUSCOs (D)                                                  |
+    |1742    Fragmented BUSCOs (F)                                                             |
+    |1707    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:18:41 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2022 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:18:35 WARNING:busco.busco_tools.hmmer	183 of 2471 Complete matches (7.4%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:18:41 INFO:	Results written in output/BUSCO_results/Fi-057
+2025-12-15 19:18:41 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:18:41 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:18:43 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:18:46 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:18:46 *****
+2025-12-15 19:18:46 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:18:46 INFO:	Running genome mode
+2025-12-15 19:18:46 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:18:46 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:18:48 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-048.fa
+2025-12-15 19:18:48 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:18:48 INFO:	[hmmsearch]	2357 of 5892 task(s) completed
+2025-12-15 19:18:53 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:18:53 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:18:53
+2025-12-15 19:18:59 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:18:59 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:18:59
+2025-12-15 19:19:00 INFO:	[hmmsearch]	2947 of 5892 task(s) completed
+2025-12-15 19:19:06 INFO:	[hmmsearch]	587 of 5861 task(s) completed
+2025-12-15 19:19:09 INFO:	[hmmsearch]	3536 of 5892 task(s) completed
+2025-12-15 19:19:12 INFO:	[hmmsearch]	1173 of 5861 task(s) completed
+2025-12-15 19:19:19 INFO:	[hmmsearch]	1759 of 5861 task(s) completed
+2025-12-15 19:19:19 INFO:	[hmmsearch]	4125 of 5892 task(s) completed
+2025-12-15 19:19:25 INFO:	[hmmsearch]	2345 of 5861 task(s) completed
+2025-12-15 19:19:30 INFO:	[hmmsearch]	4714 of 5892 task(s) completed
+2025-12-15 19:19:33 INFO:	[hmmsearch]	2931 of 5861 task(s) completed
+2025-12-15 19:19:40 INFO:	[hmmsearch]	3517 of 5861 task(s) completed
+2025-12-15 19:19:40 INFO:	[hmmsearch]	5303 of 5892 task(s) completed
+2025-12-15 19:19:47 INFO:	[hmmsearch]	4103 of 5861 task(s) completed
+2025-12-15 19:19:55 INFO:	[hmmsearch]	4689 of 5861 task(s) completed
+2025-12-15 19:19:56 INFO:	[hmmsearch]	5892 of 5892 task(s) completed
+2025-12-15 19:20:03 INFO:	[hmmsearch]	5275 of 5861 task(s) completed
+2025-12-15 19:20:11 INFO:	53 candidate overlapping regions found
+2025-12-15 19:20:11 INFO:	31688 exons in total
+2025-12-15 19:20:17 INFO:	[hmmsearch]	5861 of 5861 task(s) completed
+2025-12-15 19:20:21 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:20:25 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:20:25
+2025-12-15 19:20:27 INFO:	3 candidate overlapping regions found
+2025-12-15 19:20:27 INFO:	15756 exons in total
+2025-12-15 19:20:31 WARNING:	222 of 1690 Complete matches (13.1%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:20:32 WARNING:	335 of 4280 Complete matches (7.8%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:20:36 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:28.5%[S:28.3%,D:0.3%],F:37.5%,M:34.0%,n:5920,E:13.1%                                    |
+    |1690    Complete BUSCOs (C)    (of which 222 contain internal stop codons)                |
+    |1675    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |2218    Fragmented BUSCOs (F)                                                             |
+    |2012    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:20:36 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2290 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:20:31 WARNING:busco.busco_tools.hmmer	222 of 1690 Complete matches (13.1%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:20:36 INFO:	Results written in output/BUSCO_results/Fi-099
+2025-12-15 19:20:36 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:20:36 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:20:38 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:20:39 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:72.3%[S:71.4%,D:0.9%],F:15.1%,M:12.6%,n:5920,E:7.8%                                     |
+    |4280    Complete BUSCOs (C)    (of which 335 contain internal stop codons)                |
+    |4227    Complete and single-copy BUSCOs (S)                                               |
+    |53    Complete and duplicated BUSCOs (D)                                                  |
+    |896    Fragmented BUSCOs (F)                                                              |
+    |744    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:20:39 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2104 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:20:32 WARNING:busco.busco_tools.hmmer	335 of 4280 Complete matches (7.8%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:20:39 INFO:	Results written in output/BUSCO_results/Fi-098
+2025-12-15 19:20:39 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:20:39 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:20:41 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:20:41 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:20:41 *****
+2025-12-15 19:20:41 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:20:41 INFO:	Running genome mode
+2025-12-15 19:20:41 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:20:41 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:20:43 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-001.fa
+2025-12-15 19:20:43 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:20:44 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:20:44 *****
+2025-12-15 19:20:44 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:20:44 INFO:	Running genome mode
+2025-12-15 19:20:44 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:20:44 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:20:46 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-101.fa
+2025-12-15 19:20:46 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:20:47 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:20:47 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:20:47
+2025-12-15 19:20:49 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:20:49 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:20:49
+2025-12-15 19:20:53 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:20:53 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:20:53
+2025-12-15 19:20:54 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:20:54 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:20:54
+2025-12-15 19:21:43 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:21:47 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:21:47
+2025-12-15 19:22:13 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:22:18 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:22:18
+2025-12-15 19:27:16 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:27:31 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:27:57 INFO:	Running 5867 job(s) on hmmsearch, starting at 12/15/2025 19:27:57
+2025-12-15 19:28:33 INFO:	[hmmsearch]	587 of 5867 task(s) completed
+2025-12-15 19:28:41 INFO:	[hmmsearch]	1174 of 5867 task(s) completed
+2025-12-15 19:28:49 INFO:	[hmmsearch]	1761 of 5867 task(s) completed
+2025-12-15 19:28:59 INFO:	[hmmsearch]	2347 of 5867 task(s) completed
+2025-12-15 19:29:09 INFO:	[hmmsearch]	2934 of 5867 task(s) completed
+2025-12-15 19:29:18 INFO:	[hmmsearch]	3521 of 5867 task(s) completed
+2025-12-15 19:29:28 INFO:	[hmmsearch]	4107 of 5867 task(s) completed
+2025-12-15 19:29:40 INFO:	[hmmsearch]	4694 of 5867 task(s) completed
+2025-12-15 19:29:53 INFO:	[hmmsearch]	5281 of 5867 task(s) completed
+2025-12-15 19:30:17 INFO:	[hmmsearch]	5867 of 5867 task(s) completed
+2025-12-15 19:30:34 INFO:	19 candidate overlapping regions found
+2025-12-15 19:30:34 INFO:	34304 exons in total
+2025-12-15 19:30:54 WARNING:	217 of 4701 Complete matches (4.6%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:31:03 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:79.4%[S:79.1%,D:0.4%],F:11.0%,M:9.6%,n:5920,E:4.6%                                      |
+    |4701    Complete BUSCOs (C)    (of which 217 contain internal stop codons)                |
+    |4680    Complete and single-copy BUSCOs (S)                                               |
+    |21    Complete and duplicated BUSCOs (D)                                                  |
+    |649    Fragmented BUSCOs (F)                                                              |
+    |570    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:31:03 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1616 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:30:54 WARNING:busco.busco_tools.hmmer	217 of 4701 Complete matches (4.6%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:31:03 INFO:	Results written in output/BUSCO_results/Fi-026
+2025-12-15 19:31:03 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:31:03 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:31:04 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:31:07 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:31:07 *****
+2025-12-15 19:31:07 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:31:07 INFO:	Running genome mode
+2025-12-15 19:31:07 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:31:07 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:31:09 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-086.fa
+2025-12-15 19:31:09 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:31:13 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:31:13 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:31:13
+2025-12-15 19:31:18 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:31:18 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:31:18
+2025-12-15 19:32:20 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:32:21 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:32:25 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:32:25
+2025-12-15 19:32:35 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:33:04 INFO:	Running 5868 job(s) on hmmsearch, starting at 12/15/2025 19:33:04
+2025-12-15 19:33:40 INFO:	[hmmsearch]	587 of 5868 task(s) completed
+2025-12-15 19:33:46 INFO:	[hmmsearch]	1174 of 5868 task(s) completed
+2025-12-15 19:33:53 INFO:	[hmmsearch]	1761 of 5868 task(s) completed
+2025-12-15 19:34:00 INFO:	[hmmsearch]	2348 of 5868 task(s) completed
+2025-12-15 19:34:07 INFO:	[hmmsearch]	2934 of 5868 task(s) completed
+2025-12-15 19:34:14 INFO:	[hmmsearch]	3521 of 5868 task(s) completed
+2025-12-15 19:34:21 INFO:	[hmmsearch]	4108 of 5868 task(s) completed
+2025-12-15 19:34:29 INFO:	[hmmsearch]	4695 of 5868 task(s) completed
+2025-12-15 19:34:37 INFO:	[hmmsearch]	5282 of 5868 task(s) completed
+2025-12-15 19:34:51 INFO:	[hmmsearch]	5868 of 5868 task(s) completed
+2025-12-15 19:35:00 INFO:	3 candidate overlapping regions found
+2025-12-15 19:35:00 INFO:	13851 exons in total
+2025-12-15 19:35:03 WARNING:	133 of 1528 Complete matches (8.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:35:08 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:25.8%[S:25.6%,D:0.2%],F:34.0%,M:40.2%,n:5920,E:8.7%                                     |
+    |1528    Complete BUSCOs (C)    (of which 133 contain internal stop codons)                |
+    |1517    Complete and single-copy BUSCOs (S)                                               |
+    |11    Complete and duplicated BUSCOs (D)                                                  |
+    |2010    Fragmented BUSCOs (F)                                                             |
+    |2382    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:35:08 INFO:	BUSCO analysis done with WARNING(s). Total running time: 3083 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:35:03 WARNING:busco.busco_tools.hmmer	133 of 1528 Complete matches (8.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:35:08 INFO:	Results written in output/BUSCO_results/Fi-032
+2025-12-15 19:35:08 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:35:08 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:35:12 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:35:15 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:35:15 *****
+2025-12-15 19:35:15 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:35:15 INFO:	Running genome mode
+2025-12-15 19:35:15 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:35:15 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:35:17 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-092.fa
+2025-12-15 19:35:17 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:35:22 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:35:22 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:35:22
+2025-12-15 19:35:28 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:35:28 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:35:28
+2025-12-15 19:36:05 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:36:21 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:36:45 INFO:	Running 5881 job(s) on hmmsearch, starting at 12/15/2025 19:36:45
+2025-12-15 19:36:50 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:36:54 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:36:54
+2025-12-15 19:37:19 INFO:	[hmmsearch]	589 of 5881 task(s) completed
+2025-12-15 19:37:27 INFO:	[hmmsearch]	1177 of 5881 task(s) completed
+2025-12-15 19:37:34 INFO:	[hmmsearch]	1765 of 5881 task(s) completed
+2025-12-15 19:37:43 INFO:	[hmmsearch]	2353 of 5881 task(s) completed
+2025-12-15 19:37:52 INFO:	[hmmsearch]	2941 of 5881 task(s) completed
+2025-12-15 19:38:01 INFO:	[hmmsearch]	3529 of 5881 task(s) completed
+2025-12-15 19:38:10 INFO:	[hmmsearch]	4117 of 5881 task(s) completed
+2025-12-15 19:38:20 INFO:	[hmmsearch]	4705 of 5881 task(s) completed
+2025-12-15 19:38:31 INFO:	[hmmsearch]	5293 of 5881 task(s) completed
+2025-12-15 19:39:00 INFO:	[hmmsearch]	5881 of 5881 task(s) completed
+2025-12-15 19:39:23 INFO:	84 candidate overlapping regions found
+2025-12-15 19:39:23 INFO:	31143 exons in total
+2025-12-15 19:39:49 WARNING:	271 of 4184 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:39:58 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:70.7%[S:70.4%,D:0.3%],F:15.7%,M:13.6%,n:5920,E:6.5%                                     |
+    |4184    Complete BUSCOs (C)    (of which 271 contain internal stop codons)                |
+    |4166    Complete and single-copy BUSCOs (S)                                               |
+    |18    Complete and duplicated BUSCOs (D)                                                  |
+    |928    Fragmented BUSCOs (F)                                                              |
+    |808    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:39:58 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1950 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:39:49 WARNING:busco.busco_tools.hmmer	271 of 4184 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:39:58 INFO:	Results written in output/BUSCO_results/Fi-056
+2025-12-15 19:39:58 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:39:58 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:40:00 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:40:03 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:40:03 *****
+2025-12-15 19:40:03 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:40:03 INFO:	Running genome mode
+2025-12-15 19:40:03 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:40:03 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:40:05 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-034.fa
+2025-12-15 19:40:05 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:40:08 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:40:08 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:40:08
+2025-12-15 19:40:13 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:40:13 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:40:13
+2025-12-15 19:41:18 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:41:23 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:41:23
+2025-12-15 19:43:52 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:44:08 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:44:33 INFO:	Running 5875 job(s) on hmmsearch, starting at 12/15/2025 19:44:33
+2025-12-15 19:45:10 INFO:	[hmmsearch]	588 of 5875 task(s) completed
+2025-12-15 19:45:18 INFO:	[hmmsearch]	1175 of 5875 task(s) completed
+2025-12-15 19:45:25 INFO:	[hmmsearch]	1763 of 5875 task(s) completed
+2025-12-15 19:45:34 INFO:	[hmmsearch]	2350 of 5875 task(s) completed
+2025-12-15 19:45:43 INFO:	[hmmsearch]	2938 of 5875 task(s) completed
+2025-12-15 19:45:52 INFO:	[hmmsearch]	3525 of 5875 task(s) completed
+2025-12-15 19:46:01 INFO:	[hmmsearch]	4113 of 5875 task(s) completed
+2025-12-15 19:46:11 INFO:	[hmmsearch]	4700 of 5875 task(s) completed
+2025-12-15 19:46:23 INFO:	[hmmsearch]	5288 of 5875 task(s) completed
+2025-12-15 19:46:40 INFO:	[hmmsearch]	5875 of 5875 task(s) completed
+2025-12-15 19:46:53 INFO:	26 candidate overlapping regions found
+2025-12-15 19:46:53 INFO:	22154 exons in total
+2025-12-15 19:47:01 WARNING:	219 of 2835 Complete matches (7.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:47:08 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:47.9%[S:47.7%,D:0.2%],F:25.6%,M:26.5%,n:5920,E:7.7%                                     |
+    |2835    Complete BUSCOs (C)    (of which 219 contain internal stop codons)                |
+    |2821    Complete and single-copy BUSCOs (S)                                               |
+    |14    Complete and duplicated BUSCOs (D)                                                  |
+    |1516    Fragmented BUSCOs (F)                                                             |
+    |1569    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:47:08 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1582 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:47:01 WARNING:busco.busco_tools.hmmer	219 of 2835 Complete matches (7.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:47:08 INFO:	Results written in output/BUSCO_results/Fi-101
+2025-12-15 19:47:08 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:47:08 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:47:09 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:47:13 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:47:13 *****
+2025-12-15 19:47:13 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:47:13 INFO:	Running genome mode
+2025-12-15 19:47:13 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:47:13 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:47:15 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-051.fa
+2025-12-15 19:47:15 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:47:21 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:47:21 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:47:21
+2025-12-15 19:47:30 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:47:30 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:47:30
+2025-12-15 19:50:22 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:50:27 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:50:27
+2025-12-15 19:52:58 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:53:14 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:53:42 INFO:	Running 5869 job(s) on hmmsearch, starting at 12/15/2025 19:53:42
+2025-12-15 19:54:20 INFO:	[hmmsearch]	587 of 5869 task(s) completed
+2025-12-15 19:54:27 INFO:	[hmmsearch]	1174 of 5869 task(s) completed
+2025-12-15 19:54:34 INFO:	[hmmsearch]	1761 of 5869 task(s) completed
+2025-12-15 19:54:43 INFO:	[hmmsearch]	2348 of 5869 task(s) completed
+2025-12-15 19:54:51 INFO:	[hmmsearch]	2935 of 5869 task(s) completed
+2025-12-15 19:54:59 INFO:	[hmmsearch]	3522 of 5869 task(s) completed
+2025-12-15 19:55:07 INFO:	[hmmsearch]	4109 of 5869 task(s) completed
+2025-12-15 19:55:14 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:55:17 INFO:	[hmmsearch]	4696 of 5869 task(s) completed
+2025-12-15 19:55:25 INFO:	[hmmsearch]	5283 of 5869 task(s) completed
+2025-12-15 19:55:29 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:55:40 INFO:	[hmmsearch]	5869 of 5869 task(s) completed
+2025-12-15 19:55:51 INFO:	20 candidate overlapping regions found
+2025-12-15 19:55:51 INFO:	19242 exons in total
+2025-12-15 19:55:53 INFO:	Running 5865 job(s) on hmmsearch, starting at 12/15/2025 19:55:53
+2025-12-15 19:55:57 WARNING:	189 of 2309 Complete matches (8.2%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:56:04 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:39.0%[S:38.7%,D:0.3%],F:30.2%,M:30.8%,n:5920,E:8.2%                                     |
+    |2309    Complete BUSCOs (C)    (of which 189 contain internal stop codons)                |
+    |2293    Complete and single-copy BUSCOs (S)                                               |
+    |16    Complete and duplicated BUSCOs (D)                                                  |
+    |1789    Fragmented BUSCOs (F)                                                             |
+    |1822    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:56:04 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2235 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:55:57 WARNING:busco.busco_tools.hmmer	189 of 2309 Complete matches (8.2%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:56:04 INFO:	Results written in output/BUSCO_results/Fi-048
+2025-12-15 19:56:04 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:56:04 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:56:06 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:56:09 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:56:09 *****
+2025-12-15 19:56:09 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:56:09 INFO:	Running genome mode
+2025-12-15 19:56:09 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:56:09 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:56:11 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-103.fa
+2025-12-15 19:56:11 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:56:15 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:56:15 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:56:15
+2025-12-15 19:56:19 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:56:19 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:56:19
+2025-12-15 19:56:25 INFO:	[hmmsearch]	587 of 5865 task(s) completed
+2025-12-15 19:56:33 INFO:	[hmmsearch]	1173 of 5865 task(s) completed
+2025-12-15 19:56:40 INFO:	[hmmsearch]	1760 of 5865 task(s) completed
+2025-12-15 19:56:48 INFO:	[hmmsearch]	2346 of 5865 task(s) completed
+2025-12-15 19:56:56 INFO:	[hmmsearch]	2933 of 5865 task(s) completed
+2025-12-15 19:57:05 INFO:	[hmmsearch]	3519 of 5865 task(s) completed
+2025-12-15 19:57:14 INFO:	[hmmsearch]	4106 of 5865 task(s) completed
+2025-12-15 19:57:23 INFO:	[hmmsearch]	4692 of 5865 task(s) completed
+2025-12-15 19:57:33 INFO:	[hmmsearch]	5279 of 5865 task(s) completed
+2025-12-15 19:57:39 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:57:44 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:57:44
+2025-12-15 19:57:49 INFO:	[hmmsearch]	5865 of 5865 task(s) completed
+2025-12-15 19:58:02 INFO:	13 candidate overlapping regions found
+2025-12-15 19:58:02 INFO:	20510 exons in total
+2025-12-15 19:58:07 WARNING:	172 of 2685 Complete matches (6.4%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 19:58:14 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:45.4%[S:45.1%,D:0.3%],F:26.0%,M:28.7%,n:5920,E:6.4%                                     |
+    |2685    Complete BUSCOs (C)    (of which 172 contain internal stop codons)                |
+    |2670    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |1537    Fragmented BUSCOs (F)                                                             |
+    |1698    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 19:58:14 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1625 seconds
+
+***** Summary of warnings: *****
+2025-12-15 19:58:07 WARNING:busco.busco_tools.hmmer	172 of 2685 Complete matches (6.4%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 19:58:14 INFO:	Results written in output/BUSCO_results/Fi-086
+2025-12-15 19:58:14 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 19:58:14 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 19:58:16 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 19:58:19 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 19:58:19 *****
+2025-12-15 19:58:19 INFO:	Configuring BUSCO with local environment
+2025-12-15 19:58:19 INFO:	Running genome mode
+2025-12-15 19:58:19 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 19:58:19 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 19:58:21 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-036.fa
+2025-12-15 19:58:21 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 19:58:23 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 19:58:23 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 19:58:23
+2025-12-15 19:58:27 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 19:58:27 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 19:58:27
+2025-12-15 19:58:56 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 19:59:10 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 19:59:21 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 19:59:25 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 19:59:25
+2025-12-15 19:59:38 INFO:	Running 5870 job(s) on hmmsearch, starting at 12/15/2025 19:59:38
+2025-12-15 20:00:13 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:00:15 INFO:	[hmmsearch]	587 of 5870 task(s) completed
+2025-12-15 20:00:24 INFO:	[hmmsearch]	1174 of 5870 task(s) completed
+2025-12-15 20:00:28 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:00:32 INFO:	[hmmsearch]	1761 of 5870 task(s) completed
+2025-12-15 20:00:40 INFO:	[hmmsearch]	2348 of 5870 task(s) completed
+2025-12-15 20:00:49 INFO:	[hmmsearch]	2935 of 5870 task(s) completed
+2025-12-15 20:00:57 INFO:	Running 5869 job(s) on hmmsearch, starting at 12/15/2025 20:00:57
+2025-12-15 20:00:58 INFO:	[hmmsearch]	3522 of 5870 task(s) completed
+2025-12-15 20:01:07 INFO:	[hmmsearch]	4109 of 5870 task(s) completed
+2025-12-15 20:01:17 INFO:	[hmmsearch]	4696 of 5870 task(s) completed
+2025-12-15 20:01:29 INFO:	[hmmsearch]	5283 of 5870 task(s) completed
+2025-12-15 20:01:34 INFO:	[hmmsearch]	587 of 5869 task(s) completed
+2025-12-15 20:01:41 INFO:	[hmmsearch]	1174 of 5869 task(s) completed
+2025-12-15 20:01:48 INFO:	[hmmsearch]	1761 of 5869 task(s) completed
+2025-12-15 20:01:56 INFO:	[hmmsearch]	5870 of 5870 task(s) completed
+2025-12-15 20:01:56 INFO:	[hmmsearch]	2348 of 5869 task(s) completed
+2025-12-15 20:02:03 INFO:	[hmmsearch]	2935 of 5869 task(s) completed
+2025-12-15 20:02:09 INFO:	16 candidate overlapping regions found
+2025-12-15 20:02:09 INFO:	24584 exons in total
+2025-12-15 20:02:11 INFO:	[hmmsearch]	3522 of 5869 task(s) completed
+2025-12-15 20:02:17 WARNING:	230 of 3235 Complete matches (7.1%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:02:20 INFO:	[hmmsearch]	4109 of 5869 task(s) completed
+2025-12-15 20:02:25 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:54.6%[S:54.3%,D:0.3%],F:22.9%,M:22.4%,n:5920,E:7.1%                                     |
+    |3235    Complete BUSCOs (C)    (of which 230 contain internal stop codons)                |
+    |3215    Complete and single-copy BUSCOs (S)                                               |
+    |20    Complete and duplicated BUSCOs (D)                                                  |
+    |1358    Fragmented BUSCOs (F)                                                             |
+    |1327    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:02:25 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2502 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:02:17 WARNING:busco.busco_tools.hmmer	230 of 3235 Complete matches (7.1%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:02:25 INFO:	Results written in output/BUSCO_results/Fi-001
+2025-12-15 20:02:25 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:02:25 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:02:27 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:02:28 INFO:	[hmmsearch]	4696 of 5869 task(s) completed
+2025-12-15 20:02:31 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:02:31 *****
+2025-12-15 20:02:31 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:02:31 INFO:	Running genome mode
+2025-12-15 20:02:31 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:02:31 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:02:33 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-096.fa
+2025-12-15 20:02:33 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:02:37 INFO:	[hmmsearch]	5283 of 5869 task(s) completed
+2025-12-15 20:02:37 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:02:37 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:02:37
+2025-12-15 20:02:42 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:02:42 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:02:42
+2025-12-15 20:02:49 INFO:	[hmmsearch]	5869 of 5869 task(s) completed
+2025-12-15 20:03:00 INFO:	2 candidate overlapping regions found
+2025-12-15 20:03:00 INFO:	15247 exons in total
+2025-12-15 20:03:04 WARNING:	135 of 1913 Complete matches (7.1%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:03:09 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:32.3%[S:32.1%,D:0.2%],F:31.1%,M:36.6%,n:5920,E:7.1%                                     |
+    |1913    Complete BUSCOs (C)    (of which 135 contain internal stop codons)                |
+    |1902    Complete and single-copy BUSCOs (S)                                               |
+    |11    Complete and duplicated BUSCOs (D)                                                  |
+    |1842    Fragmented BUSCOs (F)                                                             |
+    |2165    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:03:09 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1672 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:03:04 WARNING:busco.busco_tools.hmmer	135 of 1913 Complete matches (7.1%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:03:09 INFO:	Results written in output/BUSCO_results/Fi-092
+2025-12-15 20:03:09 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:03:09 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:03:11 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:03:14 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:03:14 *****
+2025-12-15 20:03:14 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:03:14 INFO:	Running genome mode
+2025-12-15 20:03:14 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:03:14 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:03:16 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-055.fa
+2025-12-15 20:03:16 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:03:20 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:03:20 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:03:20
+2025-12-15 20:03:24 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:03:24 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:03:24
+2025-12-15 20:03:50 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:03:55 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:03:55
+2025-12-15 20:04:26 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:04:28 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:04:31 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:04:31
+2025-12-15 20:04:44 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:05:11 INFO:	Running 5874 job(s) on hmmsearch, starting at 12/15/2025 20:05:11
+2025-12-15 20:05:47 INFO:	[hmmsearch]	588 of 5874 task(s) completed
+2025-12-15 20:05:54 INFO:	[hmmsearch]	1175 of 5874 task(s) completed
+2025-12-15 20:06:02 INFO:	[hmmsearch]	1763 of 5874 task(s) completed
+2025-12-15 20:06:11 INFO:	[hmmsearch]	2350 of 5874 task(s) completed
+2025-12-15 20:06:20 INFO:	[hmmsearch]	2937 of 5874 task(s) completed
+2025-12-15 20:06:29 INFO:	[hmmsearch]	3525 of 5874 task(s) completed
+2025-12-15 20:06:38 INFO:	[hmmsearch]	4112 of 5874 task(s) completed
+2025-12-15 20:06:48 INFO:	[hmmsearch]	4700 of 5874 task(s) completed
+2025-12-15 20:07:00 INFO:	[hmmsearch]	5287 of 5874 task(s) completed
+2025-12-15 20:07:17 INFO:	[hmmsearch]	5874 of 5874 task(s) completed
+2025-12-15 20:07:33 INFO:	40 candidate overlapping regions found
+2025-12-15 20:07:33 INFO:	24280 exons in total
+2025-12-15 20:07:47 WARNING:	204 of 3063 Complete matches (6.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:07:54 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:51.7%[S:51.5%,D:0.3%],F:24.4%,M:23.8%,n:5920,E:6.7%                                     |
+    |3063    Complete BUSCOs (C)    (of which 204 contain internal stop codons)                |
+    |3048    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |1447    Fragmented BUSCOs (F)                                                             |
+    |1410    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:07:54 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1669 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:07:47 WARNING:busco.busco_tools.hmmer	204 of 3063 Complete matches (6.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:07:54 INFO:	Results written in output/BUSCO_results/Fi-034
+2025-12-15 20:07:54 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:07:54 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:07:56 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:07:59 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:07:59 *****
+2025-12-15 20:07:59 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:07:59 INFO:	Running genome mode
+2025-12-15 20:07:59 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:07:59 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:08:02 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-005.fa
+2025-12-15 20:08:02 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:08:06 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:08:06 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:08:06
+2025-12-15 20:08:11 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:08:11 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:08:11
+2025-12-15 20:09:41 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:09:46 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:09:46
+2025-12-15 20:22:59 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:23:13 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:23:41 INFO:	Running 5880 job(s) on hmmsearch, starting at 12/15/2025 20:23:41
+2025-12-15 20:24:17 INFO:	[hmmsearch]	588 of 5880 task(s) completed
+2025-12-15 20:24:24 INFO:	[hmmsearch]	1176 of 5880 task(s) completed
+2025-12-15 20:24:32 INFO:	[hmmsearch]	1764 of 5880 task(s) completed
+2025-12-15 20:24:41 INFO:	[hmmsearch]	2352 of 5880 task(s) completed
+2025-12-15 20:24:50 INFO:	[hmmsearch]	2940 of 5880 task(s) completed
+2025-12-15 20:24:57 INFO:	[hmmsearch]	3528 of 5880 task(s) completed
+2025-12-15 20:25:06 INFO:	[hmmsearch]	4116 of 5880 task(s) completed
+2025-12-15 20:25:15 INFO:	[hmmsearch]	4704 of 5880 task(s) completed
+2025-12-15 20:25:24 INFO:	[hmmsearch]	5292 of 5880 task(s) completed
+2025-12-15 20:25:40 INFO:	[hmmsearch]	5880 of 5880 task(s) completed
+2025-12-15 20:25:52 INFO:	25 candidate overlapping regions found
+2025-12-15 20:25:52 INFO:	20896 exons in total
+2025-12-15 20:26:01 WARNING:	219 of 2620 Complete matches (8.4%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:26:07 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:44.3%[S:44.0%,D:0.3%],F:27.4%,M:28.3%,n:5920,E:8.4%                                     |
+    |2620    Complete BUSCOs (C)    (of which 219 contain internal stop codons)                |
+    |2605    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |1625    Fragmented BUSCOs (F)                                                             |
+    |1675    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:26:07 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1796 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:26:01 WARNING:busco.busco_tools.hmmer	219 of 2620 Complete matches (8.4%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:26:07 INFO:	Results written in output/BUSCO_results/Fi-103
+2025-12-15 20:26:07 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:26:07 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:26:09 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:26:12 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:26:12 *****
+2025-12-15 20:26:12 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:26:12 INFO:	Running genome mode
+2025-12-15 20:26:12 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:26:12 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:26:14 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-054.fa
+2025-12-15 20:26:14 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:26:18 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:26:18 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:26:18
+2025-12-15 20:26:24 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:26:24 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:26:24
+2025-12-15 20:26:37 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:26:52 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:27:01 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:27:16 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:27:17 INFO:	Running 5888 job(s) on hmmsearch, starting at 12/15/2025 20:27:17
+2025-12-15 20:27:25 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:27:27 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:27:29 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:27:29
+2025-12-15 20:27:38 INFO:	Running 5870 job(s) on hmmsearch, starting at 12/15/2025 20:27:38
+2025-12-15 20:27:40 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:27:47 INFO:	[hmmsearch]	589 of 5888 task(s) completed
+2025-12-15 20:27:53 INFO:	[hmmsearch]	1178 of 5888 task(s) completed
+2025-12-15 20:28:00 INFO:	[hmmsearch]	1767 of 5888 task(s) completed
+2025-12-15 20:28:04 INFO:	Running 5869 job(s) on hmmsearch, starting at 12/15/2025 20:28:04
+2025-12-15 20:28:07 INFO:	[hmmsearch]	2356 of 5888 task(s) completed
+2025-12-15 20:28:09 INFO:	[hmmsearch]	587 of 5870 task(s) completed
+2025-12-15 20:28:15 INFO:	[hmmsearch]	2944 of 5888 task(s) completed
+2025-12-15 20:28:16 INFO:	[hmmsearch]	1174 of 5870 task(s) completed
+2025-12-15 20:28:22 INFO:	[hmmsearch]	3533 of 5888 task(s) completed
+2025-12-15 20:28:22 INFO:	[hmmsearch]	1761 of 5870 task(s) completed
+2025-12-15 20:28:29 INFO:	[hmmsearch]	2348 of 5870 task(s) completed
+2025-12-15 20:28:29 INFO:	[hmmsearch]	4122 of 5888 task(s) completed
+2025-12-15 20:28:36 INFO:	[hmmsearch]	2935 of 5870 task(s) completed
+2025-12-15 20:28:38 INFO:	[hmmsearch]	4711 of 5888 task(s) completed
+2025-12-15 20:28:39 INFO:	[hmmsearch]	587 of 5869 task(s) completed
+2025-12-15 20:28:44 INFO:	[hmmsearch]	3522 of 5870 task(s) completed
+2025-12-15 20:28:47 INFO:	[hmmsearch]	1174 of 5869 task(s) completed
+2025-12-15 20:28:48 INFO:	[hmmsearch]	5300 of 5888 task(s) completed
+2025-12-15 20:28:52 INFO:	[hmmsearch]	4109 of 5870 task(s) completed
+2025-12-15 20:28:55 INFO:	[hmmsearch]	1761 of 5869 task(s) completed
+2025-12-15 20:29:00 INFO:	[hmmsearch]	4696 of 5870 task(s) completed
+2025-12-15 20:29:04 INFO:	[hmmsearch]	2348 of 5869 task(s) completed
+2025-12-15 20:29:04 INFO:	[hmmsearch]	5888 of 5888 task(s) completed
+2025-12-15 20:29:07 INFO:	[hmmsearch]	5283 of 5870 task(s) completed
+2025-12-15 20:29:12 INFO:	[hmmsearch]	2935 of 5869 task(s) completed
+2025-12-15 20:29:16 INFO:	18 candidate overlapping regions found
+2025-12-15 20:29:16 INFO:	18133 exons in total
+2025-12-15 20:29:20 INFO:	[hmmsearch]	3522 of 5869 task(s) completed
+2025-12-15 20:29:21 INFO:	[hmmsearch]	5870 of 5870 task(s) completed
+2025-12-15 20:29:21 WARNING:	202 of 2256 Complete matches (9.0%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:29:29 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:38.1%[S:37.9%,D:0.2%],F:29.0%,M:32.9%,n:5920,E:9.0%                                     |
+    |2256    Complete BUSCOs (C)    (of which 202 contain internal stop codons)                |
+    |2243    Complete and single-copy BUSCOs (S)                                               |
+    |13    Complete and duplicated BUSCOs (D)                                                  |
+    |1715    Fragmented BUSCOs (F)                                                             |
+    |1949    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:29:29 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1616 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:29:21 WARNING:busco.busco_tools.hmmer	202 of 2256 Complete matches (9.0%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:29:29 INFO:	Results written in output/BUSCO_results/Fi-096
+2025-12-15 20:29:29 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:29:29 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:29:29 INFO:	[hmmsearch]	4109 of 5869 task(s) completed
+2025-12-15 20:29:31 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:29:33 INFO:	12 candidate overlapping regions found
+2025-12-15 20:29:33 INFO:	17531 exons in total
+2025-12-15 20:29:34 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:29:34 *****
+2025-12-15 20:29:34 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:29:34 INFO:	Running genome mode
+2025-12-15 20:29:34 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:29:34 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:29:36 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-094.fa
+2025-12-15 20:29:36 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:29:37 WARNING:	176 of 2192 Complete matches (8.0%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:29:39 INFO:	[hmmsearch]	4696 of 5869 task(s) completed
+2025-12-15 20:29:41 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:29:41 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:29:41
+2025-12-15 20:29:45 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:37.0%[S:36.8%,D:0.2%],F:28.2%,M:34.8%,n:5920,E:8.0%                                     |
+    |2192    Complete BUSCOs (C)    (of which 176 contain internal stop codons)                |
+    |2179    Complete and single-copy BUSCOs (S)                                               |
+    |13    Complete and duplicated BUSCOs (D)                                                  |
+    |1667    Fragmented BUSCOs (F)                                                             |
+    |2061    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:29:45 INFO:	BUSCO analysis done with WARNING(s). Total running time: 2550 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:29:37 WARNING:busco.busco_tools.hmmer	176 of 2192 Complete matches (8.0%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:29:45 INFO:	Results written in output/BUSCO_results/Fi-051
+2025-12-15 20:29:45 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:29:45 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:29:45 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:29:45 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:29:45
+2025-12-15 20:29:48 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:29:50 INFO:	[hmmsearch]	5283 of 5869 task(s) completed
+2025-12-15 20:29:51 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:29:51 *****
+2025-12-15 20:29:51 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:29:51 INFO:	Running genome mode
+2025-12-15 20:29:51 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:29:51 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:29:53 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-009.fa
+2025-12-15 20:29:53 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:29:57 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:29:57 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:29:57
+2025-12-15 20:30:01 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:30:01 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:30:01
+2025-12-15 20:30:02 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:30:09 INFO:	[hmmsearch]	5869 of 5869 task(s) completed
+2025-12-15 20:30:15 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:30:21 INFO:	40 candidate overlapping regions found
+2025-12-15 20:30:21 INFO:	26752 exons in total
+2025-12-15 20:30:32 WARNING:	198 of 3447 Complete matches (5.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:30:38 INFO:	Running 5877 job(s) on hmmsearch, starting at 12/15/2025 20:30:38
+2025-12-15 20:30:40 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:58.2%[S:57.8%,D:0.4%],F:21.3%,M:20.5%,n:5920,E:5.7%                                     |
+    |3447    Complete BUSCOs (C)    (of which 198 contain internal stop codons)                |
+    |3422    Complete and single-copy BUSCOs (S)                                               |
+    |25    Complete and duplicated BUSCOs (D)                                                  |
+    |1259    Fragmented BUSCOs (F)                                                             |
+    |1214    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:30:40 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1939 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:30:32 WARNING:busco.busco_tools.hmmer	198 of 3447 Complete matches (5.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:30:40 INFO:	Results written in output/BUSCO_results/Fi-036
+2025-12-15 20:30:40 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:30:40 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:30:41 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:30:43 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:30:43 *****
+2025-12-15 20:30:43 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:30:43 INFO:	Running genome mode
+2025-12-15 20:30:43 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:30:43 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:30:45 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-093.fa
+2025-12-15 20:30:45 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:30:47 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:30:47 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:30:47
+2025-12-15 20:30:50 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:30:50 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:30:50
+2025-12-15 20:30:52 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:30:56 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:30:56
+2025-12-15 20:31:09 INFO:	[hmmsearch]	588 of 5877 task(s) completed
+2025-12-15 20:31:15 INFO:	[hmmsearch]	1176 of 5877 task(s) completed
+2025-12-15 20:31:22 INFO:	[hmmsearch]	1764 of 5877 task(s) completed
+2025-12-15 20:31:28 INFO:	[hmmsearch]	2351 of 5877 task(s) completed
+2025-12-15 20:31:35 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:31:36 INFO:	[hmmsearch]	2939 of 5877 task(s) completed
+2025-12-15 20:31:37 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:31:39 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:31:39
+2025-12-15 20:31:42 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:31:42
+2025-12-15 20:31:44 INFO:	[hmmsearch]	3527 of 5877 task(s) completed
+2025-12-15 20:31:51 INFO:	[hmmsearch]	4114 of 5877 task(s) completed
+2025-12-15 20:32:00 INFO:	[hmmsearch]	4702 of 5877 task(s) completed
+2025-12-15 20:32:00 INFO:	[hmmsearch]	4702 of 5877 task(s) completed
+2025-12-15 20:32:07 INFO:	[hmmsearch]	5290 of 5877 task(s) completed
+2025-12-15 20:32:18 INFO:	[hmmsearch]	5877 of 5877 task(s) completed
+2025-12-15 20:32:26 INFO:	2 candidate overlapping regions found
+2025-12-15 20:32:26 INFO:	9836 exons in total
+2025-12-15 20:32:28 WARNING:	93 of 1000 Complete matches (9.3%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:32:33 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:16.9%[S:16.8%,D:0.1%],F:35.8%,M:47.3%,n:5920,E:9.3%                                     |
+    |1000    Complete BUSCOs (C)    (of which 93 contain internal stop codons)                 |
+    |992    Complete and single-copy BUSCOs (S)                                                |
+    |8    Complete and duplicated BUSCOs (D)                                                   |
+    |2118    Fragmented BUSCOs (F)                                                             |
+    |2802    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:32:33 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1757 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:32:28 WARNING:busco.busco_tools.hmmer	93 of 1000 Complete matches (9.3%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:32:33 INFO:	Results written in output/BUSCO_results/Fi-055
+2025-12-15 20:32:33 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:32:33 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:32:35 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:32:38 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:32:38 *****
+2025-12-15 20:32:38 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:32:38 INFO:	Running genome mode
+2025-12-15 20:32:38 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:32:38 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:32:40 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-058.fa
+2025-12-15 20:32:40 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:32:45 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:32:45 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:32:45
+2025-12-15 20:32:51 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:32:51 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:32:51
+2025-12-15 20:33:32 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:33:47 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:34:08 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:34:12 INFO:	Running 5872 job(s) on hmmsearch, starting at 12/15/2025 20:34:12
+2025-12-15 20:34:12 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:34:12
+2025-12-15 20:34:46 INFO:	[hmmsearch]	588 of 5872 task(s) completed
+2025-12-15 20:34:53 INFO:	[hmmsearch]	1175 of 5872 task(s) completed
+2025-12-15 20:34:59 INFO:	[hmmsearch]	1762 of 5872 task(s) completed
+2025-12-15 20:35:07 INFO:	[hmmsearch]	2349 of 5872 task(s) completed
+2025-12-15 20:35:14 INFO:	[hmmsearch]	2937 of 5872 task(s) completed
+2025-12-15 20:35:21 INFO:	[hmmsearch]	3524 of 5872 task(s) completed
+2025-12-15 20:35:29 INFO:	[hmmsearch]	4111 of 5872 task(s) completed
+2025-12-15 20:35:38 INFO:	[hmmsearch]	4698 of 5872 task(s) completed
+2025-12-15 20:35:46 INFO:	[hmmsearch]	5285 of 5872 task(s) completed
+2025-12-15 20:36:01 INFO:	[hmmsearch]	5872 of 5872 task(s) completed
+2025-12-15 20:36:12 INFO:	12 candidate overlapping regions found
+2025-12-15 20:36:12 INFO:	19384 exons in total
+2025-12-15 20:36:16 WARNING:	167 of 2538 Complete matches (6.6%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:36:23 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:42.9%[S:42.6%,D:0.3%],F:27.1%,M:30.0%,n:5920,E:6.6%                                     |
+    |2538    Complete BUSCOs (C)    (of which 167 contain internal stop codons)                |
+    |2522    Complete and single-copy BUSCOs (S)                                               |
+    |16    Complete and duplicated BUSCOs (D)                                                  |
+    |1607    Fragmented BUSCOs (F)                                                             |
+    |1775    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:36:23 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1701 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:36:16 WARNING:busco.busco_tools.hmmer	167 of 2538 Complete matches (6.6%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:36:23 INFO:	Results written in output/BUSCO_results/Fi-005
+2025-12-15 20:36:23 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:36:23 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:36:25 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:36:28 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:36:28 *****
+2025-12-15 20:36:28 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:36:28 INFO:	Running genome mode
+2025-12-15 20:36:28 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:36:28 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:36:30 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-004.fa
+2025-12-15 20:36:30 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:36:33 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:36:33 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:36:33
+2025-12-15 20:36:38 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:36:38 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:36:38
+2025-12-15 20:37:55 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:38:00 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:38:00
+2025-12-15 20:53:04 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:53:18 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:53:47 INFO:	Running 5875 job(s) on hmmsearch, starting at 12/15/2025 20:53:47
+2025-12-15 20:54:01 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:54:15 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:54:22 INFO:	[hmmsearch]	588 of 5875 task(s) completed
+2025-12-15 20:54:29 INFO:	[hmmsearch]	1175 of 5875 task(s) completed
+2025-12-15 20:54:36 INFO:	[hmmsearch]	1763 of 5875 task(s) completed
+2025-12-15 20:54:41 INFO:	Running 5865 job(s) on hmmsearch, starting at 12/15/2025 20:54:41
+2025-12-15 20:54:44 INFO:	[hmmsearch]	2350 of 5875 task(s) completed
+2025-12-15 20:54:52 INFO:	[hmmsearch]	2938 of 5875 task(s) completed
+2025-12-15 20:55:00 INFO:	[hmmsearch]	3525 of 5875 task(s) completed
+2025-12-15 20:55:08 INFO:	[hmmsearch]	4113 of 5875 task(s) completed
+2025-12-15 20:55:16 INFO:	[hmmsearch]	587 of 5865 task(s) completed
+2025-12-15 20:55:18 INFO:	[hmmsearch]	4700 of 5875 task(s) completed
+2025-12-15 20:55:24 INFO:	[hmmsearch]	1173 of 5865 task(s) completed
+2025-12-15 20:55:26 INFO:	[hmmsearch]	5288 of 5875 task(s) completed
+2025-12-15 20:55:31 INFO:	[hmmsearch]	1760 of 5865 task(s) completed
+2025-12-15 20:55:36 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:55:40 INFO:	[hmmsearch]	2346 of 5865 task(s) completed
+2025-12-15 20:55:41 INFO:	[hmmsearch]	5875 of 5875 task(s) completed
+2025-12-15 20:55:48 INFO:	[hmmsearch]	2933 of 5865 task(s) completed
+2025-12-15 20:55:51 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:55:52 INFO:	18 candidate overlapping regions found
+2025-12-15 20:55:52 INFO:	22828 exons in total
+2025-12-15 20:55:57 INFO:	[hmmsearch]	3519 of 5865 task(s) completed
+2025-12-15 20:55:59 WARNING:	205 of 2764 Complete matches (7.4%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:56:06 INFO:	[hmmsearch]	4106 of 5865 task(s) completed
+2025-12-15 20:56:06 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:46.7%[S:46.4%,D:0.3%],F:28.4%,M:24.9%,n:5920,E:7.4%                                     |
+    |2764    Complete BUSCOs (C)    (of which 205 contain internal stop codons)                |
+    |2745    Complete and single-copy BUSCOs (S)                                               |
+    |19    Complete and duplicated BUSCOs (D)                                                  |
+    |1680    Fragmented BUSCOs (F)                                                             |
+    |1476    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:56:06 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1792 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:55:59 WARNING:busco.busco_tools.hmmer	205 of 2764 Complete matches (7.4%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:56:06 INFO:	Results written in output/BUSCO_results/Fi-054
+2025-12-15 20:56:06 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:56:06 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:56:08 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:56:11 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:56:11 *****
+2025-12-15 20:56:11 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:56:11 INFO:	Running genome mode
+2025-12-15 20:56:11 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:56:11 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:56:13 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-079.fa
+2025-12-15 20:56:13 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:56:15 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:56:15 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:56:15
+2025-12-15 20:56:16 INFO:	Running 5893 job(s) on hmmsearch, starting at 12/15/2025 20:56:16
+2025-12-15 20:56:16 INFO:	[hmmsearch]	4692 of 5865 task(s) completed
+2025-12-15 20:56:18 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:56:18 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:56:18
+2025-12-15 20:56:26 INFO:	[hmmsearch]	5279 of 5865 task(s) completed
+2025-12-15 20:56:44 INFO:	[hmmsearch]	5865 of 5865 task(s) completed
+2025-12-15 20:56:48 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:56:50 INFO:	[hmmsearch]	590 of 5893 task(s) completed
+2025-12-15 20:56:53 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:56:53
+2025-12-15 20:56:57 INFO:	17 candidate overlapping regions found
+2025-12-15 20:56:57 INFO:	24916 exons in total
+2025-12-15 20:56:58 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 20:56:59 INFO:	[hmmsearch]	1179 of 5893 task(s) completed
+2025-12-15 20:57:04 WARNING:	220 of 3308 Complete matches (6.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:57:06 INFO:	[hmmsearch]	1768 of 5893 task(s) completed
+2025-12-15 20:57:12 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:55.9%[S:55.6%,D:0.3%],F:22.3%,M:21.8%,n:5920,E:6.7%                                     |
+    |3308    Complete BUSCOs (C)    (of which 220 contain internal stop codons)                |
+    |3289    Complete and single-copy BUSCOs (S)                                               |
+    |19    Complete and duplicated BUSCOs (D)                                                  |
+    |1320    Fragmented BUSCOs (F)                                                             |
+    |1292    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:57:12 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1639 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:57:04 WARNING:busco.busco_tools.hmmer	220 of 3308 Complete matches (6.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:57:12 INFO:	Results written in output/BUSCO_results/Fi-009
+2025-12-15 20:57:12 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:57:12 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:57:12 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 20:57:13 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:57:14 INFO:	[hmmsearch]	2358 of 5893 task(s) completed
+2025-12-15 20:57:16 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:57:16 *****
+2025-12-15 20:57:16 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:57:16 INFO:	Running genome mode
+2025-12-15 20:57:16 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:57:16 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:57:18 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-077.fa
+2025-12-15 20:57:18 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:57:20 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:57:20 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:57:20
+2025-12-15 20:57:23 INFO:	[hmmsearch]	2947 of 5893 task(s) completed
+2025-12-15 20:57:23 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:57:23 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:57:23
+2025-12-15 20:57:32 INFO:	[hmmsearch]	3536 of 5893 task(s) completed
+2025-12-15 20:57:36 INFO:	Running 5879 job(s) on hmmsearch, starting at 12/15/2025 20:57:36
+2025-12-15 20:57:43 INFO:	[hmmsearch]	4126 of 5893 task(s) completed
+2025-12-15 20:57:52 INFO:	[hmmsearch]	4715 of 5893 task(s) completed
+2025-12-15 20:58:02 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 20:58:03 INFO:	[hmmsearch]	5304 of 5893 task(s) completed
+2025-12-15 20:58:07 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 20:58:07
+2025-12-15 20:58:08 INFO:	[hmmsearch]	588 of 5879 task(s) completed
+2025-12-15 20:58:15 INFO:	[hmmsearch]	1176 of 5879 task(s) completed
+2025-12-15 20:58:20 INFO:	[hmmsearch]	5893 of 5893 task(s) completed
+2025-12-15 20:58:21 INFO:	[hmmsearch]	1764 of 5879 task(s) completed
+2025-12-15 20:58:27 INFO:	[hmmsearch]	2352 of 5879 task(s) completed
+2025-12-15 20:58:33 INFO:	[hmmsearch]	2940 of 5879 task(s) completed
+2025-12-15 20:58:35 INFO:	20 candidate overlapping regions found
+2025-12-15 20:58:35 INFO:	29027 exons in total
+2025-12-15 20:58:40 INFO:	[hmmsearch]	3528 of 5879 task(s) completed
+2025-12-15 20:58:46 WARNING:	236 of 3774 Complete matches (6.3%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:58:47 INFO:	[hmmsearch]	4116 of 5879 task(s) completed
+2025-12-15 20:58:54 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:63.7%[S:63.4%,D:0.4%],F:20.8%,M:15.4%,n:5920,E:6.3%                                     |
+    |3774    Complete BUSCOs (C)    (of which 236 contain internal stop codons)                |
+    |3753    Complete and single-copy BUSCOs (S)                                               |
+    |21    Complete and duplicated BUSCOs (D)                                                  |
+    |1234    Fragmented BUSCOs (F)                                                             |
+    |912    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:58:54 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1689 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:58:46 WARNING:busco.busco_tools.hmmer	236 of 3774 Complete matches (6.3%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:58:54 INFO:	Results written in output/BUSCO_results/Fi-093
+2025-12-15 20:58:54 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:58:54 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:58:55 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:58:55 INFO:	[hmmsearch]	4704 of 5879 task(s) completed
+2025-12-15 20:58:58 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:58:58 *****
+2025-12-15 20:58:58 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:58:58 INFO:	Running genome mode
+2025-12-15 20:58:58 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:58:58 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:59:00 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-102.fa
+2025-12-15 20:59:00 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:59:02 INFO:	[hmmsearch]	5292 of 5879 task(s) completed
+2025-12-15 20:59:06 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:59:06 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:59:06
+2025-12-15 20:59:13 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:59:13 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:59:13
+2025-12-15 20:59:16 INFO:	[hmmsearch]	5879 of 5879 task(s) completed
+2025-12-15 20:59:25 INFO:	1 candidate overlapping regions found
+2025-12-15 20:59:25 INFO:	14314 exons in total
+2025-12-15 20:59:28 WARNING:	148 of 1692 Complete matches (8.7%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 20:59:33 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:28.6%[S:28.5%,D:0.1%],F:32.1%,M:39.4%,n:5920,E:8.7%                                     |
+    |1692    Complete BUSCOs (C)    (of which 148 contain internal stop codons)                |
+    |1688    Complete and single-copy BUSCOs (S)                                               |
+    |4    Complete and duplicated BUSCOs (D)                                                   |
+    |1898    Fragmented BUSCOs (F)                                                             |
+    |2330    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 20:59:33 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1797 seconds
+
+***** Summary of warnings: *****
+2025-12-15 20:59:28 WARNING:busco.busco_tools.hmmer	148 of 1692 Complete matches (8.7%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 20:59:33 INFO:	Results written in output/BUSCO_results/Fi-094
+2025-12-15 20:59:33 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 20:59:33 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 20:59:35 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 20:59:38 INFO:	***** Start a BUSCO v6.0.0 analysis, current time: 12/15/2025 20:59:38 *****
+2025-12-15 20:59:38 INFO:	Configuring BUSCO with local environment
+2025-12-15 20:59:38 INFO:	Running genome mode
+2025-12-15 20:59:38 INFO:	'Force' option selected; overwriting previous results directory
+2025-12-15 20:59:38 INFO:	Downloading information on latest versions of BUSCO data...
+2025-12-15 20:59:41 INFO:	Input file is /home/yzitzmann/paper/homology_search/genomes/Fi-097.fa
+2025-12-15 20:59:41 INFO:	The local file or folder /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/busco_downloads/lineages/hymenoptera_odb12 is the last available version.
+2025-12-15 20:59:43 INFO:	Running BUSCO using lineage dataset hymenoptera_odb12 (eukaryota, 2025-07-01)
+2025-12-15 20:59:43 INFO:	Running 1 job(s) on bbtools, starting at 12/15/2025 20:59:43
+2025-12-15 20:59:45 INFO:	[bbtools]	1 of 1 task(s) completed
+2025-12-15 20:59:45 INFO:	Running 1 job(s) on miniprot_index, starting at 12/15/2025 20:59:45
+2025-12-15 21:00:18 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 21:00:23 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 21:00:23
+2025-12-15 21:00:34 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 21:00:42 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2025-12-15 21:00:46 INFO:	Running 1 job(s) on miniprot_align, starting at 12/15/2025 21:00:46
+2025-12-15 21:00:50 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 21:01:09 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 21:01:16 INFO:	Running 5865 job(s) on hmmsearch, starting at 12/15/2025 21:01:16
+2025-12-15 21:01:23 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 21:01:49 INFO:	[hmmsearch]	587 of 5865 task(s) completed
+2025-12-15 21:01:53 INFO:	Running 5869 job(s) on hmmsearch, starting at 12/15/2025 21:01:53
+2025-12-15 21:01:56 INFO:	[hmmsearch]	1173 of 5865 task(s) completed
+2025-12-15 21:02:02 INFO:	[hmmsearch]	1760 of 5865 task(s) completed
+2025-12-15 21:02:09 INFO:	[hmmsearch]	2346 of 5865 task(s) completed
+2025-12-15 21:02:17 INFO:	[hmmsearch]	2933 of 5865 task(s) completed
+2025-12-15 21:02:24 INFO:	[hmmsearch]	3519 of 5865 task(s) completed
+2025-12-15 21:02:31 INFO:	[hmmsearch]	587 of 5869 task(s) completed
+2025-12-15 21:02:32 INFO:	[hmmsearch]	4106 of 5865 task(s) completed
+2025-12-15 21:02:37 INFO:	[hmmsearch]	1174 of 5869 task(s) completed
+2025-12-15 21:02:42 INFO:	[hmmsearch]	4692 of 5865 task(s) completed
+2025-12-15 21:02:44 INFO:	[hmmsearch]	1761 of 5869 task(s) completed
+2025-12-15 21:02:50 INFO:	[hmmsearch]	5279 of 5865 task(s) completed
+2025-12-15 21:02:51 INFO:	[hmmsearch]	2348 of 5869 task(s) completed
+2025-12-15 21:02:58 INFO:	[hmmsearch]	2935 of 5869 task(s) completed
+2025-12-15 21:03:05 INFO:	[hmmsearch]	3522 of 5869 task(s) completed
+2025-12-15 21:03:05 INFO:	[hmmsearch]	5865 of 5865 task(s) completed
+2025-12-15 21:03:12 INFO:	[hmmsearch]	4109 of 5869 task(s) completed
+2025-12-15 21:03:18 INFO:	14 candidate overlapping regions found
+2025-12-15 21:03:18 INFO:	20878 exons in total
+2025-12-15 21:03:19 INFO:	[hmmsearch]	4696 of 5869 task(s) completed
+2025-12-15 21:03:23 WARNING:	161 of 2689 Complete matches (6.0%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 21:03:27 INFO:	[hmmsearch]	5283 of 5869 task(s) completed
+2025-12-15 21:03:31 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:45.4%[S:45.2%,D:0.3%],F:26.3%,M:28.3%,n:5920,E:6.0%                                     |
+    |2689    Complete BUSCOs (C)    (of which 161 contain internal stop codons)                |
+    |2674    Complete and single-copy BUSCOs (S)                                               |
+    |15    Complete and duplicated BUSCOs (D)                                                  |
+    |1555    Fragmented BUSCOs (F)                                                             |
+    |1676    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 21:03:31 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1620 seconds
+
+***** Summary of warnings: *****
+2025-12-15 21:03:23 WARNING:busco.busco_tools.hmmer	161 of 2689 Complete matches (6.0%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 21:03:31 INFO:	Results written in output/BUSCO_results/Fi-004
+2025-12-15 21:03:31 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 21:03:31 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 21:03:32 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 21:03:40 INFO:	[hmmsearch]	5869 of 5869 task(s) completed
+2025-12-15 21:03:50 INFO:	1 candidate overlapping regions found
+2025-12-15 21:03:50 INFO:	14800 exons in total
+2025-12-15 21:03:53 WARNING:	138 of 1614 Complete matches (8.6%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 21:03:58 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:27.3%[S:27.1%,D:0.1%],F:34.8%,M:38.0%,n:5920,E:8.6%                                     |
+    |1614    Complete BUSCOs (C)    (of which 138 contain internal stop codons)                |
+    |1606    Complete and single-copy BUSCOs (S)                                               |
+    |8    Complete and duplicated BUSCOs (D)                                                   |
+    |2059    Fragmented BUSCOs (F)                                                             |
+    |2247    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 21:03:58 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1878 seconds
+
+***** Summary of warnings: *****
+2025-12-15 21:03:53 WARNING:busco.busco_tools.hmmer	138 of 1614 Complete matches (8.6%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 21:03:58 INFO:	Results written in output/BUSCO_results/Fi-058
+2025-12-15 21:03:58 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 21:03:58 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 21:04:01 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 21:16:00 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 21:16:13 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 21:16:23 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 21:16:35 INFO:	Running 5873 job(s) on hmmsearch, starting at 12/15/2025 21:16:35
+2025-12-15 21:16:37 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 21:16:59 INFO:	Running 5862 job(s) on hmmsearch, starting at 12/15/2025 21:16:59
+2025-12-15 21:17:04 INFO:	[hmmsearch]	588 of 5873 task(s) completed
+2025-12-15 21:17:11 INFO:	[hmmsearch]	1175 of 5873 task(s) completed
+2025-12-15 21:17:18 INFO:	[hmmsearch]	1762 of 5873 task(s) completed
+2025-12-15 21:17:26 INFO:	[hmmsearch]	2350 of 5873 task(s) completed
+2025-12-15 21:17:31 INFO:	[hmmsearch]	587 of 5862 task(s) completed
+2025-12-15 21:17:36 INFO:	[hmmsearch]	2937 of 5873 task(s) completed
+2025-12-15 21:17:39 INFO:	[hmmsearch]	1173 of 5862 task(s) completed
+2025-12-15 21:17:44 INFO:	[hmmsearch]	3524 of 5873 task(s) completed
+2025-12-15 21:17:46 INFO:	[hmmsearch]	1759 of 5862 task(s) completed
+2025-12-15 21:17:53 INFO:	[hmmsearch]	4112 of 5873 task(s) completed
+2025-12-15 21:17:55 INFO:	[hmmsearch]	2345 of 5862 task(s) completed
+2025-12-15 21:18:03 INFO:	[hmmsearch]	4699 of 5873 task(s) completed
+2025-12-15 21:18:04 INFO:	[hmmsearch]	2932 of 5862 task(s) completed
+2025-12-15 21:18:13 INFO:	[hmmsearch]	5286 of 5873 task(s) completed
+2025-12-15 21:18:14 INFO:	[hmmsearch]	3518 of 5862 task(s) completed
+2025-12-15 21:18:23 INFO:	[hmmsearch]	4104 of 5862 task(s) completed
+2025-12-15 21:18:29 INFO:	[hmmsearch]	5873 of 5873 task(s) completed
+2025-12-15 21:18:33 INFO:	[hmmsearch]	4690 of 5862 task(s) completed
+2025-12-15 21:18:42 INFO:	32 candidate overlapping regions found
+2025-12-15 21:18:42 INFO:	30503 exons in total
+2025-12-15 21:18:42 INFO:	[hmmsearch]	5276 of 5862 task(s) completed
+2025-12-15 21:18:52 WARNING:	216 of 4109 Complete matches (5.3%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 21:19:00 INFO:	[hmmsearch]	5862 of 5862 task(s) completed
+2025-12-15 21:19:00 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:69.4%[S:69.1%,D:0.3%],F:15.8%,M:14.8%,n:5920,E:5.3%                                     |
+    |4109    Complete BUSCOs (C)    (of which 216 contain internal stop codons)                |
+    |4090    Complete and single-copy BUSCOs (S)                                               |
+    |19    Complete and duplicated BUSCOs (D)                                                  |
+    |934    Fragmented BUSCOs (F)                                                              |
+    |877    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 21:19:00 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1302 seconds
+
+***** Summary of warnings: *****
+2025-12-15 21:18:52 WARNING:busco.busco_tools.hmmer	216 of 4109 Complete matches (5.3%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 21:19:00 INFO:	Results written in output/BUSCO_results/Fi-077
+2025-12-15 21:19:00 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 21:19:00 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 21:19:01 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 21:19:12 INFO:	90 candidate overlapping regions found
+2025-12-15 21:19:12 INFO:	32715 exons in total
+2025-12-15 21:19:34 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 21:19:35 WARNING:	294 of 4494 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 21:19:43 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:75.9%[S:75.6%,D:0.3%],F:12.9%,M:11.2%,n:5920,E:6.5%                                     |
+    |4494    Complete BUSCOs (C)    (of which 294 contain internal stop codons)                |
+    |4476    Complete and single-copy BUSCOs (S)                                               |
+    |18    Complete and duplicated BUSCOs (D)                                                  |
+    |765    Fragmented BUSCOs (F)                                                              |
+    |661    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 21:19:43 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1410 seconds
+
+***** Summary of warnings: *****
+2025-12-15 21:19:35 WARNING:busco.busco_tools.hmmer	294 of 4494 Complete matches (6.5%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 21:19:43 INFO:	Results written in output/BUSCO_results/Fi-079
+2025-12-15 21:19:43 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 21:19:43 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 21:19:44 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 21:19:47 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 21:20:06 INFO:	Running 5879 job(s) on hmmsearch, starting at 12/15/2025 21:20:06
+2025-12-15 21:20:33 INFO:	[hmmsearch]	588 of 5879 task(s) completed
+2025-12-15 21:20:40 INFO:	[hmmsearch]	1176 of 5879 task(s) completed
+2025-12-15 21:20:47 INFO:	[hmmsearch]	1764 of 5879 task(s) completed
+2025-12-15 21:20:55 INFO:	[hmmsearch]	2352 of 5879 task(s) completed
+2025-12-15 21:21:03 INFO:	[hmmsearch]	2940 of 5879 task(s) completed
+2025-12-15 21:21:10 INFO:	[hmmsearch]	3528 of 5879 task(s) completed
+2025-12-15 21:21:19 INFO:	[hmmsearch]	4116 of 5879 task(s) completed
+2025-12-15 21:21:27 INFO:	[hmmsearch]	4704 of 5879 task(s) completed
+2025-12-15 21:21:37 INFO:	[hmmsearch]	5292 of 5879 task(s) completed
+2025-12-15 21:21:50 INFO:	[hmmsearch]	5879 of 5879 task(s) completed
+2025-12-15 21:22:01 INFO:	66 candidate overlapping regions found
+2025-12-15 21:22:01 INFO:	33108 exons in total
+2025-12-15 21:22:18 WARNING:	353 of 4497 Complete matches (7.8%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 21:22:26 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:76.0%[S:75.2%,D:0.7%],F:13.2%,M:10.8%,n:5920,E:7.8%                                     |
+    |4497    Complete BUSCOs (C)    (of which 353 contain internal stop codons)                |
+    |4453    Complete and single-copy BUSCOs (S)                                               |
+    |44    Complete and duplicated BUSCOs (D)                                                  |
+    |782    Fragmented BUSCOs (F)                                                              |
+    |641    Missing BUSCOs (M)                                                                 |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 21:22:26 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1365 seconds
+
+***** Summary of warnings: *****
+2025-12-15 21:22:18 WARNING:busco.busco_tools.hmmer	353 of 4497 Complete matches (7.8%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 21:22:26 INFO:	Results written in output/BUSCO_results/Fi-097
+2025-12-15 21:22:26 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 21:22:26 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 21:22:27 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.
+2025-12-15 21:27:30 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2025-12-15 21:27:42 INFO:	***** Run HMMER on gene sequences *****
+2025-12-15 21:28:00 INFO:	Running 5890 job(s) on hmmsearch, starting at 12/15/2025 21:28:00
+2025-12-15 21:28:25 INFO:	[hmmsearch]	589 of 5890 task(s) completed
+2025-12-15 21:28:32 INFO:	[hmmsearch]	1178 of 5890 task(s) completed
+2025-12-15 21:28:38 INFO:	[hmmsearch]	1767 of 5890 task(s) completed
+2025-12-15 21:28:45 INFO:	[hmmsearch]	2356 of 5890 task(s) completed
+2025-12-15 21:28:53 INFO:	[hmmsearch]	2945 of 5890 task(s) completed
+2025-12-15 21:28:59 INFO:	[hmmsearch]	3534 of 5890 task(s) completed
+2025-12-15 21:29:07 INFO:	[hmmsearch]	4123 of 5890 task(s) completed
+2025-12-15 21:29:14 INFO:	[hmmsearch]	4712 of 5890 task(s) completed
+2025-12-15 21:29:22 INFO:	[hmmsearch]	5301 of 5890 task(s) completed
+2025-12-15 21:29:34 INFO:	[hmmsearch]	5890 of 5890 task(s) completed
+2025-12-15 21:29:43 INFO:	44 candidate overlapping regions found
+2025-12-15 21:29:43 INFO:	23158 exons in total
+2025-12-15 21:29:50 WARNING:	199 of 3023 Complete matches (6.6%) contain internal stop codons in Miniprot gene predictions
+2025-12-15 21:29:56 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset hymenoptera_odb12                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:51.1%[S:50.7%,D:0.4%],F:22.2%,M:26.7%,n:5920,E:6.6%                                     |
+    |3023    Complete BUSCOs (C)    (of which 199 contain internal stop codons)                |
+    |2999    Complete and single-copy BUSCOs (S)                                               |
+    |24    Complete and duplicated BUSCOs (D)                                                  |
+    |1316    Fragmented BUSCOs (F)                                                             |
+    |1581    Missing BUSCOs (M)                                                                |
+    |5920    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2025-12-15 21:29:56 INFO:	BUSCO analysis done with WARNING(s). Total running time: 1856 seconds
+
+***** Summary of warnings: *****
+2025-12-15 21:29:50 WARNING:busco.busco_tools.hmmer	199 of 3023 Complete matches (6.6%) contain internal stop codons in Miniprot gene predictions
+
+2025-12-15 21:29:56 INFO:	Results written in output/BUSCO_results/Fi-102
+2025-12-15 21:29:56 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2025-12-15 21:29:56 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
+2025-12-15 21:29:58 INFO:	Thank you for using BUSCO! Anonymous usage data is gathered to improve the tool. You may opt out with --opt-out-run-stats.

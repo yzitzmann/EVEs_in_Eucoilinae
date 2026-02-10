@@ -1,0 +1,7 @@
+name: seqkit-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - seqkit=2.12.0=he881be0_1
+prefix: /home/yzitzmann/.conda/envs/seqkit-env

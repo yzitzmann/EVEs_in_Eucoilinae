@@ -1,0 +1,1824 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+Assuming unrestricted shared filesystem usage.
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 30
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+EVEs                 41
+Identify_depth       41
+all                   1
+statistics           41
+total               124
+
+Select jobs to execute...
+Execute 10 jobs...
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-035_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-035.txt
+    output: output/candidate_contigs/Fi-035_candidate_contigs.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt
+    jobid: 27
+    reason: Missing output files: output/candidate_contigs/Fi-035_candidate_contigs.txt, output/candidate_depth/Fi-035_candidate_depth.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-035
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-077_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-077.txt
+    output: output/candidate_contigs/Fi-077_candidate_contigs.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_depth/Fi-077_candidate_depth.txt
+    jobid: 72
+    reason: Missing output files: output/candidate_depth/Fi-077_candidate_depth.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_contigs/Fi-077_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-077
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-058_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-058.txt
+    output: output/candidate_contigs/Fi-058_candidate_contigs.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt
+    jobid: 66
+    reason: Missing output files: output/candidate_depth/Fi-058_candidate_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/candidate_contigs/Fi-058_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-058
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-099_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-099.txt
+    output: output/candidate_contigs/Fi-099_candidate_contigs.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt
+    jobid: 111
+    reason: Missing output files: output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_contigs/Fi-099_candidate_contigs.txt, output/candidate_depth/Fi-099_candidate_depth.txt
+    wildcards: Genome_ID=Fi-099
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-032_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-032.txt
+    output: output/candidate_contigs/Fi-032_candidate_contigs.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt
+    jobid: 21
+    reason: Missing output files: output/candidate_contigs/Fi-032_candidate_contigs.txt, output/candidate_depth/Fi-032_candidate_depth.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-032
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-043_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-043.txt
+    output: output/candidate_contigs/Fi-043_candidate_contigs.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/candidate_depth/Fi-043_candidate_depth.txt
+    jobid: 42
+    reason: Missing output files: output/candidate_depth/Fi-043_candidate_depth.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/candidate_contigs/Fi-043_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-043
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-026_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-026.txt
+    output: output/candidate_contigs/Fi-026_candidate_contigs.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/candidate_depth/Fi-026_candidate_depth.txt
+    jobid: 15
+    reason: Missing output files: output/candidate_depth/Fi-026_candidate_depth.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/candidate_contigs/Fi-026_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-026
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-097_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-097.txt
+    output: output/candidate_contigs/Fi-097_candidate_contigs.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt
+    jobid: 105
+    reason: Missing output files: output/candidate_contigs/Fi-097_candidate_contigs.txt, output/candidate_depth/Fi-097_candidate_depth.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-097
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-083_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-083.txt
+    output: output/candidate_contigs/Fi-083_candidate_contigs.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt
+    jobid: 78
+    reason: Missing output files: output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt, output/candidate_contigs/Fi-083_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-083
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-102_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-102.txt
+    output: output/candidate_contigs/Fi-102_candidate_contigs.txt, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    jobid: 117
+    reason: Missing output files: output/candidate_contigs/Fi-102_candidate_contigs.txt, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    wildcards: Genome_ID=Fi-102
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:03 2026]
+Finished job 72.
+1 of 124 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jan  2 09:41:03 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-092_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-092.txt
+    output: output/candidate_contigs/Fi-092_candidate_contigs.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    jobid: 93
+    reason: Missing output files: output/candidate_contigs/Fi-092_candidate_contigs.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    wildcards: Genome_ID=Fi-092
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:03 2026]
+Finished job 27.
+2 of 124 steps (2%) done
+[Fri Jan  2 09:41:03 2026]
+Finished job 105.
+3 of 124 steps (2%) done
+[Fri Jan  2 09:41:04 2026]
+Finished job 111.
+4 of 124 steps (3%) done
+[Fri Jan  2 09:41:04 2026]
+Finished job 15.
+5 of 124 steps (4%) done
+[Fri Jan  2 09:41:04 2026]
+Finished job 66.
+6 of 124 steps (5%) done
+[Fri Jan  2 09:41:04 2026]
+Finished job 42.
+7 of 124 steps (6%) done
+[Fri Jan  2 09:41:04 2026]
+Finished job 78.
+8 of 124 steps (6%) done
+[Fri Jan  2 09:41:04 2026]
+Finished job 21.
+9 of 124 steps (7%) done
+Select jobs to execute...
+Execute 6 jobs...
+
+[Fri Jan  2 09:41:04 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-048_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-048.txt
+    output: output/candidate_contigs/Fi-048_candidate_contigs.txt, output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt
+    jobid: 48
+    reason: Missing output files: output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt, output/candidate_contigs/Fi-048_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-048
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:04 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt
+    output: output/EVE_contigs/Fi-032_15_85.txt, output/EVE_contigs/Fi-032_5_95.txt, output/all_contigs_Ps/Fi-032.txt
+    jobid: 130
+    reason: Missing output files: output/EVE_contigs/Fi-032_5_95.txt, output/all_contigs_Ps/Fi-032.txt, output/EVE_contigs/Fi-032_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-032_candidate_depth.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-032
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:04 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-000_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-000.txt
+    output: output/candidate_contigs/Fi-000_candidate_contigs.txt, output/BUSCO_depth/Fi-000_BUSCO_depth.txt, output/candidate_depth/Fi-000_candidate_depth.txt
+    jobid: 1
+    reason: Missing output files: output/BUSCO_depth/Fi-000_BUSCO_depth.txt, output/candidate_contigs/Fi-000_candidate_contigs.txt, output/candidate_depth/Fi-000_candidate_depth.txt
+    wildcards: Genome_ID=Fi-000
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:04 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/candidate_depth/Fi-026_candidate_depth.txt
+    output: output/EVE_contigs/Fi-026_15_85.txt, output/EVE_contigs/Fi-026_5_95.txt, output/all_contigs_Ps/Fi-026.txt
+    jobid: 128
+    reason: Missing output files: output/EVE_contigs/Fi-026_5_95.txt, output/all_contigs_Ps/Fi-026.txt, output/EVE_contigs/Fi-026_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-026_candidate_depth.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-026
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:04 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt
+    output: output/EVE_contigs/Fi-097_15_85.txt, output/EVE_contigs/Fi-097_5_95.txt, output/all_contigs_Ps/Fi-097.txt
+    jobid: 158
+    reason: Missing output files: output/EVE_contigs/Fi-097_15_85.txt, output/EVE_contigs/Fi-097_5_95.txt, output/all_contigs_Ps/Fi-097.txt; Input files updated by another job: output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt
+    wildcards: Genome_ID=Fi-097
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:04 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-094_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-094.txt
+    output: output/candidate_contigs/Fi-094_candidate_contigs.txt, output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    jobid: 99
+    reason: Missing output files: output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_contigs/Fi-094_candidate_contigs.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    wildcards: Genome_ID=Fi-094
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:05 2026]
+Finished job 117.
+10 of 124 steps (8%) done
+[Fri Jan  2 09:41:05 2026]
+Finished job 93.
+11 of 124 steps (9%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:05 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-103_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-103.txt
+    output: output/candidate_contigs/Fi-103_candidate_contigs.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-103_candidate_depth.txt
+    jobid: 120
+    reason: Missing output files: output/candidate_depth/Fi-103_candidate_depth.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_contigs/Fi-103_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-103
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:05 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-047_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-047.txt
+    output: output/candidate_contigs/Fi-047_candidate_contigs.txt, output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt
+    jobid: 45
+    reason: Missing output files: output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt, output/candidate_contigs/Fi-047_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-047
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:05 2026]
+Finished job 48.
+12 of 124 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jan  2 09:41:05 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-098_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-098.txt
+    output: output/candidate_contigs/Fi-098_candidate_contigs.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt
+    jobid: 108
+    reason: Missing output files: output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt, output/candidate_contigs/Fi-098_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-098
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:05 2026]
+Finished job 99.
+13 of 124 steps (10%) done
+[Fri Jan  2 09:41:05 2026]
+Finished job 45.
+14 of 124 steps (11%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:05 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-079_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-079.txt
+    output: output/candidate_contigs/Fi-079_candidate_contigs.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt
+    jobid: 75
+    reason: Missing output files: output/candidate_contigs/Fi-079_candidate_contigs.txt, output/candidate_depth/Fi-079_candidate_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-079
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:05 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-086_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-086.txt
+    output: output/candidate_contigs/Fi-086_candidate_contigs.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt
+    jobid: 84
+    reason: Missing output files: output/candidate_contigs/Fi-086_candidate_contigs.txt, output/candidate_depth/Fi-086_candidate_depth.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-086
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:06 2026]
+Finished job 120.
+15 of 124 steps (12%) done
+[Fri Jan  2 09:41:06 2026]
+Finished job 108.
+16 of 124 steps (13%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:06 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-042_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-042.txt
+    output: output/candidate_contigs/Fi-042_candidate_contigs.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt
+    jobid: 39
+    reason: Missing output files: output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt, output/candidate_contigs/Fi-042_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-042
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:06 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-036_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-036.txt
+    output: output/candidate_contigs/Fi-036_candidate_contigs.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt
+    jobid: 30
+    reason: Missing output files: output/candidate_contigs/Fi-036_candidate_contigs.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt
+    wildcards: Genome_ID=Fi-036
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:06 2026]
+Finished job 1.
+17 of 124 steps (14%) done
+[Fri Jan  2 09:41:06 2026]
+Finished job 75.
+18 of 124 steps (15%) done
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:06 2026]
+Finished job 84.
+19 of 124 steps (15%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:41:06 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-085_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-085.txt
+    output: output/candidate_contigs/Fi-085_candidate_contigs.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt
+    jobid: 81
+    reason: Missing output files: output/candidate_depth/Fi-085_candidate_depth.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_contigs/Fi-085_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-085
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:06 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-089_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-089.txt
+    output: output/candidate_contigs/Fi-089_candidate_contigs.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt
+    jobid: 87
+    reason: Missing output files: output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_contigs/Fi-089_candidate_contigs.txt, output/candidate_depth/Fi-089_candidate_depth.txt
+    wildcards: Genome_ID=Fi-089
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:06 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-037_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-037.txt
+    output: output/candidate_contigs/Fi-037_candidate_contigs.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt
+    jobid: 33
+    reason: Missing output files: output/candidate_depth/Fi-037_candidate_depth.txt, output/candidate_contigs/Fi-037_candidate_contigs.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-037
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:06 2026]
+Finished job 30.
+20 of 124 steps (16%) done
+[Fri Jan  2 09:41:07 2026]
+Finished job 39.
+21 of 124 steps (17%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:07 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-005_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-005.txt
+    output: output/candidate_contigs/Fi-005_candidate_contigs.txt, output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    jobid: 9
+    reason: Missing output files: output/candidate_contigs/Fi-005_candidate_contigs.txt, output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    wildcards: Genome_ID=Fi-005
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:07 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-001_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-001.txt
+    output: output/candidate_contigs/Fi-001_candidate_contigs.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/candidate_depth/Fi-001_candidate_depth.txt
+    jobid: 3
+    reason: Missing output files: output/candidate_depth/Fi-001_candidate_depth.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/candidate_contigs/Fi-001_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-001
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:07 2026]
+Finished job 87.
+22 of 124 steps (18%) done
+[Fri Jan  2 09:41:07 2026]
+Finished job 33.
+23 of 124 steps (19%) done
+[Fri Jan  2 09:41:07 2026]
+Finished job 81.
+24 of 124 steps (19%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:41:07 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-091_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-091.txt
+    output: output/candidate_contigs/Fi-091_candidate_contigs.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt
+    jobid: 90
+    reason: Missing output files: output/candidate_depth/Fi-091_candidate_depth.txt, output/candidate_contigs/Fi-091_candidate_contigs.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-091
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:07 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-054_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-054.txt
+    output: output/candidate_contigs/Fi-054_candidate_contigs.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/candidate_depth/Fi-054_candidate_depth.txt
+    jobid: 54
+    reason: Missing output files: output/candidate_contigs/Fi-054_candidate_contigs.txt, output/candidate_depth/Fi-054_candidate_depth.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-054
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:07 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-040_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-040.txt
+    output: output/candidate_contigs/Fi-040_candidate_contigs.txt, output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt
+    jobid: 36
+    reason: Missing output files: output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt, output/candidate_contigs/Fi-040_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-040
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:08 2026]
+Finished job 9.
+25 of 124 steps (20%) done
+[Fri Jan  2 09:41:08 2026]
+Finished job 3.
+26 of 124 steps (21%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:08 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-101_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-101.txt
+    output: output/candidate_contigs/Fi-101_candidate_contigs.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/candidate_depth/Fi-101_candidate_depth.txt
+    jobid: 114
+    reason: Missing output files: output/candidate_depth/Fi-101_candidate_depth.txt, output/candidate_contigs/Fi-101_candidate_contigs.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-101
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:08 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-093_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-093.txt
+    output: output/candidate_contigs/Fi-093_candidate_contigs.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/candidate_depth/Fi-093_candidate_depth.txt
+    jobid: 96
+    reason: Missing output files: output/candidate_contigs/Fi-093_candidate_contigs.txt, output/candidate_depth/Fi-093_candidate_depth.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-093
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:08 2026]
+Finished job 36.
+27 of 124 steps (22%) done
+[Fri Jan  2 09:41:09 2026]
+Finished job 54.
+28 of 124 steps (23%) done
+[Fri Jan  2 09:41:09 2026]
+Finished job 90.
+29 of 124 steps (23%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:41:09 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-056_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-056.txt
+    output: output/candidate_contigs/Fi-056_candidate_contigs.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt
+    jobid: 60
+    reason: Missing output files: output/candidate_depth/Fi-056_candidate_depth.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_contigs/Fi-056_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-056
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:09 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-034_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-034.txt
+    output: output/candidate_contigs/Fi-034_candidate_contigs.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt
+    jobid: 24
+    reason: Missing output files: output/candidate_depth/Fi-034_candidate_depth.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_contigs/Fi-034_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-034
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:09 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-059_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-059.txt
+    output: output/candidate_contigs/Fi-059_candidate_contigs.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt
+    jobid: 69
+    reason: Missing output files: output/candidate_depth/Fi-059_candidate_depth.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/candidate_contigs/Fi-059_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-059
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:09 2026]
+Finished job 96.
+30 of 124 steps (24%) done
+[Fri Jan  2 09:41:09 2026]
+Finished job 114.
+31 of 124 steps (25%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:09 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-027_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-027.txt
+    output: output/candidate_contigs/Fi-027_candidate_contigs.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    jobid: 18
+    reason: Missing output files: output/candidate_contigs/Fi-027_candidate_contigs.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    wildcards: Genome_ID=Fi-027
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:09 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-057_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-057.txt
+    output: output/candidate_contigs/Fi-057_candidate_contigs.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt
+    jobid: 63
+    reason: Missing output files: output/candidate_contigs/Fi-057_candidate_contigs.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt
+    wildcards: Genome_ID=Fi-057
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:09 2026]
+Finished job 60.
+32 of 124 steps (26%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 24.
+33 of 124 steps (27%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 69.
+34 of 124 steps (27%) done
+Select jobs to execute...
+Execute 3 jobs...
+
+[Fri Jan  2 09:41:10 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-096_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-096.txt
+    output: output/candidate_contigs/Fi-096_candidate_contigs.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    jobid: 102
+    reason: Missing output files: output/candidate_contigs/Fi-096_candidate_contigs.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    wildcards: Genome_ID=Fi-096
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:10 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-051_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-051.txt
+    output: output/candidate_contigs/Fi-051_candidate_contigs.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt
+    jobid: 51
+    reason: Missing output files: output/candidate_contigs/Fi-051_candidate_contigs.txt, output/candidate_depth/Fi-051_candidate_depth.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-051
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:10 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-004_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-004.txt
+    output: output/candidate_contigs/Fi-004_candidate_contigs.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt
+    jobid: 6
+    reason: Missing output files: output/candidate_depth/Fi-004_candidate_depth.txt, output/candidate_contigs/Fi-004_candidate_contigs.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-004
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:10 2026]
+Finished job 63.
+35 of 124 steps (28%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 18.
+36 of 124 steps (29%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:10 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-009_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-009.txt
+    output: output/candidate_contigs/Fi-009_candidate_contigs.txt, output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt
+    jobid: 12
+    reason: Missing output files: output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt, output/candidate_contigs/Fi-009_candidate_contigs.txt
+    wildcards: Genome_ID=Fi-009
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:10 2026]
+localrule Identify_depth:
+    input: /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation/output/BUSCO_contigs/Fi-055_BUSCO_contigs.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt, output/depth_all_contigs/Fi-055.txt
+    output: output/candidate_contigs/Fi-055_candidate_contigs.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt
+    jobid: 57
+    reason: Missing output files: output/candidate_depth/Fi-055_candidate_depth.txt, output/candidate_contigs/Fi-055_candidate_contigs.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-055
+    threads: 3
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:10 2026]
+Finished job 128.
+37 of 124 steps (30%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 158.
+38 of 124 steps (31%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 130.
+39 of 124 steps (31%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 102.
+40 of 124 steps (32%) done
+[Fri Jan  2 09:41:10 2026]
+Finished job 6.
+41 of 124 steps (33%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Fri Jan  2 09:41:10 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-032_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-032.txt, output/EVEs/Fi-032_depth_EVEs.txt
+    jobid: 171
+    reason: Missing output files: output/EVEs/Fi-032_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-032.txt; Input files updated by another job: output/EVE_contigs/Fi-032_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:10 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/candidate_depth/Fi-001_candidate_depth.txt
+    output: output/EVE_contigs/Fi-001_15_85.txt, output/EVE_contigs/Fi-001_5_95.txt, output/all_contigs_Ps/Fi-001.txt
+    jobid: 124
+    reason: Missing output files: output/all_contigs_Ps/Fi-001.txt, output/EVE_contigs/Fi-001_15_85.txt, output/EVE_contigs/Fi-001_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-001_candidate_depth.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-001
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    output: output/EVE_contigs/Fi-102_15_85.txt, output/EVE_contigs/Fi-102_5_95.txt, output/all_contigs_Ps/Fi-102.txt
+    jobid: 162
+    reason: Missing output files: output/EVE_contigs/Fi-102_15_85.txt, output/all_contigs_Ps/Fi-102.txt, output/EVE_contigs/Fi-102_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt
+    wildcards: Genome_ID=Fi-102
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt
+    output: output/EVE_contigs/Fi-035_15_85.txt, output/EVE_contigs/Fi-035_5_95.txt, output/all_contigs_Ps/Fi-035.txt
+    jobid: 132
+    reason: Missing output files: output/EVE_contigs/Fi-035_5_95.txt, output/EVE_contigs/Fi-035_15_85.txt, output/all_contigs_Ps/Fi-035.txt; Input files updated by another job: output/candidate_depth/Fi-035_candidate_depth.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-035
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    output: output/EVE_contigs/Fi-094_15_85.txt, output/EVE_contigs/Fi-094_5_95.txt, output/all_contigs_Ps/Fi-094.txt
+    jobid: 156
+    reason: Missing output files: output/all_contigs_Ps/Fi-094.txt, output/EVE_contigs/Fi-094_5_95.txt, output/EVE_contigs/Fi-094_15_85.txt; Input files updated by another job: output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt
+    wildcards: Genome_ID=Fi-094
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:11 2026]
+Finished job 51.
+42 of 124 steps (34%) done
+[Fri Jan  2 09:41:11 2026]
+Finished job 12.
+43 of 124 steps (35%) done
+[Fri Jan  2 09:41:11 2026]
+Finished job 57.
+44 of 124 steps (35%) done
+[Fri Jan  2 09:41:11 2026]
+Finished job 171.
+45 of 124 steps (36%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt
+    output: output/EVE_contigs/Fi-091_15_85.txt, output/EVE_contigs/Fi-091_5_95.txt, output/all_contigs_Ps/Fi-091.txt
+    jobid: 153
+    reason: Missing output files: output/all_contigs_Ps/Fi-091.txt, output/EVE_contigs/Fi-091_15_85.txt, output/EVE_contigs/Fi-091_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-091_candidate_depth.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-091
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt
+    output: output/EVE_contigs/Fi-098_15_85.txt, output/EVE_contigs/Fi-098_5_95.txt, output/all_contigs_Ps/Fi-098.txt
+    jobid: 159
+    reason: Missing output files: output/EVE_contigs/Fi-098_5_95.txt, output/EVE_contigs/Fi-098_15_85.txt, output/all_contigs_Ps/Fi-098.txt; Input files updated by another job: output/candidate_depth/Fi-098_candidate_depth.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-098
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:11 2026]
+Finished job 124.
+46 of 124 steps (37%) done
+[Fri Jan  2 09:41:11 2026]
+Finished job 156.
+47 of 124 steps (38%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    output: output/EVE_contigs/Fi-027_15_85.txt, output/EVE_contigs/Fi-027_5_95.txt, output/all_contigs_Ps/Fi-027.txt
+    jobid: 129
+    reason: Missing output files: output/EVE_contigs/Fi-027_15_85.txt, output/EVE_contigs/Fi-027_5_95.txt, output/all_contigs_Ps/Fi-027.txt; Input files updated by another job: output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt
+    wildcards: Genome_ID=Fi-027
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_depth/Fi-077_candidate_depth.txt
+    output: output/EVE_contigs/Fi-077_15_85.txt, output/EVE_contigs/Fi-077_5_95.txt, output/all_contigs_Ps/Fi-077.txt
+    jobid: 147
+    reason: Missing output files: output/EVE_contigs/Fi-077_5_95.txt, output/EVE_contigs/Fi-077_15_85.txt, output/all_contigs_Ps/Fi-077.txt; Input files updated by another job: output/candidate_depth/Fi-077_candidate_depth.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-077
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:11 2026]
+Finished job 132.
+48 of 124 steps (39%) done
+[Fri Jan  2 09:41:11 2026]
+Finished job 162.
+49 of 124 steps (40%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt
+    output: output/EVE_contigs/Fi-047_15_85.txt, output/EVE_contigs/Fi-047_5_95.txt, output/all_contigs_Ps/Fi-047.txt
+    jobid: 138
+    reason: Missing output files: output/EVE_contigs/Fi-047_5_95.txt, output/all_contigs_Ps/Fi-047.txt, output/EVE_contigs/Fi-047_15_85.txt; Input files updated by another job: output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt
+    wildcards: Genome_ID=Fi-047
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:11 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt
+    output: output/EVE_contigs/Fi-051_15_85.txt, output/EVE_contigs/Fi-051_5_95.txt, output/all_contigs_Ps/Fi-051.txt
+    jobid: 140
+    reason: Missing output files: output/all_contigs_Ps/Fi-051.txt, output/EVE_contigs/Fi-051_5_95.txt, output/EVE_contigs/Fi-051_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-051_candidate_depth.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-051
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+Select jobs to execute...
+[Fri Jan  2 09:41:12 2026]
+Finished job 153.
+50 of 124 steps (40%) done
+Execute 5 jobs...
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-001_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-001.txt, output/EVEs/Fi-001_depth_EVEs.txt
+    jobid: 165
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-001.txt, output/EVEs/Fi-001_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-001_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-026_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-026.txt, output/EVEs/Fi-026_depth_EVEs.txt
+    jobid: 169
+    reason: Missing output files: output/EVEs/Fi-026_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-026.txt; Input files updated by another job: output/EVE_contigs/Fi-026_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-097_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-097.txt, output/EVEs/Fi-097_depth_EVEs.txt
+    jobid: 199
+    reason: Missing output files: output/EVEs/Fi-097_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-097.txt; Input files updated by another job: output/EVE_contigs/Fi-097_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-035_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-035.txt, output/EVEs/Fi-035_depth_EVEs.txt
+    jobid: 173
+    reason: Missing output files: output/EVEs/Fi-035_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-035.txt; Input files updated by another job: output/EVE_contigs/Fi-035_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-102_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-102.txt, output/EVEs/Fi-102_depth_EVEs.txt
+    jobid: 203
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-102.txt, output/EVEs/Fi-102_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-102_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:12 2026]
+Finished job 159.
+51 of 124 steps (41%) done
+[Fri Jan  2 09:41:12 2026]
+Finished job 165.
+52 of 124 steps (42%) done
+[Fri Jan  2 09:41:12 2026]
+Finished job 169.
+53 of 124 steps (43%) done
+[Fri Jan  2 09:41:12 2026]
+Finished job 199.
+54 of 124 steps (44%) done
+Select jobs to execute...
+Execute 4 jobs...
+
+[Fri Jan  2 09:41:12 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt
+    output: output/EVE_contigs/Fi-099_15_85.txt, output/EVE_contigs/Fi-099_5_95.txt, output/all_contigs_Ps/Fi-099.txt
+    jobid: 160
+    reason: Missing output files: output/EVE_contigs/Fi-099_15_85.txt, output/EVE_contigs/Fi-099_5_95.txt, output/all_contigs_Ps/Fi-099.txt; Input files updated by another job: output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt
+    wildcards: Genome_ID=Fi-099
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-094_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-094.txt, output/EVEs/Fi-094_depth_EVEs.txt
+    jobid: 197
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-094.txt, output/EVEs/Fi-094_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-094_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-091_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-091.txt, output/EVEs/Fi-091_depth_EVEs.txt
+    jobid: 194
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-091.txt, output/EVEs/Fi-091_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-091_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:12 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-098_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-098.txt, output/EVEs/Fi-098_depth_EVEs.txt
+    jobid: 200
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-098.txt, output/EVEs/Fi-098_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-098_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:12 2026]
+Finished job 173.
+55 of 124 steps (44%) done
+[Fri Jan  2 09:41:12 2026]
+Finished job 203.
+56 of 124 steps (45%) done
+[Fri Jan  2 09:41:12 2026]
+Finished job 129.
+57 of 124 steps (46%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 147.
+58 of 124 steps (47%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 138.
+59 of 124 steps (48%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 140.
+60 of 124 steps (48%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 197.
+61 of 124 steps (49%) done
+Select jobs to execute...
+Execute 7 jobs...
+
+[Fri Jan  2 09:41:13 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt
+    output: output/EVE_contigs/Fi-009_15_85.txt, output/EVE_contigs/Fi-009_5_95.txt, output/all_contigs_Ps/Fi-009.txt
+    jobid: 127
+    reason: Missing output files: output/EVE_contigs/Fi-009_15_85.txt, output/EVE_contigs/Fi-009_5_95.txt, output/all_contigs_Ps/Fi-009.txt; Input files updated by another job: output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt
+    wildcards: Genome_ID=Fi-009
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:13 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt
+    output: output/EVE_contigs/Fi-040_15_85.txt, output/EVE_contigs/Fi-040_5_95.txt, output/all_contigs_Ps/Fi-040.txt
+    jobid: 135
+    reason: Missing output files: output/all_contigs_Ps/Fi-040.txt, output/EVE_contigs/Fi-040_15_85.txt, output/EVE_contigs/Fi-040_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt
+    wildcards: Genome_ID=Fi-040
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:13 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-027_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-027.txt, output/EVEs/Fi-027_depth_EVEs.txt
+    jobid: 170
+    reason: Missing output files: output/EVEs/Fi-027_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-027.txt; Input files updated by another job: output/EVE_contigs/Fi-027_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:13 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-047_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-047.txt, output/EVEs/Fi-047_depth_EVEs.txt
+    jobid: 179
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-047.txt, output/EVEs/Fi-047_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-047_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:13 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-077_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-077.txt, output/EVEs/Fi-077_depth_EVEs.txt
+    jobid: 188
+    reason: Missing output files: output/EVEs/Fi-077_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-077.txt; Input files updated by another job: output/EVE_contigs/Fi-077_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:13 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt
+    output: output/EVE_contigs/Fi-057_15_85.txt, output/EVE_contigs/Fi-057_5_95.txt, output/all_contigs_Ps/Fi-057.txt
+    jobid: 144
+    reason: Missing output files: output/EVE_contigs/Fi-057_5_95.txt, output/EVE_contigs/Fi-057_15_85.txt, output/all_contigs_Ps/Fi-057.txt; Input files updated by another job: output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt
+    wildcards: Genome_ID=Fi-057
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:13 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-000_BUSCO_depth.txt, output/candidate_depth/Fi-000_candidate_depth.txt
+    output: output/EVE_contigs/Fi-000_15_85.txt, output/EVE_contigs/Fi-000_5_95.txt, output/all_contigs_Ps/Fi-000.txt
+    jobid: 123
+    reason: Missing output files: output/EVE_contigs/Fi-000_15_85.txt, output/all_contigs_Ps/Fi-000.txt, output/EVE_contigs/Fi-000_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-000_BUSCO_depth.txt, output/candidate_depth/Fi-000_candidate_depth.txt
+    wildcards: Genome_ID=Fi-000
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:13 2026]
+Finished job 194.
+62 of 124 steps (50%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 200.
+63 of 124 steps (51%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 160.
+64 of 124 steps (52%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 170.
+65 of 124 steps (52%) done
+[Fri Jan  2 09:41:13 2026]
+Finished job 179.
+66 of 124 steps (53%) done
+[Fri Jan  2 09:41:14 2026]
+Finished job 188.
+67 of 124 steps (54%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:14 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt
+    output: output/EVE_contigs/Fi-055_15_85.txt, output/EVE_contigs/Fi-055_5_95.txt, output/all_contigs_Ps/Fi-055.txt
+    jobid: 142
+    reason: Missing output files: output/EVE_contigs/Fi-055_5_95.txt, output/EVE_contigs/Fi-055_15_85.txt, output/all_contigs_Ps/Fi-055.txt; Input files updated by another job: output/candidate_depth/Fi-055_candidate_depth.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-055
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:14 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt
+    output: output/EVE_contigs/Fi-048_15_85.txt, output/EVE_contigs/Fi-048_5_95.txt, output/all_contigs_Ps/Fi-048.txt
+    jobid: 139
+    reason: Missing output files: output/EVE_contigs/Fi-048_15_85.txt, output/EVE_contigs/Fi-048_5_95.txt, output/all_contigs_Ps/Fi-048.txt; Input files updated by another job: output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt
+    wildcards: Genome_ID=Fi-048
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:14 2026]
+Finished job 127.
+68 of 124 steps (55%) done
+[Fri Jan  2 09:41:14 2026]
+Finished job 135.
+69 of 124 steps (56%) done
+[Fri Jan  2 09:41:14 2026]
+Finished job 144.
+70 of 124 steps (56%) done
+[Fri Jan  2 09:41:14 2026]
+Finished job 123.
+71 of 124 steps (57%) done
+Select jobs to execute...
+Execute 4 jobs...
+
+[Fri Jan  2 09:41:14 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt
+    output: output/EVE_contigs/Fi-042_15_85.txt, output/EVE_contigs/Fi-042_5_95.txt, output/all_contigs_Ps/Fi-042.txt
+    jobid: 136
+    reason: Missing output files: output/EVE_contigs/Fi-042_5_95.txt, output/EVE_contigs/Fi-042_15_85.txt, output/all_contigs_Ps/Fi-042.txt; Input files updated by another job: output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt
+    wildcards: Genome_ID=Fi-042
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:14 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt
+    output: output/EVE_contigs/Fi-079_15_85.txt, output/EVE_contigs/Fi-079_5_95.txt, output/all_contigs_Ps/Fi-079.txt
+    jobid: 148
+    reason: Missing output files: output/all_contigs_Ps/Fi-079.txt, output/EVE_contigs/Fi-079_15_85.txt, output/EVE_contigs/Fi-079_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-079_candidate_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-079
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:14 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    output: output/EVE_contigs/Fi-096_15_85.txt, output/EVE_contigs/Fi-096_5_95.txt, output/all_contigs_Ps/Fi-096.txt
+    jobid: 157
+    reason: Missing output files: output/EVE_contigs/Fi-096_15_85.txt, output/EVE_contigs/Fi-096_5_95.txt, output/all_contigs_Ps/Fi-096.txt; Input files updated by another job: output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt
+    wildcards: Genome_ID=Fi-096
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:14 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt
+    output: output/EVE_contigs/Fi-056_15_85.txt, output/EVE_contigs/Fi-056_5_95.txt, output/all_contigs_Ps/Fi-056.txt
+    jobid: 143
+    reason: Missing output files: output/all_contigs_Ps/Fi-056.txt, output/EVE_contigs/Fi-056_5_95.txt, output/EVE_contigs/Fi-056_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-056_candidate_depth.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-056
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+Select jobs to execute...
+[Fri Jan  2 09:41:14 2026]
+Finished job 142.
+72 of 124 steps (58%) done
+Execute 5 jobs...
+
+[Fri Jan  2 09:41:14 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-099_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-099.txt, output/EVEs/Fi-099_depth_EVEs.txt
+    jobid: 201
+    reason: Missing output files: output/EVEs/Fi-099_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-099.txt; Input files updated by another job: output/EVE_contigs/Fi-099_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:14 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-057_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-057.txt, output/EVEs/Fi-057_depth_EVEs.txt
+    jobid: 185
+    reason: Missing output files: output/EVEs/Fi-057_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-057.txt; Input files updated by another job: output/EVE_contigs/Fi-057_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:14 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-000_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-000.txt, output/EVEs/Fi-000_depth_EVEs.txt
+    jobid: 164
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-000.txt, output/EVEs/Fi-000_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-000_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:14 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-009_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-009.txt, output/EVEs/Fi-009_depth_EVEs.txt
+    jobid: 168
+    reason: Missing output files: output/EVEs/Fi-009_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-009.txt; Input files updated by another job: output/EVE_contigs/Fi-009_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:14 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-055_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-055.txt, output/EVEs/Fi-055_depth_EVEs.txt
+    jobid: 183
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-055.txt, output/EVEs/Fi-055_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-055_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:14 2026]
+Finished job 139.
+73 of 124 steps (59%) done
+[Fri Jan  2 09:41:14 2026]
+Finished job 201.
+74 of 124 steps (60%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 185.
+75 of 124 steps (60%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 164.
+76 of 124 steps (61%) done
+Select jobs to execute...
+Execute 4 jobs...
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-051_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-051.txt, output/EVEs/Fi-051_depth_EVEs.txt
+    jobid: 181
+    reason: Missing output files: output/EVEs/Fi-051_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-051.txt; Input files updated by another job: output/EVE_contigs/Fi-051_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-040_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-040.txt, output/EVEs/Fi-040_depth_EVEs.txt
+    jobid: 176
+    reason: Missing output files: output/EVEs/Fi-040_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-040.txt; Input files updated by another job: output/EVE_contigs/Fi-040_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:15 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt
+    output: output/EVE_contigs/Fi-086_15_85.txt, output/EVE_contigs/Fi-086_5_95.txt, output/all_contigs_Ps/Fi-086.txt
+    jobid: 151
+    reason: Missing output files: output/EVE_contigs/Fi-086_5_95.txt, output/all_contigs_Ps/Fi-086.txt, output/EVE_contigs/Fi-086_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-086_candidate_depth.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-086
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-048_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-048.txt, output/EVEs/Fi-048_depth_EVEs.txt
+    jobid: 180
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-048.txt, output/EVEs/Fi-048_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-048_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:15 2026]
+Finished job 168.
+77 of 124 steps (62%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 183.
+78 of 124 steps (63%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 136.
+79 of 124 steps (64%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 157.
+80 of 124 steps (65%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 148.
+81 of 124 steps (65%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 143.
+82 of 124 steps (66%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 181.
+83 of 124 steps (67%) done
+[Fri Jan  2 09:41:15 2026]
+Finished job 176.
+84 of 124 steps (68%) done
+Select jobs to execute...
+Execute 8 jobs...
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-079_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-079.txt, output/EVEs/Fi-079_depth_EVEs.txt
+    jobid: 189
+    reason: Missing output files: output/EVEs/Fi-079_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-079.txt; Input files updated by another job: output/EVE_contigs/Fi-079_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:15 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/candidate_depth/Fi-043_candidate_depth.txt
+    output: output/EVE_contigs/Fi-043_15_85.txt, output/EVE_contigs/Fi-043_5_95.txt, output/all_contigs_Ps/Fi-043.txt
+    jobid: 137
+    reason: Missing output files: output/all_contigs_Ps/Fi-043.txt, output/EVE_contigs/Fi-043_5_95.txt, output/EVE_contigs/Fi-043_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-043_candidate_depth.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-043
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:15 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt
+    output: output/EVE_contigs/Fi-037_15_85.txt, output/EVE_contigs/Fi-037_5_95.txt, output/all_contigs_Ps/Fi-037.txt
+    jobid: 134
+    reason: Missing output files: output/EVE_contigs/Fi-037_5_95.txt, output/all_contigs_Ps/Fi-037.txt, output/EVE_contigs/Fi-037_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-037_candidate_depth.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-037
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:15 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt
+    output: output/EVE_contigs/Fi-089_15_85.txt, output/EVE_contigs/Fi-089_5_95.txt, output/all_contigs_Ps/Fi-089.txt
+    jobid: 152
+    reason: Missing output files: output/EVE_contigs/Fi-089_15_85.txt, output/all_contigs_Ps/Fi-089.txt, output/EVE_contigs/Fi-089_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt
+    wildcards: Genome_ID=Fi-089
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-056_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-056.txt, output/EVEs/Fi-056_depth_EVEs.txt
+    jobid: 184
+    reason: Missing output files: output/EVEs/Fi-056_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-056.txt; Input files updated by another job: output/EVE_contigs/Fi-056_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-096_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-096.txt, output/EVEs/Fi-096_depth_EVEs.txt
+    jobid: 198
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-096.txt, output/EVEs/Fi-096_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-096_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:15 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/candidate_depth/Fi-054_candidate_depth.txt
+    output: output/EVE_contigs/Fi-054_15_85.txt, output/EVE_contigs/Fi-054_5_95.txt, output/all_contigs_Ps/Fi-054.txt
+    jobid: 141
+    reason: Missing output files: output/EVE_contigs/Fi-054_15_85.txt, output/EVE_contigs/Fi-054_5_95.txt, output/all_contigs_Ps/Fi-054.txt; Input files updated by another job: output/candidate_depth/Fi-054_candidate_depth.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-054
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:15 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-042_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-042.txt, output/EVEs/Fi-042_depth_EVEs.txt
+    jobid: 177
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-042.txt, output/EVEs/Fi-042_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-042_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:16 2026]
+Finished job 180.
+85 of 124 steps (69%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 151.
+86 of 124 steps (69%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 189.
+87 of 124 steps (70%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 184.
+88 of 124 steps (71%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 198.
+89 of 124 steps (72%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Fri Jan  2 09:41:16 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-086_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-086.txt, output/EVEs/Fi-086_depth_EVEs.txt
+    jobid: 192
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-086.txt, output/EVEs/Fi-086_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-086_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:16 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt
+    output: output/EVE_contigs/Fi-059_15_85.txt, output/EVE_contigs/Fi-059_5_95.txt, output/all_contigs_Ps/Fi-059.txt
+    jobid: 146
+    reason: Missing output files: output/all_contigs_Ps/Fi-059.txt, output/EVE_contigs/Fi-059_5_95.txt, output/EVE_contigs/Fi-059_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-059_candidate_depth.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-059
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:16 2026]
+Finished job 177.
+90 of 124 steps (73%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 137.
+91 of 124 steps (73%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 134.
+92 of 124 steps (74%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 141.
+93 of 124 steps (75%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 152.
+94 of 124 steps (76%) done
+[Fri Jan  2 09:41:16 2026]
+Finished job 192.
+95 of 124 steps (77%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Fri Jan  2 09:41:16 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    output: output/EVE_contigs/Fi-092_15_85.txt, output/EVE_contigs/Fi-092_5_95.txt, output/all_contigs_Ps/Fi-092.txt
+    jobid: 154
+    reason: Missing output files: output/all_contigs_Ps/Fi-092.txt, output/EVE_contigs/Fi-092_5_95.txt, output/EVE_contigs/Fi-092_15_85.txt; Input files updated by another job: output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt
+    wildcards: Genome_ID=Fi-092
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:16 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt
+    output: output/EVE_contigs/Fi-058_15_85.txt, output/EVE_contigs/Fi-058_5_95.txt, output/all_contigs_Ps/Fi-058.txt
+    jobid: 145
+    reason: Missing output files: output/EVE_contigs/Fi-058_15_85.txt, output/EVE_contigs/Fi-058_5_95.txt, output/all_contigs_Ps/Fi-058.txt; Input files updated by another job: output/candidate_depth/Fi-058_candidate_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-058
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:16 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-103_candidate_depth.txt
+    output: output/EVE_contigs/Fi-103_15_85.txt, output/EVE_contigs/Fi-103_5_95.txt, output/all_contigs_Ps/Fi-103.txt
+    jobid: 163
+    reason: Missing output files: output/EVE_contigs/Fi-103_5_95.txt, output/all_contigs_Ps/Fi-103.txt, output/EVE_contigs/Fi-103_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-103_candidate_depth.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-103
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:16 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt
+    output: output/EVE_contigs/Fi-004_15_85.txt, output/EVE_contigs/Fi-004_5_95.txt, output/all_contigs_Ps/Fi-004.txt
+    jobid: 125
+    reason: Missing output files: output/EVE_contigs/Fi-004_5_95.txt, output/all_contigs_Ps/Fi-004.txt, output/EVE_contigs/Fi-004_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-004_candidate_depth.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-004
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:16 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    output: output/EVE_contigs/Fi-005_15_85.txt, output/EVE_contigs/Fi-005_5_95.txt, output/all_contigs_Ps/Fi-005.txt
+    jobid: 126
+    reason: Missing output files: output/EVE_contigs/Fi-005_5_95.txt, output/EVE_contigs/Fi-005_15_85.txt, output/all_contigs_Ps/Fi-005.txt; Input files updated by another job: output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt
+    wildcards: Genome_ID=Fi-005
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+Select jobs to execute...
+[Fri Jan  2 09:41:17 2026]
+Finished job 146.
+96 of 124 steps (77%) done
+Execute 1 jobs...
+
+[Fri Jan  2 09:41:17 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt
+    output: output/EVE_contigs/Fi-085_15_85.txt, output/EVE_contigs/Fi-085_5_95.txt, output/all_contigs_Ps/Fi-085.txt
+    jobid: 150
+    reason: Missing output files: output/EVE_contigs/Fi-085_15_85.txt, output/all_contigs_Ps/Fi-085.txt, output/EVE_contigs/Fi-085_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-085_candidate_depth.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-085
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:17 2026]
+Finished job 154.
+97 of 124 steps (78%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-037_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-037.txt, output/EVEs/Fi-037_depth_EVEs.txt
+    jobid: 175
+    reason: Missing output files: output/EVEs/Fi-037_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-037.txt; Input files updated by another job: output/EVE_contigs/Fi-037_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-092_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-092.txt, output/EVEs/Fi-092_depth_EVEs.txt
+    jobid: 195
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-092.txt, output/EVEs/Fi-092_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-092_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-089_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-089.txt, output/EVEs/Fi-089_depth_EVEs.txt
+    jobid: 193
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-089.txt, output/EVEs/Fi-089_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-089_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-043_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-043.txt, output/EVEs/Fi-043_depth_EVEs.txt
+    jobid: 178
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-043.txt, output/EVEs/Fi-043_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-043_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-059_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-059.txt, output/EVEs/Fi-059_depth_EVEs.txt
+    jobid: 187
+    reason: Missing output files: output/EVEs/Fi-059_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-059.txt; Input files updated by another job: output/EVE_contigs/Fi-059_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:17 2026]
+Finished job 145.
+98 of 124 steps (79%) done
+[Fri Jan  2 09:41:17 2026]
+Finished job 163.
+99 of 124 steps (80%) done
+[Fri Jan  2 09:41:17 2026]
+Finished job 125.
+100 of 124 steps (81%) done
+[Fri Jan  2 09:41:17 2026]
+Finished job 126.
+101 of 124 steps (81%) done
+[Fri Jan  2 09:41:17 2026]
+Finished job 175.
+102 of 124 steps (82%) done
+[Fri Jan  2 09:41:17 2026]
+Finished job 195.
+103 of 124 steps (83%) done
+Select jobs to execute...
+Execute 6 jobs...
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-004_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-004.txt, output/EVEs/Fi-004_depth_EVEs.txt
+    jobid: 166
+    reason: Missing output files: output/EVEs/Fi-004_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-004.txt; Input files updated by another job: output/EVE_contigs/Fi-004_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:17 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-058_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-058.txt, output/EVEs/Fi-058_depth_EVEs.txt
+    jobid: 186
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-058.txt, output/EVEs/Fi-058_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-058_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:17 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt
+    output: output/EVE_contigs/Fi-036_15_85.txt, output/EVE_contigs/Fi-036_5_95.txt, output/all_contigs_Ps/Fi-036.txt
+    jobid: 133
+    reason: Missing output files: output/EVE_contigs/Fi-036_5_95.txt, output/all_contigs_Ps/Fi-036.txt, output/EVE_contigs/Fi-036_15_85.txt; Input files updated by another job: output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt
+    wildcards: Genome_ID=Fi-036
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:17 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/candidate_depth/Fi-093_candidate_depth.txt
+    output: output/EVE_contigs/Fi-093_15_85.txt, output/EVE_contigs/Fi-093_5_95.txt, output/all_contigs_Ps/Fi-093.txt
+    jobid: 155
+    reason: Missing output files: output/all_contigs_Ps/Fi-093.txt, output/EVE_contigs/Fi-093_5_95.txt, output/EVE_contigs/Fi-093_15_85.txt; Input files updated by another job: output/candidate_depth/Fi-093_candidate_depth.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-093
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:17 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt
+    output: output/EVE_contigs/Fi-083_15_85.txt, output/EVE_contigs/Fi-083_5_95.txt, output/all_contigs_Ps/Fi-083.txt
+    jobid: 149
+    reason: Missing output files: output/EVE_contigs/Fi-083_15_85.txt, output/all_contigs_Ps/Fi-083.txt, output/EVE_contigs/Fi-083_5_95.txt; Input files updated by another job: output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt
+    wildcards: Genome_ID=Fi-083
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:17 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/candidate_depth/Fi-101_candidate_depth.txt
+    output: output/EVE_contigs/Fi-101_15_85.txt, output/EVE_contigs/Fi-101_5_95.txt, output/all_contigs_Ps/Fi-101.txt
+    jobid: 161
+    reason: Missing output files: output/EVE_contigs/Fi-101_5_95.txt, output/EVE_contigs/Fi-101_15_85.txt, output/all_contigs_Ps/Fi-101.txt; Input files updated by another job: output/candidate_depth/Fi-101_candidate_depth.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-101
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+[Fri Jan  2 09:41:17 2026]
+Finished job 193.
+104 of 124 steps (84%) done
+[Fri Jan  2 09:41:17 2026]
+Finished job 178.
+105 of 124 steps (85%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 187.
+106 of 124 steps (85%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 150.
+107 of 124 steps (86%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 166.
+108 of 124 steps (87%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 186.
+109 of 124 steps (88%) done
+Select jobs to execute...
+Execute 5 jobs...
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-085_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-085.txt, output/EVEs/Fi-085_depth_EVEs.txt
+    jobid: 191
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-085.txt, output/EVEs/Fi-085_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-085_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:18 2026]
+localrule statistics:
+    input: output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt
+    output: output/EVE_contigs/Fi-034_15_85.txt, output/EVE_contigs/Fi-034_5_95.txt, output/all_contigs_Ps/Fi-034.txt
+    jobid: 131
+    reason: Missing output files: output/all_contigs_Ps/Fi-034.txt, output/EVE_contigs/Fi-034_15_85.txt, output/EVE_contigs/Fi-034_5_95.txt; Input files updated by another job: output/candidate_depth/Fi-034_candidate_depth.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt
+    wildcards: Genome_ID=Fi-034
+    threads: 5
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+Activating conda environment: .snakemake/conda/d85cdaa9b18f6baafce55d132e04d8fa_
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-103_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-103.txt, output/EVEs/Fi-103_depth_EVEs.txt
+    jobid: 204
+    reason: Missing output files: output/EVEs/Fi-103_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-103.txt; Input files updated by another job: output/EVE_contigs/Fi-103_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-054_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-054.txt, output/EVEs/Fi-054_depth_EVEs.txt
+    jobid: 182
+    reason: Missing output files: output/EVEs/Fi-054_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-054.txt; Input files updated by another job: output/EVE_contigs/Fi-054_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-005_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-005.txt, output/EVEs/Fi-005_depth_EVEs.txt
+    jobid: 167
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-005.txt, output/EVEs/Fi-005_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-005_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:18 2026]
+Finished job 191.
+110 of 124 steps (89%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 182.
+111 of 124 steps (90%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 167.
+112 of 124 steps (90%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 204.
+113 of 124 steps (91%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 133.
+114 of 124 steps (92%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 149.
+115 of 124 steps (93%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 155.
+116 of 124 steps (94%) done
+[Fri Jan  2 09:41:18 2026]
+Finished job 161.
+117 of 124 steps (94%) done
+Select jobs to execute...
+Execute 4 jobs...
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-083_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-083.txt, output/EVEs/Fi-083_depth_EVEs.txt
+    jobid: 190
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-083.txt, output/EVEs/Fi-083_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-083_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-036_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-036.txt, output/EVEs/Fi-036_depth_EVEs.txt
+    jobid: 174
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-036.txt, output/EVEs/Fi-036_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-036_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-101_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-101.txt, output/EVEs/Fi-101_depth_EVEs.txt
+    jobid: 202
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-101.txt, output/EVEs/Fi-101_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-101_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+
+[Fri Jan  2 09:41:18 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-093_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-093.txt, output/EVEs/Fi-093_depth_EVEs.txt
+    jobid: 196
+    reason: Missing output files: output/EVE_contigs/contigs_only/Fi-093.txt, output/EVEs/Fi-093_depth_EVEs.txt; Input files updated by another job: output/EVE_contigs/Fi-093_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:18 2026]
+Finished job 131.
+118 of 124 steps (95%) done
+[Fri Jan  2 09:41:19 2026]
+Finished job 190.
+119 of 124 steps (96%) done
+[Fri Jan  2 09:41:19 2026]
+Finished job 174.
+120 of 124 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jan  2 09:41:19 2026]
+localrule EVEs:
+    input: output/EVE_contigs/Fi-034_15_85.txt, /home/yzitzmann/paper/TE_filter/output/EVE_candidates/all_candidates.txt
+    output: output/EVE_contigs/contigs_only/Fi-034.txt, output/EVEs/Fi-034_depth_EVEs.txt
+    jobid: 172
+    reason: Missing output files: output/EVEs/Fi-034_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-034.txt; Input files updated by another job: output/EVE_contigs/Fi-034_15_85.txt; Set of input files has changed since last execution
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:19 2026]
+Finished job 202.
+121 of 124 steps (98%) done
+[Fri Jan  2 09:41:19 2026]
+Finished job 196.
+122 of 124 steps (98%) done
+[Fri Jan  2 09:41:19 2026]
+Finished job 172.
+123 of 124 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Fri Jan  2 09:41:19 2026]
+localrule all:
+    input: output/candidate_contigs/Fi-000_candidate_contigs.txt, output/candidate_contigs/Fi-001_candidate_contigs.txt, output/candidate_contigs/Fi-004_candidate_contigs.txt, output/candidate_contigs/Fi-005_candidate_contigs.txt, output/candidate_contigs/Fi-009_candidate_contigs.txt, output/candidate_contigs/Fi-026_candidate_contigs.txt, output/candidate_contigs/Fi-027_candidate_contigs.txt, output/candidate_contigs/Fi-032_candidate_contigs.txt, output/candidate_contigs/Fi-034_candidate_contigs.txt, output/candidate_contigs/Fi-035_candidate_contigs.txt, output/candidate_contigs/Fi-036_candidate_contigs.txt, output/candidate_contigs/Fi-037_candidate_contigs.txt, output/candidate_contigs/Fi-040_candidate_contigs.txt, output/candidate_contigs/Fi-042_candidate_contigs.txt, output/candidate_contigs/Fi-043_candidate_contigs.txt, output/candidate_contigs/Fi-047_candidate_contigs.txt, output/candidate_contigs/Fi-048_candidate_contigs.txt, output/candidate_contigs/Fi-051_candidate_contigs.txt, output/candidate_contigs/Fi-054_candidate_contigs.txt, output/candidate_contigs/Fi-055_candidate_contigs.txt, output/candidate_contigs/Fi-056_candidate_contigs.txt, output/candidate_contigs/Fi-057_candidate_contigs.txt, output/candidate_contigs/Fi-058_candidate_contigs.txt, output/candidate_contigs/Fi-059_candidate_contigs.txt, output/candidate_contigs/Fi-077_candidate_contigs.txt, output/candidate_contigs/Fi-079_candidate_contigs.txt, output/candidate_contigs/Fi-083_candidate_contigs.txt, output/candidate_contigs/Fi-085_candidate_contigs.txt, output/candidate_contigs/Fi-086_candidate_contigs.txt, output/candidate_contigs/Fi-089_candidate_contigs.txt, output/candidate_contigs/Fi-091_candidate_contigs.txt, output/candidate_contigs/Fi-092_candidate_contigs.txt, output/candidate_contigs/Fi-093_candidate_contigs.txt, output/candidate_contigs/Fi-094_candidate_contigs.txt, output/candidate_contigs/Fi-096_candidate_contigs.txt, output/candidate_contigs/Fi-097_candidate_contigs.txt, output/candidate_contigs/Fi-098_candidate_contigs.txt, output/candidate_contigs/Fi-099_candidate_contigs.txt, output/candidate_contigs/Fi-101_candidate_contigs.txt, output/candidate_contigs/Fi-102_candidate_contigs.txt, output/candidate_contigs/Fi-103_candidate_contigs.txt, output/BUSCO_depth/Fi-000_BUSCO_depth.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-000_candidate_depth.txt, output/candidate_depth/Fi-001_candidate_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt, output/candidate_depth/Fi-005_candidate_depth.txt, output/candidate_depth/Fi-009_candidate_depth.txt, output/candidate_depth/Fi-026_candidate_depth.txt, output/candidate_depth/Fi-027_candidate_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt, output/candidate_depth/Fi-034_candidate_depth.txt, output/candidate_depth/Fi-035_candidate_depth.txt, output/candidate_depth/Fi-036_candidate_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt, output/candidate_depth/Fi-040_candidate_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt, output/candidate_depth/Fi-043_candidate_depth.txt, output/candidate_depth/Fi-047_candidate_depth.txt, output/candidate_depth/Fi-048_candidate_depth.txt, output/candidate_depth/Fi-051_candidate_depth.txt, output/candidate_depth/Fi-054_candidate_depth.txt, output/candidate_depth/Fi-055_candidate_depth.txt, output/candidate_depth/Fi-056_candidate_depth.txt, output/candidate_depth/Fi-057_candidate_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt, output/candidate_depth/Fi-077_candidate_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt, output/candidate_depth/Fi-083_candidate_depth.txt, output/candidate_depth/Fi-085_candidate_depth.txt, output/candidate_depth/Fi-086_candidate_depth.txt, output/candidate_depth/Fi-089_candidate_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt, output/candidate_depth/Fi-092_candidate_depth.txt, output/candidate_depth/Fi-093_candidate_depth.txt, output/candidate_depth/Fi-094_candidate_depth.txt, output/candidate_depth/Fi-096_candidate_depth.txt, output/candidate_depth/Fi-097_candidate_depth.txt, output/candidate_depth/Fi-098_candidate_depth.txt, output/candidate_depth/Fi-099_candidate_depth.txt, output/candidate_depth/Fi-101_candidate_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt, output/candidate_depth/Fi-103_candidate_depth.txt, output/EVE_contigs/Fi-000_15_85.txt, output/EVE_contigs/Fi-001_15_85.txt, output/EVE_contigs/Fi-004_15_85.txt, output/EVE_contigs/Fi-005_15_85.txt, output/EVE_contigs/Fi-009_15_85.txt, output/EVE_contigs/Fi-026_15_85.txt, output/EVE_contigs/Fi-027_15_85.txt, output/EVE_contigs/Fi-032_15_85.txt, output/EVE_contigs/Fi-034_15_85.txt, output/EVE_contigs/Fi-035_15_85.txt, output/EVE_contigs/Fi-036_15_85.txt, output/EVE_contigs/Fi-037_15_85.txt, output/EVE_contigs/Fi-040_15_85.txt, output/EVE_contigs/Fi-042_15_85.txt, output/EVE_contigs/Fi-043_15_85.txt, output/EVE_contigs/Fi-047_15_85.txt, output/EVE_contigs/Fi-048_15_85.txt, output/EVE_contigs/Fi-051_15_85.txt, output/EVE_contigs/Fi-054_15_85.txt, output/EVE_contigs/Fi-055_15_85.txt, output/EVE_contigs/Fi-056_15_85.txt, output/EVE_contigs/Fi-057_15_85.txt, output/EVE_contigs/Fi-058_15_85.txt, output/EVE_contigs/Fi-059_15_85.txt, output/EVE_contigs/Fi-077_15_85.txt, output/EVE_contigs/Fi-079_15_85.txt, output/EVE_contigs/Fi-083_15_85.txt, output/EVE_contigs/Fi-085_15_85.txt, output/EVE_contigs/Fi-086_15_85.txt, output/EVE_contigs/Fi-089_15_85.txt, output/EVE_contigs/Fi-091_15_85.txt, output/EVE_contigs/Fi-092_15_85.txt, output/EVE_contigs/Fi-093_15_85.txt, output/EVE_contigs/Fi-094_15_85.txt, output/EVE_contigs/Fi-096_15_85.txt, output/EVE_contigs/Fi-097_15_85.txt, output/EVE_contigs/Fi-098_15_85.txt, output/EVE_contigs/Fi-099_15_85.txt, output/EVE_contigs/Fi-101_15_85.txt, output/EVE_contigs/Fi-102_15_85.txt, output/EVE_contigs/Fi-103_15_85.txt, output/EVE_contigs/Fi-000_5_95.txt, output/EVE_contigs/Fi-001_5_95.txt, output/EVE_contigs/Fi-004_5_95.txt, output/EVE_contigs/Fi-005_5_95.txt, output/EVE_contigs/Fi-009_5_95.txt, output/EVE_contigs/Fi-026_5_95.txt, output/EVE_contigs/Fi-027_5_95.txt, output/EVE_contigs/Fi-032_5_95.txt, output/EVE_contigs/Fi-034_5_95.txt, output/EVE_contigs/Fi-035_5_95.txt, output/EVE_contigs/Fi-036_5_95.txt, output/EVE_contigs/Fi-037_5_95.txt, output/EVE_contigs/Fi-040_5_95.txt, output/EVE_contigs/Fi-042_5_95.txt, output/EVE_contigs/Fi-043_5_95.txt, output/EVE_contigs/Fi-047_5_95.txt, output/EVE_contigs/Fi-048_5_95.txt, output/EVE_contigs/Fi-051_5_95.txt, output/EVE_contigs/Fi-054_5_95.txt, output/EVE_contigs/Fi-055_5_95.txt, output/EVE_contigs/Fi-056_5_95.txt, output/EVE_contigs/Fi-057_5_95.txt, output/EVE_contigs/Fi-058_5_95.txt, output/EVE_contigs/Fi-059_5_95.txt, output/EVE_contigs/Fi-077_5_95.txt, output/EVE_contigs/Fi-079_5_95.txt, output/EVE_contigs/Fi-083_5_95.txt, output/EVE_contigs/Fi-085_5_95.txt, output/EVE_contigs/Fi-086_5_95.txt, output/EVE_contigs/Fi-089_5_95.txt, output/EVE_contigs/Fi-091_5_95.txt, output/EVE_contigs/Fi-092_5_95.txt, output/EVE_contigs/Fi-093_5_95.txt, output/EVE_contigs/Fi-094_5_95.txt, output/EVE_contigs/Fi-096_5_95.txt, output/EVE_contigs/Fi-097_5_95.txt, output/EVE_contigs/Fi-098_5_95.txt, output/EVE_contigs/Fi-099_5_95.txt, output/EVE_contigs/Fi-101_5_95.txt, output/EVE_contigs/Fi-102_5_95.txt, output/EVE_contigs/Fi-103_5_95.txt, output/all_contigs_Ps/Fi-000.txt, output/all_contigs_Ps/Fi-001.txt, output/all_contigs_Ps/Fi-004.txt, output/all_contigs_Ps/Fi-005.txt, output/all_contigs_Ps/Fi-009.txt, output/all_contigs_Ps/Fi-026.txt, output/all_contigs_Ps/Fi-027.txt, output/all_contigs_Ps/Fi-032.txt, output/all_contigs_Ps/Fi-034.txt, output/all_contigs_Ps/Fi-035.txt, output/all_contigs_Ps/Fi-036.txt, output/all_contigs_Ps/Fi-037.txt, output/all_contigs_Ps/Fi-040.txt, output/all_contigs_Ps/Fi-042.txt, output/all_contigs_Ps/Fi-043.txt, output/all_contigs_Ps/Fi-047.txt, output/all_contigs_Ps/Fi-048.txt, output/all_contigs_Ps/Fi-051.txt, output/all_contigs_Ps/Fi-054.txt, output/all_contigs_Ps/Fi-055.txt, output/all_contigs_Ps/Fi-056.txt, output/all_contigs_Ps/Fi-057.txt, output/all_contigs_Ps/Fi-058.txt, output/all_contigs_Ps/Fi-059.txt, output/all_contigs_Ps/Fi-077.txt, output/all_contigs_Ps/Fi-079.txt, output/all_contigs_Ps/Fi-083.txt, output/all_contigs_Ps/Fi-085.txt, output/all_contigs_Ps/Fi-086.txt, output/all_contigs_Ps/Fi-089.txt, output/all_contigs_Ps/Fi-091.txt, output/all_contigs_Ps/Fi-092.txt, output/all_contigs_Ps/Fi-093.txt, output/all_contigs_Ps/Fi-094.txt, output/all_contigs_Ps/Fi-096.txt, output/all_contigs_Ps/Fi-097.txt, output/all_contigs_Ps/Fi-098.txt, output/all_contigs_Ps/Fi-099.txt, output/all_contigs_Ps/Fi-101.txt, output/all_contigs_Ps/Fi-102.txt, output/all_contigs_Ps/Fi-103.txt, output/EVE_contigs/contigs_only/Fi-000.txt, output/EVE_contigs/contigs_only/Fi-001.txt, output/EVE_contigs/contigs_only/Fi-004.txt, output/EVE_contigs/contigs_only/Fi-005.txt, output/EVE_contigs/contigs_only/Fi-009.txt, output/EVE_contigs/contigs_only/Fi-026.txt, output/EVE_contigs/contigs_only/Fi-027.txt, output/EVE_contigs/contigs_only/Fi-032.txt, output/EVE_contigs/contigs_only/Fi-034.txt, output/EVE_contigs/contigs_only/Fi-035.txt, output/EVE_contigs/contigs_only/Fi-036.txt, output/EVE_contigs/contigs_only/Fi-037.txt, output/EVE_contigs/contigs_only/Fi-040.txt, output/EVE_contigs/contigs_only/Fi-042.txt, output/EVE_contigs/contigs_only/Fi-043.txt, output/EVE_contigs/contigs_only/Fi-047.txt, output/EVE_contigs/contigs_only/Fi-048.txt, output/EVE_contigs/contigs_only/Fi-051.txt, output/EVE_contigs/contigs_only/Fi-054.txt, output/EVE_contigs/contigs_only/Fi-055.txt, output/EVE_contigs/contigs_only/Fi-056.txt, output/EVE_contigs/contigs_only/Fi-057.txt, output/EVE_contigs/contigs_only/Fi-058.txt, output/EVE_contigs/contigs_only/Fi-059.txt, output/EVE_contigs/contigs_only/Fi-077.txt, output/EVE_contigs/contigs_only/Fi-079.txt, output/EVE_contigs/contigs_only/Fi-083.txt, output/EVE_contigs/contigs_only/Fi-085.txt, output/EVE_contigs/contigs_only/Fi-086.txt, output/EVE_contigs/contigs_only/Fi-089.txt, output/EVE_contigs/contigs_only/Fi-091.txt, output/EVE_contigs/contigs_only/Fi-092.txt, output/EVE_contigs/contigs_only/Fi-093.txt, output/EVE_contigs/contigs_only/Fi-094.txt, output/EVE_contigs/contigs_only/Fi-096.txt, output/EVE_contigs/contigs_only/Fi-097.txt, output/EVE_contigs/contigs_only/Fi-098.txt, output/EVE_contigs/contigs_only/Fi-099.txt, output/EVE_contigs/contigs_only/Fi-101.txt, output/EVE_contigs/contigs_only/Fi-102.txt, output/EVE_contigs/contigs_only/Fi-103.txt, output/EVEs/Fi-000_depth_EVEs.txt, output/EVEs/Fi-001_depth_EVEs.txt, output/EVEs/Fi-004_depth_EVEs.txt, output/EVEs/Fi-005_depth_EVEs.txt, output/EVEs/Fi-009_depth_EVEs.txt, output/EVEs/Fi-026_depth_EVEs.txt, output/EVEs/Fi-027_depth_EVEs.txt, output/EVEs/Fi-032_depth_EVEs.txt, output/EVEs/Fi-034_depth_EVEs.txt, output/EVEs/Fi-035_depth_EVEs.txt, output/EVEs/Fi-036_depth_EVEs.txt, output/EVEs/Fi-037_depth_EVEs.txt, output/EVEs/Fi-040_depth_EVEs.txt, output/EVEs/Fi-042_depth_EVEs.txt, output/EVEs/Fi-043_depth_EVEs.txt, output/EVEs/Fi-047_depth_EVEs.txt, output/EVEs/Fi-048_depth_EVEs.txt, output/EVEs/Fi-051_depth_EVEs.txt, output/EVEs/Fi-054_depth_EVEs.txt, output/EVEs/Fi-055_depth_EVEs.txt, output/EVEs/Fi-056_depth_EVEs.txt, output/EVEs/Fi-057_depth_EVEs.txt, output/EVEs/Fi-058_depth_EVEs.txt, output/EVEs/Fi-059_depth_EVEs.txt, output/EVEs/Fi-077_depth_EVEs.txt, output/EVEs/Fi-079_depth_EVEs.txt, output/EVEs/Fi-083_depth_EVEs.txt, output/EVEs/Fi-085_depth_EVEs.txt, output/EVEs/Fi-086_depth_EVEs.txt, output/EVEs/Fi-089_depth_EVEs.txt, output/EVEs/Fi-091_depth_EVEs.txt, output/EVEs/Fi-092_depth_EVEs.txt, output/EVEs/Fi-093_depth_EVEs.txt, output/EVEs/Fi-094_depth_EVEs.txt, output/EVEs/Fi-096_depth_EVEs.txt, output/EVEs/Fi-097_depth_EVEs.txt, output/EVEs/Fi-098_depth_EVEs.txt, output/EVEs/Fi-099_depth_EVEs.txt, output/EVEs/Fi-101_depth_EVEs.txt, output/EVEs/Fi-102_depth_EVEs.txt, output/EVEs/Fi-103_depth_EVEs.txt
+    jobid: 0
+    reason: Input files updated by another job: output/candidate_contigs/Fi-000_candidate_contigs.txt, output/EVE_contigs/Fi-054_5_95.txt, output/BUSCO_depth/Fi-059_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-009.txt, output/EVE_contigs/Fi-101_15_85.txt, output/EVE_contigs/Fi-059_5_95.txt, output/BUSCO_depth/Fi-092_BUSCO_depth.txt, output/EVE_contigs/Fi-089_5_95.txt, output/EVE_contigs/Fi-094_15_85.txt, output/EVE_contigs/contigs_only/Fi-096.txt, output/BUSCO_depth/Fi-051_BUSCO_depth.txt, output/EVEs/Fi-000_depth_EVEs.txt, output/EVEs/Fi-091_depth_EVEs.txt, output/candidate_contigs/Fi-027_candidate_contigs.txt, output/candidate_contigs/Fi-086_candidate_contigs.txt, output/EVE_contigs/Fi-083_15_85.txt, output/EVEs/Fi-096_depth_EVEs.txt, output/EVE_contigs/Fi-098_5_95.txt, output/BUSCO_depth/Fi-048_BUSCO_depth.txt, output/EVE_contigs/Fi-027_5_95.txt, output/all_contigs_Ps/Fi-085.txt, output/all_contigs_Ps/Fi-089.txt, output/candidate_contigs/Fi-097_candidate_contigs.txt, output/EVEs/Fi-057_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-040.txt, output/EVE_contigs/contigs_only/Fi-047.txt, output/EVE_contigs/Fi-086_15_85.txt, output/candidate_depth/Fi-077_candidate_depth.txt, output/BUSCO_depth/Fi-005_BUSCO_depth.txt, output/EVEs/Fi-055_depth_EVEs.txt, output/candidate_depth/Fi-048_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-042.txt, output/BUSCO_depth/Fi-093_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-091.txt, output/all_contigs_Ps/Fi-103.txt, output/BUSCO_depth/Fi-054_BUSCO_depth.txt, output/candidate_contigs/Fi-009_candidate_contigs.txt, output/EVE_contigs/Fi-055_15_85.txt, output/EVE_contigs/Fi-032_5_95.txt, output/EVE_contigs/contigs_only/Fi-083.txt, output/candidate_contigs/Fi-054_candidate_contigs.txt, output/EVE_contigs/Fi-079_5_95.txt, output/EVE_contigs/Fi-005_15_85.txt, output/EVEs/Fi-079_depth_EVEs.txt, output/candidate_depth/Fi-056_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-056.txt, output/EVE_contigs/Fi-040_5_95.txt, output/candidate_contigs/Fi-099_candidate_contigs.txt, output/EVE_contigs/Fi-048_5_95.txt, output/EVE_contigs/Fi-101_5_95.txt, output/BUSCO_depth/Fi-027_BUSCO_depth.txt, output/EVEs/Fi-099_depth_EVEs.txt, output/BUSCO_depth/Fi-057_BUSCO_depth.txt, output/EVEs/Fi-089_depth_EVEs.txt, output/all_contigs_Ps/Fi-035.txt, output/all_contigs_Ps/Fi-009.txt, output/all_contigs_Ps/Fi-092.txt, output/EVE_contigs/Fi-096_5_95.txt, output/EVE_contigs/Fi-093_5_95.txt, output/EVEs/Fi-004_depth_EVEs.txt, output/candidate_contigs/Fi-094_candidate_contigs.txt, output/EVE_contigs/Fi-009_15_85.txt, output/EVE_contigs/contigs_only/Fi-094.txt, output/EVE_contigs/Fi-089_15_85.txt, output/BUSCO_depth/Fi-036_BUSCO_depth.txt, output/all_contigs_Ps/Fi-096.txt, output/candidate_depth/Fi-009_candidate_depth.txt, output/candidate_contigs/Fi-048_candidate_contigs.txt, output/EVE_contigs/Fi-051_15_85.txt, output/BUSCO_depth/Fi-103_BUSCO_depth.txt, output/candidate_depth/Fi-079_candidate_depth.txt, output/BUSCO_depth/Fi-083_BUSCO_depth.txt, output/EVE_contigs/Fi-054_15_85.txt, output/all_contigs_Ps/Fi-079.txt, output/all_contigs_Ps/Fi-037.txt, output/EVE_contigs/Fi-097_5_95.txt, output/EVE_contigs/Fi-086_5_95.txt, output/all_contigs_Ps/Fi-032.txt, output/EVEs/Fi-101_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-059.txt, output/candidate_depth/Fi-034_candidate_depth.txt, output/BUSCO_depth/Fi-097_BUSCO_depth.txt, output/BUSCO_depth/Fi-055_BUSCO_depth.txt, output/EVE_contigs/Fi-092_15_85.txt, output/candidate_contigs/Fi-034_candidate_contigs.txt, output/EVEs/Fi-027_depth_EVEs.txt, output/EVEs/Fi-032_depth_EVEs.txt, output/EVE_contigs/Fi-009_5_95.txt, output/EVEs/Fi-103_depth_EVEs.txt, output/candidate_depth/Fi-040_candidate_depth.txt, output/EVE_contigs/Fi-001_5_95.txt, output/BUSCO_depth/Fi-032_BUSCO_depth.txt, output/all_contigs_Ps/Fi-048.txt, output/EVEs/Fi-102_depth_EVEs.txt, output/all_contigs_Ps/Fi-093.txt, output/EVE_contigs/Fi-032_15_85.txt, output/BUSCO_depth/Fi-091_BUSCO_depth.txt, output/all_contigs_Ps/Fi-047.txt, output/BUSCO_depth/Fi-099_BUSCO_depth.txt, output/candidate_depth/Fi-042_candidate_depth.txt, output/candidate_contigs/Fi-005_candidate_contigs.txt, output/EVEs/Fi-086_depth_EVEs.txt, output/EVEs/Fi-040_depth_EVEs.txt, output/candidate_depth/Fi-093_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-093.txt, output/EVE_contigs/Fi-004_5_95.txt, output/candidate_depth/Fi-036_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-037.txt, output/EVE_contigs/Fi-091_5_95.txt, output/BUSCO_depth/Fi-001_BUSCO_depth.txt, output/EVEs/Fi-094_depth_EVEs.txt, output/BUSCO_depth/Fi-034_BUSCO_depth.txt, output/candidate_depth/Fi-059_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-027.txt, output/EVE_contigs/Fi-005_5_95.txt, output/BUSCO_depth/Fi-009_BUSCO_depth.txt, output/all_contigs_Ps/Fi-101.txt, output/EVE_contigs/contigs_only/Fi-098.txt, output/candidate_depth/Fi-089_candidate_depth.txt, output/EVE_contigs/Fi-103_5_95.txt, output/candidate_depth/Fi-092_candidate_depth.txt, output/BUSCO_depth/Fi-042_BUSCO_depth.txt, output/all_contigs_Ps/Fi-004.txt, output/candidate_contigs/Fi-058_candidate_contigs.txt, output/BUSCO_depth/Fi-035_BUSCO_depth.txt, output/BUSCO_depth/Fi-047_BUSCO_depth.txt, output/EVEs/Fi-042_depth_EVEs.txt, output/EVE_contigs/Fi-083_5_95.txt, output/EVE_contigs/Fi-058_15_85.txt, output/candidate_contigs/Fi-057_candidate_contigs.txt, output/EVE_contigs/contigs_only/Fi-036.txt, output/EVE_contigs/Fi-051_5_95.txt, output/EVEs/Fi-056_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-048.txt, output/EVE_contigs/contigs_only/Fi-051.txt, output/all_contigs_Ps/Fi-077.txt, output/candidate_contigs/Fi-085_candidate_contigs.txt, output/candidate_contigs/Fi-036_candidate_contigs.txt, output/BUSCO_depth/Fi-089_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-092.txt, output/candidate_contigs/Fi-059_candidate_contigs.txt, output/EVE_contigs/contigs_only/Fi-055.txt, output/EVE_contigs/Fi-035_15_85.txt, output/EVE_contigs/contigs_only/Fi-043.txt, output/all_contigs_Ps/Fi-027.txt, output/candidate_contigs/Fi-051_candidate_contigs.txt, output/candidate_depth/Fi-026_candidate_depth.txt, output/candidate_contigs/Fi-042_candidate_contigs.txt, output/BUSCO_depth/Fi-043_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-035.txt, output/EVEs/Fi-005_depth_EVEs.txt, output/EVE_contigs/Fi-027_15_85.txt, output/candidate_contigs/Fi-032_candidate_contigs.txt, output/candidate_depth/Fi-005_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-000.txt, output/candidate_depth/Fi-096_candidate_depth.txt, output/EVE_contigs/Fi-058_5_95.txt, output/EVEs/Fi-009_depth_EVEs.txt, output/EVEs/Fi-059_depth_EVEs.txt, output/candidate_depth/Fi-085_candidate_depth.txt, output/candidate_contigs/Fi-040_candidate_contigs.txt, output/EVE_contigs/Fi-036_15_85.txt, output/candidate_depth/Fi-099_candidate_depth.txt, output/candidate_contigs/Fi-047_candidate_contigs.txt, output/all_contigs_Ps/Fi-098.txt, output/candidate_depth/Fi-043_candidate_depth.txt, output/BUSCO_depth/Fi-101_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-058.txt, output/candidate_depth/Fi-057_candidate_depth.txt, output/candidate_contigs/Fi-056_candidate_contigs.txt, output/all_contigs_Ps/Fi-091.txt, output/candidate_contigs/Fi-092_candidate_contigs.txt, output/candidate_depth/Fi-086_candidate_depth.txt, output/candidate_depth/Fi-091_candidate_depth.txt, output/candidate_contigs/Fi-055_candidate_contigs.txt, output/candidate_depth/Fi-001_candidate_depth.txt, output/candidate_depth/Fi-004_candidate_depth.txt, output/EVE_contigs/contigs_only/Fi-103.txt, output/EVE_contigs/Fi-047_5_95.txt, output/all_contigs_Ps/Fi-055.txt, output/EVE_contigs/Fi-034_15_85.txt, output/all_contigs_Ps/Fi-042.txt, output/EVEs/Fi-058_depth_EVEs.txt, output/candidate_contigs/Fi-083_candidate_contigs.txt, output/all_contigs_Ps/Fi-034.txt, output/all_contigs_Ps/Fi-058.txt, output/BUSCO_depth/Fi-085_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-032.txt, output/EVE_contigs/Fi-037_5_95.txt, output/candidate_contigs/Fi-026_candidate_contigs.txt, output/all_contigs_Ps/Fi-000.txt, output/EVE_contigs/Fi-000_5_95.txt, output/EVE_contigs/Fi-077_5_95.txt, output/EVEs/Fi-085_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-079.txt, output/BUSCO_depth/Fi-077_BUSCO_depth.txt, output/candidate_contigs/Fi-101_candidate_contigs.txt, output/EVE_contigs/Fi-026_5_95.txt, output/EVE_contigs/Fi-056_5_95.txt, output/EVE_contigs/Fi-043_5_95.txt, output/EVEs/Fi-093_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-004.txt, output/EVE_contigs/contigs_only/Fi-086.txt, output/candidate_contigs/Fi-102_candidate_contigs.txt, output/candidate_depth/Fi-098_candidate_depth.txt, output/candidate_depth/Fi-058_candidate_depth.txt, output/BUSCO_depth/Fi-086_BUSCO_depth.txt, output/EVE_contigs/Fi-085_5_95.txt, output/EVE_contigs/Fi-097_15_85.txt, output/candidate_depth/Fi-097_candidate_depth.txt, output/candidate_depth/Fi-102_candidate_depth.txt, output/EVE_contigs/Fi-034_5_95.txt, output/BUSCO_depth/Fi-037_BUSCO_depth.txt, output/candidate_contigs/Fi-079_candidate_contigs.txt, output/candidate_depth/Fi-054_candidate_depth.txt, output/EVEs/Fi-047_depth_EVEs.txt, output/EVE_contigs/Fi-001_15_85.txt, output/BUSCO_depth/Fi-102_BUSCO_depth.txt, output/EVEs/Fi-054_depth_EVEs.txt, output/all_contigs_Ps/Fi-094.txt, output/EVE_contigs/contigs_only/Fi-085.txt, output/EVE_contigs/Fi-057_5_95.txt, output/candidate_contigs/Fi-089_candidate_contigs.txt, output/EVE_contigs/Fi-026_15_85.txt, output/all_contigs_Ps/Fi-057.txt, output/EVEs/Fi-097_depth_EVEs.txt, output/BUSCO_depth/Fi-026_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-054.txt, output/BUSCO_depth/Fi-098_BUSCO_depth.txt, output/EVEs/Fi-098_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-026.txt, output/EVE_contigs/Fi-040_15_85.txt, output/EVE_contigs/Fi-056_15_85.txt, output/EVE_contigs/contigs_only/Fi-089.txt, output/EVEs/Fi-092_depth_EVEs.txt, output/EVEs/Fi-035_depth_EVEs.txt, output/EVEs/Fi-051_depth_EVEs.txt, output/EVEs/Fi-083_depth_EVEs.txt, output/EVE_contigs/Fi-093_15_85.txt, output/EVE_contigs/Fi-055_5_95.txt, output/EVE_contigs/Fi-099_15_85.txt, output/candidate_depth/Fi-047_candidate_depth.txt, output/candidate_contigs/Fi-103_candidate_contigs.txt, output/all_contigs_Ps/Fi-097.txt, output/all_contigs_Ps/Fi-043.txt, output/EVE_contigs/Fi-091_15_85.txt, output/EVEs/Fi-036_depth_EVEs.txt, output/EVE_contigs/contigs_only/Fi-097.txt, output/EVE_contigs/contigs_only/Fi-001.txt, output/EVE_contigs/Fi-042_5_95.txt, output/candidate_contigs/Fi-043_candidate_contigs.txt, output/EVE_contigs/contigs_only/Fi-005.txt, output/candidate_contigs/Fi-096_candidate_contigs.txt, output/all_contigs_Ps/Fi-059.txt, output/EVE_contigs/contigs_only/Fi-057.txt, output/BUSCO_depth/Fi-079_BUSCO_depth.txt, output/EVE_contigs/Fi-042_15_85.txt, output/BUSCO_depth/Fi-040_BUSCO_depth.txt, output/candidate_depth/Fi-032_candidate_depth.txt, output/EVEs/Fi-026_depth_EVEs.txt, output/BUSCO_depth/Fi-058_BUSCO_depth.txt, output/candidate_contigs/Fi-091_candidate_contigs.txt, output/EVE_contigs/contigs_only/Fi-101.txt, output/EVE_contigs/Fi-102_15_85.txt, output/EVE_contigs/Fi-098_15_85.txt, output/all_contigs_Ps/Fi-099.txt, output/EVEs/Fi-001_depth_EVEs.txt, output/EVE_contigs/Fi-079_15_85.txt, output/EVEs/Fi-048_depth_EVEs.txt, output/all_contigs_Ps/Fi-056.txt, output/candidate_depth/Fi-103_candidate_depth.txt, output/EVE_contigs/Fi-077_15_85.txt, output/EVE_contigs/Fi-103_15_85.txt, output/candidate_contigs/Fi-004_candidate_contigs.txt, output/candidate_depth/Fi-027_candidate_depth.txt, output/candidate_contigs/Fi-037_candidate_contigs.txt, output/candidate_depth/Fi-094_candidate_depth.txt, output/candidate_depth/Fi-037_candidate_depth.txt, output/BUSCO_depth/Fi-004_BUSCO_depth.txt, output/EVE_contigs/Fi-036_5_95.txt, output/EVE_contigs/Fi-059_15_85.txt, output/EVE_contigs/Fi-102_5_95.txt, output/candidate_contigs/Fi-093_candidate_contigs.txt, output/all_contigs_Ps/Fi-001.txt, output/candidate_depth/Fi-055_candidate_depth.txt, output/all_contigs_Ps/Fi-102.txt, output/EVE_contigs/contigs_only/Fi-099.txt, output/BUSCO_depth/Fi-056_BUSCO_depth.txt, output/all_contigs_Ps/Fi-086.txt, output/candidate_contigs/Fi-077_candidate_contigs.txt, output/candidate_depth/Fi-051_candidate_depth.txt, output/all_contigs_Ps/Fi-036.txt, output/all_contigs_Ps/Fi-054.txt, output/EVEs/Fi-077_depth_EVEs.txt, output/BUSCO_depth/Fi-096_BUSCO_depth.txt, output/all_contigs_Ps/Fi-051.txt, output/EVE_contigs/contigs_only/Fi-077.txt, output/candidate_contigs/Fi-001_candidate_contigs.txt, output/EVEs/Fi-037_depth_EVEs.txt, output/EVE_contigs/Fi-035_5_95.txt, output/all_contigs_Ps/Fi-083.txt, output/all_contigs_Ps/Fi-040.txt, output/EVE_contigs/Fi-037_15_85.txt, output/EVE_contigs/Fi-004_15_85.txt, output/candidate_depth/Fi-035_candidate_depth.txt, output/EVE_contigs/Fi-043_15_85.txt, output/EVE_contigs/Fi-092_5_95.txt, output/EVE_contigs/contigs_only/Fi-102.txt, output/candidate_depth/Fi-000_candidate_depth.txt, output/BUSCO_depth/Fi-094_BUSCO_depth.txt, output/EVE_contigs/contigs_only/Fi-034.txt, output/EVE_contigs/Fi-085_15_85.txt, output/all_contigs_Ps/Fi-026.txt, output/EVE_contigs/Fi-057_15_85.txt, output/EVE_contigs/Fi-000_15_85.txt, output/EVE_contigs/Fi-047_15_85.txt, output/BUSCO_depth/Fi-000_BUSCO_depth.txt, output/EVEs/Fi-043_depth_EVEs.txt, output/EVEs/Fi-034_depth_EVEs.txt, output/EVE_contigs/Fi-096_15_85.txt, output/candidate_contigs/Fi-035_candidate_contigs.txt, output/candidate_depth/Fi-083_candidate_depth.txt, output/all_contigs_Ps/Fi-005.txt, output/EVE_contigs/Fi-048_15_85.txt, output/candidate_contigs/Fi-098_candidate_contigs.txt, output/candidate_depth/Fi-101_candidate_depth.txt, output/EVE_contigs/Fi-094_5_95.txt, output/EVE_contigs/Fi-099_5_95.txt
+    resources: tmpdir=/tmp/2093361.1.fast.q
+
+[Fri Jan  2 09:41:19 2026]
+Finished job 0.
+124 of 124 steps (100%) done
+Complete log: .snakemake/log/2026-01-02T094047.716883.snakemake.log

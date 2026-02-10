@@ -1,0 +1,1281 @@
+Building DAG of jobs...
+Job stats:
+job                  count
+-----------------  -------
+TE_search               41
+all                      1
+create_TE_db             1
+identify_overlaps       41
+remove_TEs              41
+total                  125
+
+Execute 1 jobs...
+
+[Mon Oct 27 14:47:17 2025]
+rule create_TE_db:
+    input: data/RepeatPeps.lib
+    output: data/RepeatPeps
+    jobid: 1
+    reason: Missing output files: data/RepeatPeps
+    resources: tmpdir=<TBD>
+
+Execute 41 jobs...
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-027/Fi-027_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    jobid: 8
+    reason: Missing output files: output/mmseqs2/Fi-027/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-057/Fi-057_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-057/result_mmseqs2.m8
+    jobid: 23
+    reason: Missing output files: output/mmseqs2/Fi-057/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-098/Fi-098_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-098/result_mmseqs2.m8
+    jobid: 38
+    reason: Missing output files: output/mmseqs2/Fi-098/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-032/Fi-032_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-032/result_mmseqs2.m8
+    jobid: 9
+    reason: Missing output files: output/mmseqs2/Fi-032/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-058/Fi-058_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-058/result_mmseqs2.m8
+    jobid: 24
+    reason: Missing output files: output/mmseqs2/Fi-058/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-099/Fi-099_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-099/result_mmseqs2.m8
+    jobid: 39
+    reason: Missing output files: output/mmseqs2/Fi-099/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-026/Fi-026_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    jobid: 7
+    reason: Missing output files: output/mmseqs2/Fi-026/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-034/Fi-034_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    jobid: 10
+    reason: Missing output files: output/mmseqs2/Fi-034/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-059/Fi-059_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-059/result_mmseqs2.m8
+    jobid: 25
+    reason: Missing output files: output/mmseqs2/Fi-059/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-101/Fi-101_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-101/result_mmseqs2.m8
+    jobid: 40
+    reason: Missing output files: output/mmseqs2/Fi-101/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-035/Fi-035_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    jobid: 11
+    reason: Missing output files: output/mmseqs2/Fi-035/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-077/Fi-077_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    jobid: 26
+    reason: Missing output files: output/mmseqs2/Fi-077/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-102/Fi-102_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-102/result_mmseqs2.m8
+    jobid: 41
+    reason: Missing output files: output/mmseqs2/Fi-102/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-036/Fi-036_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    jobid: 12
+    reason: Missing output files: output/mmseqs2/Fi-036/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-079/Fi-079_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-079/result_mmseqs2.m8
+    jobid: 27
+    reason: Missing output files: output/mmseqs2/Fi-079/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-103/Fi-103_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-103/result_mmseqs2.m8
+    jobid: 42
+    reason: Missing output files: output/mmseqs2/Fi-103/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-037/Fi-037_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    jobid: 13
+    reason: Missing output files: output/mmseqs2/Fi-037/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-083/Fi-083_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-083/result_mmseqs2.m8
+    jobid: 28
+    reason: Missing output files: output/mmseqs2/Fi-083/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-040/Fi-040_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    jobid: 14
+    reason: Missing output files: output/mmseqs2/Fi-040/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-085/Fi-085_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-085/result_mmseqs2.m8
+    jobid: 29
+    reason: Missing output files: output/mmseqs2/Fi-085/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-042/Fi-042_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    jobid: 15
+    reason: Missing output files: output/mmseqs2/Fi-042/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-086/Fi-086_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-086/result_mmseqs2.m8
+    jobid: 30
+    reason: Missing output files: output/mmseqs2/Fi-086/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-043/Fi-043_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    jobid: 16
+    reason: Missing output files: output/mmseqs2/Fi-043/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-089/Fi-089_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-089/result_mmseqs2.m8
+    jobid: 31
+    reason: Missing output files: output/mmseqs2/Fi-089/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-000/Fi-000_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-000/result_mmseqs2.m8
+    jobid: 2
+    reason: Missing output files: output/mmseqs2/Fi-000/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-047/Fi-047_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    jobid: 17
+    reason: Missing output files: output/mmseqs2/Fi-047/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-091/Fi-091_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-091/result_mmseqs2.m8
+    jobid: 32
+    reason: Missing output files: output/mmseqs2/Fi-091/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-097/Fi-097_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-097/result_mmseqs2.m8
+    jobid: 37
+    reason: Missing output files: output/mmseqs2/Fi-097/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-048/Fi-048_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-048/result_mmseqs2.m8
+    jobid: 18
+    reason: Missing output files: output/mmseqs2/Fi-048/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-001/Fi-001_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-001/result_mmseqs2.m8
+    jobid: 3
+    reason: Missing output files: output/mmseqs2/Fi-001/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-092/Fi-092_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-092/result_mmseqs2.m8
+    jobid: 33
+    reason: Missing output files: output/mmseqs2/Fi-092/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-004/Fi-004_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-004/result_mmseqs2.m8
+    jobid: 4
+    reason: Missing output files: output/mmseqs2/Fi-004/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-051/Fi-051_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-051/result_mmseqs2.m8
+    jobid: 19
+    reason: Missing output files: output/mmseqs2/Fi-051/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-093/Fi-093_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-093/result_mmseqs2.m8
+    jobid: 34
+    reason: Missing output files: output/mmseqs2/Fi-093/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-005/Fi-005_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-005/result_mmseqs2.m8
+    jobid: 5
+    reason: Missing output files: output/mmseqs2/Fi-005/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-054/Fi-054_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-054/result_mmseqs2.m8
+    jobid: 20
+    reason: Missing output files: output/mmseqs2/Fi-054/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-094/Fi-094_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-094/result_mmseqs2.m8
+    jobid: 35
+    reason: Missing output files: output/mmseqs2/Fi-094/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-009/Fi-009_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-009/result_mmseqs2.m8
+    jobid: 6
+    reason: Missing output files: output/mmseqs2/Fi-009/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-055/Fi-055_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-055/result_mmseqs2.m8
+    jobid: 21
+    reason: Missing output files: output/mmseqs2/Fi-055/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-096/Fi-096_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-096/result_mmseqs2.m8
+    jobid: 36
+    reason: Missing output files: output/mmseqs2/Fi-096/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule TE_search:
+    input: /home/yzitzmann/paper/homology_search/output/mmseqs2/Fi-056/Fi-056_mmseqs2_db, data/RepeatPeps
+    output: output/mmseqs2/Fi-056/result_mmseqs2.m8
+    jobid: 22
+    reason: Missing output files: output/mmseqs2/Fi-056/result_mmseqs2.m8; Input files updated by another job: data/RepeatPeps
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+Execute 41 jobs...
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-103/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-103.txt
+    output: output/overlap/Fi-103_overlaps.txt
+    jobid: 83
+    reason: Missing output files: output/overlap/Fi-103_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-103/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-036/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-036.txt
+    output: output/overlap/Fi-036_overlaps.txt
+    jobid: 53
+    reason: Missing output files: output/overlap/Fi-036_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-036/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-079/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-079.txt
+    output: output/overlap/Fi-079_overlaps.txt
+    jobid: 68
+    reason: Missing output files: output/overlap/Fi-079_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-079/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-083/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-083.txt
+    output: output/overlap/Fi-083_overlaps.txt
+    jobid: 69
+    reason: Missing output files: output/overlap/Fi-083_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-083/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-037/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-037.txt
+    output: output/overlap/Fi-037_overlaps.txt
+    jobid: 54
+    reason: Missing output files: output/overlap/Fi-037_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-037/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-102/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-102.txt
+    output: output/overlap/Fi-102_overlaps.txt
+    jobid: 82
+    reason: Missing output files: output/overlap/Fi-102_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-102/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-040/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-040.txt
+    output: output/overlap/Fi-040_overlaps.txt
+    jobid: 55
+    reason: Missing output files: output/overlap/Fi-040_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-040/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-085/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-085.txt
+    output: output/overlap/Fi-085_overlaps.txt
+    jobid: 70
+    reason: Missing output files: output/overlap/Fi-085_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-085/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-042/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-042.txt
+    output: output/overlap/Fi-042_overlaps.txt
+    jobid: 56
+    reason: Missing output files: output/overlap/Fi-042_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-042/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-086/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-086.txt
+    output: output/overlap/Fi-086_overlaps.txt
+    jobid: 71
+    reason: Missing output files: output/overlap/Fi-086_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-086/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-043/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-043.txt
+    output: output/overlap/Fi-043_overlaps.txt
+    jobid: 57
+    reason: Missing output files: output/overlap/Fi-043_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-043/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-089/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-089.txt
+    output: output/overlap/Fi-089_overlaps.txt
+    jobid: 72
+    reason: Missing output files: output/overlap/Fi-089_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-089/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-000/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-000.txt
+    output: output/overlap/Fi-000_overlaps.txt
+    jobid: 43
+    reason: Missing output files: output/overlap/Fi-000_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-000/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-047/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-047.txt
+    output: output/overlap/Fi-047_overlaps.txt
+    jobid: 58
+    reason: Missing output files: output/overlap/Fi-047_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-047/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-091/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-091.txt
+    output: output/overlap/Fi-091_overlaps.txt
+    jobid: 73
+    reason: Missing output files: output/overlap/Fi-091_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-091/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-077/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-077.txt
+    output: output/overlap/Fi-077_overlaps.txt
+    jobid: 67
+    reason: Missing output files: output/overlap/Fi-077_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-077/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-092/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-092.txt
+    output: output/overlap/Fi-092_overlaps.txt
+    jobid: 74
+    reason: Missing output files: output/overlap/Fi-092_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-092/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-048/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-048.txt
+    output: output/overlap/Fi-048_overlaps.txt
+    jobid: 59
+    reason: Missing output files: output/overlap/Fi-048_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-048/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-001/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-001.txt
+    output: output/overlap/Fi-001_overlaps.txt
+    jobid: 44
+    reason: Missing output files: output/overlap/Fi-001_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-001/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-004/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-004.txt
+    output: output/overlap/Fi-004_overlaps.txt
+    jobid: 45
+    reason: Missing output files: output/overlap/Fi-004_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-004/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-051/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-051.txt
+    output: output/overlap/Fi-051_overlaps.txt
+    jobid: 60
+    reason: Missing output files: output/overlap/Fi-051_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-051/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-093/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-093.txt
+    output: output/overlap/Fi-093_overlaps.txt
+    jobid: 75
+    reason: Missing output files: output/overlap/Fi-093_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-093/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-005/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-005.txt
+    output: output/overlap/Fi-005_overlaps.txt
+    jobid: 46
+    reason: Missing output files: output/overlap/Fi-005_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-005/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-054/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-054.txt
+    output: output/overlap/Fi-054_overlaps.txt
+    jobid: 61
+    reason: Missing output files: output/overlap/Fi-054_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-054/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-094/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-094.txt
+    output: output/overlap/Fi-094_overlaps.txt
+    jobid: 76
+    reason: Missing output files: output/overlap/Fi-094_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-094/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-009/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-009.txt
+    output: output/overlap/Fi-009_overlaps.txt
+    jobid: 47
+    reason: Missing output files: output/overlap/Fi-009_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-009/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-055/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-055.txt
+    output: output/overlap/Fi-055_overlaps.txt
+    jobid: 62
+    reason: Missing output files: output/overlap/Fi-055_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-055/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-096/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-096.txt
+    output: output/overlap/Fi-096_overlaps.txt
+    jobid: 77
+    reason: Missing output files: output/overlap/Fi-096_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-096/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-026/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-026.txt
+    output: output/overlap/Fi-026_overlaps.txt
+    jobid: 48
+    reason: Missing output files: output/overlap/Fi-026_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-026/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-097/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-097.txt
+    output: output/overlap/Fi-097_overlaps.txt
+    jobid: 78
+    reason: Missing output files: output/overlap/Fi-097_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-097/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-056/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-056.txt
+    output: output/overlap/Fi-056_overlaps.txt
+    jobid: 63
+    reason: Missing output files: output/overlap/Fi-056_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-056/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-027/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-027.txt
+    output: output/overlap/Fi-027_overlaps.txt
+    jobid: 49
+    reason: Missing output files: output/overlap/Fi-027_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-027/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-057/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-057.txt
+    output: output/overlap/Fi-057_overlaps.txt
+    jobid: 64
+    reason: Missing output files: output/overlap/Fi-057_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-057/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-098/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-098.txt
+    output: output/overlap/Fi-098_overlaps.txt
+    jobid: 79
+    reason: Missing output files: output/overlap/Fi-098_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-098/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-058/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-058.txt
+    output: output/overlap/Fi-058_overlaps.txt
+    jobid: 65
+    reason: Missing output files: output/overlap/Fi-058_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-058/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-032/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-032.txt
+    output: output/overlap/Fi-032_overlaps.txt
+    jobid: 50
+    reason: Missing output files: output/overlap/Fi-032_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-032/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-099/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-099.txt
+    output: output/overlap/Fi-099_overlaps.txt
+    jobid: 80
+    reason: Missing output files: output/overlap/Fi-099_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-099/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-034/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-034.txt
+    output: output/overlap/Fi-034_overlaps.txt
+    jobid: 51
+    reason: Missing output files: output/overlap/Fi-034_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-034/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-059/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-059.txt
+    output: output/overlap/Fi-059_overlaps.txt
+    jobid: 66
+    reason: Missing output files: output/overlap/Fi-059_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-059/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-101/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-101.txt
+    output: output/overlap/Fi-101_overlaps.txt
+    jobid: 81
+    reason: Missing output files: output/overlap/Fi-101_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-101/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule identify_overlaps:
+    input: output/mmseqs2/Fi-035/result_mmseqs2.m8, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-035.txt
+    output: output/overlap/Fi-035_overlaps.txt
+    jobid: 52
+    reason: Missing output files: output/overlap/Fi-035_overlaps.txt; Input files updated by another job: output/mmseqs2/Fi-035/result_mmseqs2.m8
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+Execute 41 jobs...
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-036_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-036.txt
+    output: output/Fi-036_tmp.txt, output/EVEs/Fi-036_EVEs.txt
+    jobid: 94
+    reason: Missing output files: output/EVEs/Fi-036_EVEs.txt; Input files updated by another job: output/overlap/Fi-036_overlaps.txt
+    wildcards: Genome_ID=Fi-036
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-047_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-047.txt
+    output: output/Fi-047_tmp.txt, output/EVEs/Fi-047_EVEs.txt
+    jobid: 99
+    reason: Missing output files: output/EVEs/Fi-047_EVEs.txt; Input files updated by another job: output/overlap/Fi-047_overlaps.txt
+    wildcards: Genome_ID=Fi-047
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-000_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-000.txt
+    output: output/Fi-000_tmp.txt, output/EVEs/Fi-000_EVEs.txt
+    jobid: 84
+    reason: Missing output files: output/EVEs/Fi-000_EVEs.txt; Input files updated by another job: output/overlap/Fi-000_overlaps.txt
+    wildcards: Genome_ID=Fi-000
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-103_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-103.txt
+    output: output/Fi-103_tmp.txt, output/EVEs/Fi-103_EVEs.txt
+    jobid: 124
+    reason: Missing output files: output/EVEs/Fi-103_EVEs.txt; Input files updated by another job: output/overlap/Fi-103_overlaps.txt
+    wildcards: Genome_ID=Fi-103
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-079_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-079.txt
+    output: output/Fi-079_tmp.txt, output/EVEs/Fi-079_EVEs.txt
+    jobid: 109
+    reason: Missing output files: output/EVEs/Fi-079_EVEs.txt; Input files updated by another job: output/overlap/Fi-079_overlaps.txt
+    wildcards: Genome_ID=Fi-079
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-091_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-091.txt
+    output: output/Fi-091_tmp.txt, output/EVEs/Fi-091_EVEs.txt
+    jobid: 114
+    reason: Missing output files: output/EVEs/Fi-091_EVEs.txt; Input files updated by another job: output/overlap/Fi-091_overlaps.txt
+    wildcards: Genome_ID=Fi-091
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-026_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-026.txt
+    output: output/Fi-026_tmp.txt, output/EVEs/Fi-026_EVEs.txt
+    jobid: 89
+    reason: Missing output files: output/EVEs/Fi-026_EVEs.txt; Input files updated by another job: output/overlap/Fi-026_overlaps.txt
+    wildcards: Genome_ID=Fi-026
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-097_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-097.txt
+    output: output/Fi-097_tmp.txt, output/EVEs/Fi-097_EVEs.txt
+    jobid: 119
+    reason: Missing output files: output/EVEs/Fi-097_EVEs.txt; Input files updated by another job: output/overlap/Fi-097_overlaps.txt
+    wildcards: Genome_ID=Fi-097
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-056_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-056.txt
+    output: output/Fi-056_tmp.txt, output/EVEs/Fi-056_EVEs.txt
+    jobid: 104
+    reason: Missing output files: output/EVEs/Fi-056_EVEs.txt; Input files updated by another job: output/overlap/Fi-056_overlaps.txt
+    wildcards: Genome_ID=Fi-056
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-048_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-048.txt
+    output: output/Fi-048_tmp.txt, output/EVEs/Fi-048_EVEs.txt
+    jobid: 100
+    reason: Missing output files: output/EVEs/Fi-048_EVEs.txt; Input files updated by another job: output/overlap/Fi-048_overlaps.txt
+    wildcards: Genome_ID=Fi-048
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-001_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-001.txt
+    output: output/Fi-001_tmp.txt, output/EVEs/Fi-001_EVEs.txt
+    jobid: 85
+    reason: Missing output files: output/EVEs/Fi-001_EVEs.txt; Input files updated by another job: output/overlap/Fi-001_overlaps.txt
+    wildcards: Genome_ID=Fi-001
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-083_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-083.txt
+    output: output/Fi-083_tmp.txt, output/EVEs/Fi-083_EVEs.txt
+    jobid: 110
+    reason: Missing output files: output/EVEs/Fi-083_EVEs.txt; Input files updated by another job: output/overlap/Fi-083_overlaps.txt
+    wildcards: Genome_ID=Fi-083
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-037_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-037.txt
+    output: output/Fi-037_tmp.txt, output/EVEs/Fi-037_EVEs.txt
+    jobid: 95
+    reason: Missing output files: output/EVEs/Fi-037_EVEs.txt; Input files updated by another job: output/overlap/Fi-037_overlaps.txt
+    wildcards: Genome_ID=Fi-037
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-092_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-092.txt
+    output: output/Fi-092_tmp.txt, output/EVEs/Fi-092_EVEs.txt
+    jobid: 115
+    reason: Missing output files: output/EVEs/Fi-092_EVEs.txt; Input files updated by another job: output/overlap/Fi-092_overlaps.txt
+    wildcards: Genome_ID=Fi-092
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-027_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-027.txt
+    output: output/Fi-027_tmp.txt, output/EVEs/Fi-027_EVEs.txt
+    jobid: 90
+    reason: Missing output files: output/EVEs/Fi-027_EVEs.txt; Input files updated by another job: output/overlap/Fi-027_overlaps.txt
+    wildcards: Genome_ID=Fi-027
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-057_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-057.txt
+    output: output/Fi-057_tmp.txt, output/EVEs/Fi-057_EVEs.txt
+    jobid: 105
+    reason: Missing output files: output/EVEs/Fi-057_EVEs.txt; Input files updated by another job: output/overlap/Fi-057_overlaps.txt
+    wildcards: Genome_ID=Fi-057
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-098_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-098.txt
+    output: output/Fi-098_tmp.txt, output/EVEs/Fi-098_EVEs.txt
+    jobid: 120
+    reason: Missing output files: output/EVEs/Fi-098_EVEs.txt; Input files updated by another job: output/overlap/Fi-098_overlaps.txt
+    wildcards: Genome_ID=Fi-098
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-051_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-051.txt
+    output: output/Fi-051_tmp.txt, output/EVEs/Fi-051_EVEs.txt
+    jobid: 101
+    reason: Missing output files: output/EVEs/Fi-051_EVEs.txt; Input files updated by another job: output/overlap/Fi-051_overlaps.txt
+    wildcards: Genome_ID=Fi-051
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-004_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-004.txt
+    output: output/Fi-004_tmp.txt, output/EVEs/Fi-004_EVEs.txt
+    jobid: 86
+    reason: Missing output files: output/EVEs/Fi-004_EVEs.txt; Input files updated by another job: output/overlap/Fi-004_overlaps.txt
+    wildcards: Genome_ID=Fi-004
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-085_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-085.txt
+    output: output/Fi-085_tmp.txt, output/EVEs/Fi-085_EVEs.txt
+    jobid: 111
+    reason: Missing output files: output/EVEs/Fi-085_EVEs.txt; Input files updated by another job: output/overlap/Fi-085_overlaps.txt
+    wildcards: Genome_ID=Fi-085
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-040_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-040.txt
+    output: output/Fi-040_tmp.txt, output/EVEs/Fi-040_EVEs.txt
+    jobid: 96
+    reason: Missing output files: output/EVEs/Fi-040_EVEs.txt; Input files updated by another job: output/overlap/Fi-040_overlaps.txt
+    wildcards: Genome_ID=Fi-040
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-093_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-093.txt
+    output: output/Fi-093_tmp.txt, output/EVEs/Fi-093_EVEs.txt
+    jobid: 116
+    reason: Missing output files: output/EVEs/Fi-093_EVEs.txt; Input files updated by another job: output/overlap/Fi-093_overlaps.txt
+    wildcards: Genome_ID=Fi-093
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-058_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-058.txt
+    output: output/Fi-058_tmp.txt, output/EVEs/Fi-058_EVEs.txt
+    jobid: 106
+    reason: Missing output files: output/EVEs/Fi-058_EVEs.txt; Input files updated by another job: output/overlap/Fi-058_overlaps.txt
+    wildcards: Genome_ID=Fi-058
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-032_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-032.txt
+    output: output/Fi-032_tmp.txt, output/EVEs/Fi-032_EVEs.txt
+    jobid: 91
+    reason: Missing output files: output/EVEs/Fi-032_EVEs.txt; Input files updated by another job: output/overlap/Fi-032_overlaps.txt
+    wildcards: Genome_ID=Fi-032
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-099_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-099.txt
+    output: output/Fi-099_tmp.txt, output/EVEs/Fi-099_EVEs.txt
+    jobid: 121
+    reason: Missing output files: output/EVEs/Fi-099_EVEs.txt; Input files updated by another job: output/overlap/Fi-099_overlaps.txt
+    wildcards: Genome_ID=Fi-099
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-005_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-005.txt
+    output: output/Fi-005_tmp.txt, output/EVEs/Fi-005_EVEs.txt
+    jobid: 87
+    reason: Missing output files: output/EVEs/Fi-005_EVEs.txt; Input files updated by another job: output/overlap/Fi-005_overlaps.txt
+    wildcards: Genome_ID=Fi-005
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-086_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-086.txt
+    output: output/Fi-086_tmp.txt, output/EVEs/Fi-086_EVEs.txt
+    jobid: 112
+    reason: Missing output files: output/EVEs/Fi-086_EVEs.txt; Input files updated by another job: output/overlap/Fi-086_overlaps.txt
+    wildcards: Genome_ID=Fi-086
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-042_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-042.txt
+    output: output/Fi-042_tmp.txt, output/EVEs/Fi-042_EVEs.txt
+    jobid: 97
+    reason: Missing output files: output/EVEs/Fi-042_EVEs.txt; Input files updated by another job: output/overlap/Fi-042_overlaps.txt
+    wildcards: Genome_ID=Fi-042
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-054_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-054.txt
+    output: output/Fi-054_tmp.txt, output/EVEs/Fi-054_EVEs.txt
+    jobid: 102
+    reason: Missing output files: output/EVEs/Fi-054_EVEs.txt; Input files updated by another job: output/overlap/Fi-054_overlaps.txt
+    wildcards: Genome_ID=Fi-054
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-094_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-094.txt
+    output: output/Fi-094_tmp.txt, output/EVEs/Fi-094_EVEs.txt
+    jobid: 117
+    reason: Missing output files: output/EVEs/Fi-094_EVEs.txt; Input files updated by another job: output/overlap/Fi-094_overlaps.txt
+    wildcards: Genome_ID=Fi-094
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-034_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-034.txt
+    output: output/Fi-034_tmp.txt, output/EVEs/Fi-034_EVEs.txt
+    jobid: 92
+    reason: Missing output files: output/EVEs/Fi-034_EVEs.txt; Input files updated by another job: output/overlap/Fi-034_overlaps.txt
+    wildcards: Genome_ID=Fi-034
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-059_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-059.txt
+    output: output/Fi-059_tmp.txt, output/EVEs/Fi-059_EVEs.txt
+    jobid: 107
+    reason: Missing output files: output/EVEs/Fi-059_EVEs.txt; Input files updated by another job: output/overlap/Fi-059_overlaps.txt
+    wildcards: Genome_ID=Fi-059
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-101_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-101.txt
+    output: output/Fi-101_tmp.txt, output/EVEs/Fi-101_EVEs.txt
+    jobid: 122
+    reason: Missing output files: output/EVEs/Fi-101_EVEs.txt; Input files updated by another job: output/overlap/Fi-101_overlaps.txt
+    wildcards: Genome_ID=Fi-101
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-077_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-077.txt
+    output: output/Fi-077_tmp.txt, output/EVEs/Fi-077_EVEs.txt
+    jobid: 108
+    reason: Missing output files: output/EVEs/Fi-077_EVEs.txt; Input files updated by another job: output/overlap/Fi-077_overlaps.txt
+    wildcards: Genome_ID=Fi-077
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-089_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-089.txt
+    output: output/Fi-089_tmp.txt, output/EVEs/Fi-089_EVEs.txt
+    jobid: 113
+    reason: Missing output files: output/EVEs/Fi-089_EVEs.txt; Input files updated by another job: output/overlap/Fi-089_overlaps.txt
+    wildcards: Genome_ID=Fi-089
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-043_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-043.txt
+    output: output/Fi-043_tmp.txt, output/EVEs/Fi-043_EVEs.txt
+    jobid: 98
+    reason: Missing output files: output/EVEs/Fi-043_EVEs.txt; Input files updated by another job: output/overlap/Fi-043_overlaps.txt
+    wildcards: Genome_ID=Fi-043
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-102_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-102.txt
+    output: output/Fi-102_tmp.txt, output/EVEs/Fi-102_EVEs.txt
+    jobid: 123
+    reason: Missing output files: output/EVEs/Fi-102_EVEs.txt; Input files updated by another job: output/overlap/Fi-102_overlaps.txt
+    wildcards: Genome_ID=Fi-102
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-009_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-009.txt
+    output: output/Fi-009_tmp.txt, output/EVEs/Fi-009_EVEs.txt
+    jobid: 88
+    reason: Missing output files: output/EVEs/Fi-009_EVEs.txt; Input files updated by another job: output/overlap/Fi-009_overlaps.txt
+    wildcards: Genome_ID=Fi-009
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-055_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-055.txt
+    output: output/Fi-055_tmp.txt, output/EVEs/Fi-055_EVEs.txt
+    jobid: 103
+    reason: Missing output files: output/EVEs/Fi-055_EVEs.txt; Input files updated by another job: output/overlap/Fi-055_overlaps.txt
+    wildcards: Genome_ID=Fi-055
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-096_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-096.txt
+    output: output/Fi-096_tmp.txt, output/EVEs/Fi-096_EVEs.txt
+    jobid: 118
+    reason: Missing output files: output/EVEs/Fi-096_EVEs.txt; Input files updated by another job: output/overlap/Fi-096_overlaps.txt
+    wildcards: Genome_ID=Fi-096
+    resources: tmpdir=<TBD>
+
+
+[Mon Oct 27 14:47:17 2025]
+rule remove_TEs:
+    input: output/overlap/Fi-035_overlaps.txt, /home/yzitzmann/paper/endogenization_test/EVEs/output/all_EVEs/Fi-035.txt
+    output: output/Fi-035_tmp.txt, output/EVEs/Fi-035_EVEs.txt
+    jobid: 93
+    reason: Missing output files: output/EVEs/Fi-035_EVEs.txt; Input files updated by another job: output/overlap/Fi-035_overlaps.txt
+    wildcards: Genome_ID=Fi-035
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Mon Oct 27 14:47:17 2025]
+rule all:
+    input: data/RepeatPeps, output/mmseqs2/Fi-000/result_mmseqs2.m8, output/mmseqs2/Fi-001/result_mmseqs2.m8, output/mmseqs2/Fi-004/result_mmseqs2.m8, output/mmseqs2/Fi-005/result_mmseqs2.m8, output/mmseqs2/Fi-009/result_mmseqs2.m8, output/mmseqs2/Fi-026/result_mmseqs2.m8, output/mmseqs2/Fi-027/result_mmseqs2.m8, output/mmseqs2/Fi-032/result_mmseqs2.m8, output/mmseqs2/Fi-034/result_mmseqs2.m8, output/mmseqs2/Fi-035/result_mmseqs2.m8, output/mmseqs2/Fi-036/result_mmseqs2.m8, output/mmseqs2/Fi-037/result_mmseqs2.m8, output/mmseqs2/Fi-040/result_mmseqs2.m8, output/mmseqs2/Fi-042/result_mmseqs2.m8, output/mmseqs2/Fi-043/result_mmseqs2.m8, output/mmseqs2/Fi-047/result_mmseqs2.m8, output/mmseqs2/Fi-048/result_mmseqs2.m8, output/mmseqs2/Fi-051/result_mmseqs2.m8, output/mmseqs2/Fi-054/result_mmseqs2.m8, output/mmseqs2/Fi-055/result_mmseqs2.m8, output/mmseqs2/Fi-056/result_mmseqs2.m8, output/mmseqs2/Fi-057/result_mmseqs2.m8, output/mmseqs2/Fi-058/result_mmseqs2.m8, output/mmseqs2/Fi-059/result_mmseqs2.m8, output/mmseqs2/Fi-077/result_mmseqs2.m8, output/mmseqs2/Fi-079/result_mmseqs2.m8, output/mmseqs2/Fi-083/result_mmseqs2.m8, output/mmseqs2/Fi-085/result_mmseqs2.m8, output/mmseqs2/Fi-086/result_mmseqs2.m8, output/mmseqs2/Fi-089/result_mmseqs2.m8, output/mmseqs2/Fi-091/result_mmseqs2.m8, output/mmseqs2/Fi-092/result_mmseqs2.m8, output/mmseqs2/Fi-093/result_mmseqs2.m8, output/mmseqs2/Fi-094/result_mmseqs2.m8, output/mmseqs2/Fi-096/result_mmseqs2.m8, output/mmseqs2/Fi-097/result_mmseqs2.m8, output/mmseqs2/Fi-098/result_mmseqs2.m8, output/mmseqs2/Fi-099/result_mmseqs2.m8, output/mmseqs2/Fi-101/result_mmseqs2.m8, output/mmseqs2/Fi-102/result_mmseqs2.m8, output/mmseqs2/Fi-103/result_mmseqs2.m8, output/overlap/Fi-000_overlaps.txt, output/overlap/Fi-001_overlaps.txt, output/overlap/Fi-004_overlaps.txt, output/overlap/Fi-005_overlaps.txt, output/overlap/Fi-009_overlaps.txt, output/overlap/Fi-026_overlaps.txt, output/overlap/Fi-027_overlaps.txt, output/overlap/Fi-032_overlaps.txt, output/overlap/Fi-034_overlaps.txt, output/overlap/Fi-035_overlaps.txt, output/overlap/Fi-036_overlaps.txt, output/overlap/Fi-037_overlaps.txt, output/overlap/Fi-040_overlaps.txt, output/overlap/Fi-042_overlaps.txt, output/overlap/Fi-043_overlaps.txt, output/overlap/Fi-047_overlaps.txt, output/overlap/Fi-048_overlaps.txt, output/overlap/Fi-051_overlaps.txt, output/overlap/Fi-054_overlaps.txt, output/overlap/Fi-055_overlaps.txt, output/overlap/Fi-056_overlaps.txt, output/overlap/Fi-057_overlaps.txt, output/overlap/Fi-058_overlaps.txt, output/overlap/Fi-059_overlaps.txt, output/overlap/Fi-077_overlaps.txt, output/overlap/Fi-079_overlaps.txt, output/overlap/Fi-083_overlaps.txt, output/overlap/Fi-085_overlaps.txt, output/overlap/Fi-086_overlaps.txt, output/overlap/Fi-089_overlaps.txt, output/overlap/Fi-091_overlaps.txt, output/overlap/Fi-092_overlaps.txt, output/overlap/Fi-093_overlaps.txt, output/overlap/Fi-094_overlaps.txt, output/overlap/Fi-096_overlaps.txt, output/overlap/Fi-097_overlaps.txt, output/overlap/Fi-098_overlaps.txt, output/overlap/Fi-099_overlaps.txt, output/overlap/Fi-101_overlaps.txt, output/overlap/Fi-102_overlaps.txt, output/overlap/Fi-103_overlaps.txt, output/EVEs/Fi-000_EVEs.txt, output/EVEs/Fi-001_EVEs.txt, output/EVEs/Fi-004_EVEs.txt, output/EVEs/Fi-005_EVEs.txt, output/EVEs/Fi-009_EVEs.txt, output/EVEs/Fi-026_EVEs.txt, output/EVEs/Fi-027_EVEs.txt, output/EVEs/Fi-032_EVEs.txt, output/EVEs/Fi-034_EVEs.txt, output/EVEs/Fi-035_EVEs.txt, output/EVEs/Fi-036_EVEs.txt, output/EVEs/Fi-037_EVEs.txt, output/EVEs/Fi-040_EVEs.txt, output/EVEs/Fi-042_EVEs.txt, output/EVEs/Fi-043_EVEs.txt, output/EVEs/Fi-047_EVEs.txt, output/EVEs/Fi-048_EVEs.txt, output/EVEs/Fi-051_EVEs.txt, output/EVEs/Fi-054_EVEs.txt, output/EVEs/Fi-055_EVEs.txt, output/EVEs/Fi-056_EVEs.txt, output/EVEs/Fi-057_EVEs.txt, output/EVEs/Fi-058_EVEs.txt, output/EVEs/Fi-059_EVEs.txt, output/EVEs/Fi-077_EVEs.txt, output/EVEs/Fi-079_EVEs.txt, output/EVEs/Fi-083_EVEs.txt, output/EVEs/Fi-085_EVEs.txt, output/EVEs/Fi-086_EVEs.txt, output/EVEs/Fi-089_EVEs.txt, output/EVEs/Fi-091_EVEs.txt, output/EVEs/Fi-092_EVEs.txt, output/EVEs/Fi-093_EVEs.txt, output/EVEs/Fi-094_EVEs.txt, output/EVEs/Fi-096_EVEs.txt, output/EVEs/Fi-097_EVEs.txt, output/EVEs/Fi-098_EVEs.txt, output/EVEs/Fi-099_EVEs.txt, output/EVEs/Fi-101_EVEs.txt, output/EVEs/Fi-102_EVEs.txt, output/EVEs/Fi-103_EVEs.txt
+    jobid: 0
+    reason: Input files updated by another job: output/overlap/Fi-091_overlaps.txt, output/mmseqs2/Fi-086/result_mmseqs2.m8, output/EVEs/Fi-096_EVEs.txt, output/overlap/Fi-054_overlaps.txt, output/overlap/Fi-055_overlaps.txt, output/EVEs/Fi-091_EVEs.txt, output/mmseqs2/Fi-091/result_mmseqs2.m8, output/overlap/Fi-005_overlaps.txt, output/overlap/Fi-004_overlaps.txt, output/EVEs/Fi-042_EVEs.txt, output/mmseqs2/Fi-000/result_mmseqs2.m8, output/EVEs/Fi-054_EVEs.txt, output/overlap/Fi-086_overlaps.txt, output/mmseqs2/Fi-009/result_mmseqs2.m8, output/overlap/Fi-085_overlaps.txt, output/mmseqs2/Fi-048/result_mmseqs2.m8, output/EVEs/Fi-083_EVEs.txt, output/EVEs/Fi-026_EVEs.txt, output/overlap/Fi-103_overlaps.txt, output/EVEs/Fi-089_EVEs.txt, output/mmseqs2/Fi-096/result_mmseqs2.m8, output/overlap/Fi-001_overlaps.txt, output/EVEs/Fi-055_EVEs.txt, output/EVEs/Fi-032_EVEs.txt, output/EVEs/Fi-101_EVEs.txt, output/EVEs/Fi-034_EVEs.txt, output/EVEs/Fi-098_EVEs.txt, output/overlap/Fi-042_overlaps.txt, output/EVEs/Fi-037_EVEs.txt, output/overlap/Fi-096_overlaps.txt, output/mmseqs2/Fi-092/result_mmseqs2.m8, output/mmseqs2/Fi-032/result_mmseqs2.m8, output/mmseqs2/Fi-035/result_mmseqs2.m8, output/EVEs/Fi-077_EVEs.txt, output/mmseqs2/Fi-099/result_mmseqs2.m8, output/mmseqs2/Fi-037/result_mmseqs2.m8, output/mmseqs2/Fi-005/result_mmseqs2.m8, output/EVEs/Fi-058_EVEs.txt, output/EVEs/Fi-097_EVEs.txt, output/mmseqs2/Fi-034/result_mmseqs2.m8, output/EVEs/Fi-057_EVEs.txt, output/overlap/Fi-099_overlaps.txt, output/mmseqs2/Fi-094/result_mmseqs2.m8, output/EVEs/Fi-035_EVEs.txt, output/mmseqs2/Fi-085/result_mmseqs2.m8, output/mmseqs2/Fi-004/result_mmseqs2.m8, output/EVEs/Fi-086_EVEs.txt, output/EVEs/Fi-036_EVEs.txt, output/EVEs/Fi-085_EVEs.txt, output/overlap/Fi-000_overlaps.txt, output/mmseqs2/Fi-098/result_mmseqs2.m8, output/overlap/Fi-048_overlaps.txt, output/overlap/Fi-057_overlaps.txt, output/EVEs/Fi-001_EVEs.txt, output/EVEs/Fi-093_EVEs.txt, output/overlap/Fi-032_overlaps.txt, output/mmseqs2/Fi-097/result_mmseqs2.m8, output/EVEs/Fi-004_EVEs.txt, output/EVEs/Fi-079_EVEs.txt, output/overlap/Fi-059_overlaps.txt, output/mmseqs2/Fi-077/result_mmseqs2.m8, output/mmseqs2/Fi-027/result_mmseqs2.m8, output/overlap/Fi-037_overlaps.txt, output/overlap/Fi-009_overlaps.txt, output/EVEs/Fi-047_EVEs.txt, output/EVEs/Fi-102_EVEs.txt, output/mmseqs2/Fi-001/result_mmseqs2.m8, output/mmseqs2/Fi-083/result_mmseqs2.m8, output/overlap/Fi-036_overlaps.txt, output/overlap/Fi-077_overlaps.txt, output/overlap/Fi-089_overlaps.txt, output/overlap/Fi-040_overlaps.txt, output/mmseqs2/Fi-102/result_mmseqs2.m8, output/mmseqs2/Fi-089/result_mmseqs2.m8, output/mmseqs2/Fi-054/result_mmseqs2.m8, output/overlap/Fi-047_overlaps.txt, output/EVEs/Fi-103_EVEs.txt, output/overlap/Fi-097_overlaps.txt, output/EVEs/Fi-048_EVEs.txt, output/EVEs/Fi-099_EVEs.txt, output/overlap/Fi-056_overlaps.txt, output/mmseqs2/Fi-079/result_mmseqs2.m8, output/overlap/Fi-027_overlaps.txt, output/mmseqs2/Fi-042/result_mmseqs2.m8, output/mmseqs2/Fi-026/result_mmseqs2.m8, output/overlap/Fi-094_overlaps.txt, output/EVEs/Fi-059_EVEs.txt, output/mmseqs2/Fi-057/result_mmseqs2.m8, output/overlap/Fi-092_overlaps.txt, output/EVEs/Fi-051_EVEs.txt, output/EVEs/Fi-056_EVEs.txt, output/overlap/Fi-035_overlaps.txt, output/mmseqs2/Fi-047/result_mmseqs2.m8, output/overlap/Fi-079_overlaps.txt, output/EVEs/Fi-092_EVEs.txt, output/EVEs/Fi-043_EVEs.txt, output/overlap/Fi-098_overlaps.txt, output/overlap/Fi-093_overlaps.txt, output/EVEs/Fi-027_EVEs.txt, output/mmseqs2/Fi-101/result_mmseqs2.m8, output/mmseqs2/Fi-036/result_mmseqs2.m8, output/mmseqs2/Fi-058/result_mmseqs2.m8, output/mmseqs2/Fi-055/result_mmseqs2.m8, output/EVEs/Fi-005_EVEs.txt, output/overlap/Fi-043_overlaps.txt, data/RepeatPeps, output/overlap/Fi-026_overlaps.txt, output/EVEs/Fi-000_EVEs.txt, output/mmseqs2/Fi-103/result_mmseqs2.m8, output/overlap/Fi-058_overlaps.txt, output/mmseqs2/Fi-040/result_mmseqs2.m8, output/overlap/Fi-083_overlaps.txt, output/mmseqs2/Fi-051/result_mmseqs2.m8, output/overlap/Fi-101_overlaps.txt, output/mmseqs2/Fi-056/result_mmseqs2.m8, output/overlap/Fi-034_overlaps.txt, output/mmseqs2/Fi-059/result_mmseqs2.m8, output/overlap/Fi-051_overlaps.txt, output/mmseqs2/Fi-043/result_mmseqs2.m8, output/EVEs/Fi-094_EVEs.txt, output/EVEs/Fi-009_EVEs.txt, output/EVEs/Fi-040_EVEs.txt, output/mmseqs2/Fi-093/result_mmseqs2.m8, output/overlap/Fi-102_overlaps.txt
+    resources: tmpdir=<TBD>
+
+Job stats:
+job                  count
+-----------------  -------
+TE_search               41
+all                      1
+create_TE_db             1
+identify_overlaps       41
+remove_TEs              41
+total                  125
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        TE_search, all, identify_overlaps, remove_TEs
+    output files have to be generated:
+        TE_search, create_TE_db, identify_overlaps, remove_TEs
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

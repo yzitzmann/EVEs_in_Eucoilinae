@@ -1,0 +1,1423 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Conda environment envs/seqkit.yml will be created.
+Conda environment envs/iqtree.yml will be created.
+Conda environment envs/clustalO.yml will be created.
+Job stats:
+job              count
+-------------  -------
+Alignment           46
+all                  1
+cluster_FASTA       46
+phylogeny           46
+total              139
+
+Execute 46 jobs...
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26511.1.tsv, data/single_clusters/WNK26511.1.tsv, data/FASTA/WNK26511.1.fas
+    jobid: 32
+    reason: Missing output files: data/FASTA/WNK26511.1.fas, data/single_clusters/WNK26511.1.tsv, data/tmp/WNK26511.1.tsv
+    wildcards: cluster_IDs=WNK26511.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26517.1.tsv, data/single_clusters/WNK26517.1.tsv, data/FASTA/WNK26517.1.fas
+    jobid: 34
+    reason: Missing output files: data/single_clusters/WNK26517.1.tsv, data/tmp/WNK26517.1.tsv, data/FASTA/WNK26517.1.fas
+    wildcards: cluster_IDs=WNK26517.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_010780875.1.tsv, data/single_clusters/YP_010780875.1.tsv, data/FASTA/YP_010780875.1.fas
+    jobid: 46
+    reason: Missing output files: data/single_clusters/YP_010780875.1.tsv, data/FASTA/YP_010780875.1.fas, data/tmp/YP_010780875.1.tsv
+    wildcards: cluster_IDs=YP_010780875.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26503.1.tsv, data/single_clusters/WNK26503.1.tsv, data/FASTA/WNK26503.1.fas
+    jobid: 31
+    reason: Missing output files: data/single_clusters/WNK26503.1.tsv, data/tmp/WNK26503.1.tsv, data/FASTA/WNK26503.1.fas
+    wildcards: cluster_IDs=WNK26503.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345691.1.tsv, data/single_clusters/YP_009345691.1.tsv, data/FASTA/YP_009345691.1.fas
+    jobid: 43
+    reason: Missing output files: data/FASTA/YP_009345691.1.fas, data/tmp/YP_009345691.1.tsv, data/single_clusters/YP_009345691.1.tsv
+    wildcards: cluster_IDs=YP_009345691.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345656.1.tsv, data/single_clusters/YP_009345656.1.tsv, data/FASTA/YP_009345656.1.fas
+    jobid: 40
+    reason: Missing output files: data/FASTA/YP_009345656.1.fas, data/tmp/YP_009345656.1.tsv, data/single_clusters/YP_009345656.1.tsv
+    wildcards: cluster_IDs=YP_009345656.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_001686949.1.tsv, data/single_clusters/YP_001686949.1.tsv, data/FASTA/YP_001686949.1.fas
+    jobid: 37
+    reason: Missing output files: data/tmp/YP_001686949.1.tsv, data/FASTA/YP_001686949.1.fas, data/single_clusters/YP_001686949.1.tsv
+    wildcards: cluster_IDs=YP_001686949.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    jobid: 4
+    reason: Missing output files: data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_26993_27403_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    jobid: 10
+    reason: Missing output files: data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    wildcards: cluster_IDs=k141_361753_1543_1875_Fi_085
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_122162_1052_4048_Fi_026.tsv, data/single_clusters/k141_122162_1052_4048_Fi_026.tsv, data/FASTA/k141_122162_1052_4048_Fi_026.fas
+    jobid: 1
+    reason: Missing output files: data/single_clusters/k141_122162_1052_4048_Fi_026.tsv, data/tmp/k141_122162_1052_4048_Fi_026.tsv, data/FASTA/k141_122162_1052_4048_Fi_026.fas
+    wildcards: cluster_IDs=k141_122162_1052_4048_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_187430_622_1449_Fi_096.tsv, data/single_clusters/k141_187430_622_1449_Fi_096.tsv, data/FASTA/k141_187430_622_1449_Fi_096.fas
+    jobid: 7
+    reason: Missing output files: data/single_clusters/k141_187430_622_1449_Fi_096.tsv, data/FASTA/k141_187430_622_1449_Fi_096.fas, data/tmp/k141_187430_622_1449_Fi_096.tsv
+    wildcards: cluster_IDs=k141_187430_622_1449_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_417981_2105_3715_Fi_026.tsv, data/single_clusters/k141_417981_2105_3715_Fi_026.tsv, data/FASTA/k141_417981_2105_3715_Fi_026.fas
+    jobid: 13
+    reason: Missing output files: data/FASTA/k141_417981_2105_3715_Fi_026.fas, data/single_clusters/k141_417981_2105_3715_Fi_026.tsv, data/tmp/k141_417981_2105_3715_Fi_026.tsv
+    wildcards: cluster_IDs=k141_417981_2105_3715_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_71921_11276_15967_Fi_077.tsv, data/single_clusters/k141_71921_11276_15967_Fi_077.tsv, data/FASTA/k141_71921_11276_15967_Fi_077.fas
+    jobid: 19
+    reason: Missing output files: data/FASTA/k141_71921_11276_15967_Fi_077.fas, data/single_clusters/k141_71921_11276_15967_Fi_077.tsv, data/tmp/k141_71921_11276_15967_Fi_077.tsv
+    wildcards: cluster_IDs=k141_71921_11276_15967_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKA13552.1.tsv, data/single_clusters/WKA13552.1.tsv, data/FASTA/WKA13552.1.fas
+    jobid: 24
+    reason: Missing output files: data/tmp/WKA13552.1.tsv, data/single_clusters/WKA13552.1.tsv, data/FASTA/WKA13552.1.fas
+    wildcards: cluster_IDs=WKA13552.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_81546_482_622_Fi_026.tsv, data/single_clusters/k141_81546_482_622_Fi_026.tsv, data/FASTA/k141_81546_482_622_Fi_026.fas
+    jobid: 23
+    reason: Missing output files: data/FASTA/k141_81546_482_622_Fi_026.fas, data/single_clusters/k141_81546_482_622_Fi_026.tsv, data/tmp/k141_81546_482_622_Fi_026.tsv
+    wildcards: cluster_IDs=k141_81546_482_622_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26465.1.tsv, data/single_clusters/WNK26465.1.tsv, data/FASTA/WNK26465.1.fas
+    jobid: 29
+    reason: Missing output files: data/FASTA/WNK26465.1.fas, data/single_clusters/WNK26465.1.tsv, data/tmp/WNK26465.1.tsv
+    wildcards: cluster_IDs=WNK26465.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26526.1.tsv, data/single_clusters/WNK26526.1.tsv, data/FASTA/WNK26526.1.fas
+    jobid: 35
+    reason: Missing output files: data/single_clusters/WNK26526.1.tsv, data/FASTA/WNK26526.1.fas, data/tmp/WNK26526.1.tsv
+    wildcards: cluster_IDs=WNK26526.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009666641.1.tsv, data/single_clusters/YP_009666641.1.tsv, data/FASTA/YP_009666641.1.fas
+    jobid: 44
+    reason: Missing output files: data/tmp/YP_009666641.1.tsv, data/FASTA/YP_009666641.1.fas, data/single_clusters/YP_009666641.1.tsv
+    wildcards: cluster_IDs=YP_009666641.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_402023_3049_3714_Fi_035.tsv, data/single_clusters/k141_402023_3049_3714_Fi_035.tsv, data/FASTA/k141_402023_3049_3714_Fi_035.fas
+    jobid: 11
+    reason: Missing output files: data/tmp/k141_402023_3049_3714_Fi_035.tsv, data/FASTA/k141_402023_3049_3714_Fi_035.fas, data/single_clusters/k141_402023_3049_3714_Fi_035.tsv
+    wildcards: cluster_IDs=k141_402023_3049_3714_Fi_035
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_452138_406_639_Fi_058.tsv, data/single_clusters/k141_452138_406_639_Fi_058.tsv, data/FASTA/k141_452138_406_639_Fi_058.fas
+    jobid: 17
+    reason: Missing output files: data/FASTA/k141_452138_406_639_Fi_058.fas, data/tmp/k141_452138_406_639_Fi_058.tsv, data/single_clusters/k141_452138_406_639_Fi_058.tsv
+    wildcards: cluster_IDs=k141_452138_406_639_Fi_058
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_223487_2031_2186_Fi_037.tsv, data/single_clusters/k141_223487_2031_2186_Fi_037.tsv, data/FASTA/k141_223487_2031_2186_Fi_037.fas
+    jobid: 8
+    reason: Missing output files: data/FASTA/k141_223487_2031_2186_Fi_037.fas, data/single_clusters/k141_223487_2031_2186_Fi_037.tsv, data/tmp/k141_223487_2031_2186_Fi_037.tsv
+    wildcards: cluster_IDs=k141_223487_2031_2186_Fi_037
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_43585_1723_2340_Fi_047.tsv, data/single_clusters/k141_43585_1723_2340_Fi_047.tsv, data/FASTA/k141_43585_1723_2340_Fi_047.fas
+    jobid: 14
+    reason: Missing output files: data/tmp/k141_43585_1723_2340_Fi_047.tsv, data/FASTA/k141_43585_1723_2340_Fi_047.fas, data/single_clusters/k141_43585_1723_2340_Fi_047.tsv
+    wildcards: cluster_IDs=k141_43585_1723_2340_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_173270_3863_4723_Fi_051.tsv, data/single_clusters/k141_173270_3863_4723_Fi_051.tsv, data/FASTA/k141_173270_3863_4723_Fi_051.fas
+    jobid: 5
+    reason: Missing output files: data/tmp/k141_173270_3863_4723_Fi_051.tsv, data/FASTA/k141_173270_3863_4723_Fi_051.fas, data/single_clusters/k141_173270_3863_4723_Fi_051.tsv
+    wildcards: cluster_IDs=k141_173270_3863_4723_Fi_051
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    jobid: 2
+    reason: Missing output files: data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_22635_23612_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    jobid: 20
+    reason: Missing output files: data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_16515_21209_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKA13612.1.tsv, data/single_clusters/WKA13612.1.tsv, data/FASTA/WKA13612.1.fas
+    jobid: 26
+    reason: Missing output files: data/FASTA/WKA13612.1.fas, data/single_clusters/WKA13612.1.tsv, data/tmp/WKA13612.1.tsv
+    wildcards: cluster_IDs=WKA13612.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_001687088.1.tsv, data/single_clusters/YP_001687088.1.tsv, data/FASTA/YP_001687088.1.fas
+    jobid: 38
+    reason: Missing output files: data/FASTA/YP_001687088.1.fas, data/single_clusters/YP_001687088.1.tsv, data/tmp/YP_001687088.1.tsv
+    wildcards: cluster_IDs=YP_001687088.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_350370_19918_20472_Fi_096.tsv, data/single_clusters/k141_350370_19918_20472_Fi_096.tsv, data/FASTA/k141_350370_19918_20472_Fi_096.fas
+    jobid: 9
+    reason: Missing output files: data/single_clusters/k141_350370_19918_20472_Fi_096.tsv, data/FASTA/k141_350370_19918_20472_Fi_096.fas, data/tmp/k141_350370_19918_20472_Fi_096.tsv
+    wildcards: cluster_IDs=k141_350370_19918_20472_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345664.1.tsv, data/single_clusters/YP_009345664.1.tsv, data/FASTA/YP_009345664.1.fas
+    jobid: 41
+    reason: Missing output files: data/FASTA/YP_009345664.1.fas, data/tmp/YP_009345664.1.tsv, data/single_clusters/YP_009345664.1.tsv
+    wildcards: cluster_IDs=YP_009345664.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKA13572.1.tsv, data/single_clusters/WKA13572.1.tsv, data/FASTA/WKA13572.1.fas
+    jobid: 25
+    reason: Missing output files: data/single_clusters/WKA13572.1.tsv, data/tmp/WKA13572.1.tsv, data/FASTA/WKA13572.1.fas
+    wildcards: cluster_IDs=WKA13572.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    jobid: 22
+    reason: Missing output files: data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_8125_9366_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKT15177.1.tsv, data/single_clusters/WKT15177.1.tsv, data/FASTA/WKT15177.1.fas
+    jobid: 28
+    reason: Missing output files: data/single_clusters/WKT15177.1.tsv, data/tmp/WKT15177.1.tsv, data/FASTA/WKT15177.1.fas
+    wildcards: cluster_IDs=WKT15177.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_43585_2661_3395_Fi_047.tsv, data/single_clusters/k141_43585_2661_3395_Fi_047.tsv, data/FASTA/k141_43585_2661_3395_Fi_047.fas
+    jobid: 15
+    reason: Missing output files: data/single_clusters/k141_43585_2661_3395_Fi_047.tsv, data/tmp/k141_43585_2661_3395_Fi_047.tsv, data/FASTA/k141_43585_2661_3395_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_2661_3395_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_71921_21721_22146_Fi_077.tsv, data/single_clusters/k141_71921_21721_22146_Fi_077.tsv, data/FASTA/k141_71921_21721_22146_Fi_077.fas
+    jobid: 21
+    reason: Missing output files: data/FASTA/k141_71921_21721_22146_Fi_077.fas, data/tmp/k141_71921_21721_22146_Fi_077.tsv, data/single_clusters/k141_71921_21721_22146_Fi_077.tsv
+    wildcards: cluster_IDs=k141_71921_21721_22146_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26545.1.tsv, data/single_clusters/WNK26545.1.tsv, data/FASTA/WNK26545.1.fas
+    jobid: 36
+    reason: Missing output files: data/FASTA/WNK26545.1.fas, data/single_clusters/WNK26545.1.tsv, data/tmp/WNK26545.1.tsv
+    wildcards: cluster_IDs=WNK26545.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26496.1.tsv, data/single_clusters/WNK26496.1.tsv, data/FASTA/WNK26496.1.fas
+    jobid: 30
+    reason: Missing output files: data/FASTA/WNK26496.1.fas, data/tmp/WNK26496.1.tsv, data/single_clusters/WNK26496.1.tsv
+    wildcards: cluster_IDs=WNK26496.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WKT15146.1.tsv, data/single_clusters/WKT15146.1.tsv, data/FASTA/WKT15146.1.fas
+    jobid: 27
+    reason: Missing output files: data/single_clusters/WKT15146.1.tsv, data/tmp/WKT15146.1.tsv, data/FASTA/WKT15146.1.fas
+    wildcards: cluster_IDs=WKT15146.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/WNK26513.1.tsv, data/single_clusters/WNK26513.1.tsv, data/FASTA/WNK26513.1.fas
+    jobid: 33
+    reason: Missing output files: data/tmp/WNK26513.1.tsv, data/single_clusters/WNK26513.1.tsv, data/FASTA/WNK26513.1.fas
+    wildcards: cluster_IDs=WNK26513.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009116770.1.tsv, data/single_clusters/YP_009116770.1.tsv, data/FASTA/YP_009116770.1.fas
+    jobid: 39
+    reason: Missing output files: data/FASTA/YP_009116770.1.fas, data/tmp/YP_009116770.1.tsv, data/single_clusters/YP_009116770.1.tsv
+    wildcards: cluster_IDs=YP_009116770.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_010777982.1.tsv, data/single_clusters/YP_010777982.1.tsv, data/FASTA/YP_010777982.1.fas
+    jobid: 45
+    reason: Missing output files: data/single_clusters/YP_010777982.1.tsv, data/FASTA/YP_010777982.1.fas, data/tmp/YP_010777982.1.tsv
+    wildcards: cluster_IDs=YP_010777982.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/YP_009345676.1.tsv, data/single_clusters/YP_009345676.1.tsv, data/FASTA/YP_009345676.1.fas
+    jobid: 42
+    reason: Missing output files: data/tmp/YP_009345676.1.tsv, data/FASTA/YP_009345676.1.fas, data/single_clusters/YP_009345676.1.tsv
+    wildcards: cluster_IDs=YP_009345676.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_15738_25378_25605_Fi_077.tsv, data/single_clusters/k141_15738_25378_25605_Fi_077.tsv, data/FASTA/k141_15738_25378_25605_Fi_077.fas
+    jobid: 3
+    reason: Missing output files: data/FASTA/k141_15738_25378_25605_Fi_077.fas, data/tmp/k141_15738_25378_25605_Fi_077.tsv, data/single_clusters/k141_15738_25378_25605_Fi_077.tsv
+    wildcards: cluster_IDs=k141_15738_25378_25605_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    jobid: 6
+    reason: Missing output files: data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    wildcards: cluster_IDs=k141_187430_1476_2150_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    jobid: 12
+    reason: Missing output files: data/FASTA/k141_402023_4616_5203_Fi_035.fas, data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_43585_713_925_Fi_047.tsv, data/single_clusters/k141_43585_713_925_Fi_047.tsv, data/FASTA/k141_43585_713_925_Fi_047.fas
+    jobid: 16
+    reason: Missing output files: data/tmp/k141_43585_713_925_Fi_047.tsv, data/single_clusters/k141_43585_713_925_Fi_047.tsv, data/FASTA/k141_43585_713_925_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_713_925_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule cluster_FASTA:
+    input: data/Fila_clusters.tsv, data/EVE_virus.faa
+    output: data/tmp/k141_509927_547_915_Fi_096.tsv, data/single_clusters/k141_509927_547_915_Fi_096.tsv, data/FASTA/k141_509927_547_915_Fi_096.fas
+    jobid: 18
+    reason: Missing output files: data/single_clusters/k141_509927_547_915_Fi_096.tsv, data/FASTA/k141_509927_547_915_Fi_096.fas, data/tmp/k141_509927_547_915_Fi_096.tsv
+    wildcards: cluster_IDs=k141_509927_547_915_Fi_096
+    resources: tmpdir=<TBD>
+
+Execute 46 jobs...
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_223487_2031_2186_Fi_037.fas
+    output: output/alignment/k141_223487_2031_2186_Fi_037.fas
+    jobid: 54
+    reason: Missing output files: output/alignment/k141_223487_2031_2186_Fi_037.fas; Input files updated by another job: data/FASTA/k141_223487_2031_2186_Fi_037.fas
+    wildcards: cluster_IDs=k141_223487_2031_2186_Fi_037
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_81546_482_622_Fi_026.fas
+    output: output/alignment/k141_81546_482_622_Fi_026.fas
+    jobid: 69
+    reason: Missing output files: output/alignment/k141_81546_482_622_Fi_026.fas; Input files updated by another job: data/FASTA/k141_81546_482_622_Fi_026.fas
+    wildcards: cluster_IDs=k141_81546_482_622_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_001687088.1.fas
+    output: output/alignment/YP_001687088.1.fas
+    jobid: 84
+    reason: Missing output files: output/alignment/YP_001687088.1.fas; Input files updated by another job: data/FASTA/YP_001687088.1.fas
+    wildcards: cluster_IDs=YP_001687088.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_187430_622_1449_Fi_096.fas
+    output: output/alignment/k141_187430_622_1449_Fi_096.fas
+    jobid: 53
+    reason: Missing output files: output/alignment/k141_187430_622_1449_Fi_096.fas; Input files updated by another job: data/FASTA/k141_187430_622_1449_Fi_096.fas
+    wildcards: cluster_IDs=k141_187430_622_1449_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    output: output/alignment/k141_71921_8125_9366_Fi_077.fas
+    jobid: 68
+    reason: Missing output files: output/alignment/k141_71921_8125_9366_Fi_077.fas; Input files updated by another job: data/FASTA/k141_71921_8125_9366_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_8125_9366_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_001686949.1.fas
+    output: output/alignment/YP_001686949.1.fas
+    jobid: 83
+    reason: Missing output files: output/alignment/YP_001686949.1.fas; Input files updated by another job: data/FASTA/YP_001686949.1.fas
+    wildcards: cluster_IDs=YP_001686949.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    output: output/alignment/k141_187430_1476_2150_Fi_096.fas
+    jobid: 52
+    reason: Missing output files: output/alignment/k141_187430_1476_2150_Fi_096.fas; Input files updated by another job: data/FASTA/k141_187430_1476_2150_Fi_096.fas
+    wildcards: cluster_IDs=k141_187430_1476_2150_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_71921_21721_22146_Fi_077.fas
+    output: output/alignment/k141_71921_21721_22146_Fi_077.fas
+    jobid: 67
+    reason: Missing output files: output/alignment/k141_71921_21721_22146_Fi_077.fas; Input files updated by another job: data/FASTA/k141_71921_21721_22146_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_21721_22146_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26545.1.fas
+    output: output/alignment/WNK26545.1.fas
+    jobid: 82
+    reason: Missing output files: output/alignment/WNK26545.1.fas; Input files updated by another job: data/FASTA/WNK26545.1.fas
+    wildcards: cluster_IDs=WNK26545.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26526.1.fas
+    output: output/alignment/WNK26526.1.fas
+    jobid: 81
+    reason: Missing output files: output/alignment/WNK26526.1.fas; Input files updated by another job: data/FASTA/WNK26526.1.fas
+    wildcards: cluster_IDs=WNK26526.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_173270_3863_4723_Fi_051.fas
+    output: output/alignment/k141_173270_3863_4723_Fi_051.fas
+    jobid: 51
+    reason: Missing output files: output/alignment/k141_173270_3863_4723_Fi_051.fas; Input files updated by another job: data/FASTA/k141_173270_3863_4723_Fi_051.fas
+    wildcards: cluster_IDs=k141_173270_3863_4723_Fi_051
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    output: output/alignment/k141_71921_16515_21209_Fi_077.fas
+    jobid: 66
+    reason: Missing output files: output/alignment/k141_71921_16515_21209_Fi_077.fas; Input files updated by another job: data/FASTA/k141_71921_16515_21209_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_16515_21209_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26517.1.fas
+    output: output/alignment/WNK26517.1.fas
+    jobid: 80
+    reason: Missing output files: output/alignment/WNK26517.1.fas; Input files updated by another job: data/FASTA/WNK26517.1.fas
+    wildcards: cluster_IDs=WNK26517.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    output: output/alignment/k141_15738_26993_27403_Fi_077.fas
+    jobid: 50
+    reason: Missing output files: output/alignment/k141_15738_26993_27403_Fi_077.fas; Input files updated by another job: data/FASTA/k141_15738_26993_27403_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_26993_27403_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_71921_11276_15967_Fi_077.fas
+    output: output/alignment/k141_71921_11276_15967_Fi_077.fas
+    jobid: 65
+    reason: Missing output files: output/alignment/k141_71921_11276_15967_Fi_077.fas; Input files updated by another job: data/FASTA/k141_71921_11276_15967_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_11276_15967_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_509927_547_915_Fi_096.fas
+    output: output/alignment/k141_509927_547_915_Fi_096.fas
+    jobid: 64
+    reason: Missing output files: output/alignment/k141_509927_547_915_Fi_096.fas; Input files updated by another job: data/FASTA/k141_509927_547_915_Fi_096.fas
+    wildcards: cluster_IDs=k141_509927_547_915_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26513.1.fas
+    output: output/alignment/WNK26513.1.fas
+    jobid: 79
+    reason: Missing output files: output/alignment/WNK26513.1.fas; Input files updated by another job: data/FASTA/WNK26513.1.fas
+    wildcards: cluster_IDs=WNK26513.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_15738_25378_25605_Fi_077.fas
+    output: output/alignment/k141_15738_25378_25605_Fi_077.fas
+    jobid: 49
+    reason: Missing output files: output/alignment/k141_15738_25378_25605_Fi_077.fas; Input files updated by another job: data/FASTA/k141_15738_25378_25605_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_25378_25605_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_452138_406_639_Fi_058.fas
+    output: output/alignment/k141_452138_406_639_Fi_058.fas
+    jobid: 63
+    reason: Missing output files: output/alignment/k141_452138_406_639_Fi_058.fas; Input files updated by another job: data/FASTA/k141_452138_406_639_Fi_058.fas
+    wildcards: cluster_IDs=k141_452138_406_639_Fi_058
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26511.1.fas
+    output: output/alignment/WNK26511.1.fas
+    jobid: 78
+    reason: Missing output files: output/alignment/WNK26511.1.fas; Input files updated by another job: data/FASTA/WNK26511.1.fas
+    wildcards: cluster_IDs=WNK26511.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    output: output/alignment/k141_15738_22635_23612_Fi_077.fas
+    jobid: 48
+    reason: Missing output files: output/alignment/k141_15738_22635_23612_Fi_077.fas; Input files updated by another job: data/FASTA/k141_15738_22635_23612_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_22635_23612_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_122162_1052_4048_Fi_026.fas
+    output: output/alignment/k141_122162_1052_4048_Fi_026.fas
+    jobid: 47
+    reason: Missing output files: output/alignment/k141_122162_1052_4048_Fi_026.fas; Input files updated by another job: data/FASTA/k141_122162_1052_4048_Fi_026.fas
+    wildcards: cluster_IDs=k141_122162_1052_4048_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_43585_713_925_Fi_047.fas
+    output: output/alignment/k141_43585_713_925_Fi_047.fas
+    jobid: 62
+    reason: Missing output files: output/alignment/k141_43585_713_925_Fi_047.fas; Input files updated by another job: data/FASTA/k141_43585_713_925_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_713_925_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26503.1.fas
+    output: output/alignment/WNK26503.1.fas
+    jobid: 77
+    reason: Missing output files: output/alignment/WNK26503.1.fas; Input files updated by another job: data/FASTA/WNK26503.1.fas
+    wildcards: cluster_IDs=WNK26503.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_010780875.1.fas
+    output: output/alignment/YP_010780875.1.fas
+    jobid: 92
+    reason: Missing output files: output/alignment/YP_010780875.1.fas; Input files updated by another job: data/FASTA/YP_010780875.1.fas
+    wildcards: cluster_IDs=YP_010780875.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_43585_2661_3395_Fi_047.fas
+    output: output/alignment/k141_43585_2661_3395_Fi_047.fas
+    jobid: 61
+    reason: Missing output files: output/alignment/k141_43585_2661_3395_Fi_047.fas; Input files updated by another job: data/FASTA/k141_43585_2661_3395_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_2661_3395_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26496.1.fas
+    output: output/alignment/WNK26496.1.fas
+    jobid: 76
+    reason: Missing output files: output/alignment/WNK26496.1.fas; Input files updated by another job: data/FASTA/WNK26496.1.fas
+    wildcards: cluster_IDs=WNK26496.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_010777982.1.fas
+    output: output/alignment/YP_010777982.1.fas
+    jobid: 91
+    reason: Missing output files: output/alignment/YP_010777982.1.fas; Input files updated by another job: data/FASTA/YP_010777982.1.fas
+    wildcards: cluster_IDs=YP_010777982.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_009666641.1.fas
+    output: output/alignment/YP_009666641.1.fas
+    jobid: 90
+    reason: Missing output files: output/alignment/YP_009666641.1.fas; Input files updated by another job: data/FASTA/YP_009666641.1.fas
+    wildcards: cluster_IDs=YP_009666641.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_43585_1723_2340_Fi_047.fas
+    output: output/alignment/k141_43585_1723_2340_Fi_047.fas
+    jobid: 60
+    reason: Missing output files: output/alignment/k141_43585_1723_2340_Fi_047.fas; Input files updated by another job: data/FASTA/k141_43585_1723_2340_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_1723_2340_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WNK26465.1.fas
+    output: output/alignment/WNK26465.1.fas
+    jobid: 75
+    reason: Missing output files: output/alignment/WNK26465.1.fas; Input files updated by another job: data/FASTA/WNK26465.1.fas
+    wildcards: cluster_IDs=WNK26465.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_009345691.1.fas
+    output: output/alignment/YP_009345691.1.fas
+    jobid: 89
+    reason: Missing output files: output/alignment/YP_009345691.1.fas; Input files updated by another job: data/FASTA/YP_009345691.1.fas
+    wildcards: cluster_IDs=YP_009345691.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_417981_2105_3715_Fi_026.fas
+    output: output/alignment/k141_417981_2105_3715_Fi_026.fas
+    jobid: 59
+    reason: Missing output files: output/alignment/k141_417981_2105_3715_Fi_026.fas; Input files updated by another job: data/FASTA/k141_417981_2105_3715_Fi_026.fas
+    wildcards: cluster_IDs=k141_417981_2105_3715_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WKT15177.1.fas
+    output: output/alignment/WKT15177.1.fas
+    jobid: 74
+    reason: Missing output files: output/alignment/WKT15177.1.fas; Input files updated by another job: data/FASTA/WKT15177.1.fas
+    wildcards: cluster_IDs=WKT15177.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WKT15146.1.fas
+    output: output/alignment/WKT15146.1.fas
+    jobid: 73
+    reason: Missing output files: output/alignment/WKT15146.1.fas; Input files updated by another job: data/FASTA/WKT15146.1.fas
+    wildcards: cluster_IDs=WKT15146.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_009345676.1.fas
+    output: output/alignment/YP_009345676.1.fas
+    jobid: 88
+    reason: Missing output files: output/alignment/YP_009345676.1.fas; Input files updated by another job: data/FASTA/YP_009345676.1.fas
+    wildcards: cluster_IDs=YP_009345676.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    output: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    jobid: 58
+    reason: Missing output files: output/alignment/k141_402023_4616_5203_Fi_035.fas; Input files updated by another job: data/FASTA/k141_402023_4616_5203_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WKA13612.1.fas
+    output: output/alignment/WKA13612.1.fas
+    jobid: 72
+    reason: Missing output files: output/alignment/WKA13612.1.fas; Input files updated by another job: data/FASTA/WKA13612.1.fas
+    wildcards: cluster_IDs=WKA13612.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_009345664.1.fas
+    output: output/alignment/YP_009345664.1.fas
+    jobid: 87
+    reason: Missing output files: output/alignment/YP_009345664.1.fas; Input files updated by another job: data/FASTA/YP_009345664.1.fas
+    wildcards: cluster_IDs=YP_009345664.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_402023_3049_3714_Fi_035.fas
+    output: output/alignment/k141_402023_3049_3714_Fi_035.fas
+    jobid: 57
+    reason: Missing output files: output/alignment/k141_402023_3049_3714_Fi_035.fas; Input files updated by another job: data/FASTA/k141_402023_3049_3714_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_3049_3714_Fi_035
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    output: output/alignment/k141_361753_1543_1875_Fi_085.fas
+    jobid: 56
+    reason: Missing output files: output/alignment/k141_361753_1543_1875_Fi_085.fas; Input files updated by another job: data/FASTA/k141_361753_1543_1875_Fi_085.fas
+    wildcards: cluster_IDs=k141_361753_1543_1875_Fi_085
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WKA13572.1.fas
+    output: output/alignment/WKA13572.1.fas
+    jobid: 71
+    reason: Missing output files: output/alignment/WKA13572.1.fas; Input files updated by another job: data/FASTA/WKA13572.1.fas
+    wildcards: cluster_IDs=WKA13572.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_009345656.1.fas
+    output: output/alignment/YP_009345656.1.fas
+    jobid: 86
+    reason: Missing output files: output/alignment/YP_009345656.1.fas; Input files updated by another job: data/FASTA/YP_009345656.1.fas
+    wildcards: cluster_IDs=YP_009345656.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/k141_350370_19918_20472_Fi_096.fas
+    output: output/alignment/k141_350370_19918_20472_Fi_096.fas
+    jobid: 55
+    reason: Missing output files: output/alignment/k141_350370_19918_20472_Fi_096.fas; Input files updated by another job: data/FASTA/k141_350370_19918_20472_Fi_096.fas
+    wildcards: cluster_IDs=k141_350370_19918_20472_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/WKA13552.1.fas
+    output: output/alignment/WKA13552.1.fas
+    jobid: 70
+    reason: Missing output files: output/alignment/WKA13552.1.fas; Input files updated by another job: data/FASTA/WKA13552.1.fas
+    wildcards: cluster_IDs=WKA13552.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule Alignment:
+    input: data/FASTA/YP_009116770.1.fas
+    output: output/alignment/YP_009116770.1.fas
+    jobid: 85
+    reason: Missing output files: output/alignment/YP_009116770.1.fas; Input files updated by another job: data/FASTA/YP_009116770.1.fas
+    wildcards: cluster_IDs=YP_009116770.1
+    resources: tmpdir=<TBD>
+
+Execute 46 jobs...
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_71921_8125_9366_Fi_077.fas
+    output: output/phylogeny/k141_71921_8125_9366_Fi_077.logs
+    jobid: 114
+    reason: Missing output files: output/phylogeny/k141_71921_8125_9366_Fi_077.logs; Input files updated by another job: output/alignment/k141_71921_8125_9366_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_8125_9366_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_001686949.1.fas
+    output: output/phylogeny/YP_001686949.1.logs
+    jobid: 129
+    reason: Missing output files: output/phylogeny/YP_001686949.1.logs; Input files updated by another job: output/alignment/YP_001686949.1.fas
+    wildcards: cluster_IDs=YP_001686949.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_187430_622_1449_Fi_096.fas
+    output: output/phylogeny/k141_187430_622_1449_Fi_096.logs
+    jobid: 99
+    reason: Missing output files: output/phylogeny/k141_187430_622_1449_Fi_096.logs; Input files updated by another job: output/alignment/k141_187430_622_1449_Fi_096.fas
+    wildcards: cluster_IDs=k141_187430_622_1449_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_187430_1476_2150_Fi_096.fas
+    output: output/phylogeny/k141_187430_1476_2150_Fi_096.logs
+    jobid: 98
+    reason: Missing output files: output/phylogeny/k141_187430_1476_2150_Fi_096.logs; Input files updated by another job: output/alignment/k141_187430_1476_2150_Fi_096.fas
+    wildcards: cluster_IDs=k141_187430_1476_2150_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_71921_21721_22146_Fi_077.fas
+    output: output/phylogeny/k141_71921_21721_22146_Fi_077.logs
+    jobid: 113
+    reason: Missing output files: output/phylogeny/k141_71921_21721_22146_Fi_077.logs; Input files updated by another job: output/alignment/k141_71921_21721_22146_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_21721_22146_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26545.1.fas
+    output: output/phylogeny/WNK26545.1.logs
+    jobid: 128
+    reason: Missing output files: output/phylogeny/WNK26545.1.logs; Input files updated by another job: output/alignment/WNK26545.1.fas
+    wildcards: cluster_IDs=WNK26545.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_173270_3863_4723_Fi_051.fas
+    output: output/phylogeny/k141_173270_3863_4723_Fi_051.logs
+    jobid: 97
+    reason: Missing output files: output/phylogeny/k141_173270_3863_4723_Fi_051.logs; Input files updated by another job: output/alignment/k141_173270_3863_4723_Fi_051.fas
+    wildcards: cluster_IDs=k141_173270_3863_4723_Fi_051
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_71921_16515_21209_Fi_077.fas
+    output: output/phylogeny/k141_71921_16515_21209_Fi_077.logs
+    jobid: 112
+    reason: Missing output files: output/phylogeny/k141_71921_16515_21209_Fi_077.logs; Input files updated by another job: output/alignment/k141_71921_16515_21209_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_16515_21209_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26526.1.fas
+    output: output/phylogeny/WNK26526.1.logs
+    jobid: 127
+    reason: Missing output files: output/phylogeny/WNK26526.1.logs; Input files updated by another job: output/alignment/WNK26526.1.fas
+    wildcards: cluster_IDs=WNK26526.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_15738_26993_27403_Fi_077.fas
+    output: output/phylogeny/k141_15738_26993_27403_Fi_077.logs
+    jobid: 96
+    reason: Missing output files: output/phylogeny/k141_15738_26993_27403_Fi_077.logs; Input files updated by another job: output/alignment/k141_15738_26993_27403_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_26993_27403_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_71921_11276_15967_Fi_077.fas
+    output: output/phylogeny/k141_71921_11276_15967_Fi_077.logs
+    jobid: 111
+    reason: Missing output files: output/phylogeny/k141_71921_11276_15967_Fi_077.logs; Input files updated by another job: output/alignment/k141_71921_11276_15967_Fi_077.fas
+    wildcards: cluster_IDs=k141_71921_11276_15967_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26517.1.fas
+    output: output/phylogeny/WNK26517.1.logs
+    jobid: 126
+    reason: Missing output files: output/phylogeny/WNK26517.1.logs; Input files updated by another job: output/alignment/WNK26517.1.fas
+    wildcards: cluster_IDs=WNK26517.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_15738_25378_25605_Fi_077.fas
+    output: output/phylogeny/k141_15738_25378_25605_Fi_077.logs
+    jobid: 95
+    reason: Missing output files: output/phylogeny/k141_15738_25378_25605_Fi_077.logs; Input files updated by another job: output/alignment/k141_15738_25378_25605_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_25378_25605_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_509927_547_915_Fi_096.fas
+    output: output/phylogeny/k141_509927_547_915_Fi_096.logs
+    jobid: 110
+    reason: Missing output files: output/phylogeny/k141_509927_547_915_Fi_096.logs; Input files updated by another job: output/alignment/k141_509927_547_915_Fi_096.fas
+    wildcards: cluster_IDs=k141_509927_547_915_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26513.1.fas
+    output: output/phylogeny/WNK26513.1.logs
+    jobid: 125
+    reason: Missing output files: output/phylogeny/WNK26513.1.logs; Input files updated by another job: output/alignment/WNK26513.1.fas
+    wildcards: cluster_IDs=WNK26513.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26511.1.fas
+    output: output/phylogeny/WNK26511.1.logs
+    jobid: 124
+    reason: Missing output files: output/phylogeny/WNK26511.1.logs; Input files updated by another job: output/alignment/WNK26511.1.fas
+    wildcards: cluster_IDs=WNK26511.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_15738_22635_23612_Fi_077.fas
+    output: output/phylogeny/k141_15738_22635_23612_Fi_077.logs
+    jobid: 94
+    reason: Missing output files: output/phylogeny/k141_15738_22635_23612_Fi_077.logs; Input files updated by another job: output/alignment/k141_15738_22635_23612_Fi_077.fas
+    wildcards: cluster_IDs=k141_15738_22635_23612_Fi_077
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_452138_406_639_Fi_058.fas
+    output: output/phylogeny/k141_452138_406_639_Fi_058.logs
+    jobid: 109
+    reason: Missing output files: output/phylogeny/k141_452138_406_639_Fi_058.logs; Input files updated by another job: output/alignment/k141_452138_406_639_Fi_058.fas
+    wildcards: cluster_IDs=k141_452138_406_639_Fi_058
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26503.1.fas
+    output: output/phylogeny/WNK26503.1.logs
+    jobid: 123
+    reason: Missing output files: output/phylogeny/WNK26503.1.logs; Input files updated by another job: output/alignment/WNK26503.1.fas
+    wildcards: cluster_IDs=WNK26503.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_010780875.1.fas
+    output: output/phylogeny/YP_010780875.1.logs
+    jobid: 138
+    reason: Missing output files: output/phylogeny/YP_010780875.1.logs; Input files updated by another job: output/alignment/YP_010780875.1.fas
+    wildcards: cluster_IDs=YP_010780875.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_122162_1052_4048_Fi_026.fas
+    output: output/phylogeny/k141_122162_1052_4048_Fi_026.logs
+    jobid: 93
+    reason: Missing output files: output/phylogeny/k141_122162_1052_4048_Fi_026.logs; Input files updated by another job: output/alignment/k141_122162_1052_4048_Fi_026.fas
+    wildcards: cluster_IDs=k141_122162_1052_4048_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_43585_713_925_Fi_047.fas
+    output: output/phylogeny/k141_43585_713_925_Fi_047.logs
+    jobid: 108
+    reason: Missing output files: output/phylogeny/k141_43585_713_925_Fi_047.logs; Input files updated by another job: output/alignment/k141_43585_713_925_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_713_925_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_43585_2661_3395_Fi_047.fas
+    output: output/phylogeny/k141_43585_2661_3395_Fi_047.logs
+    jobid: 107
+    reason: Missing output files: output/phylogeny/k141_43585_2661_3395_Fi_047.logs; Input files updated by another job: output/alignment/k141_43585_2661_3395_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_2661_3395_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26496.1.fas
+    output: output/phylogeny/WNK26496.1.logs
+    jobid: 122
+    reason: Missing output files: output/phylogeny/WNK26496.1.logs; Input files updated by another job: output/alignment/WNK26496.1.fas
+    wildcards: cluster_IDs=WNK26496.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_010777982.1.fas
+    output: output/phylogeny/YP_010777982.1.logs
+    jobid: 137
+    reason: Missing output files: output/phylogeny/YP_010777982.1.logs; Input files updated by another job: output/alignment/YP_010777982.1.fas
+    wildcards: cluster_IDs=YP_010777982.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_43585_1723_2340_Fi_047.fas
+    output: output/phylogeny/k141_43585_1723_2340_Fi_047.logs
+    jobid: 106
+    reason: Missing output files: output/phylogeny/k141_43585_1723_2340_Fi_047.logs; Input files updated by another job: output/alignment/k141_43585_1723_2340_Fi_047.fas
+    wildcards: cluster_IDs=k141_43585_1723_2340_Fi_047
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WNK26465.1.fas
+    output: output/phylogeny/WNK26465.1.logs
+    jobid: 121
+    reason: Missing output files: output/phylogeny/WNK26465.1.logs; Input files updated by another job: output/alignment/WNK26465.1.fas
+    wildcards: cluster_IDs=WNK26465.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_009666641.1.fas
+    output: output/phylogeny/YP_009666641.1.logs
+    jobid: 136
+    reason: Missing output files: output/phylogeny/YP_009666641.1.logs; Input files updated by another job: output/alignment/YP_009666641.1.fas
+    wildcards: cluster_IDs=YP_009666641.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_417981_2105_3715_Fi_026.fas
+    output: output/phylogeny/k141_417981_2105_3715_Fi_026.logs
+    jobid: 105
+    reason: Missing output files: output/phylogeny/k141_417981_2105_3715_Fi_026.logs; Input files updated by another job: output/alignment/k141_417981_2105_3715_Fi_026.fas
+    wildcards: cluster_IDs=k141_417981_2105_3715_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WKT15177.1.fas
+    output: output/phylogeny/WKT15177.1.logs
+    jobid: 120
+    reason: Missing output files: output/phylogeny/WKT15177.1.logs; Input files updated by another job: output/alignment/WKT15177.1.fas
+    wildcards: cluster_IDs=WKT15177.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_009345691.1.fas
+    output: output/phylogeny/YP_009345691.1.logs
+    jobid: 135
+    reason: Missing output files: output/phylogeny/YP_009345691.1.logs; Input files updated by another job: output/alignment/YP_009345691.1.fas
+    wildcards: cluster_IDs=YP_009345691.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    output: output/phylogeny/k141_402023_4616_5203_Fi_035.logs
+    jobid: 104
+    reason: Missing output files: output/phylogeny/k141_402023_4616_5203_Fi_035.logs; Input files updated by another job: output/alignment/k141_402023_4616_5203_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_4616_5203_Fi_035
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WKT15146.1.fas
+    output: output/phylogeny/WKT15146.1.logs
+    jobid: 119
+    reason: Missing output files: output/phylogeny/WKT15146.1.logs; Input files updated by another job: output/alignment/WKT15146.1.fas
+    wildcards: cluster_IDs=WKT15146.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_009345676.1.fas
+    output: output/phylogeny/YP_009345676.1.logs
+    jobid: 134
+    reason: Missing output files: output/phylogeny/YP_009345676.1.logs; Input files updated by another job: output/alignment/YP_009345676.1.fas
+    wildcards: cluster_IDs=YP_009345676.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_009345664.1.fas
+    output: output/phylogeny/YP_009345664.1.logs
+    jobid: 133
+    reason: Missing output files: output/phylogeny/YP_009345664.1.logs; Input files updated by another job: output/alignment/YP_009345664.1.fas
+    wildcards: cluster_IDs=YP_009345664.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_402023_3049_3714_Fi_035.fas
+    output: output/phylogeny/k141_402023_3049_3714_Fi_035.logs
+    jobid: 103
+    reason: Missing output files: output/phylogeny/k141_402023_3049_3714_Fi_035.logs; Input files updated by another job: output/alignment/k141_402023_3049_3714_Fi_035.fas
+    wildcards: cluster_IDs=k141_402023_3049_3714_Fi_035
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WKA13612.1.fas
+    output: output/phylogeny/WKA13612.1.logs
+    jobid: 118
+    reason: Missing output files: output/phylogeny/WKA13612.1.logs; Input files updated by another job: output/alignment/WKA13612.1.fas
+    wildcards: cluster_IDs=WKA13612.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_009345656.1.fas
+    output: output/phylogeny/YP_009345656.1.logs
+    jobid: 132
+    reason: Missing output files: output/phylogeny/YP_009345656.1.logs; Input files updated by another job: output/alignment/YP_009345656.1.fas
+    wildcards: cluster_IDs=YP_009345656.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_361753_1543_1875_Fi_085.fas
+    output: output/phylogeny/k141_361753_1543_1875_Fi_085.logs
+    jobid: 102
+    reason: Missing output files: output/phylogeny/k141_361753_1543_1875_Fi_085.logs; Input files updated by another job: output/alignment/k141_361753_1543_1875_Fi_085.fas
+    wildcards: cluster_IDs=k141_361753_1543_1875_Fi_085
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WKA13572.1.fas
+    output: output/phylogeny/WKA13572.1.logs
+    jobid: 117
+    reason: Missing output files: output/phylogeny/WKA13572.1.logs; Input files updated by another job: output/alignment/WKA13572.1.fas
+    wildcards: cluster_IDs=WKA13572.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/WKA13552.1.fas
+    output: output/phylogeny/WKA13552.1.logs
+    jobid: 116
+    reason: Missing output files: output/phylogeny/WKA13552.1.logs; Input files updated by another job: output/alignment/WKA13552.1.fas
+    wildcards: cluster_IDs=WKA13552.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_009116770.1.fas
+    output: output/phylogeny/YP_009116770.1.logs
+    jobid: 131
+    reason: Missing output files: output/phylogeny/YP_009116770.1.logs; Input files updated by another job: output/alignment/YP_009116770.1.fas
+    wildcards: cluster_IDs=YP_009116770.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_350370_19918_20472_Fi_096.fas
+    output: output/phylogeny/k141_350370_19918_20472_Fi_096.logs
+    jobid: 101
+    reason: Missing output files: output/phylogeny/k141_350370_19918_20472_Fi_096.logs; Input files updated by another job: output/alignment/k141_350370_19918_20472_Fi_096.fas
+    wildcards: cluster_IDs=k141_350370_19918_20472_Fi_096
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_81546_482_622_Fi_026.fas
+    output: output/phylogeny/k141_81546_482_622_Fi_026.logs
+    jobid: 115
+    reason: Missing output files: output/phylogeny/k141_81546_482_622_Fi_026.logs; Input files updated by another job: output/alignment/k141_81546_482_622_Fi_026.fas
+    wildcards: cluster_IDs=k141_81546_482_622_Fi_026
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/YP_001687088.1.fas
+    output: output/phylogeny/YP_001687088.1.logs
+    jobid: 130
+    reason: Missing output files: output/phylogeny/YP_001687088.1.logs; Input files updated by another job: output/alignment/YP_001687088.1.fas
+    wildcards: cluster_IDs=YP_001687088.1
+    resources: tmpdir=<TBD>
+
+
+[Tue Dec 23 14:13:51 2025]
+rule phylogeny:
+    input: output/alignment/k141_223487_2031_2186_Fi_037.fas
+    output: output/phylogeny/k141_223487_2031_2186_Fi_037.logs
+    jobid: 100
+    reason: Missing output files: output/phylogeny/k141_223487_2031_2186_Fi_037.logs; Input files updated by another job: output/alignment/k141_223487_2031_2186_Fi_037.fas
+    wildcards: cluster_IDs=k141_223487_2031_2186_Fi_037
+    resources: tmpdir=<TBD>
+
+Execute 1 jobs...
+
+[Tue Dec 23 14:13:51 2025]
+rule all:
+    input: data/Fila_EVEs.txt, data/Fila_clusters.tsv, data/tmp/k141_122162_1052_4048_Fi_026.tsv, data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/tmp/k141_15738_25378_25605_Fi_077.tsv, data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/tmp/k141_173270_3863_4723_Fi_051.tsv, data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/tmp/k141_187430_622_1449_Fi_096.tsv, data/tmp/k141_223487_2031_2186_Fi_037.tsv, data/tmp/k141_350370_19918_20472_Fi_096.tsv, data/tmp/k141_361753_1543_1875_Fi_085.tsv, data/tmp/k141_402023_3049_3714_Fi_035.tsv, data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/tmp/k141_417981_2105_3715_Fi_026.tsv, data/tmp/k141_43585_1723_2340_Fi_047.tsv, data/tmp/k141_43585_2661_3395_Fi_047.tsv, data/tmp/k141_43585_713_925_Fi_047.tsv, data/tmp/k141_452138_406_639_Fi_058.tsv, data/tmp/k141_509927_547_915_Fi_096.tsv, data/tmp/k141_71921_11276_15967_Fi_077.tsv, data/tmp/k141_71921_16515_21209_Fi_077.tsv, data/tmp/k141_71921_21721_22146_Fi_077.tsv, data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/tmp/k141_81546_482_622_Fi_026.tsv, data/tmp/WKA13552.1.tsv, data/tmp/WKA13572.1.tsv, data/tmp/WKA13612.1.tsv, data/tmp/WKT15146.1.tsv, data/tmp/WKT15177.1.tsv, data/tmp/WNK26465.1.tsv, data/tmp/WNK26496.1.tsv, data/tmp/WNK26503.1.tsv, data/tmp/WNK26511.1.tsv, data/tmp/WNK26513.1.tsv, data/tmp/WNK26517.1.tsv, data/tmp/WNK26526.1.tsv, data/tmp/WNK26545.1.tsv, data/tmp/YP_001686949.1.tsv, data/tmp/YP_001687088.1.tsv, data/tmp/YP_009116770.1.tsv, data/tmp/YP_009345656.1.tsv, data/tmp/YP_009345664.1.tsv, data/tmp/YP_009345676.1.tsv, data/tmp/YP_009345691.1.tsv, data/tmp/YP_009666641.1.tsv, data/tmp/YP_010777982.1.tsv, data/tmp/YP_010780875.1.tsv, data/single_clusters/k141_122162_1052_4048_Fi_026.tsv, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/k141_15738_25378_25605_Fi_077.tsv, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, data/single_clusters/k141_173270_3863_4723_Fi_051.tsv, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, data/single_clusters/k141_187430_622_1449_Fi_096.tsv, data/single_clusters/k141_223487_2031_2186_Fi_037.tsv, data/single_clusters/k141_350370_19918_20472_Fi_096.tsv, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, data/single_clusters/k141_402023_3049_3714_Fi_035.tsv, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/single_clusters/k141_417981_2105_3715_Fi_026.tsv, data/single_clusters/k141_43585_1723_2340_Fi_047.tsv, data/single_clusters/k141_43585_2661_3395_Fi_047.tsv, data/single_clusters/k141_43585_713_925_Fi_047.tsv, data/single_clusters/k141_452138_406_639_Fi_058.tsv, data/single_clusters/k141_509927_547_915_Fi_096.tsv, data/single_clusters/k141_71921_11276_15967_Fi_077.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, data/single_clusters/k141_71921_21721_22146_Fi_077.tsv, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/single_clusters/k141_81546_482_622_Fi_026.tsv, data/single_clusters/WKA13552.1.tsv, data/single_clusters/WKA13572.1.tsv, data/single_clusters/WKA13612.1.tsv, data/single_clusters/WKT15146.1.tsv, data/single_clusters/WKT15177.1.tsv, data/single_clusters/WNK26465.1.tsv, data/single_clusters/WNK26496.1.tsv, data/single_clusters/WNK26503.1.tsv, data/single_clusters/WNK26511.1.tsv, data/single_clusters/WNK26513.1.tsv, data/single_clusters/WNK26517.1.tsv, data/single_clusters/WNK26526.1.tsv, data/single_clusters/WNK26545.1.tsv, data/single_clusters/YP_001686949.1.tsv, data/single_clusters/YP_001687088.1.tsv, data/single_clusters/YP_009116770.1.tsv, data/single_clusters/YP_009345656.1.tsv, data/single_clusters/YP_009345664.1.tsv, data/single_clusters/YP_009345676.1.tsv, data/single_clusters/YP_009345691.1.tsv, data/single_clusters/YP_009666641.1.tsv, data/single_clusters/YP_010777982.1.tsv, data/single_clusters/YP_010780875.1.tsv, data/FASTA/k141_122162_1052_4048_Fi_026.fas, data/FASTA/k141_15738_22635_23612_Fi_077.fas, data/FASTA/k141_15738_25378_25605_Fi_077.fas, data/FASTA/k141_15738_26993_27403_Fi_077.fas, data/FASTA/k141_173270_3863_4723_Fi_051.fas, data/FASTA/k141_187430_1476_2150_Fi_096.fas, data/FASTA/k141_187430_622_1449_Fi_096.fas, data/FASTA/k141_223487_2031_2186_Fi_037.fas, data/FASTA/k141_350370_19918_20472_Fi_096.fas, data/FASTA/k141_361753_1543_1875_Fi_085.fas, data/FASTA/k141_402023_3049_3714_Fi_035.fas, data/FASTA/k141_402023_4616_5203_Fi_035.fas, data/FASTA/k141_417981_2105_3715_Fi_026.fas, data/FASTA/k141_43585_1723_2340_Fi_047.fas, data/FASTA/k141_43585_2661_3395_Fi_047.fas, data/FASTA/k141_43585_713_925_Fi_047.fas, data/FASTA/k141_452138_406_639_Fi_058.fas, data/FASTA/k141_509927_547_915_Fi_096.fas, data/FASTA/k141_71921_11276_15967_Fi_077.fas, data/FASTA/k141_71921_16515_21209_Fi_077.fas, data/FASTA/k141_71921_21721_22146_Fi_077.fas, data/FASTA/k141_71921_8125_9366_Fi_077.fas, data/FASTA/k141_81546_482_622_Fi_026.fas, data/FASTA/WKA13552.1.fas, data/FASTA/WKA13572.1.fas, data/FASTA/WKA13612.1.fas, data/FASTA/WKT15146.1.fas, data/FASTA/WKT15177.1.fas, data/FASTA/WNK26465.1.fas, data/FASTA/WNK26496.1.fas, data/FASTA/WNK26503.1.fas, data/FASTA/WNK26511.1.fas, data/FASTA/WNK26513.1.fas, data/FASTA/WNK26517.1.fas, data/FASTA/WNK26526.1.fas, data/FASTA/WNK26545.1.fas, data/FASTA/YP_001686949.1.fas, data/FASTA/YP_001687088.1.fas, data/FASTA/YP_009116770.1.fas, data/FASTA/YP_009345656.1.fas, data/FASTA/YP_009345664.1.fas, data/FASTA/YP_009345676.1.fas, data/FASTA/YP_009345691.1.fas, data/FASTA/YP_009666641.1.fas, data/FASTA/YP_010777982.1.fas, data/FASTA/YP_010780875.1.fas, output/alignment/k141_122162_1052_4048_Fi_026.fas, output/alignment/k141_15738_22635_23612_Fi_077.fas, output/alignment/k141_15738_25378_25605_Fi_077.fas, output/alignment/k141_15738_26993_27403_Fi_077.fas, output/alignment/k141_173270_3863_4723_Fi_051.fas, output/alignment/k141_187430_1476_2150_Fi_096.fas, output/alignment/k141_187430_622_1449_Fi_096.fas, output/alignment/k141_223487_2031_2186_Fi_037.fas, output/alignment/k141_350370_19918_20472_Fi_096.fas, output/alignment/k141_361753_1543_1875_Fi_085.fas, output/alignment/k141_402023_3049_3714_Fi_035.fas, output/alignment/k141_402023_4616_5203_Fi_035.fas, output/alignment/k141_417981_2105_3715_Fi_026.fas, output/alignment/k141_43585_1723_2340_Fi_047.fas, output/alignment/k141_43585_2661_3395_Fi_047.fas, output/alignment/k141_43585_713_925_Fi_047.fas, output/alignment/k141_452138_406_639_Fi_058.fas, output/alignment/k141_509927_547_915_Fi_096.fas, output/alignment/k141_71921_11276_15967_Fi_077.fas, output/alignment/k141_71921_16515_21209_Fi_077.fas, output/alignment/k141_71921_21721_22146_Fi_077.fas, output/alignment/k141_71921_8125_9366_Fi_077.fas, output/alignment/k141_81546_482_622_Fi_026.fas, output/alignment/WKA13552.1.fas, output/alignment/WKA13572.1.fas, output/alignment/WKA13612.1.fas, output/alignment/WKT15146.1.fas, output/alignment/WKT15177.1.fas, output/alignment/WNK26465.1.fas, output/alignment/WNK26496.1.fas, output/alignment/WNK26503.1.fas, output/alignment/WNK26511.1.fas, output/alignment/WNK26513.1.fas, output/alignment/WNK26517.1.fas, output/alignment/WNK26526.1.fas, output/alignment/WNK26545.1.fas, output/alignment/YP_001686949.1.fas, output/alignment/YP_001687088.1.fas, output/alignment/YP_009116770.1.fas, output/alignment/YP_009345656.1.fas, output/alignment/YP_009345664.1.fas, output/alignment/YP_009345676.1.fas, output/alignment/YP_009345691.1.fas, output/alignment/YP_009666641.1.fas, output/alignment/YP_010777982.1.fas, output/alignment/YP_010780875.1.fas, output/phylogeny/k141_122162_1052_4048_Fi_026.logs, output/phylogeny/k141_15738_22635_23612_Fi_077.logs, output/phylogeny/k141_15738_25378_25605_Fi_077.logs, output/phylogeny/k141_15738_26993_27403_Fi_077.logs, output/phylogeny/k141_173270_3863_4723_Fi_051.logs, output/phylogeny/k141_187430_1476_2150_Fi_096.logs, output/phylogeny/k141_187430_622_1449_Fi_096.logs, output/phylogeny/k141_223487_2031_2186_Fi_037.logs, output/phylogeny/k141_350370_19918_20472_Fi_096.logs, output/phylogeny/k141_361753_1543_1875_Fi_085.logs, output/phylogeny/k141_402023_3049_3714_Fi_035.logs, output/phylogeny/k141_402023_4616_5203_Fi_035.logs, output/phylogeny/k141_417981_2105_3715_Fi_026.logs, output/phylogeny/k141_43585_1723_2340_Fi_047.logs, output/phylogeny/k141_43585_2661_3395_Fi_047.logs, output/phylogeny/k141_43585_713_925_Fi_047.logs, output/phylogeny/k141_452138_406_639_Fi_058.logs, output/phylogeny/k141_509927_547_915_Fi_096.logs, output/phylogeny/k141_71921_11276_15967_Fi_077.logs, output/phylogeny/k141_71921_16515_21209_Fi_077.logs, output/phylogeny/k141_71921_21721_22146_Fi_077.logs, output/phylogeny/k141_71921_8125_9366_Fi_077.logs, output/phylogeny/k141_81546_482_622_Fi_026.logs, output/phylogeny/WKA13552.1.logs, output/phylogeny/WKA13572.1.logs, output/phylogeny/WKA13612.1.logs, output/phylogeny/WKT15146.1.logs, output/phylogeny/WKT15177.1.logs, output/phylogeny/WNK26465.1.logs, output/phylogeny/WNK26496.1.logs, output/phylogeny/WNK26503.1.logs, output/phylogeny/WNK26511.1.logs, output/phylogeny/WNK26513.1.logs, output/phylogeny/WNK26517.1.logs, output/phylogeny/WNK26526.1.logs, output/phylogeny/WNK26545.1.logs, output/phylogeny/YP_001686949.1.logs, output/phylogeny/YP_001687088.1.logs, output/phylogeny/YP_009116770.1.logs, output/phylogeny/YP_009345656.1.logs, output/phylogeny/YP_009345664.1.logs, output/phylogeny/YP_009345676.1.logs, output/phylogeny/YP_009345691.1.logs, output/phylogeny/YP_009666641.1.logs, output/phylogeny/YP_010777982.1.logs, output/phylogeny/YP_010780875.1.logs
+    jobid: 0
+    reason: Input files updated by another job: data/FASTA/YP_009345664.1.fas, data/tmp/WNK26465.1.tsv, output/alignment/WNK26503.1.fas, data/tmp/k141_417981_2105_3715_Fi_026.tsv, data/tmp/k141_452138_406_639_Fi_058.tsv, output/alignment/k141_71921_8125_9366_Fi_077.fas, data/tmp/k141_350370_19918_20472_Fi_096.tsv, data/single_clusters/k141_43585_713_925_Fi_047.tsv, output/alignment/k141_43585_1723_2340_Fi_047.fas, data/single_clusters/YP_009345676.1.tsv, data/single_clusters/k141_43585_1723_2340_Fi_047.tsv, output/phylogeny/YP_009345691.1.logs, output/alignment/WNK26513.1.fas, output/phylogeny/WNK26511.1.logs, data/FASTA/k141_173270_3863_4723_Fi_051.fas, data/FASTA/k141_350370_19918_20472_Fi_096.fas, data/tmp/k141_71921_21721_22146_Fi_077.tsv, data/tmp/k141_43585_1723_2340_Fi_047.tsv, data/single_clusters/k141_361753_1543_1875_Fi_085.tsv, output/phylogeny/k141_223487_2031_2186_Fi_037.logs, output/phylogeny/k141_43585_713_925_Fi_047.logs, data/tmp/k141_402023_4616_5203_Fi_035.tsv, data/FASTA/YP_001686949.1.fas, data/single_clusters/k141_509927_547_915_Fi_096.tsv, output/alignment/WKA13572.1.fas, output/phylogeny/k141_71921_21721_22146_Fi_077.logs, output/phylogeny/WKT15177.1.logs, data/FASTA/YP_009345656.1.fas, output/phylogeny/k141_173270_3863_4723_Fi_051.logs, data/single_clusters/WNK26513.1.tsv, data/FASTA/k141_187430_622_1449_Fi_096.fas, data/single_clusters/k141_402023_3049_3714_Fi_035.tsv, output/phylogeny/YP_010777982.1.logs, data/FASTA/WKA13572.1.fas, output/alignment/k141_71921_16515_21209_Fi_077.fas, output/phylogeny/k141_509927_547_915_Fi_096.logs, output/alignment/k141_71921_21721_22146_Fi_077.fas, data/FASTA/WKT15177.1.fas, output/phylogeny/WNK26545.1.logs, output/phylogeny/WNK26526.1.logs, data/single_clusters/k141_15738_22635_23612_Fi_077.tsv, data/single_clusters/WNK26511.1.tsv, output/phylogeny/WNK26513.1.logs, data/FASTA/k141_71921_11276_15967_Fi_077.fas, data/tmp/YP_001686949.1.tsv, output/alignment/YP_010780875.1.fas, output/phylogeny/YP_009116770.1.logs, data/tmp/WKA13612.1.tsv, output/alignment/WKA13552.1.fas, data/tmp/YP_009345656.1.tsv, data/FASTA/WNK26526.1.fas, output/alignment/k141_43585_2661_3395_Fi_047.fas, data/tmp/WKT15146.1.tsv, data/single_clusters/WNK26496.1.tsv, data/single_clusters/YP_009345691.1.tsv, data/tmp/k141_15738_22635_23612_Fi_077.tsv, data/FASTA/k141_509927_547_915_Fi_096.fas, output/phylogeny/WNK26465.1.logs, output/phylogeny/k141_43585_2661_3395_Fi_047.logs, data/tmp/YP_001687088.1.tsv, data/FASTA/WNK26511.1.fas, output/phylogeny/k141_71921_16515_21209_Fi_077.logs, data/single_clusters/k141_187430_1476_2150_Fi_096.tsv, output/alignment/k141_402023_3049_3714_Fi_035.fas, output/phylogeny/k141_417981_2105_3715_Fi_026.logs, data/FASTA/YP_009116770.1.fas, data/single_clusters/k141_15738_25378_25605_Fi_077.tsv, data/FASTA/k141_43585_2661_3395_Fi_047.fas, data/single_clusters/k141_71921_8125_9366_Fi_077.tsv, data/single_clusters/k141_43585_2661_3395_Fi_047.tsv, data/tmp/k141_187430_622_1449_Fi_096.tsv, output/alignment/YP_009345691.1.fas, output/phylogeny/k141_402023_3049_3714_Fi_035.logs, data/tmp/k141_71921_11276_15967_Fi_077.tsv, output/phylogeny/k141_15738_25378_25605_Fi_077.logs, output/phylogeny/k141_350370_19918_20472_Fi_096.logs, output/alignment/WNK26465.1.fas, data/tmp/k141_122162_1052_4048_Fi_026.tsv, data/single_clusters/k141_71921_21721_22146_Fi_077.tsv, data/FASTA/k141_43585_1723_2340_Fi_047.fas, data/FASTA/WNK26513.1.fas, data/single_clusters/YP_010780875.1.tsv, data/FASTA/WKA13552.1.fas, data/tmp/k141_71921_8125_9366_Fi_077.tsv, data/single_clusters/k141_223487_2031_2186_Fi_037.tsv, data/FASTA/WNK26503.1.fas, output/alignment/YP_009345664.1.fas, data/tmp/YP_009666641.1.tsv, output/alignment/WNK26545.1.fas, output/phylogeny/k141_361753_1543_1875_Fi_085.logs, data/single_clusters/YP_009345656.1.tsv, data/single_clusters/k141_350370_19918_20472_Fi_096.tsv, output/alignment/k141_187430_622_1449_Fi_096.fas, data/FASTA/YP_009345691.1.fas, data/FASTA/k141_43585_713_925_Fi_047.fas, output/alignment/WNK26496.1.fas, data/tmp/k141_71921_16515_21209_Fi_077.tsv, output/alignment/WKA13612.1.fas, data/FASTA/YP_009666641.1.fas, data/tmp/YP_010780875.1.tsv, data/single_clusters/WNK26545.1.tsv, output/alignment/YP_001687088.1.fas, data/FASTA/WNK26496.1.fas, output/alignment/k141_81546_482_622_Fi_026.fas, output/phylogeny/WNK26496.1.logs, data/FASTA/k141_15738_25378_25605_Fi_077.fas, data/tmp/WNK26511.1.tsv, data/single_clusters/WKT15177.1.tsv, data/tmp/k141_223487_2031_2186_Fi_037.tsv, data/tmp/YP_009345691.1.tsv, data/tmp/WNK26526.1.tsv, data/FASTA/k141_187430_1476_2150_Fi_096.fas, output/phylogeny/YP_009666641.1.logs, data/FASTA/YP_001687088.1.fas, data/single_clusters/WNK26503.1.tsv, data/single_clusters/k141_402023_4616_5203_Fi_035.tsv, data/FASTA/k141_71921_16515_21209_Fi_077.fas, data/single_clusters/WNK26517.1.tsv, data/tmp/k141_173270_3863_4723_Fi_051.tsv, data/tmp/k141_361753_1543_1875_Fi_085.tsv, output/alignment/YP_009666641.1.fas, output/phylogeny/WKA13612.1.logs, data/FASTA/YP_010777982.1.fas, output/alignment/k141_15738_22635_23612_Fi_077.fas, output/alignment/k141_15738_26993_27403_Fi_077.fas, output/phylogeny/YP_009345664.1.logs, data/FASTA/k141_15738_26993_27403_Fi_077.fas, data/FASTA/WKT15146.1.fas, data/tmp/WKA13552.1.tsv, output/alignment/k141_452138_406_639_Fi_058.fas, data/single_clusters/k141_122162_1052_4048_Fi_026.tsv, data/single_clusters/WKA13552.1.tsv, data/FASTA/YP_010780875.1.fas, output/phylogeny/k141_81546_482_622_Fi_026.logs, output/phylogeny/k141_122162_1052_4048_Fi_026.logs, data/FASTA/k141_223487_2031_2186_Fi_037.fas, data/tmp/k141_43585_2661_3395_Fi_047.tsv, data/tmp/YP_009116770.1.tsv, data/FASTA/WKA13612.1.fas, output/alignment/WKT15177.1.fas, data/tmp/WKT15177.1.tsv, output/phylogeny/k141_187430_1476_2150_Fi_096.logs, data/FASTA/k141_15738_22635_23612_Fi_077.fas, output/phylogeny/YP_001686949.1.logs, data/tmp/WNK26496.1.tsv, data/single_clusters/YP_001686949.1.tsv, data/single_clusters/YP_010777982.1.tsv, data/FASTA/k141_71921_21721_22146_Fi_077.fas, data/single_clusters/WKA13612.1.tsv, output/phylogeny/k141_402023_4616_5203_Fi_035.logs, output/phylogeny/k141_452138_406_639_Fi_058.logs, data/FASTA/k141_402023_3049_3714_Fi_035.fas, data/tmp/YP_009345664.1.tsv, output/alignment/k141_223487_2031_2186_Fi_037.fas, data/tmp/k141_15738_25378_25605_Fi_077.tsv, output/phylogeny/WNK26517.1.logs, data/tmp/k141_15738_26993_27403_Fi_077.tsv, data/tmp/k141_187430_1476_2150_Fi_096.tsv, data/tmp/WNK26517.1.tsv, data/FASTA/k141_122162_1052_4048_Fi_026.fas, output/phylogeny/YP_001687088.1.logs, data/FASTA/k141_452138_406_639_Fi_058.fas, output/alignment/k141_509927_547_915_Fi_096.fas, data/single_clusters/WNK26465.1.tsv, output/alignment/k141_361753_1543_1875_Fi_085.fas, data/tmp/k141_81546_482_622_Fi_026.tsv, output/alignment/k141_350370_19918_20472_Fi_096.fas, output/alignment/YP_009116770.1.fas, data/single_clusters/k141_452138_406_639_Fi_058.tsv, output/phylogeny/k141_71921_11276_15967_Fi_077.logs, data/single_clusters/k141_15738_26993_27403_Fi_077.tsv, output/phylogeny/YP_009345676.1.logs, output/phylogeny/YP_010780875.1.logs, data/tmp/WNK26513.1.tsv, output/phylogeny/k141_43585_1723_2340_Fi_047.logs, data/single_clusters/k141_173270_3863_4723_Fi_051.tsv, output/alignment/k141_71921_11276_15967_Fi_077.fas, output/alignment/k141_417981_2105_3715_Fi_026.fas, output/alignment/YP_009345656.1.fas, data/FASTA/k141_81546_482_622_Fi_026.fas, output/phylogeny/k141_15738_26993_27403_Fi_077.logs, data/single_clusters/YP_009345664.1.tsv, data/single_clusters/YP_001687088.1.tsv, data/single_clusters/k141_417981_2105_3715_Fi_026.tsv, output/phylogeny/WKT15146.1.logs, output/alignment/YP_010777982.1.fas, data/single_clusters/YP_009116770.1.tsv, data/tmp/k141_509927_547_915_Fi_096.tsv, output/phylogeny/WNK26503.1.logs, output/alignment/WNK26511.1.fas, data/FASTA/k141_361753_1543_1875_Fi_085.fas, output/alignment/YP_009345676.1.fas, output/alignment/WKT15146.1.fas, data/single_clusters/YP_009666641.1.tsv, data/single_clusters/k141_71921_16515_21209_Fi_077.tsv, output/alignment/WNK26526.1.fas, data/single_clusters/k141_187430_622_1449_Fi_096.tsv, data/FASTA/k141_71921_8125_9366_Fi_077.fas, output/phylogeny/k141_187430_622_1449_Fi_096.logs, output/phylogeny/WKA13552.1.logs, data/FASTA/WNK26545.1.fas, data/tmp/YP_010777982.1.tsv, data/FASTA/k141_402023_4616_5203_Fi_035.fas, output/alignment/k141_187430_1476_2150_Fi_096.fas, output/alignment/k141_173270_3863_4723_Fi_051.fas, data/single_clusters/WKA13572.1.tsv, data/FASTA/k141_417981_2105_3715_Fi_026.fas, data/tmp/WNK26503.1.tsv, output/phylogeny/WKA13572.1.logs, data/single_clusters/WNK26526.1.tsv, data/single_clusters/WKT15146.1.tsv, data/FASTA/YP_009345676.1.fas, output/alignment/k141_122162_1052_4048_Fi_026.fas, data/FASTA/WNK26465.1.fas, output/alignment/k141_402023_4616_5203_Fi_035.fas, output/alignment/YP_001686949.1.fas, data/FASTA/WNK26517.1.fas, output/phylogeny/k141_71921_8125_9366_Fi_077.logs, data/single_clusters/k141_81546_482_622_Fi_026.tsv, data/tmp/YP_009345676.1.tsv, data/tmp/k141_43585_713_925_Fi_047.tsv, data/tmp/WKA13572.1.tsv, data/single_clusters/k141_71921_11276_15967_Fi_077.tsv, output/phylogeny/k141_15738_22635_23612_Fi_077.logs, data/tmp/k141_402023_3049_3714_Fi_035.tsv, output/alignment/WNK26517.1.fas, output/alignment/k141_15738_25378_25605_Fi_077.fas, output/alignment/k141_43585_713_925_Fi_047.fas, output/phylogeny/YP_009345656.1.logs, data/tmp/WNK26545.1.tsv
+    resources: tmpdir=<TBD>
+
+Job stats:
+job              count
+-------------  -------
+Alignment           46
+all                  1
+cluster_FASTA       46
+phylogeny           46
+total              139
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        Alignment, all, phylogeny
+    output files have to be generated:
+        Alignment, cluster_FASTA, phylogeny
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

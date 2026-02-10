@@ -1,0 +1,7 @@
+### module info ###
+# loaded module miniforge/24.3.0
+# For further information see:
+# https://github.com/conda-forge/miniforge
+######
+
+/opt/gridengine/default/spool/compute-0-10/job_scripts/2072450: Zeile 14: cd: /home/yzitzmann/paper/TE_filter2: Datei oder Verzeichnis nicht gefunden

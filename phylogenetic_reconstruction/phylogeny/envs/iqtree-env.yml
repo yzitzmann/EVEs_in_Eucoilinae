@@ -1,0 +1,12 @@
+name: iqtree-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - iqtree=3.0.1=h503566f_0
+  - libgcc=15.2.0=he0feb66_16
+  - libgomp=15.2.0=he0feb66_16
+  - libstdcxx=15.2.0=h934c35e_16
+prefix: /home/yzitzmann/.conda/envs/iqtree-env
