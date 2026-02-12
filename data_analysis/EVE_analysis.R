@@ -1,29 +1,25 @@
 #                       EVE Analysis                        January 19, 2026
+library(renv)
 
-## 1. A contig containing a candidate locus also contains a hymenopteran benchmarking universal single-copy ortholog (BUSCO).
-## 2. A contig containing a candidate locus exhibits a sequencing depth within the 15th to 85th percentile of the BUSCO-containing contigs (Benjamini-Hochberg adjusted).
-## 3. A contig containing a candidate locus exhibits a sequencing depth within the 5th to 95th percentile of the BUSCO-containing contigs (Benjamini-Hochberg adjusted) as well as a non-overlapping transposon.
-
-# removing objects from global environment
-rm(list = ls())
+init()
+renv::snapshot()
+library(here)
 
 # packages
-library(stringr)
 library(writexl)
 library(ggplot2)
-library(tidyr)
+library(tidyverse)
 library(car)
 library(ape)
-library(phytools)
 library(RRphylo)
 library(ggtree)
 library(ggstance)
 library(showtext)
 
 # upload input data
-EVEs <- read.delim('E:/master_thesis/paper/data/R_input/all_EVEs.txt', header = F)
-genomes <- read.delim('E:/master_thesis/paper/data/R_input/genome_IDs_table.txt', header = F)
-tip_labels <- read.delim('E:/master_thesis/paper/data/R_input/species_decoder_new.txt', header = F)
+EVEs <- read.delim(here("data", "R_input", "all_EVEs.txt"), header = F)
+genomes <- read.delim(here("data", "R_input", "genome_IDs_table.txt"), header = F)
+tip_labels <- read.delim(here("data", "R_input", "species_decoder.txt"), header = F)
 colnames(tip_labels) <- c("number", "label")
 
 ##### 1. clean data
@@ -62,7 +58,7 @@ for(i in 1:nrow(Genome_ID)) {
 }
 
 EVEs <- cbind(Genome_ID, EVEs)
-write_xlsx(EVEs, "E:/master_thesis/paper/data/R_output/clean_EVEs.xlsx")
+write_xlsx(EVEs, here("data", "R_output", "clean_EVEs.xlsx"))
 
 ##### 2. EVE statistics
 
@@ -116,7 +112,7 @@ min(species_EVEs$EVE_number)
 max(species_EVEs$EVE_number)
 
 # save as excel-spreadsheet
-write_xlsx(species_EVEs, "E:/master_thesis/paper/data/R_output/species_EVEs.xlsx")
+write_xlsx(species_EVEs, here("data", "R_output", "species_EVEs.xlsx"))
 
 ##### 4. Number of EVEs per viral family
 
@@ -140,14 +136,14 @@ min(EVE_families$EVE_number)
 max(EVE_families$EVE_number)
 
 # save dataframe as excel-spreadsheet
-write_xlsx(EVE_families, "E:/master_thesis/paper/data/R_output/EVE_families.xlsx")
+write_xlsx(EVE_families, here("data", "R_output", "EVE_families.xlsx"))
 
 ##### 5. Genomic Structures (ssRNA, dsRNA, ssDNA, dsDNA) 
 
 # upload data on genomic structures
-gstruc <- read.delim('E:/master_thesis/paper/data/R_input/virus_genome_structure.txt', header = F)
+gstruc <- read.delim(here("data", "R_input", "virus_genome_structure.txt"), header = F)
 
-# add structure data to data frame
+# add structure data to data frame & remove unknown families
 structure <- c()
 EVE_families <- subset(EVE_families, EVE_families$family != "unknown")
 
@@ -208,7 +204,7 @@ EVE_strc$structure <- factor(EVE_strc$structure, levels = c("dsDNA", "ssDNA", "d
 showtext_auto()
 
 # plot
-jpeg(filename = "E:/master_thesis/paper/plots/viral_families.jpeg",
+jpeg(filename = here("plots" ,"viral_families.jpeg"),
      width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
 ggplot(EVE_strc, aes(x = reorder(family, -EVE_number), y = EVE_number, fill = structure)) +
@@ -258,12 +254,12 @@ for(i in 1:nrow(species_EVEs)){
 }
 
 # save as excel
-write_xlsx(occurences, "E:/master_thesis/paper/data/R_output/EVE_occurences.xlsx")
+write_xlsx(occurences, here("data", "R_output", "EVE_occurences.xlsx"))
 
 ##### 7. create species phylogeny
 
 # add tree
-tree <- read.tree(file = 'E:/master_thesis/paper/data/R_input/renamed_euco_treesearch_aa_full.treefile')
+tree <- read.tree(file = here("data", "R_input", "renamed_euco_treesearch_aa_full.treefile"))
 tree$tip.label <- gsub("_", " ", tree$tip.label)
 tree$tip.label <- gsub("Fi ", "Fi_", tree$tip.label)
 
@@ -294,7 +290,7 @@ colors <- colorRampPalette(colors)(39)
 colors <- rev(colors)
 
 # save as jpeg
-jpeg(filename = "E:/master_thesis/paper/plots/EVEs_overview.jpeg",
+jpeg(filename = here("plots", "EVEs_overview.jpeg"),
     width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
 print(facet_plot(my_tree + xlim_tree(0.75), panel = '', data = occurences, geom = geom_barh, 
@@ -341,12 +337,12 @@ EVEs_overview <- facet_plot(my_tree + xlim_tree(0.8), panel = '', data = occuren
         text = element_text(family = "Arial")) +
   xlab("Number of EVEs")
 
-graph2vector(x = EVEs_overview, file = "E:/master_thesis/paper/plots/EVEs_overview", type ="SVG", font = "sans", aspectr = 2.0)
+graph2vector(x = EVEs_overview, file = here("plots", "EVEs_overview"), type ="SVG", font = "sans", aspectr = 2.0)
 
 ##### 9. Filamentoviridae heatmap
 
 # add phylogeny confirmed Fila EVEs 
-phylo_EVEs <- read.delim('E:/master_thesis/paper/data/R_input/Fila_phylogeny_EVEs.txt', header = F)
+phylo_EVEs <- read.delim(here("data", "R_input", "Fila_phylogeny_EVEs.txt"), header = F)
 phylo_EVEs$V1 <- NULL
 colnames(phylo_EVEs) <- c("query", "contig", "qlen", "tlen", "target", "Vcla", "Vfam", "Gstruc", "qstart", "qend", "qframe", "tstart", "tend", "evalue", "tcov", "pident", "alnlen", "mismatch", "gapopen", "bits", "qaln")
 
@@ -364,7 +360,7 @@ for(i in 1:nrow(IDs)) {
 phylo_EVEs <- cbind(IDs, phylo_EVEs)
 
 # add decoder
-fila_decode <- read.delim('E:/master_thesis/paper/data/R_input/Filamentoviridae_decoder.txt', header = F)
+fila_decode <- read.delim(here("data", "R_input", "Filamentoviridae_decoder.txt"), header = F)
 targets <- fila_decode$V2
 
 # subset for Filamentoviridae EVEs
@@ -406,8 +402,8 @@ for(i in 1:length(half_matches)){
 }
 
 # add phylogeny confirmed EVEs lost in taxonomy filter
-lef5 <- read.delim('E:/master_thesis/paper/data/R_input/lef5.txt', header = F)$V1
-orf108 <- read.delim('E:/master_thesis/paper/data/R_input/LbFVorf108.txt', header = F)$V1
+lef5 <- read.delim(here("data", "R_input", "lef5.txt"), header = F)$V1
+orf108 <- read.delim(here("data", "R_input", "LbFVorf108.txt"), header = F)$V1
 
 heatmap_matrix$LbFV_lef5[grepl(paste(lef5, collapse ="|"), heatmap_matrix[,1])] <- 0.5
 heatmap_matrix$YP_009345712.1[grepl(paste(orf108, collapse ="|"), heatmap_matrix[,1])] <- 0.5
@@ -432,25 +428,22 @@ heatmap_matrix$`LbFVorf106(Odv-e66)` <- NULL
 heatmap_matrix$`LbFVorf2(integrase)` <- NULL
 
 # change order of columns
-library(dplyr)
 heatmap_matrix <- select(heatmap_matrix, LbFVorf5, LbFVorf10, `LbFVorf38(lef-5)`, `LbFVorf60(lcat)`, `LbFVorf68(helicase2)`, LbFVorf72, `LbFVorf78(lef-9)`, LbFVorf83, `LbFVorf85(Ac81)`, LbFVorf87, LbFVorf92, LbFVorf94, `LbFVorf96(lef-8)`, `LbFVorf107(lef-4)`, LbFVorf108, LbFVDNApol, LbFVJmJC1)
 
 # save as excel
-write_xlsx(heatmap_matrix, "E:/master_thesis/paper/data/R_output/Filamentoviridae_EVEs.xlsx")
+write_xlsx(heatmap_matrix, here("data", "R_output", "Filamentoviridae_EVEs.xlsx"))
 
 tips_to_keep <- grep("Fi_037 Rhoptromeris heptoma|Fi_034 Rhoptromeris heptoma|Fi_035 Rhoptromeris sp|Fi_036 Rhoptromeris villosa|Fi_040 Trichoplasta sp|Fi_077 Cothonaspis longula|Fi_027 Leptopilina heterotoma|Fi_026 Leptopilina fimbriata|Fi_047 Maacynips sp|Fi_042 Trybliographa sp 1|Fi_043 Trybliographa sp 2", resolved_tree$tip.label, value = TRUE)
 ancestral_event <- keep.tip(resolved_tree, tips_to_keep)
 
 # plot heatmap
-library(ggplot2)
-library(ggtree)
 my_tree <- ggtree(ancestral_event, size = 0.65) +
   geom_tiplab(align = TRUE, size = 7, offset = 0.0, family = 'Arial', fontface = "italic") +
   geom_text2(aes(subset = !isTip, label = label), family = "Arial", nudge_x = 0.02, size = 5) +
   geom_treescale(x = 0, y = 11, width = 0.2, linesize = 1, fontsize = 7)
 
 # jpeg
-jpeg(filename = "E:/master_thesis/paper/plots/heatmaps/ancestral_event_heatmap.jpeg",
+jpeg(filename = here("plots", "ancestral_event_heatmap.jpeg"),
      width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
 gheatmap(my_tree, heatmap_matrix, offset = 0.3, width = 2.4, low = "white", high = "#800",
@@ -489,7 +482,7 @@ my_heatmap <- gheatmap(my_tree, heatmap_matrix, offset = 0.24, width = 2.0, low 
   vexpand(0.1) +
   hexpand(0.03)
 
-graph2vector(x = my_heatmap, file = "E:/master_thesis/paper/plots/heatmaps/Filamentoviridae_heatmap", type ="SVG", font = "Arial", aspectr = 1.6)
+graph2vector(x = my_heatmap, file = here("plots", "ancestral_event_heatmap"), type ="SVG", font = "Arial", aspectr = 1.6)
 
 #################################################################################
 
@@ -511,7 +504,6 @@ for(i in seq_along(targets)){
   matches[[i]] <- subset(one_family_EVEs, one_family_EVEs$target == targets[i])$Genome_ID
 }
 
-
 # fill in data for each protein
 for(i in 1:length(matches)){
   for(j in 1:length(matches[[i]])){
@@ -532,13 +524,11 @@ heatmap_matrix[is.na(heatmap_matrix)] <- 0
 write_xlsx(heatmap_matrix, "D:/master_thesis/paper/data/R_output/Baculoviridae_EVEs.xlsx")
 
 # plot heatmap
-library(ggplot2)
-library(ggtree)
 my_tree <- ggtree(resolved_tree, size = 0.65) + geom_tiplab(align = TRUE, size = 6, offset = 0.005, family = 'Arial', fontface = "italic") +
   geom_treescale(x = 0, y = 40, width = 0.075, linesize = 1, fontsize = 6)
 
 # jpeg
-jpeg(filename = "D:/master_thesis/paper/plots/heatmaps/Baculoviridae_heatmap.jpeg",
+jpeg(filename = "E:/master_thesis/paper/plots/heatmaps/test_heatmap.jpeg",
      width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
 gheatmap(my_tree, heatmap_matrix, offset = 0.11, width = 1.4, low = "white", high = "#4393C3",
