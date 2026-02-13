@@ -11,8 +11,14 @@ Parameters were optimized for allowing the detection of as many known endogenize
 Then, we merged overlapping hits on the Figitidae genomes using GenomicRanges (Lawrence et al. 2013) and extracted the candidate sequences."
 
 Software:
+Cock PJA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B, de Hoon MJL (2009) Biopython: Freely  available 	Python tools for computational molecular biology and bioinformatics. Bioinformatics, 25(11), 1422–1423. 
+	https://doi.org/10.1093/bioinformatics/btp163
+Harris CR, Millman KJ, Van Der Walt SJ, Gommers R, Virtanen P, Cournapeau D, Wieser E, Taylor J, Berg S, Smith NJ, Kern R, Picus M, Hoyer S, Van Kerkwijk 
+	MH, Brett M, Haldane A, Del Río JF, Wiebe M, Peterson P, Gérard-Marchant P, Sheppard K, Reddy T, Weckesser W, Abbasi H, Gohlke C, Oliphant TE (2020) 	Array programming with NumPy. Nature, 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
 Lawrence M, Huber W, Pagès H, Aboyoun P, Carlson M, Gentleman R, Morgan MT, Carey VJ (2013) Software for Computing and Annotating Genomic Ranges. 
 	PLoS Computational Biology, 9(8), e1003118. https://doi.org/10.1371/journal.pcbi.1003118
+McKinney W (2010) Data Structures for Statistical Computing in Python. Python in Science Conference, 56–61.
+	https://doi.org/10.25080/Majora-92bf1922-00a
 Pagès H, Lawrence M, Aboyoun P (2024) S4Vectors: Foundation of vector-like and list-like containers in Bioconductor (Version 0.44.0) [Computer software]. 	https://bioconductor.org/packages/S4Vectors
 Steinegger M, Söding J (2017) MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nature Biotechnology, 35, 
 	1026–1028. https://doi.org/10.1038/nbt.3988
