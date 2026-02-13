@@ -14,7 +14,7 @@ Mölder F, Jablonski KP, Letcher B, Hall MB, Tomkins-Tinch CH, Sochat V, Forster
 Sustainable data analysis with Snakemake [version 2; peer review: 2 approved]. F1000Research, 10(33).
 https://doi.org/10.12688/f1000research.29032.2
 
-The order in which the steps of the workflow were executed is as follows:
+The order in which the steps of the workflow were executed is as follows:  
   **1. viral_protein_database  
   2. homology_search  
   3. taxonomy_filter  
