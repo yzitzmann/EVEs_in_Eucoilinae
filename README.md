@@ -6,7 +6,7 @@ The directories represent the steps of the workflow. All steps were conducted on
 
 *Software*
 McKinney W (2010) Data Structures for Statistical Computing in Python. Python in Science Conference, 56–61.
->  https://doi.org/10.25080/Majora-92bf1922-00a  
+>  https://doi.org/10.25080/Majora-92bf1922-00a
 Mölder F, Jablonski KP, Letcher B, Hall MB, Tomkins-Tinch CH, Sochat V, Forster J, Lee S, Twardziok SO, Kanitz A, Wilm A, Holtgrewe M, Rahmann S, Nahnsen S, Köster J (2021)
 >  Sustainable data analysis with Snakemake [version 2; peer review: 2 approved]. F1000Research, 10(33).
 >  https://doi.org/10.12688/f1000research.29032.2
