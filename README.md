@@ -21,14 +21,14 @@ The order in which the steps of the workflow were executed is as follows:
   4. metadata  
   5. TE_filter  
   6. endogenization_test**  
->>     a) BUSCO_confirmation  
->>     b) seq_depth_confirmation  
->>     c) TE_and_depth  
->>     d) EVEs  
+     a) BUSCO_confirmation  
+     b) seq_depth_confirmation  
+     c) TE_and_depth  
+     d) EVEs  
   **8. phylogenetic_reconstruction**  
->>     a) clustering  
->>     b) phylogeny  
->>     c) phylogeny_lost_EVEs  
+     a) clustering  
+     b) phylogeny  
+     c) phylogeny_lost_EVEs  
   **10. data_analysis**  
 
 All directories contain ReadMe-files describing the steps in more detail.  
