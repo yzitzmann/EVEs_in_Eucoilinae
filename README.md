@@ -6,7 +6,7 @@ This repository contains the scripts used for the detection of endogenous viral 
 
 The directories represent the steps of the workflow. All steps were conducted on the LIB-HPC using the workflow management system Snakemake (Mölder et al., 2021) as well as the python library pandas (McKinney, 2010). 
 
-*Software*
+## **Software**  
 McKinney W (2010) Data Structures for Statistical Computing in Python. Python in Science Conference, 56–61.
 https://doi.org/10.25080/Majora-92bf1922-00a  
 
@@ -15,26 +15,26 @@ Sustainable data analysis with Snakemake [version 2; peer review: 2 approved]. F
 https://doi.org/10.12688/f1000research.29032.2
 
 The order in which the steps of the workflow were executed is as follows:
->  1. viral_protein_database  
->  2. homology_search  
->  3. taxonomy_filter  
->  4. metadata  
->  5. TE_filter  
->  6. endogenization_test  
+  **1. viral_protein_database  
+  2. homology_search  
+  3. taxonomy_filter  
+  4. metadata  
+  5. TE_filter  
+  6. endogenization_test**  
      a) BUSCO_confirmation  
      b) seq_depth_confirmation  
      c) TE_and_depth  
      d) EVEs
->  8. phylogenetic_reconstruction  
+  **8. phylogenetic_reconstruction**  
      a) clustering  
      b) phylogeny  
      c) phylogeny_lost_EVEs  
->  10. data_analysis  
+  **10. data_analysis**  
 
 All directories contain ReadMe-files describing the steps in more detail.  
 Used software and their versions are listed in the ReadMe as well as yml-files and were implemented via miniforge (24.3.0).  
 
-*Detailed Workflow Description*  
+## **Detailed Workflow Description**  
 We created a custom virus protein dataset consisting of 141,451 sequences based on the NCBI reference sequence viral protein database (O’Leary et al., 2016). Given our research question, we excluded bacteriophages as well as Polydnaviriformidae and complemented our dataset with 371 sequences of Filamentoviridae (NCBI: PRJNA964713) as well as 40 sequences of Ichnovirus Structural Protein Encoding Regions (Volkoff et al., 2010). We searched for EVEs using a workflow based on the pipeline created by Guinet et al. (2023). In short, we acquired metadata on candidate loci after taxonomic filtering with a Mmseqs2 search (Steinegger & Söding, 2017) using our loci as queries. Additionally, taxonomic data on free-living virus matches as well as their genomic structures was gathered from NCBI (O’Leary et al., 2016) and the International Council on Virus Taxonomy (ICTV, Lefkowitz et al., 2018). To exclude transposons from our EVE candidate dataset, we searched for transposons by conducting an Mmseqs2 search against the RepeatPeps library (Flynn et al. 2020) and removed all EVEs overlapping with transposons using GenomicRanges (Lawrence et al. 2013).  
 Finally, we used three endogenization criteria to discriminate between EVEs and free-living virus sequences accepting candidates which meet at least one criteria:  
 >  1. A contig containing a candidate locus also contains a hymenopteran benchmarking universal single-copy ortholog (BUSCO).  
