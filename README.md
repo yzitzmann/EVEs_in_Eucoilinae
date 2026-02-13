@@ -1,4 +1,4 @@
-# **ReadMe EVEs in Eucoilinae**
+# **EVEs in Eucoilinae**
 ---
 February 10, 2026
 
