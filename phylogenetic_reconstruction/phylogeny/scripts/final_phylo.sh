@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_phylo
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -28,7 +27,7 @@ cut -f 1 data/Fila_clusters.tsv > data/cluster_IDs.txt
 sed 's/(-)//g' /home/yzitzmann/paper/phylogenetic_reconstruction/clustering/data/EVE_virus.faa | sed 's/(+)//g' | sed 's/-/_/g' | sed 's/:/_/g' > data/EVE_virus.faa
 
 # 4. snakemake
-snakemake --cores $NSLOTS -s phylo.sh --use-conda
+snakemake --cores $NSLOTS -s phylo.smk --use-conda
 
 # 5. deactivate conda environment
 conda deactivate

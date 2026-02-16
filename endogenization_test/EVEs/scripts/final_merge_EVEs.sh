@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_merge_EVEs
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -16,7 +15,7 @@ cd /home/yzitzmann/paper/endogenization_test/EVEs
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s merge_EVEs.sh --use-conda
+snakemake --cores $NSLOTS -s merge_EVEs.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

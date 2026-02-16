@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_fila_homologies
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -20,7 +19,7 @@ esearch -db protein -query "txid552509[Organism] AND refseq[Filter]" | efetch -f
 cat data/LbFV.fasta data/Filamentoviridae.fasta > data/complete_Filamentoviridae.fasta
 
 # snakemake
-snakemake --cores $NSLOTS -s fila_homologies.sh --use-conda
+snakemake --cores $NSLOTS -s fila_homologies.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

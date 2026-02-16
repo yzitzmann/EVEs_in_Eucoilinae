@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N taxonomy_filter_final
-#$ -m be
 
 # load modules required
 module load miniforge/24.3.0
@@ -16,7 +15,7 @@ cd /home/yzitzmann/paper/taxonomy_filter
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s taxonomy_assignment.sh --use-conda --use-envmodules
+snakemake --cores $NSLOTS -s taxonomy_assignment.smk --use-conda --use-envmodules
 
 # deactivate conda environment
 conda deactivate

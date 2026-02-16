@@ -1,4 +1,4 @@
-# Plotting ancestral event EVE phylogenies                                     December 30, 2025
+# Plotting ancestral event EVE phylogenies                                     February 16, 2026
 library(here)
 
 # libraries
@@ -81,7 +81,7 @@ for(i in 1:length(root_trees)){
   lapply(root_trees[i], plot, show.node.label = TRUE)
 }
 
-##### plot nicely (Filamentoviridae diversity included)
+##### plot nicely
 # make Arial font available
 showtext_auto()
 

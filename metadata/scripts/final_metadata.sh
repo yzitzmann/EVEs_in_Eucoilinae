@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_metadata
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -15,7 +14,7 @@ cd /home/yzitzmann/paper/metadata/data
 ## prepare gpff-database
 # unzip gz file
 cd /home/yzitzmann/paper/metadata/data
-#gzip -d viral_protein_refseq_release_viral_Apr21_2025.gpff.gz
+gzip -d viral_protein_refseq_release_viral_Apr21_2025.gpff.gz
 
 # 1. Family data
 # Extract version (corresponds to accession number) and family (families either followed by ; or . in file) data
@@ -65,7 +64,7 @@ cd /home/yzitzmann/paper/metadata
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s metadata.sh --use-conda
+snakemake --cores $NSLOTS -s metadata.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

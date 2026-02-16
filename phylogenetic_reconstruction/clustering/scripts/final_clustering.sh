@@ -4,10 +4,9 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_clustering
-#$ -m e
 
 # load modules required
-#module load miniforge/24.3.0
+module load miniforge/24.3.0
 
 # data directory
 cd /home/yzitzmann/paper/phylogenetic_reconstruction/clustering
@@ -17,7 +16,7 @@ cd /home/yzitzmann/paper/phylogenetic_reconstruction/clustering
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s scripts/add_EVEs.sh --use-conda
+snakemake --cores $NSLOTS -s scripts/add_EVEs.smk --use-conda
 
 # deactivate conda environment
 conda deactivate
@@ -34,7 +33,7 @@ cut -d ' ' -f 1 data/viral_protein_ivspers_fila_nophages_nopolydna_LbFV_lef5.faa
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s clustering.sh --use-conda
+snakemake --cores $NSLOTS -s clustering.smk --use-conda
 
 # deactivate conda environment
 conda deactivate
@@ -47,7 +46,7 @@ cut -f 1 output/labels_clusters.tsv | sort | uniq > data/cluster_IDs.txt
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s scripts/clusters.sh --use-conda
+snakemake --cores $NSLOTS -s scripts/clusters.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

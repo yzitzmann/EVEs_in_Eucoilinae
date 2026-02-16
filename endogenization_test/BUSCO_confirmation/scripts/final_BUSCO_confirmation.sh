@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_BUSCO_confirmation
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -16,7 +15,7 @@ cd /home/yzitzmann/paper/endogenization_test/BUSCO_confirmation
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s BUSCO.sh --use-conda
+snakemake --cores $NSLOTS -s BUSCO.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

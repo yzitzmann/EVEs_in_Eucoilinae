@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N homology_search
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -16,7 +15,7 @@ cd /home/yzitzmann/paper/homology_search
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s Viral_homology.sh --use-conda
+snakemake --cores $NSLOTS -s Viral_homology.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_TE_and_depth
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -16,7 +15,7 @@ cd /home/yzitzmann/paper/endogenization_test/TE_and_depth
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s TE_and_depth.sh
+snakemake --cores $NSLOTS -s TE_and_depth.smk
 
 # deactivate conda environment
 conda deactivate

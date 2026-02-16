@@ -4,7 +4,6 @@
 #$ -S /bin/bash
 #$ -j n
 #$ -N final_phylo_lost_EVEs
-#$ -m e
 
 # load modules required
 module load miniforge/24.3.0
@@ -16,7 +15,7 @@ cd /home/yzitzmann/paper/phylogenetic_reconstruction/phylogeny_lost_EVEs
 conda activate snakemake8-env
 
 # snakemake
-snakemake --cores $NSLOTS -s new_phylo.sh --use-conda
+snakemake --cores $NSLOTS -s new_phylo.smk --use-conda
 
 # deactivate conda environment
 conda deactivate

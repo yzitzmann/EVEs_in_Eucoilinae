@@ -3,9 +3,9 @@ library(renv)
 
 init()
 renv::snapshot()
-library(here)
 
 # packages
+library(here)
 library(writexl)
 library(ggplot2)
 library(tidyverse)
@@ -16,7 +16,7 @@ library(ggtree)
 library(ggstance)
 library(showtext)
 
-# upload input data
+# add input data
 EVEs <- read.delim(here("data", "R_input", "all_EVEs.txt"), header = F)
 genomes <- read.delim(here("data", "R_input", "genome_IDs_table.txt"), header = F)
 tip_labels <- read.delim(here("data", "R_input", "species_decoder.txt"), header = F)
@@ -24,7 +24,7 @@ colnames(tip_labels) <- c("number", "label")
 
 ##### 1. clean data
 
-# remove underscore
+# remove underscores
 for(i in 1:nrow(tip_labels)){
   tip_labels[i,2] <- gsub("_", " ", tip_labels[i,2])
   tip_labels[i,2] <- gsub("Fi ", "Fi_", tip_labels[i,2])
@@ -102,6 +102,7 @@ for(i in 1:nrow(tip_labels)){
   species_EVEs[i, 2] <- sum(grepl(tip_labels[i, 2], EVEs$ID))
 }
 
+# check statistics
 qqPlot(species_EVEs$EVE_number)
 shapiro.test(species_EVEs$EVE_number)
 hist(species_EVEs$EVE_number)
@@ -127,6 +128,7 @@ for(i in 1:nrow(EVE_families)){
   EVE_families[i, 2] <- sum(grepl(EVE_families[i, 1], EVEs$Vfam))
 }
 
+# check statistics
 qqPlot(EVE_families$EVE_number)
 shapiro.test(EVE_families$EVE_number)
 hist(EVE_families$EVE_number)
@@ -140,7 +142,7 @@ write_xlsx(EVE_families, here("data", "R_output", "EVE_families.xlsx"))
 
 ##### 5. Genomic Structures (ssRNA, dsRNA, ssDNA, dsDNA) 
 
-# upload data on genomic structures
+# add data on genomic structures
 gstruc <- read.delim(here("data", "R_input", "virus_genome_structure.txt"), header = F)
 
 # add structure data to data frame & remove unknown families
@@ -191,7 +193,7 @@ df <- data.frame(
 family_colors <- setNames(df$clrs, df$strc)
 EVE_strc <- cbind(EVE_strc, colors)
 
-# make some modifications
+# make some modifications to family labels
 EVE_strc[EVE_strc[,1] == "Malacoherpesviridae", 1] <- "Malacoherpesv."
 EVE_strc[EVE_strc[,1] == "Orthomyxoviridae", 1] <- "Orthomyxov."
 EVE_strc[EVE_strc[,1] == "Phycodnaviridae", 1] <- "Phycodnav."
@@ -200,7 +202,7 @@ EVE_strc[EVE_strc[,1] == "Filamentoviridae", 1] <- "Filamentov."
 # create order for legend items
 EVE_strc$structure <- factor(EVE_strc$structure, levels = c("dsDNA", "ssDNA", "dsRNA", "ssRNA"))
 
-# make Arial font availablet)
+# make Arial font available
 showtext_auto()
 
 # plot
@@ -237,7 +239,7 @@ subset_EVE_families <- subset(EVE_families, EVE_families$family != "unknown")
 # create dataframe
 occurences <- data.frame()
 
-# loop through all species and viral families counting occurences of all combinations in EVE list
+# loop through all species and viral families counting occurrences of all combinations in EVE list
 for(i in 1:nrow(species_EVEs)){
   curr_species <- data.frame(
     species = rep(species_EVEs[i, 1], each = length(subset_EVE_families$family)),
@@ -325,7 +327,6 @@ EVEs_overview <- facet_plot(my_tree + xlim_tree(0.8), panel = '', data = occuren
         strip.text.x = element_blank(),
         legend.key.height = unit(3.0, 'mm'),
         legend.key.width = unit(2.4, 'mm'),
-        #legend.key.size = unit(2.75, 'mm'),
         legend.key.spacing.y = unit(-0.5, 'mm'),
         legend.position =c(0.08, 0.73),
         legend.title = element_blank(), 
@@ -341,7 +342,7 @@ graph2vector(x = EVEs_overview, file = here("plots", "EVEs_overview"), type ="SV
 
 ##### 9. Filamentoviridae heatmap
 
-# add phylogeny confirmed Fila EVEs 
+# add IQTREE confirmed Fila EVEs 
 phylo_EVEs <- read.delim(here("data", "R_input", "Fila_phylogeny_EVEs.txt"), header = F)
 phylo_EVEs$V1 <- NULL
 colnames(phylo_EVEs) <- c("query", "contig", "qlen", "tlen", "target", "Vcla", "Vfam", "Gstruc", "qstart", "qend", "qframe", "tstart", "tend", "evalue", "tcov", "pident", "alnlen", "mismatch", "gapopen", "bits", "qaln")
@@ -359,7 +360,7 @@ for(i in 1:nrow(IDs)) {
 
 phylo_EVEs <- cbind(IDs, phylo_EVEs)
 
-# add decoder
+# add decoder for Filamentoviridae proteins
 fila_decode <- read.delim(here("data", "R_input", "Filamentoviridae_decoder.txt"), header = F)
 targets <- fila_decode$V2
 
@@ -433,20 +434,24 @@ heatmap_matrix <- select(heatmap_matrix, LbFVorf5, LbFVorf10, `LbFVorf38(lef-5)`
 # save as excel
 write_xlsx(heatmap_matrix, here("data", "R_output", "Filamentoviridae_EVEs.xlsx"))
 
-tips_to_keep <- grep("Fi_037 Rhoptromeris heptoma|Fi_034 Rhoptromeris heptoma|Fi_035 Rhoptromeris sp|Fi_036 Rhoptromeris villosa|Fi_040 Trichoplasta sp|Fi_077 Cothonaspis longula|Fi_027 Leptopilina heterotoma|Fi_026 Leptopilina fimbriata|Fi_047 Maacynips sp|Fi_042 Trybliographa sp 1|Fi_043 Trybliographa sp 2", resolved_tree$tip.label, value = TRUE)
+tips_to_keep <- grep("Fi_037 Rhoptromeris heptoma|Fi_034 Rhoptromeris heptoma|Fi_035 Rhoptromeris sp|Fi_036 Rhoptromeris villosa|Fi_040 Trichoplasta sp|Fi_077 Cothonaspis longula|Fi_027 Leptopilina heterotoma|Fi_026 Leptopilina fimbriata|Fi_047 Maacynips sp|Fi_042 Trybliographa sp 1|Fi_043 Trybliographa sp 2|USNMENT01557301 Leptolamina sp", resolved_tree$tip.label, value = TRUE)
 ancestral_event <- keep.tip(resolved_tree, tips_to_keep)
 
 # plot heatmap
 my_tree <- ggtree(ancestral_event, size = 0.65) +
   geom_tiplab(align = TRUE, size = 7, offset = 0.0, family = 'Arial', fontface = "italic") +
-  geom_text2(aes(subset = !isTip, label = label), family = "Arial", nudge_x = 0.02, size = 5) +
+  #geom_text2(aes(subset = !isTip, label = label), family = "Arial", nudge_x = 0.02, size = 5) +
   geom_treescale(x = 0, y = 11, width = 0.2, linesize = 1, fontsize = 7)
+
+support_nodes <- subset(my_tree$data, !isTip)
+
+my_tree <- my_tree + geom_point(data = support_nodes, size = 7, color = "black")
 
 # jpeg
 jpeg(filename = here("plots", "ancestral_event_heatmap.jpeg"),
      width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
-gheatmap(my_tree, heatmap_matrix, offset = 0.3, width = 2.4, low = "white", high = "#800",
+gheatmap(my_tree, heatmap_matrix, offset = 0.42, width = 2.4, low = "white", high = "#800",
          color = "black",
          colnames_position = "top",
          font.size = 6,
@@ -466,10 +471,14 @@ library(export)
 
 my_tree <- ggtree(ancestral_event, size = 0.2) +
   geom_tiplab(align = TRUE, size = 2, linesize = 0.2, offset = 0.01, family = 'Arial', fontface = "italic") +
-  geom_text2(aes(subset = !isTip, label = label), family = "Arial", nudge_x = 0.015, size = 1.5) +
-  geom_treescale(x = 0, y = 11, width = 0.2, linesize = 0.2, fontsize = 2)
+  #geom_text2(aes(subset = !isTip, label = label), family = "Arial", nudge_x = 0.015, size = 1.5) +
+  geom_treescale(x = 0, y = 12, width = 0.2, linesize = 0.2, fontsize = 2)
 
-my_heatmap <- gheatmap(my_tree, heatmap_matrix, offset = 0.24, width = 2.0, low = "white", high = "#800",
+support_nodes <- subset(my_tree$data, !isTip)
+
+my_tree <- my_tree + geom_point(data = support_nodes, size = 1.5, color = "black")
+
+my_heatmap <- gheatmap(my_tree, heatmap_matrix, offset = 0.28, width = 2.0, low = "white", high = "#800",
                        color = "black",
                        colnames_position = "top",
                        font.size = 2,
