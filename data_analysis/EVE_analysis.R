@@ -1,8 +1,8 @@
 #                       EVE Analysis                        January 19, 2026
-library(renv)
 
-init()
-renv::snapshot()
+#library(renv)
+#init()
+#renv::snapshot()
 
 # packages
 library(here)
@@ -15,6 +15,7 @@ library(RRphylo)
 library(ggtree)
 library(ggstance)
 library(showtext)
+library(RColorBrewer)
 
 # add input data
 EVEs <- read.delim(here("data", "R_input", "all_EVEs.txt"), header = F)
@@ -44,6 +45,7 @@ nrow(subset(EVEs, grepl("Fi-077", EVEs$query) & EVEs$Vfam == "Filamentoviridae")
 # remove Filamentoviridae EVEs from C. longula (exception: JmJC)
 Cothonaspis_exceptions <- subset(EVEs, grepl("Fi-077", EVEs$query) & EVEs$target == "YP_009345615.1")
 EVEs <- rbind(subset(EVEs, !(grepl("Fi-077", EVEs$query) & EVEs$Vfam == "Filamentoviridae")), Cothonaspis_exceptions)
+nrow(EVEs)
 # --> 1023 EVEs left
 
 # create column with genome IDs & update genome IDs
@@ -129,6 +131,7 @@ for(i in 1:nrow(EVE_families)){
 }
 
 # check statistics
+nrow(EVE_families) - 1 # unknown family
 qqPlot(EVE_families$EVE_number)
 shapiro.test(EVE_families$EVE_number)
 hist(EVE_families$EVE_number)
@@ -285,7 +288,6 @@ showtext_auto()
 my_tree <- ggtree(resolved_tree, size = 0.65) + geom_tiplab(align = TRUE, size = 4, offset = 0.0, family = 'Arial', fontface = 'italic')
 
 # create color vector
-library(RColorBrewer)
 display.brewer.pal(n = 9, name = 'Set1')
 colors <- brewer.pal(n = 8, name = "Set1")
 colors <- colorRampPalette(colors)(39)
@@ -432,7 +434,7 @@ heatmap_matrix$`LbFVorf2(integrase)` <- NULL
 heatmap_matrix <- select(heatmap_matrix, LbFVorf5, LbFVorf10, `LbFVorf38(lef-5)`, `LbFVorf60(lcat)`, `LbFVorf68(helicase2)`, LbFVorf72, `LbFVorf78(lef-9)`, LbFVorf83, `LbFVorf85(Ac81)`, LbFVorf87, LbFVorf92, LbFVorf94, `LbFVorf96(lef-8)`, `LbFVorf107(lef-4)`, LbFVorf108, LbFVDNApol, LbFVJmJC1)
 
 # save as excel
-write_xlsx(heatmap_matrix, here("data", "R_output", "Filamentoviridae_EVEs.xlsx"))
+write_xlsx(heatmap_matrix, here("data", "R_output", "ancestral_event_EVEs.xlsx"))
 
 tips_to_keep <- grep("Fi_037 Rhoptromeris heptoma|Fi_034 Rhoptromeris heptoma|Fi_035 Rhoptromeris sp|Fi_036 Rhoptromeris villosa|Fi_040 Trichoplasta sp|Fi_077 Cothonaspis longula|Fi_027 Leptopilina heterotoma|Fi_026 Leptopilina fimbriata|Fi_047 Maacynips sp|Fi_042 Trybliographa sp 1|Fi_043 Trybliographa sp 2|USNMENT01557301 Leptolamina sp", resolved_tree$tip.label, value = TRUE)
 ancestral_event <- keep.tip(resolved_tree, tips_to_keep)
@@ -493,24 +495,25 @@ my_heatmap <- gheatmap(my_tree, heatmap_matrix, offset = 0.28, width = 2.0, low 
 
 graph2vector(x = my_heatmap, file = here("plots", "ancestral_event_heatmap"), type ="SVG", font = "Arial", aspectr = 1.6)
 
-#################################################################################
+
+##### 10. other viral family heatmaps (Nudiviridae example)
 
 # subset for family EVEs
-one_family_EVEs <- subset(EVEs, EVEs$Vfam == "Filamentoviridae")
+one_family_EVEs <- subset(EVEs, EVEs$Vfam == "Nudiviridae")
 targets <- unique(one_family_EVEs$target)
 
 # create dataframe
 heatmap_matrix <- data.frame(matrix(nrow = 41, ncol = length(targets)))
 colnames(heatmap_matrix) = targets
-genomes <- as.data.frame(tip_labels$new_label)
+genomes <- as.data.frame(tip_labels$label)
 heatmap_matrix <- cbind(genomes, heatmap_matrix)
 
-# subset Genomes of each Filametoviridae protein
+# subset genomes of each protein
 matches <- vector("list", length(targets))
 names(matches) <- targets
 
 for(i in seq_along(targets)){
-  matches[[i]] <- subset(one_family_EVEs, one_family_EVEs$target == targets[i])$Genome_ID
+  matches[[i]] <- subset(one_family_EVEs, one_family_EVEs$target == targets[i])$ID
 }
 
 # fill in data for each protein
@@ -523,24 +526,24 @@ for(i in 1:length(matches)){
 }
 
 # adjust data frame structure
-rownames(heatmap_matrix) <- heatmap_matrix$`tip_labels$new_label`
-heatmap_matrix$`tip_labels$new_label` <- NULL
+rownames(heatmap_matrix) <- heatmap_matrix$`tip_labels$label`
+heatmap_matrix$`tip_labels$label` <- NULL
 
 # replace NA with 0
 heatmap_matrix[is.na(heatmap_matrix)] <- 0
 
 # save as excel
-write_xlsx(heatmap_matrix, "D:/master_thesis/paper/data/R_output/Baculoviridae_EVEs.xlsx")
+write_xlsx(heatmap_matrix, here("data", "R_output", "Nudiviridae_EVEs.xlsx"))
 
 # plot heatmap
 my_tree <- ggtree(resolved_tree, size = 0.65) + geom_tiplab(align = TRUE, size = 6, offset = 0.005, family = 'Arial', fontface = "italic") +
-  geom_treescale(x = 0, y = 40, width = 0.075, linesize = 1, fontsize = 6)
+  geom_treescale(x = 0, y = 40, width = 0.2, linesize = 1, fontsize = 6)
 
 # jpeg
-jpeg(filename = "E:/master_thesis/paper/plots/heatmaps/test_heatmap.jpeg",
+jpeg(filename = here("plots", "Nudiviridae_heatmap.jpeg"),
      width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
-gheatmap(my_tree, heatmap_matrix, offset = 0.11, width = 1.4, low = "white", high = "#4393C3",
+gheatmap(my_tree, heatmap_matrix, offset = 0.5, width = 2.0, low = "white", high = "#4393C3",
          color = "black",
          colnames_position = "top",
          font.size = 6,
@@ -550,27 +553,7 @@ gheatmap(my_tree, heatmap_matrix, offset = 0.11, width = 1.4, low = "white", hig
          hjust = 0) +
   theme(legend.position = 'none',
         text = element_text(family = "Arial")) +
-  vexpand(0.07)
+  vexpand(0.07) +
+  hexpand(0.0)
 
 dev.off()
-
-# vector graphic
-library(export)
-my_tree <- ggtree(resolved_tree, size = 0.3) + geom_tiplab(align = TRUE, size = 2, offset = 0.005, family = 'Arial', fontface = "italic") +
-  geom_treescale(x = 0, y = 40, width = 0.075, linesize = 0.5, fontsize = 2)
-
-my_heatmap <- gheatmap(my_tree, data, offset = 0.12, width = 1.4, low = "white", high = "#2166AC",
-                       color = "black",
-                       colnames_position = "top",
-                       font.size = 2,
-                       colnames_offset_y = 0,
-                       colnames_offset_x = 0,
-                       colnames_angle = 45,
-                       hjust = 0) +
-  theme(legend.position = 'none',
-        text = element_text(family = "Arial")) +
-  vexpand(0.09)
-
-graph2vector(x = my_heatmap, file = "C:/Users/Yakim/OneDrive/Desktop/Biologiestudium/Master/SoSe24/Data/final/new_Filamentoviridae_EVEs", type ="SVG", font = "Arial", aspectr = 1.25)
-
-

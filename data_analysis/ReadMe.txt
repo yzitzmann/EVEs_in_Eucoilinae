@@ -6,9 +6,9 @@ phylogenies, respectively.
 Detailed Description:
 "Analysis and visualization of the final EVE dataset was conducted in R Version 4.4.0 (R Core Team, 2024) using the
 tidyverse (Wickham et al., 2019) as well as packages car (Fox & Weisberg, 2019), ape (Paradis & Schliep, 2019),
-phytools (Revell, 2024), RRphylo (Castiglione et al., 2020), ggplot2 (Wickham, 2016), ggstance (Hentry et al., 2024)
-and ggtree (Guangchuang, 2022). R code in this directory is reproducible as the environment can be recreated using
-renv (Ushey & Wickham, 2016) and paths are relative (Müller, 2025)."
+phytools (Revell, 2024), RRphylo (Castiglione et al., 2020), ggplot2 (Wickham, 2016), ggstance (Hentry et al., 2024),
+ggtree (Guangchuang, 2022) and RColorBrewer (Neuwirth, 2022). R code in this directory is reproducible as the environment
+can be recreated using renv (Ushey & Wickham, 2016) and paths are relative (Müller, 2025)."
 
 Software:
 Castiglione S., Serio C., Piccolo M., Mondanaro A., Melchionna M., Di Febbraro M., Sansalone G., Wroe S., Raia P.
@@ -22,6 +22,8 @@ Henry L., Wickham H., Chang W. (2024). ggstance: Horizontal 'ggplot2' Components
 	<https://CRAN.R-project.org/package=ggstance>
 Müller K. (2025). here: A Simpler Way to Find Your Files. R package version 1.0.2,
 	https://github.com/r-lib/here, https://here.r-lib.org/
+Neuwirth E. (2022). RColorBrewer: ColorBrewer Palettes. R package version 1.1-3,
+	<https://CRAN.R-project.org/package=RColorBrewer>
 Ooms J. (2024). writexl: Export Data Frames to Excel 'xlsx' Format. R package version 1.5.0,
 	<https://CRAN.R-project.org/package=writexl>
 Paradis E., Schliep K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R.
@@ -34,6 +36,8 @@ Revell, L.J. (2024). phytools 2.0: an updated R ecosystem for phylogenetic compa
 	PeerJ, 12, e16505
 Ushey K., Wickham H. (2026). renv: Project Environments. R package version 1.1.7,
 	<https://CRAN.R-project.org/package=renv>
+Wenseleers T., Vanderaa C. (2022). export: Streamlined Export of Graphs and Data Tables. R
+  package version 0.3.0, <https://CRAN.R-project.org/package=export>
 Wickham H., ggplot2: Elegant Graphics for Data Analysis.
 	Springer-Verlag New York, 2016
 Wickham H., Averick M., Bryan J., Chang W., McGowan L.D., François R., Grolemund G., Hayes A., Henry L., Hester J.,
