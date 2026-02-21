@@ -60,7 +60,7 @@ for(i in 1:nrow(Genome_ID)) {
 }
 
 EVEs <- cbind(Genome_ID, EVEs)
-write_xlsx(EVEs, here("data", "R_output", "clean_EVEs.xlsx"))
+write_xlsx(EVEs, here("data", "R_output", "EVE_dataset.xlsx"))
 
 ##### 2. EVE statistics
 
@@ -115,7 +115,7 @@ min(species_EVEs$EVE_number)
 max(species_EVEs$EVE_number)
 
 # save as excel-spreadsheet
-write_xlsx(species_EVEs, here("data", "R_output", "species_EVEs.xlsx"))
+write_xlsx(species_EVEs, here("data", "R_output", "EVEs_per_genome.xlsx"))
 
 ##### 4. Number of EVEs per viral family
 
@@ -141,7 +141,7 @@ min(EVE_families$EVE_number)
 max(EVE_families$EVE_number)
 
 # save dataframe as excel-spreadsheet
-write_xlsx(EVE_families, here("data", "R_output", "EVE_families.xlsx"))
+write_xlsx(EVE_families, here("data", "R_output", "EVEs_per_Vfamily.xlsx"))
 
 ##### 5. Genomic Structures (ssRNA, dsRNA, ssDNA, dsDNA) 
 
@@ -209,7 +209,7 @@ EVE_strc$structure <- factor(EVE_strc$structure, levels = c("dsDNA", "ssDNA", "d
 showtext_auto()
 
 # plot
-jpeg(filename = here("plots" ,"viral_families.jpeg"),
+jpeg(filename = here("plots" ,"Vfamilies.jpeg"),
      width = 75, height = 55, units = "cm", quality = 75, res = 72)
 
 ggplot(EVE_strc, aes(x = reorder(family, -EVE_number), y = EVE_number, fill = structure)) +
@@ -232,6 +232,31 @@ ggplot(EVE_strc, aes(x = reorder(family, -EVE_number), y = EVE_number, fill = st
   ylab("Number of EVEs")
 
 dev.off()
+
+# vector graphic
+library(export)
+
+Vfam_plot <-
+  ggplot(EVE_strc, aes(x = reorder(family, -EVE_number), y = EVE_number, fill = structure)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = family_colors) +
+  theme_minimal() +
+  theme(text = element_text(family = "Arial"),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size = 12),
+        axis.text.x = element_text(angle = 60, hjust = 0.6, size = 8),
+        axis.text.y = element_text(size = 8),
+        legend.key.size = unit(0.5, "cm"),
+        legend.position = c(0.92, 0.9),
+        legend.text = element_text(size = 8),
+        legend.title = element_blank()
+  ) +
+  geom_text(aes(label = EVE_number, color = structure), vjust = -0.5, size = 3, show.legend = FALSE) +
+  scale_color_manual(values = family_colors) +
+  scale_x_discrete(expand = expansion(mult = c(0.0, 0.025))) +
+  ylab("Number of EVEs")
+
+graph2vector(x = Vfam_plot, file = here("plots", "Vfamilies"), type ="SVG", font = "sans", aspectr = 1.5)
 
 ##### 6. Number of EVEs per species and viral family (excluding unknown families)
 
